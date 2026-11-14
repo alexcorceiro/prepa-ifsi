@@ -1,0 +1,3632 @@
+{
+  "aidants": {
+    "copies": [
+      {
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Ce texte soulève le problème de l'épuisement des aidants familiaux. Ces personnes accompagnent au quotidien un proche âgé, malade ou en situation de handicap, souvent sans formation et en plus de leur travail. À force de s'occuper de l'autre, elles en viennent à négliger leur propre santé. Cet épuisement devient alors un risque, à la fois pour l'aidant et pour la personne aidée, dont le maintien à domicile peut être remis en cause.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Le problème est clairement identifié et reformulé avec tes propres mots, puis expliqué en quelques phrases."
+          },
+          {
+            "t": "Le texte parle des aidants familiaux. Ils font la toilette et les repas, ils accompagnent leur proche aux rendez-vous médicaux et ils sont parfois présents la nuit.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Tu décris ce que font les aidants, mais tu ne dis jamais quel est le problème : leur épuisement."
+          },
+          {
+            "t": "Le problème principal est que « des millions de personnes accompagnent au quotidien un proche âgé, malade ou en situation de handicap » et que « beaucoup disent manquer de temps pour eux-mêmes ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Recopier le texte entre guillemets ne montre pas que tu l'as compris : le correcteur attend une reformulation."
+          },
+          {
+            "t": "Le problème principal est le manque de places en maison de retraite. C'est pour cela que les familles doivent garder leurs parents chez eux. L'État devrait construire beaucoup plus d'établissements.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Hors-sujet : le texte ne parle pas des maisons de retraite. Et ton opinion sur l'État n'est pas demandée."
+          }
+        ]
+      },
+      {
+        "q": "Quelles peuvent être les conséquences de l'épuisement d'un aidant, pour lui et pour la personne aidée ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "L'épuisement a d'abord des conséquences pour l'aidant lui-même. Fatigué, il manque de sommeil et de temps pour lui. Il peut repousser ses propres soins, s'isoler et finir par tomber malade à son tour, physiquement ou moralement.\n\nCet épuisement touche aussi la personne aidée. Un aidant à bout de forces est moins disponible et moins patient, ce qui peut nuire à la qualité de l'accompagnement. Dans les cas les plus graves, s'il ne peut plus assumer son rôle, le maintien à domicile devient impossible et une entrée en établissement doit être envisagée, parfois dans l'urgence.",
+            "ok": true,
+            "note": "3/3",
+            "why": "La réponse traite les deux parties de la question (l'aidant, puis la personne aidée), dans deux paragraphes clairs, avec des conséquences précises."
+          },
+          {
+            "t": "- fatigue\n- stress\n- il tombe malade\n- la personne aidée va en maison de retraite",
+            "ok": false,
+            "note": "1/3",
+            "why": "Les idées sont justes, mais une liste de mots n'est pas une rédaction : il faut des phrases et des liens entre les idées."
+          },
+          {
+            "t": "L'aidant est très fatigué. Il dort mal, il est stressé et il n'a plus de temps pour ses loisirs ni pour voir ses amis. Il peut même faire une dépression et devoir arrêter de travailler.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Bien rédigé, mais il manque la moitié de la réponse : la question demande aussi les conséquences pour la personne aidée."
+          },
+          {
+            "t": "Ben l'aidant il est crevé, du coup il peut plus s'occuper de sa mère correctement et elle va être mal, et lui aussi il va tomber malade c'est sur.",
+            "ok": false,
+            "note": "1/3",
+            "why": "Les idées sont bonnes, mais le langage est familier (« ben », « crevé », « du coup ») et il y a des fautes : c'est pénalisé à l'écrit."
+          }
+        ]
+      },
+      {
+        "q": "Selon vous, quel rôle l'infirmier peut-il jouer auprès des aidants ? Argumentez.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "L'infirmier occupe une place privilégiée auprès des aidants, car il intervient souvent au domicile ou rencontre les familles à l'hôpital.\n\nSon premier rôle est de repérer l'épuisement. Lors de ses passages, il peut remarquer des signes de fatigue, une perte de patience, ou un aidant qui néglige sa propre santé. Il peut alors prendre le temps de l'écouter sans le juger, car beaucoup d'aidants n'osent pas dire qu'ils sont à bout.\n\nSon second rôle est d'informer et d'orienter. L'infirmier peut conseiller l'aidant sur les gestes du quotidien pour le soulager, l'informer sur les aides existantes, comme les solutions de répit ou les associations d'aidants, et faire le lien avec le médecin ou l'assistante sociale. Lorsque j'ai accompagné ma mère pendant sa maladie, j'ai constaté combien les explications des soignants rassuraient aussi la famille.\n\nFutur infirmier, je souhaite être attentif au patient, mais aussi à ceux qui l'entourent.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Une introduction, deux arguments développés (repérer, puis informer et orienter) avec des exemples, une expérience personnelle et une conclusion tournée vers le métier."
+          },
+          {
+            "t": "L'infirmier a un rôle très important auprès des aidants. Il doit les aider, les écouter et les soutenir. Il est essentiel qu'il soit présent pour eux, car ils en ont besoin. C'est pour cela que le rôle de l'infirmier est primordial.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Des affirmations sans explication ni exemple, et des répétitions (« important », « essentiel », « primordial ») : ça n'argumente pas."
+          },
+          {
+            "t": "L'infirmier doit remplacer l'aidant : il doit venir tous les jours faire la toilette et les repas, et rester la nuit pour que l'aidant puisse se reposer complètement.",
+            "ok": false,
+            "note": "1/5",
+            "why": "Idée inexacte et irréaliste : l'infirmier accompagne et oriente l'aidant, il ne le remplace pas."
+          },
+          {
+            "t": "Moi, je veux devenir infirmier parce que j'aime aider les gens et que j'ai vu ma mère malade. Je pense que je serai un bon infirmier car je suis à l'écoute et patient. Les aidants, c'est important aussi.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Tu parles de ta motivation au lieu de répondre à la question : c'est un hors-sujet fréquent. Garde-la pour l'oral."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "L'épuisement des aidants familiaux, qui menace leur santé et le maintien à domicile de la personne aidée.",
+            "ok": true,
+            "why": "C'est l'idée centrale : le texte part du rôle des aidants pour arriver au risque d'épuisement et à ses conséquences."
+          },
+          {
+            "t": "Le manque de maisons de retraite en France.",
+            "ok": false,
+            "why": "Le texte n'en parle pas : c'est un hors-sujet, l'erreur la plus pénalisée."
+          },
+          {
+            "t": "Les aidants familiaux s'occupent de la toilette et des repas.",
+            "ok": false,
+            "why": "C'est un détail du texte, pas le problème qu'il soulève."
+          },
+          {
+            "t": "Le vieillissement de la population.",
+            "ok": false,
+            "why": "C'est le contexte général, trop large : le texte cible précisément l'épuisement des aidants."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Quel rôle l'infirmier peut-il jouer auprès des aidants ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Repérer l'épuisement de l'aidant — II. L'informer, l'écouter et l'orienter vers des aides (répit, associations).",
+            "ok": true,
+            "why": "Deux parties claires, qui répondent directement à la question et vont du constat à l'action."
+          },
+          {
+            "t": "I. Les avantages — II. Les inconvénients.",
+            "ok": false,
+            "why": "Plan « pour/contre » plaqué : la question ne demande pas de peser le pour et le contre."
+          },
+          {
+            "t": "Une liste de tout ce que fait un infirmier dans une journée.",
+            "ok": false,
+            "why": "Pas de plan et hors-sujet : il faut parler de son rôle auprès des aidants."
+          },
+          {
+            "t": "I. Ma vie personnelle — II. Mon projet professionnel.",
+            "ok": false,
+            "why": "C'est un plan de lettre de motivation, pas de rédaction sur un sujet sanitaire et social."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« L'infirmier peut repérer les signes d'épuisement de l'aidant, car il est souvent présent au domicile. Par exemple, lors d'un passage, il peut remarquer qu'une épouse dort mal et néglige ses propres soins, et lui proposer de l'aide. »",
+            "ok": true,
+            "why": "Il y a une idée, une explication (« car… ») et un exemple concret : c'est la structure attendue."
+          },
+          {
+            "t": "« L'infirmier a un rôle très important et essentiel auprès des aidants. »",
+            "ok": false,
+            "why": "C'est une affirmation sans explication ni exemple : elle ne prouve rien."
+          },
+          {
+            "t": "« Les aidants sont fatigués, les infirmiers aussi, tout le monde est fatigué. »",
+            "ok": false,
+            "why": "Généralisation familière, sans raisonnement."
+          },
+          {
+            "t": "« L'infirmier doit tout faire à la place de l'aidant pour qu'il se repose. »",
+            "ok": false,
+            "why": "Idée irréaliste et inexacte : l'infirmier accompagne et oriente, il ne remplace pas l'aidant."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« De nombreuses personnes accompagnent chaque jour un proche malade ou âgé. Ce rôle d'aidant, souvent assuré sans formation, peut mener à l'épuisement. Nous verrons d'abord ce problème et ses conséquences, puis le rôle que l'infirmier peut jouer. »",
+            "ok": true,
+            "why": "Elle amène le sujet, pose le problème et annonce le plan : les trois étapes d'une bonne introduction."
+          },
+          {
+            "t": "« Dans ce texte, on va parler des aidants. »",
+            "ok": false,
+            "why": "Trop pauvre : pas de problème posé, pas de plan annoncé."
+          },
+          {
+            "t": "« Depuis la nuit des temps, l'homme aide son prochain. »",
+            "ok": false,
+            "why": "Formule creuse et trop générale : les correcteurs la sanctionnent."
+          },
+          {
+            "t": "« Je pense que les aidants ont raison d'être fatigués et que l'État ne fait rien. »",
+            "ok": false,
+            "why": "Opinion tranchée dès la première phrase, sans nuance ni annonce du plan."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les aidants, qui accompagnent leur proche au quotidien, négligent souvent leur propre santé. »",
+            "ok": true,
+            "why": "Accords justes, ponctuation correcte, registre soutenu."
+          },
+          {
+            "t": "« Les aidants qui accompagne leurs proche au quotidien néglige souvent leurs propre santé. »",
+            "ok": false,
+            "why": "Erreurs d'accord : « accompagnent », « proches » ou « proche », « négligent », « leur propre santé »."
+          },
+          {
+            "t": "« Les aidants ils négligent souvent leur santé à eux. »",
+            "ok": false,
+            "why": "Registre oral (« ils » répété, « à eux ») : à éviter à l'écrit."
+          },
+          {
+            "t": "« Les aidants, négligent souvent, leur propre santé. »",
+            "ok": false,
+            "why": "Virgules mal placées : on ne sépare pas le sujet du verbe ni le verbe de son complément."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« L'épuisement des aidants est un enjeu de santé pour eux comme pour leurs proches. Par sa présence et son écoute, l'infirmier peut le repérer et les orienter. Future professionnel, je serai attentif à ne pas oublier ceux qui accompagnent les patients. »",
+            "ok": true,
+            "why": "Elle résume la réponse, puis ouvre sur le futur métier : c'est ce que le jury apprécie."
+          },
+          {
+            "t": "« Voilà, j'ai fini. »",
+            "ok": false,
+            "why": "Ce n'est pas une conclusion."
+          },
+          {
+            "t": "« En conclusion, il y a beaucoup de choses à dire sur ce sujet très intéressant. »",
+            "ok": false,
+            "why": "Phrase vide, qui ne résume rien et n'ouvre sur rien."
+          },
+          {
+            "t": "« Pour conclure, je vais maintenant parler d'un autre problème : le prix des médicaments. »",
+            "ok": false,
+            "why": "Une conclusion n'apporte pas une nouvelle partie hors-sujet."
+          }
+        ]
+      }
+    ]
+  },
+  "deserts": {
+    "copies": [
+      {
+        "q": "À partir du texte, expliquez ce que l'on appelle un « désert médical ».",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Un désert médical est un territoire où les habitants ont du mal à accéder à un médecin. D'après le texte, cela se traduit par des délais de plusieurs semaines pour obtenir un rendez-vous chez un généraliste, et par de nombreux habitants qui n'ont plus de médecin traitant. Ce n'est donc pas forcément une zone sans aucun médecin, mais une zone où l'offre de soins ne suffit plus à répondre aux besoins de la population.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Tu donnes une définition claire, tu l'appuies sur les deux indices du texte et tu la nuances avec tes propres mots."
+          },
+          {
+            "t": "Un désert médical, c'est quand « obtenir un rendez-vous chez un médecin généraliste demande plusieurs semaines, et de nombreux habitants n'ont plus de médecin traitant ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Tu recopies le texte au lieu d'expliquer : le correcteur attend une définition avec tes mots."
+          },
+          {
+            "t": "Un désert médical est une région désertique, comme une zone de montagne isolée, où personne n'habite et où il n'y a donc pas d'hôpital. Les rares habitants doivent faire des centaines de kilomètres pour se soigner.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Tu prends l'expression au sens littéral : le texte parle de territoires habités où l'on manque de médecins, pas de zones vides."
+          },
+          {
+            "t": "Les déserts médicaux sont la faute des jeunes médecins qui ne veulent plus travailler à la campagne. Il faudrait les obliger à s'installer là où on a besoin d'eux, sinon la situation ne fera qu'empirer.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Tu donnes une opinion sur les causes au lieu d'expliquer ce qu'est un désert médical, et cette opinion n'est pas dans le texte."
+          }
+        ]
+      },
+      {
+        "q": "Quelles sont les conséquences de ces difficultés d'accès aux soins sur le système de santé ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Ces difficultés d'accès aux soins ont d'abord des conséquences sur les urgences hospitalières. Faute de médecin disponible en ville, des patients s'y rendent pour des problèmes qui auraient pu être traités en cabinet. Les urgences sont alors encombrées, l'attente s'allonge et les équipes s'épuisent, au détriment des cas les plus graves.\n\nElles pèsent aussi sur le suivi des malades. Sans médecin traitant, une maladie chronique est moins bien surveillée et certains dépistages sont repoussés. Les problèmes de santé sont alors découverts plus tard, à un stade plus avancé, ce qui rend les prises en charge plus lourdes et plus coûteuses.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Deux conséquences distinctes, chacune expliquée par un enchaînement de causes, dans deux paragraphes clairs."
+          },
+          {
+            "t": "Les urgences sont débordées car les gens qui n'ont pas de médecin y vont pour tout et n'importe quoi. L'attente devient très longue et le personnel est épuisé.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Juste mais incomplet : tu ne développes qu'une conséquence, et « pour tout et n'importe quoi » est un jugement familier."
+          },
+          {
+            "t": "Le texte explique qu'il faut plusieurs semaines pour obtenir un rendez-vous et que les pouvoirs publics misent sur les maisons de santé, la télémédecine et les infirmiers en pratique avancée.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Tu résumes le texte sans répondre : la question porte sur les conséquences pour le système de santé."
+          },
+          {
+            "t": "- urgences pleines\n- attente\n- maladies mal suivies\n- plus cher",
+            "ok": false,
+            "note": "1/3",
+            "why": "Les idées sont justes, mais une liste de mots n'est pas une rédaction : il faut des phrases qui expliquent les liens."
+          }
+        ]
+      },
+      {
+        "q": "L'élargissement du rôle des infirmiers vous semble-t-il une réponse adaptée ? Argumentez.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "Face au manque de médecins dans certains territoires, confier de nouvelles missions aux infirmiers apparaît comme une réponse possible. Cette solution me semble adaptée, à condition d'être bien encadrée.\n\nD'abord, les infirmiers sont nombreux et présents partout : à domicile, en cabinet libéral, en maison de santé. Ils connaissent souvent bien leurs patients. Les infirmiers en pratique avancée, formés à un niveau master, peuvent par exemple assurer le suivi d'un patient diabétique stable, adapter certains traitements et repérer une aggravation. Le médecin peut alors consacrer son temps aux situations les plus complexes.\n\nCependant, cette réponse ne suffit pas à elle seule. Elle demande une formation solide, une vraie coordination avec le médecin et des moyens, car les infirmiers manquent aussi dans certaines zones. Elle doit donc compléter les maisons de santé et la télémédecine, et non les remplacer.\n\nFutur infirmier, je vois dans cette évolution une reconnaissance des compétences de la profession, et une responsabilité à assumer en équipe.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Une position claire et nuancée : un argument pour, illustré par un exemple, une limite expliquée, puis une conclusion tournée vers le métier."
+          },
+          {
+            "t": "Oui, l'élargissement du rôle des infirmiers est une très bonne idée et une réponse vraiment adaptée. Les infirmiers sont compétents et sérieux. Ils pourront donc aider beaucoup de patients. C'est pour cela que cette solution est la meilleure.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Une opinion répétée sans explication ni exemple : tu ne montres pas en quoi la solution répond au problème."
+          },
+          {
+            "t": "Oui, car avec ce nouveau rôle, l'infirmier pourra remplacer complètement le médecin : poser tous les diagnostics, prescrire tous les médicaments et faire les opérations simples. Il n'y aura donc plus besoin de médecins dans les campagnes.",
+            "ok": false,
+            "note": "1/5",
+            "why": "Idée inexacte : l'infirmier, même en pratique avancée, ne remplace pas le médecin, il travaille en coordination avec lui."
+          },
+          {
+            "t": "Je pense que oui, car je veux devenir infirmier depuis longtemps et j'aime le contact humain. Dans mon ancien travail, j'aidais déjà beaucoup les gens. Je serai motivé pour apprendre de nouvelles missions.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Tu parles de ta motivation au lieu d'argumenter sur la question posée : garde cela pour l'oral."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Dans certains territoires, l'accès à un médecin devient difficile, ce qui pèse sur les urgences et pousse à chercher de nouvelles solutions.",
+            "ok": true,
+            "why": "Tu relies le constat, ses conséquences et les réponses envisagées : c'est le fil du texte."
+          },
+          {
+            "t": "Les médecins généralistes gagnent trop peu d'argent.",
+            "ok": false,
+            "why": "Le texte n'en parle pas : c'est un hors-sujet."
+          },
+          {
+            "t": "La télémédecine existe en France.",
+            "ok": false,
+            "why": "C'est un détail, une des solutions citées, pas le problème."
+          },
+          {
+            "t": "La santé est importante pour tout le monde.",
+            "ok": false,
+            "why": "Beaucoup trop général : cela ne dit rien du texte."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « L'élargissement du rôle des infirmiers vous semble-t-il une réponse adaptée ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Une réponse utile : les infirmiers sont proches des patients et peuvent suivre certains malades — II. Mais une réponse à encadrer et à compléter.",
+            "ok": true,
+            "why": "La question appelle un avis nuancé : un plan « oui, mais » répond exactement."
+          },
+          {
+            "t": "I. L'histoire de la profession infirmière — II. Les études d'infirmier.",
+            "ok": false,
+            "why": "Plan hors-sujet : il ne répond pas à la question posée."
+          },
+          {
+            "t": "Une seule partie qui répète que c'est une bonne idée.",
+            "ok": false,
+            "why": "Sans plan ni nuance, la copie tourne en rond."
+          },
+          {
+            "t": "I. Les déserts médicaux — II. Les urgences — III. La télémédecine.",
+            "ok": false,
+            "why": "Ce plan résume le texte au lieu de répondre à la question sur le rôle infirmier."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Les infirmiers peuvent suivre certains patients chroniques, car ils les voient souvent. Par exemple, un infirmier en pratique avancée peut surveiller un patient diabétique stable et alerter le médecin si son état change. »",
+            "ok": true,
+            "why": "Une idée, une explication (« car ») et un exemple concret : la structure attendue."
+          },
+          {
+            "t": "« Les infirmiers sont indispensables et leur rôle est essentiel dans notre société. »",
+            "ok": false,
+            "why": "Affirmation générale, sans explication ni exemple."
+          },
+          {
+            "t": "« Les infirmiers peuvent tout faire, donc ils peuvent remplacer les médecins. »",
+            "ok": false,
+            "why": "Raisonnement faux : l'infirmier ne remplace pas le médecin."
+          },
+          {
+            "t": "« Il faut plusieurs semaines pour avoir un rendez-vous. »",
+            "ok": false,
+            "why": "C'est une information du texte, pas un argument qui répond à la question."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Dans certains territoires, trouver un médecin devient difficile. Pour y répondre, on envisage d'élargir le rôle des infirmiers. Nous verrons ce que cette solution peut apporter, puis ses limites. »",
+            "ok": true,
+            "why": "Elle amène le sujet, pose le problème et annonce le plan."
+          },
+          {
+            "t": "« Je vais répondre aux questions du texte. »",
+            "ok": false,
+            "why": "Trop pauvre : ni problème posé, ni plan annoncé."
+          },
+          {
+            "t": "« Depuis toujours, l'homme est malade et doit se soigner. »",
+            "ok": false,
+            "why": "Formule creuse, trop éloignée du sujet."
+          },
+          {
+            "t": "« Les médecins ne veulent plus aller à la campagne, c'est scandaleux. »",
+            "ok": false,
+            "why": "Opinion tranchée et non justifiée dès la première phrase."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les patients qui n'ont plus de médecin traitant se rendent souvent aux urgences. »",
+            "ok": true,
+            "why": "Accords justes, ponctuation correcte, registre soutenu."
+          },
+          {
+            "t": "« Les patients qui n'a plus de médecin traitant se rende souvent aux urgences. »",
+            "ok": false,
+            "why": "Erreurs d'accord du verbe avec son sujet pluriel : « ont », « rendent »."
+          },
+          {
+            "t": "« Les patients ils vont aux urgences vu qu'ils ont pas de médecin. »",
+            "ok": false,
+            "why": "Registre oral : sujet répété, « vu que », négation sans « ne »."
+          },
+          {
+            "t": "« Les patients, qui n'ont plus, de médecin traitant se rendent, souvent aux urgences. »",
+            "ok": false,
+            "why": "Virgules mal placées qui coupent la phrase sans raison."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Élargir le rôle des infirmiers peut améliorer l'accès aux soins, à condition de l'encadrer et de l'intégrer au travail d'équipe. Futur infirmier, je serai prêt à prendre ces responsabilités. »",
+            "ok": true,
+            "why": "Elle fait le bilan de la réponse et ouvre sur le futur métier."
+          },
+          {
+            "t": "« Voilà ce que je pense des déserts médicaux. »",
+            "ok": false,
+            "why": "Ce n'est pas une conclusion : rien n'est résumé."
+          },
+          {
+            "t": "« Pour conclure, parlons maintenant du prix des médicaments. »",
+            "ok": false,
+            "why": "Une conclusion n'ouvre pas une nouvelle partie hors-sujet."
+          },
+          {
+            "t": "« En conclusion, c'est un sujet très vaste et très intéressant. »",
+            "ok": false,
+            "why": "Phrase vide, qui pourrait conclure n'importe quelle copie."
+          }
+        ]
+      }
+    ]
+  },
+  "vaccin": {
+    "copies": [
+      {
+        "q": "Quelles sont les raisons de l'hésitation vaccinale évoquées dans le texte ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte évoque trois raisons principales à l'hésitation vaccinale. La première est la peur des effets indésirables : certaines personnes craignent que le vaccin soit plus dangereux que la maladie. La deuxième est la méfiance envers les laboratoires et les autorités, soupçonnés de ne pas tout dire. Enfin, les informations contradictoires qui circulent sur les réseaux sociaux entretiennent le doute, car il devient difficile de distinguer une information fiable d'une rumeur.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les trois raisons du texte sont toutes citées, reformulées et expliquées, avec des connecteurs clairs."
+          },
+          {
+            "t": "Les gens ont peur des effets indésirables des vaccins. Ils ont peur d'avoir des réactions graves après l'injection, et cette peur les empêche de se faire vacciner.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Bien rédigé mais incomplet : tu ne donnes qu'une raison sur les trois du texte."
+          },
+          {
+            "t": "Les raisons sont : « peur des effets indésirables, méfiance envers les laboratoires ou les autorités, informations contradictoires sur les réseaux sociaux ».",
+            "ok": false,
+            "note": "2/4",
+            "why": "Les trois raisons sont là, mais recopiées : il fallait les reformuler et les expliquer."
+          },
+          {
+            "t": "Les gens hésitent car les vaccins ne servent à rien : les maladies ont disparu toutes seules grâce à l'hygiène. Il est donc normal de douter.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Idée fausse, contraire au texte qui rappelle que la vaccination a fait reculer des maladies : c'est très pénalisé."
+          }
+        ]
+      },
+      {
+        "q": "Comment un soignant peut-il répondre aux doutes d'un patient sur la vaccination ? Donnez des exemples concrets.",
+        "points": 6,
+        "reponses": [
+          {
+            "t": "Face à un patient qui doute de la vaccination, le soignant dispose d'un atout : la confiance que lui accorde le public. Il peut s'en servir pour l'aider à décider de façon éclairée.\n\nD'abord, il doit écouter sans juger. Si une mère hésite à faire vacciner son enfant, l'infirmier peut lui demander ce qui l'inquiète précisément, plutôt que de lui faire la leçon. Un patient qui se sent écouté est plus ouvert aux explications.\n\nEnsuite, il doit informer simplement et honnêtement. Il peut expliquer le rôle du vaccin, reconnaître que des effets indésirables existent, le plus souvent bénins comme une douleur au point d'injection, et orienter vers des sources fiables plutôt que vers les réseaux sociaux. Si le patient a des questions précises, il peut l'orienter vers le médecin.\n\nEnfin, le soignant respecte la décision du patient, tout en restant disponible pour en reparler. Futur infirmier, je veux faire de la prévention un vrai temps d'échange.",
+            "ok": true,
+            "note": "6/6",
+            "why": "Trois actions concrètes (écouter, informer, respecter), chacune illustrée, une introduction et une conclusion tournée vers le métier."
+          },
+          {
+            "t": "Le soignant doit dire au patient qu'il a tort et qu'il doit absolument se faire vacciner, sinon il met tout le monde en danger. S'il refuse, le soignant peut lui expliquer qu'il ne pourra plus être soigné dans le service.",
+            "ok": false,
+            "note": "0,5/6",
+            "why": "Culpabiliser et menacer un patient est contraire à l'éthique du soin : il faut écouter, informer et respecter son choix."
+          },
+          {
+            "t": "Le soignant doit écouter le patient. Il doit aussi l'informer. Il doit être patient et gentil. Il doit aussi lui donner confiance. C'est très important pour que le patient change d'avis.",
+            "ok": false,
+            "note": "2/6",
+            "why": "Les bonnes idées sont listées, mais aucune n'est expliquée ni illustrée, alors que la question demande des exemples concrets."
+          },
+          {
+            "t": "Franchement le soignant il doit expliquer au patient que les trucs sur internet c'est n'importe quoi et que les vaccins c'est bien, comme ça il arrête de flipper.",
+            "ok": false,
+            "note": "1,5/6",
+            "why": "L'idée d'orienter vers des sources fiables est juste, mais le registre est familier et le ton méprisant envers le patient."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Malgré l'efficacité de la vaccination, une partie de la population doute, alors que les soignants restent des interlocuteurs de confiance.",
+            "ok": true,
+            "why": "Tu relies le constat (le doute), ses causes et le rôle possible des soignants."
+          },
+          {
+            "t": "Les réseaux sociaux sont dangereux pour les jeunes.",
+            "ok": false,
+            "why": "Les réseaux sociaux ne sont qu'une des causes citées : tu prends un détail pour le problème."
+          },
+          {
+            "t": "Les laboratoires pharmaceutiques gagnent trop d'argent.",
+            "ok": false,
+            "why": "Hors-sujet : le texte parle de méfiance, pas des profits des laboratoires."
+          },
+          {
+            "t": "Certaines maladies ont disparu.",
+            "ok": false,
+            "why": "C'est le contexte de départ, pas le problème soulevé."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Comment un soignant peut-il répondre aux doutes d'un patient ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Écouter le patient et comprendre ses craintes — II. L'informer simplement et respecter sa décision.",
+            "ok": true,
+            "why": "Le plan suit la démarche du soignant, de l'écoute à l'information : il répond directement."
+          },
+          {
+            "t": "I. Les vaccins obligatoires — II. Les vaccins recommandés.",
+            "ok": false,
+            "why": "Plan de cours, sans rapport avec la question sur l'attitude du soignant."
+          },
+          {
+            "t": "I. Pour la vaccination — II. Contre la vaccination.",
+            "ok": false,
+            "why": "La question ne demande pas un débat pour/contre mais une manière d'agir."
+          },
+          {
+            "t": "I. Mon expérience — II. Mes qualités.",
+            "ok": false,
+            "why": "Plan de lettre de motivation, hors-sujet ici."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Le soignant doit d'abord écouter, car un patient qui se sent jugé se ferme. Par exemple, il peut demander à une mère inquiète ce qui lui fait peur avant de lui donner des explications. »",
+            "ok": true,
+            "why": "Idée, justification et exemple concret : c'est complet."
+          },
+          {
+            "t": "« Le soignant doit convaincre le patient coûte que coûte. »",
+            "ok": false,
+            "why": "Affirmation sans argument, et contraire au respect du choix du patient."
+          },
+          {
+            "t": "« La vaccination, c'est très important pour la santé publique. »",
+            "ok": false,
+            "why": "Vrai mais vague : ni explication, ni exemple, ni lien avec la question."
+          },
+          {
+            "t": "« Les réseaux sociaux disent n'importe quoi. »",
+            "ok": false,
+            "why": "Généralisation familière qui ne dit pas comment agir."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« La vaccination a fait reculer de nombreuses maladies, mais elle suscite aujourd'hui des doutes. Comment le soignant peut-il y répondre ? Nous verrons qu'il doit d'abord écouter, puis informer. »",
+            "ok": true,
+            "why": "Elle amène le sujet, pose la question et annonce le plan."
+          },
+          {
+            "t": "« Moi, je suis pour les vaccins. »",
+            "ok": false,
+            "why": "Une opinion n'est pas une introduction : pas de problème posé ni de plan."
+          },
+          {
+            "t": "« Le texte parle des vaccins. »",
+            "ok": false,
+            "why": "Trop pauvre pour introduire une copie."
+          },
+          {
+            "t": "« Depuis la nuit des temps, les maladies tuent les hommes. »",
+            "ok": false,
+            "why": "Formule creuse et trop générale."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les informations contradictoires qu'on trouve sur les réseaux sociaux entretiennent le doute. »",
+            "ok": true,
+            "why": "Accords et syntaxe corrects, registre adapté."
+          },
+          {
+            "t": "« Les informations contradictoire qu'on trouve sur les réseaux sociaux entretient le doute. »",
+            "ok": false,
+            "why": "Fautes d'accord : « contradictoires », « entretiennent »."
+          },
+          {
+            "t": "« Les infos sur les réseaux, ça fait douter les gens. »",
+            "ok": false,
+            "why": "Registre oral : « infos », « ça »."
+          },
+          {
+            "t": "« Les informations contradictoires, qu'on trouve sur, les réseaux sociaux entretiennent, le doute. »",
+            "ok": false,
+            "why": "Virgules mal placées qui coupent les groupes de mots."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Face au doute vaccinal, le soignant convainc mieux en écoutant et en informant qu'en imposant. Futur infirmier, je veux faire de la prévention un vrai temps d'échange avec chaque patient. »",
+            "ok": true,
+            "why": "Bilan clair et ouverture sur le futur métier."
+          },
+          {
+            "t": "« Donc il faut se faire vacciner, point final. »",
+            "ok": false,
+            "why": "Ton autoritaire, sans bilan de la réflexion."
+          },
+          {
+            "t": "« En conclusion, les vaccins c'est compliqué. »",
+            "ok": false,
+            "why": "Phrase vague et registre familier."
+          },
+          {
+            "t": "« Pour finir, je vais parler du cancer. »",
+            "ok": false,
+            "why": "Une conclusion n'ouvre pas un nouveau sujet."
+          }
+        ]
+      }
+    ]
+  },
+  "jeunes": {
+    "copies": [
+      {
+        "q": "Dégagez les idées principales de ce texte.",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Le texte développe trois idées principales. D'abord, la santé mentale des adolescents et des jeunes adultes se dégrade depuis plusieurs années, avec de l'anxiété, des troubles du sommeil et de l'isolement. Ensuite, les services spécialisés sont saturés, si bien que les délais de prise en charge peuvent atteindre plusieurs mois. Enfin, les jeunes ont du mal à parler de leur souffrance, par peur d'être jugés ou de ne pas être pris au sérieux.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Les trois idées du texte sont dégagées, reformulées et ordonnées avec des connecteurs."
+          },
+          {
+            "t": "Le texte parle de l'anxiété, des troubles du sommeil et de l'isolement des jeunes.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Tu cites seulement les symptômes : il manque la saturation des services et la difficulté à demander de l'aide."
+          },
+          {
+            "t": "Les jeunes passent trop de temps sur leur téléphone et les réseaux sociaux, c'est pour cela qu'ils vont mal. Il faudrait interdire les écrans avant 18 ans.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Hors-sujet : le texte ne parle pas des écrans, et ton opinion n'est pas demandée ici."
+          },
+          {
+            "t": "Idée 1 : « une dégradation de la santé mentale des adolescents ». Idée 2 : « les services de pédopsychiatrie sont saturés ». Idée 3 : « parler de sa souffrance psychique reste difficile ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Les idées sont bien repérées, mais recopiées entre guillemets au lieu d'être reformulées."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi est-il difficile pour un jeune de demander de l'aide ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Demander de l'aide est difficile pour un jeune, d'abord à cause du regard des autres. Il peut craindre d'être jugé, d'être considéré comme « fou » ou faible, par ses amis comme par sa famille. La souffrance psychique reste encore entourée de préjugés.\n\nIl peut aussi avoir peur de ne pas être pris au sérieux. Un adolescent qui dit être angoissé s'entend parfois répondre que « c'est l'âge » ou que « ça va passer ». Enfin, même quand il ose demander de l'aide, les délais d'attente pour un rendez-vous peuvent le décourager.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Plusieurs raisons, tirées du texte et développées avec des exemples réalistes, dans une réponse bien organisée."
+          },
+          {
+            "t": "Parce qu'ils ont peur.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Réponse beaucoup trop courte : peur de quoi, et pourquoi ? Il faut expliquer."
+          },
+          {
+            "t": "Les jeunes ont du mal à demander de l'aide car ils ont peur d'être jugés. Ils ont peur que leurs amis se moquent d'eux et ils ne veulent pas passer pour des personnes faibles.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Une raison bien expliquée, mais tu oublies les autres : ne pas être pris au sérieux, les délais d'attente."
+          },
+          {
+            "t": "C'est dur de demander de l'aide quand t'es jeune parce que les adultes ils comprennent rien et ils te disent que c'est rien, du coup tu préfères rien dire.",
+            "ok": false,
+            "note": "1/3",
+            "why": "L'idée est juste, mais le registre est familier et la généralisation « ils comprennent rien » affaiblit la réponse."
+          }
+        ]
+      },
+      {
+        "q": "Quelles actions de prévention pourraient être menées auprès des jeunes ? Justifiez vos propositions.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "Pour limiter la dégradation de la santé mentale des jeunes, la prévention doit agir avant que la souffrance ne s'installe. Deux types d'actions me semblent prioritaires.\n\nD'abord, il faut parler de santé mentale là où sont les jeunes, au collège, au lycée ou à l'université. Des interventions d'infirmiers scolaires ou de psychologues peuvent expliquer qu'avoir besoin d'aide n'est pas une faiblesse et présenter les lieux où trouver du soutien. Cela réduit la peur d'être jugé, que le texte identifie comme un frein.\n\nEnsuite, il faut former les adultes qui entourent les jeunes, comme les enseignants, les animateurs ou les parents, à repérer les signes d'alerte : isolement, troubles du sommeil, baisse des résultats. Un adulte attentif peut orienter un jeune plus tôt, avant que la situation ne devienne grave.\n\nCes actions ne remplacent pas des services de soins suffisants, mais elles permettent d'agir tôt. Futur infirmier, je sais que l'écoute est souvent le premier soin.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Deux propositions concrètes, chacune justifiée par le texte, une nuance et une conclusion liée au métier."
+          },
+          {
+            "t": "Il faudrait faire des campagnes de prévention, des affiches, des vidéos, des numéros d'écoute, des interventions dans les écoles, des formations pour les parents et des applications sur les téléphones.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Une liste de propositions sans justification : la question demande de justifier chaque action."
+          },
+          {
+            "t": "Il faudrait que tous les jeunes voient obligatoirement un psychiatre une fois par mois, comme ça on serait sûr qu'aucun ne va mal.",
+            "ok": false,
+            "note": "1/5",
+            "why": "Proposition irréaliste, d'autant que le texte souligne la saturation des services de pédopsychiatrie."
+          },
+          {
+            "t": "Quand j'étais jeune, moi aussi j'ai été stressé par les examens. J'en ai parlé à ma famille et ça m'a aidé. C'est pour cela que je veux devenir infirmier : pour aider les jeunes comme on m'a aidé.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Tu racontes ton histoire et ta motivation au lieu de proposer des actions de prévention."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "La santé mentale des jeunes se dégrade, alors que l'accès aux soins est difficile et que demander de l'aide reste un tabou.",
+            "ok": true,
+            "why": "Tu rassembles le constat, le manque de prise en charge et la difficulté à parler."
+          },
+          {
+            "t": "Les jeunes dorment mal.",
+            "ok": false,
+            "why": "Les troubles du sommeil ne sont qu'un exemple parmi d'autres."
+          },
+          {
+            "t": "Les jeunes passent trop de temps sur les écrans.",
+            "ok": false,
+            "why": "Le texte n'en parle pas : c'est un hors-sujet."
+          },
+          {
+            "t": "La psychiatrie existe depuis longtemps.",
+            "ok": false,
+            "why": "Sans rapport avec le texte."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Quelles actions de prévention pourraient être menées auprès des jeunes ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Informer les jeunes et lever le tabou — II. Former les adultes à repérer les signes d'alerte.",
+            "ok": true,
+            "why": "Deux actions distinctes, chacune pouvant être justifiée : c'est ce que demande la question."
+          },
+          {
+            "t": "I. Les causes du mal-être — II. Les conséquences du mal-être.",
+            "ok": false,
+            "why": "Ce plan ne propose aucune action : il ne répond pas à la question."
+          },
+          {
+            "t": "Une liste de dix idées sans explication.",
+            "ok": false,
+            "why": "Pas de plan et pas de justification."
+          },
+          {
+            "t": "I. Mon adolescence — II. Mon envie d'aider.",
+            "ok": false,
+            "why": "Plan centré sur toi, hors-sujet."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Il faut former les enseignants à repérer les signes d'alerte, car ils voient les élèves chaque jour. Par exemple, un professeur qui remarque qu'un élève s'isole peut l'orienter vers l'infirmière scolaire. »",
+            "ok": true,
+            "why": "Idée, justification et exemple concret."
+          },
+          {
+            "t": "« La prévention est essentielle et indispensable pour les jeunes. »",
+            "ok": false,
+            "why": "Affirmation sans contenu."
+          },
+          {
+            "t": "« Les jeunes vont mal, c'est triste. »",
+            "ok": false,
+            "why": "Un constat émotionnel, pas un argument."
+          },
+          {
+            "t": "« Il faut des affiches, des vidéos et des applications. »",
+            "ok": false,
+            "why": "Une liste sans explication."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Anxiété, isolement, troubles du sommeil : la santé mentale des jeunes se dégrade. Comment agir avant que la souffrance ne s'installe ? Nous verrons qu'il faut informer les jeunes, puis former les adultes qui les entourent. »",
+            "ok": true,
+            "why": "Elle amène le sujet, pose la question et annonce le plan."
+          },
+          {
+            "t": "« Les jeunes d'aujourd'hui ne sont plus comme avant. »",
+            "ok": false,
+            "why": "Cliché sans rapport précis avec le sujet."
+          },
+          {
+            "t": "« Je vais parler de la santé mentale. »",
+            "ok": false,
+            "why": "Trop pauvre : pas de problème ni de plan."
+          },
+          {
+            "t": "« À mon avis, c'est la faute des parents. »",
+            "ok": false,
+            "why": "Opinion tranchée et non justifiée."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Beaucoup de jeunes n'osent pas parler de leur souffrance, de peur d'être jugés. »",
+            "ok": true,
+            "why": "Négation complète, accords justes, registre soutenu."
+          },
+          {
+            "t": "« Beaucoup de jeunes n'ose pas parler de leurs souffrance, de peur d'être jugé. »",
+            "ok": false,
+            "why": "Fautes d'accord : « osent », « leur souffrance », « jugés »."
+          },
+          {
+            "t": "« Plein de jeunes osent pas en parler, ils ont peur qu'on les juge. »",
+            "ok": false,
+            "why": "Registre oral : « plein de », négation sans « ne »."
+          },
+          {
+            "t": "« Beaucoup de jeunes, n'osent pas parler, de leur souffrance de peur, d'être jugés. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Informer les jeunes et former les adultes permettrait d'agir plus tôt, même si des moyens de soins restent nécessaires. Futur infirmier, je retiens que l'écoute est souvent le premier soin. »",
+            "ok": true,
+            "why": "Bilan nuancé et ouverture sur le métier."
+          },
+          {
+            "t": "« Voilà, c'est fini. »",
+            "ok": false,
+            "why": "Ce n'est pas une conclusion."
+          },
+          {
+            "t": "« En conclusion, les jeunes doivent se prendre en main. »",
+            "ok": false,
+            "why": "Contradiction avec le texte et jugement moralisateur."
+          },
+          {
+            "t": "« Pour finir, parlons des personnes âgées. »",
+            "ok": false,
+            "why": "Une conclusion n'ouvre pas un autre sujet."
+          }
+        ]
+      }
+    ]
+  },
+  "violence": {
+    "copies": [
+      {
+        "q": "Quelles sont les causes possibles de ces violences d'après le texte ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "D'après le texte, ces violences naissent surtout d'un contexte tendu. Aux urgences, les patients et leurs proches attendent souvent longtemps, alors qu'ils sont inquiets pour leur santé. Cette angoisse, ajoutée à l'incompréhension de l'organisation des soins, par exemple quand un autre patient passe avant eux, peut se transformer en colère puis en agressivité envers les soignants.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Les trois causes du texte (attente, angoisse, incompréhension) sont reprises, reliées entre elles et illustrées."
+          },
+          {
+            "t": "Les causes sont « un contexte d'attente longue, d'angoisse et d'incompréhension ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Tu recopies la phrase du texte sans l'expliquer."
+          },
+          {
+            "t": "Les violences viennent du fait que certains patients sont méchants et mal élevés. Ils ne respectent plus rien et pensent que tout leur est dû.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Jugement moral absent du texte : tu ne t'appuies pas sur les causes qu'il donne."
+          },
+          {
+            "t": "Les patients attendent longtemps aux urgences et ils s'énervent.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Une seule cause, à peine développée : il manque l'angoisse et l'incompréhension."
+          }
+        ]
+      },
+      {
+        "q": "Quelles peuvent en être les conséquences pour les soignants et pour la qualité des soins ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Pour les soignants, ces violences ont d'abord des conséquences personnelles. Une insulte ou une agression peut provoquer du stress, de la peur et une perte de confiance. À force, certains s'épuisent, s'arrêtent ou quittent leur métier, ce qui rend la profession moins attractive.\n\nCes violences dégradent aussi la qualité des soins. Un soignant sous tension est moins disponible et plus exposé à l'erreur. Les départs et les arrêts aggravent le manque de personnel, ce qui allonge encore l'attente des patients et peut entretenir un cercle vicieux.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Les deux volets de la question sont traités, avec un enchaînement logique qui va jusqu'au cercle vicieux."
+          },
+          {
+            "t": "Les soignants sont stressés, ils ont peur de venir travailler et certains font des dépressions ou démissionnent.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Juste pour les soignants, mais tu oublies la seconde partie : la qualité des soins."
+          },
+          {
+            "t": "- peur\n- stress\n- démissions\n- moins bons soins",
+            "ok": false,
+            "note": "1/3",
+            "why": "Les idées sont présentes, mais une liste de mots ne montre aucun raisonnement."
+          },
+          {
+            "t": "Les conséquences sont graves. Il faudrait mettre des policiers à l'entrée de chaque service d'urgences et porter plainte systématiquement contre les patients agressifs.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Tu proposes des solutions au lieu de décrire les conséquences demandées."
+          }
+        ]
+      },
+      {
+        "q": "Comment un infirmier peut-il prévenir ou apaiser une situation de tension ? Argumentez.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "La violence naît souvent de l'attente, de l'angoisse et de l'incompréhension. L'infirmier peut donc agir sur ces trois facteurs, avant et pendant une situation de tension.\n\nD'abord, il peut prévenir la tension en informant. Expliquer à une famille pourquoi l'attente est longue, comment les patients sont pris en charge selon leur gravité, ou donner régulièrement des nouvelles, réduit l'incompréhension. Un patient informé se sent considéré.\n\nEnsuite, face à une personne qui s'énerve, l'infirmier peut apaiser par son attitude : rester calme, parler d'une voix posée, écouter ce qui inquiète la personne et reformuler sa demande. Par exemple, reconnaître l'angoisse d'un fils inquiet pour sa mère désamorce souvent sa colère.\n\nEnfin, si la situation devient dangereuse, il ne reste pas seul : il alerte ses collègues et suit les procédures de l'établissement.\n\nFutur infirmier, je considère que la communication fait partie du soin, et qu'elle protège aussi les soignants.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Une réponse construite sur les causes du texte : prévenir, apaiser, se protéger, avec des exemples concrets et une conclusion professionnelle."
+          },
+          {
+            "t": "L'infirmier doit rester calme. Il doit être à l'écoute. Il doit être patient. Il doit communiquer. C'est essentiel pour éviter les violences et c'est le rôle de l'infirmier.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Des attitudes justes mais seulement listées, sans explication ni exemple."
+          },
+          {
+            "t": "L'infirmier doit montrer qu'il est le plus fort : élever la voix, menacer d'appeler la police et faire sortir immédiatement le patient du service s'il continue.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Cette attitude risque d'aggraver la tension : le soin passe d'abord par l'écoute et l'apaisement."
+          },
+          {
+            "t": "Bah l'infirmier il doit parler calmement au patient et lui expliquer pourquoi il attend, comme ça il se calme. Et si ça marche pas il appelle ses collègues.",
+            "ok": false,
+            "note": "2/5",
+            "why": "Les idées sont bonnes mais peu développées, et le registre familier est pénalisé."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Les violences envers les soignants augmentent, nourries par l'attente et l'angoisse, et menacent leur santé et l'attractivité du métier.",
+            "ok": true,
+            "why": "Tu réunis le constat, ses causes et ses conséquences."
+          },
+          {
+            "t": "Les urgences sont mal organisées.",
+            "ok": false,
+            "why": "C'est un élément de contexte, pas le problème central."
+          },
+          {
+            "t": "Les patients sont de plus en plus impolis.",
+            "ok": false,
+            "why": "Jugement simpliste qui ne reprend pas l'analyse du texte."
+          },
+          {
+            "t": "Les soignants gagnent trop peu.",
+            "ok": false,
+            "why": "Hors-sujet : le texte ne parle pas des salaires."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Comment un infirmier peut-il prévenir ou apaiser une situation de tension ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Prévenir : informer et rassurer — II. Apaiser : écouter, rester calme, s'appuyer sur l'équipe.",
+            "ok": true,
+            "why": "Le plan reprend les deux verbes de la question : prévenir, puis apaiser."
+          },
+          {
+            "t": "I. Les causes — II. Les conséquences.",
+            "ok": false,
+            "why": "Ce plan répond aux deux premières questions, pas à la dernière."
+          },
+          {
+            "t": "I. Les urgences — II. La police.",
+            "ok": false,
+            "why": "Plan sans rapport avec le rôle infirmier."
+          },
+          {
+            "t": "Une seule partie sur le calme.",
+            "ok": false,
+            "why": "Trop limité : la question a deux volets."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« L'infirmier peut prévenir la tension en informant, car l'incompréhension nourrit la colère. Par exemple, donner régulièrement des nouvelles à une famille qui attend la rassure. »",
+            "ok": true,
+            "why": "Idée, cause, exemple : le paragraphe est complet."
+          },
+          {
+            "t": "« La violence, c'est inacceptable. »",
+            "ok": false,
+            "why": "Vrai, mais ce n'est pas un argument qui répond à la question."
+          },
+          {
+            "t": "« L'infirmier doit être gentil avec tout le monde. »",
+            "ok": false,
+            "why": "Trop vague, sans explication ni exemple."
+          },
+          {
+            "t": "« Il suffit d'embaucher des vigiles. »",
+            "ok": false,
+            "why": "Solution qui ne concerne pas le rôle de l'infirmier."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Insultes, menaces, agressions : les violences envers les soignants augmentent. Que peut faire l'infirmier face à ces tensions ? Nous verrons comment les prévenir, puis comment les apaiser. »",
+            "ok": true,
+            "why": "Accroche liée au texte, problème posé, plan annoncé."
+          },
+          {
+            "t": "« Moi, je ne me laisserai jamais faire. »",
+            "ok": false,
+            "why": "Opinion personnelle, pas une introduction."
+          },
+          {
+            "t": "« Le texte est intéressant. »",
+            "ok": false,
+            "why": "Phrase vide."
+          },
+          {
+            "t": "« Depuis toujours, les hommes se battent. »",
+            "ok": false,
+            "why": "Généralité creuse."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les soignants, qui subissent ces violences, se sentent souvent démunis. »",
+            "ok": true,
+            "why": "Accords et ponctuation corrects."
+          },
+          {
+            "t": "« Les soignants, qui subisse ces violences, se sente souvent démuni. »",
+            "ok": false,
+            "why": "Fautes d'accord : « subissent », « sentent », « démunis »."
+          },
+          {
+            "t": "« Les soignants ils en ont marre de se faire agresser. »",
+            "ok": false,
+            "why": "Registre oral et familier."
+          },
+          {
+            "t": "« Les soignants qui, subissent, ces violences se sentent souvent démunis. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« En informant, en écoutant et en s'appuyant sur l'équipe, l'infirmier peut désamorcer bien des tensions. Futur soignant, je considère la communication comme une part du soin. »",
+            "ok": true,
+            "why": "Bilan des idées et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, la violence c'est mal. »",
+            "ok": false,
+            "why": "Banalité qui ne résume rien."
+          },
+          {
+            "t": "« Voilà mes idées. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          },
+          {
+            "t": "« Pour finir, je parlerai des salaires des infirmiers. »",
+            "ok": false,
+            "why": "Nouveau sujet hors-sujet en conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "finvie": {
+    "copies": [
+      {
+        "q": "Quels sont les objectifs des soins palliatifs présentés dans le texte ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Le texte présente deux grands objectifs des soins palliatifs. Le premier est de soulager la douleur et les autres symptômes, pour préserver le confort de la personne malade. Le second est d'accompagner la personne en fin de vie, mais aussi ses proches. Le texte précise que ces soins ne se limitent pas aux derniers jours : ils peuvent commencer tôt dans l'évolution d'une maladie grave.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Les deux objectifs sont reformulés, et tu ajoutes la précision importante du texte sur le moment où ils commencent."
+          },
+          {
+            "t": "Les soins palliatifs servent à guérir les malades en fin de vie grâce à des traitements spéciaux.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Contresens : les soins palliatifs visent à soulager et accompagner, pas à guérir."
+          },
+          {
+            "t": "Les soins palliatifs visent à « soulager la douleur et les autres symptômes, et à accompagner la personne en fin de vie ainsi que ses proches ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "C'est juste, mais recopié : il fallait reformuler avec tes mots."
+          },
+          {
+            "t": "Les soins palliatifs, c'est pour enlever la douleur.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Un seul objectif, trop vite formulé : tu oublies l'accompagnement de la personne et de ses proches."
+          }
+        ]
+      },
+      {
+        "q": "En quoi l'accompagnement des proches fait-il partie du soin ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "L'accompagnement des proches fait partie du soin, car la maladie grave touche toute une famille. Les proches vivent eux aussi de l'angoisse, de la fatigue et de la tristesse, et ils ont besoin d'être informés et écoutés.\n\nDe plus, ils jouent un rôle important auprès du patient. Un proche rassuré et bien informé apporte plus de sérénité à la personne malade. L'équipe peut par exemple expliquer à une épouse les changements qu'elle observe, l'aider à trouver sa place auprès de son mari, et continuer à la soutenir après le décès.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Deux arguments clairs (les proches souffrent aussi, ils comptent pour le patient) et un exemple concret."
+          },
+          {
+            "t": "Les proches font partie du soin car ils sont tristes.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Idée juste mais à peine formulée : il faut expliquer et développer."
+          },
+          {
+            "t": "L'accompagnement des proches est important car la famille souffre aussi. Les proches sont inquiets, fatigués et ont besoin de parler.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Bonne première idée, mais tu ne montres pas en quoi cet accompagnement aide aussi le patient."
+          },
+          {
+            "t": "Je pense que les proches ne devraient pas être trop présents, car ils gênent le travail des soignants et fatiguent le patient. L'infirmier doit surtout s'occuper du malade.",
+            "ok": false,
+            "note": "0/3",
+            "why": "Contraire au texte, qui fait de l'accompagnement des proches un objectif des soins palliatifs."
+          }
+        ]
+      },
+      {
+        "q": "Selon vous, quelles qualités humaines un infirmier doit-il mobiliser auprès d'un patient en fin de vie ?",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "Accompagner un patient en fin de vie demande des compétences techniques, mais surtout des qualités humaines. Trois me semblent essentielles.\n\nLa première est l'écoute. Un patient en fin de vie peut exprimer des peurs, des regrets ou des souhaits. L'infirmier doit savoir lui laisser le temps de parler, accepter les silences et entendre ce qui compte pour lui.\n\nLa deuxième est le respect. Respecter la dignité du patient, c'est veiller à son confort, à son intimité et tenir compte de ses choix, par exemple sur la présence de ses proches ou ses habitudes.\n\nLa troisième est la capacité à prendre du recul. Être confronté à la mort est éprouvant : l'infirmier doit rester disponible sans se laisser submerger, en s'appuyant sur l'équipe pour en parler.\n\nFutur infirmier, je sais que ces situations seront difficiles, mais qu'elles donnent tout son sens au « prendre soin ».",
+            "ok": true,
+            "note": "5/5",
+            "why": "Trois qualités annoncées, expliquées et illustrées, et une conclusion personnelle tournée vers le métier."
+          },
+          {
+            "t": "L'infirmier doit être gentil, doux, patient, à l'écoute, empathique, respectueux, calme, souriant, disponible et professionnel.",
+            "ok": false,
+            "note": "1/5",
+            "why": "Une simple liste de qualités, sans aucune explication ni exemple."
+          },
+          {
+            "t": "L'infirmier doit cacher la vérité au patient pour ne pas le faire souffrir et toujours lui dire qu'il va guérir, pour garder le moral.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Mentir au patient n'est pas une qualité soignante : l'honnêteté et le respect de ses choix sont essentiels."
+          },
+          {
+            "t": "L'infirmier doit être à l'écoute du patient, car celui-ci a souvent besoin de parler de ses peurs. Il doit aussi être respectueux. C'est très important dans ce moment difficile.",
+            "ok": false,
+            "note": "2,5/5",
+            "why": "L'écoute est bien expliquée, mais le respect est seulement cité, et il n'y a ni introduction ni conclusion."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Les soins palliatifs soulagent et accompagnent le patient et ses proches, mais leur accès reste inégal.",
+            "ok": true,
+            "why": "Tu associes leur rôle et la limite soulignée par le texte."
+          },
+          {
+            "t": "L'euthanasie doit être légalisée.",
+            "ok": false,
+            "why": "Le texte évoque des débats, mais ne prend pas cette position : hors-sujet."
+          },
+          {
+            "t": "La douleur existe.",
+            "ok": false,
+            "why": "Beaucoup trop vague."
+          },
+          {
+            "t": "Les hôpitaux manquent de lits.",
+            "ok": false,
+            "why": "Le texte n'en parle pas."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Quelles qualités humaines un infirmier doit-il mobiliser auprès d'un patient en fin de vie ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. L'écoute — II. Le respect de la dignité — III. La capacité à prendre du recul.",
+            "ok": true,
+            "why": "Une partie par qualité, chacune pouvant être expliquée et illustrée."
+          },
+          {
+            "t": "I. Les médicaments contre la douleur — II. Les soins techniques.",
+            "ok": false,
+            "why": "La question porte sur les qualités humaines, pas sur la technique."
+          },
+          {
+            "t": "I. Pour l'euthanasie — II. Contre l'euthanasie.",
+            "ok": false,
+            "why": "Débat hors de la question posée."
+          },
+          {
+            "t": "Une liste de dix adjectifs.",
+            "ok": false,
+            "why": "Pas de plan ni d'explication."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« L'infirmier doit savoir écouter, car un patient en fin de vie a souvent besoin d'exprimer ses peurs. Par exemple, s'asseoir quelques minutes à son chevet et accepter ses silences peut l'apaiser. »",
+            "ok": true,
+            "why": "Qualité, justification, exemple concret."
+          },
+          {
+            "t": "« L'écoute est une qualité très importante. »",
+            "ok": false,
+            "why": "Affirmation sans explication."
+          },
+          {
+            "t": "« La mort fait partie de la vie. »",
+            "ok": false,
+            "why": "Phrase générale qui ne répond pas à la question."
+          },
+          {
+            "t": "« L'infirmier doit être gentil, doux et patient. »",
+            "ok": false,
+            "why": "Liste de qualités sans développement."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Accompagner un patient en fin de vie fait partie du rôle infirmier. Quelles qualités humaines cela demande-t-il ? Nous verrons l'importance de l'écoute, du respect et du recul. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« La mort, c'est triste. »",
+            "ok": false,
+            "why": "Constat émotionnel, pas une introduction."
+          },
+          {
+            "t": "« Je vais parler des soins palliatifs. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          },
+          {
+            "t": "« Personnellement, je trouve que la fin de vie est un sujet tabou et que l'État devrait agir. »",
+            "ok": false,
+            "why": "Opinion hors de la question."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les proches du patient ont besoin d'être écoutés et rassurés. »",
+            "ok": true,
+            "why": "Accords corrects au pluriel."
+          },
+          {
+            "t": "« Les proches du patient a besoin d'être écouté et rassuré. »",
+            "ok": false,
+            "why": "Fautes d'accord : « ont », « écoutés », « rassurés »."
+          },
+          {
+            "t": "« Les proches, faut les écouter et les rassurer. »",
+            "ok": false,
+            "why": "Registre oral : « faut » sans « il »."
+          },
+          {
+            "t": "« Les proches, du patient, ont besoin, d'être écoutés et rassurés. »",
+            "ok": false,
+            "why": "Virgules inutiles."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Écoute, respect et recul permettent d'accompagner dignement un patient en fin de vie. Futur infirmier, je mesure que ces moments donnent tout son sens au « prendre soin ». »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le futur métier."
+          },
+          {
+            "t": "« En conclusion, c'est un sujet très triste. »",
+            "ok": false,
+            "why": "Ne résume pas la réponse."
+          },
+          {
+            "t": "« Pour terminer, parlons de la vaccination. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« Voilà tout. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "sedentarite": {
+    "copies": [
+      {
+        "q": "Quel lien le texte établit-il entre mode de vie et santé ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Le texte établit un lien direct entre le mode de vie et la santé. Le manque d'activité physique et le temps passé assis, notamment devant les écrans, augmentent chez les enfants comme chez les adultes. Or cette sédentarité favorise plusieurs maladies : le surpoids, les maladies cardiovasculaires, le diabète et certains troubles psychologiques. Nos habitudes quotidiennes ont donc des conséquences sur notre santé, physique comme mentale.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Tu expliques le lien de cause à effet et tu cites les maladies du texte, avec une phrase de synthèse."
+          },
+          {
+            "t": "Le texte dit que les écrans sont dangereux pour la santé et qu'il faudrait les interdire aux enfants.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Le texte ne demande pas d'interdire les écrans : tu déformes son propos."
+          },
+          {
+            "t": "La sédentarité favorise le surpoids, les maladies cardiovasculaires, le diabète et certains troubles psychologiques.",
+            "ok": false,
+            "note": "1/2",
+            "why": "Les conséquences sont justes mais quasi recopiées, et tu n'expliques pas ce qu'est la sédentarité ni le lien avec le mode de vie."
+          },
+          {
+            "t": "Bouger c'est bon pour la santé et rester assis c'est pas bon.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Idée juste mais trop simple, sans appui sur le texte et en registre familier."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi les campagnes de prévention ne suffisent-elles pas toujours ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Les campagnes de prévention ne suffisent pas toujours, car savoir ne suffit pas à changer. La plupart des gens savent qu'il faut bouger, mais les habitudes sont difficiles à modifier : manque de temps, fatigue après le travail, trajets en voiture.\n\nDe plus, tout le monde n'a pas les mêmes moyens d'agir. Comme le souligne le texte, les personnes en situation de précarité ont plus de difficultés : une activité sportive peut coûter cher, les équipements sont parfois éloignés, et les préoccupations du quotidien passent avant la santé. Un message général touche donc moins ceux qui en auraient le plus besoin.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Deux raisons distinctes, la seconde appuyée sur le texte, développées avec des exemples précis."
+          },
+          {
+            "t": "Parce que les gens sont fainéants et ne veulent pas faire d'efforts.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Jugement moral trop simple, qui ignore les difficultés réelles évoquées par le texte."
+          },
+          {
+            "t": "Les campagnes ne suffisent pas car changer ses habitudes est difficile. On sait qu'il faut bouger, mais on manque de temps et de motivation.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Une raison juste, mais tu oublies l'inégalité face à la prévention, que le texte souligne."
+          },
+          {
+            "t": "Les campagnes de prévention passent à la télévision et sur internet. Il y a des affiches dans les rues et des publicités qui disent de manger cinq fruits et légumes par jour.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Tu décris les campagnes au lieu d'expliquer pourquoi elles ne suffisent pas."
+          }
+        ]
+      },
+      {
+        "q": "Proposez et justifiez deux actions de prévention qu'un infirmier pourrait mener.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "L'infirmier, présent à l'école, à l'hôpital ou à domicile, peut agir contre la sédentarité. Je proposerais deux actions.\n\nLa première serait une action collective auprès des enfants, en milieu scolaire. L'infirmier scolaire pourrait animer des séances sur l'activité physique et le temps d'écran, avec des jeux et des défis concrets, comme marcher davantage sur le trajet de l'école. Agir tôt est utile, car les habitudes prises dans l'enfance durent souvent toute la vie.\n\nLa seconde serait une action individuelle auprès des adultes à risque, par exemple les patients en surpoids ou diabétiques. Lors d'un soin, l'infirmier peut prendre le temps d'en parler et fixer avec le patient un objectif réaliste, adapté à ses moyens, comme vingt minutes de marche par jour. Un conseil personnalisé est plus efficace qu'un message général, surtout pour les personnes en situation de précarité.\n\nCes deux actions montrent que la prévention fait pleinement partie du rôle infirmier.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Deux actions précises, l'une collective, l'autre individuelle, chacune justifiée et reliée au texte."
+          },
+          {
+            "t": "L'infirmier pourrait faire des affiches et des réunions d'information. Ce sont de bonnes actions car elles permettent de prévenir les maladies.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Actions vagues et justification creuse : on ne sait ni pour qui, ni comment, ni pourquoi ça marcherait."
+          },
+          {
+            "t": "L'infirmier devrait obliger les patients en surpoids à faire du sport tous les jours et les peser chaque semaine pour vérifier qu'ils suivent ses consignes.",
+            "ok": false,
+            "note": "1/5",
+            "why": "L'infirmier accompagne le patient, il ne lui impose rien : cette proposition ne respecte pas son autonomie."
+          },
+          {
+            "t": "Première action : intervention à l'école. Deuxième action : conseils aux patients. Ce sont deux actions importantes pour la santé de tous.",
+            "ok": false,
+            "note": "2/5",
+            "why": "Les deux idées sont pertinentes, mais elles ne sont ni développées ni justifiées."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "La sédentarité progresse et nuit à la santé, mais changer ses habitudes reste difficile, surtout pour les plus précaires.",
+            "ok": true,
+            "why": "Constat, conséquences et limite de la prévention : tout le texte est là."
+          },
+          {
+            "t": "Les enfants regardent trop la télévision.",
+            "ok": false,
+            "why": "Un détail du texte, pas le problème d'ensemble."
+          },
+          {
+            "t": "Le sport coûte trop cher.",
+            "ok": false,
+            "why": "Idée trop étroite, qui n'est pas dans le texte sous cette forme."
+          },
+          {
+            "t": "Le diabète est une maladie grave.",
+            "ok": false,
+            "why": "Une conséquence citée, pas le problème."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la consigne « Proposez et justifiez deux actions de prévention qu'un infirmier pourrait mener », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Une action collective à l'école — II. Une action individuelle auprès des patients à risque.",
+            "ok": true,
+            "why": "Exactement deux actions, différentes et complémentaires, comme le demande la consigne."
+          },
+          {
+            "t": "I. Les causes de la sédentarité — II. Ses conséquences.",
+            "ok": false,
+            "why": "Ce plan ne propose aucune action."
+          },
+          {
+            "t": "I. Action 1 — II. Action 2 — III. Action 3 — IV. Action 4.",
+            "ok": false,
+            "why": "La consigne en demande deux : mieux vaut deux actions bien justifiées."
+          },
+          {
+            "t": "I. Le sport que je pratique — II. Pourquoi j'aime le sport.",
+            "ok": false,
+            "why": "Hors-sujet personnel."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« L'infirmier peut fixer avec un patient diabétique un objectif réaliste, comme vingt minutes de marche par jour, car un conseil adapté est plus facile à suivre qu'un message général. »",
+            "ok": true,
+            "why": "Action précise, justification et exemple."
+          },
+          {
+            "t": "« Il faut faire du sport, c'est bon pour la santé. »",
+            "ok": false,
+            "why": "Affirmation banale, sans lien avec le rôle infirmier."
+          },
+          {
+            "t": "« La prévention est primordiale et essentielle. »",
+            "ok": false,
+            "why": "Mots forts mais aucun argument."
+          },
+          {
+            "t": "« Les gens n'ont qu'à se bouger. »",
+            "ok": false,
+            "why": "Jugement familier, sans raisonnement."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Le manque d'activité physique progresse et favorise de nombreuses maladies. Comment l'infirmier peut-il aider à changer ces habitudes ? Nous verrons une action collective, puis une action individuelle. »",
+            "ok": true,
+            "why": "Sujet amené, problème posé, plan annoncé."
+          },
+          {
+            "t": "« Moi, je fais du sport trois fois par semaine. »",
+            "ok": false,
+            "why": "Anecdote personnelle hors propos."
+          },
+          {
+            "t": "« Le texte parle de sédentarité. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          },
+          {
+            "t": "« Depuis la préhistoire, l'homme marche. »",
+            "ok": false,
+            "why": "Accroche creuse."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les personnes en situation de précarité ont moins accès aux activités sportives. »",
+            "ok": true,
+            "why": "Phrase correcte et claire."
+          },
+          {
+            "t": "« Les personnes en situation de précarité a moins accès aux activités sportive. »",
+            "ok": false,
+            "why": "Fautes d'accord : « ont », « sportives »."
+          },
+          {
+            "t": "« Les gens pauvres, ils peuvent pas faire de sport. »",
+            "ok": false,
+            "why": "Registre oral et négation incomplète."
+          },
+          {
+            "t": "« Les personnes, en situation de précarité ont, moins accès, aux activités sportives. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Par des actions adaptées à chaque public, l'infirmier peut aider à lutter contre la sédentarité. Futur soignant, je considère la prévention comme une part essentielle du soin. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« Bref, il faut bouger. »",
+            "ok": false,
+            "why": "Trop familier et trop pauvre."
+          },
+          {
+            "t": "« En conclusion, je vais maintenant parler de l'alcool. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« C'est un sujet que j'aime beaucoup. »",
+            "ok": false,
+            "why": "Ne résume rien."
+          }
+        ]
+      }
+    ]
+  },
+  "handicap": {
+    "copies": [
+      {
+        "q": "Quels obstacles à l'accès aux soins le texte met-il en évidence ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte met en évidence plusieurs obstacles à l'accès aux soins pour les personnes en situation de handicap. Les premiers sont matériels : se déplacer jusqu'au lieu de soins ou entrer dans un cabinet médical peut être difficile, et certains équipements ne sont pas adaptés. D'autres obstacles concernent la compréhension, comme lire ou comprendre une ordonnance. Enfin, le texte évoque le manque de professionnels formés à l'accueil de ces patients. Ces difficultés conduisent certaines personnes à renoncer à des soins courants, comme le dentiste ou les dépistages.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les obstacles sont classés (matériels, compréhension, formation) et reliés à leur conséquence : le renoncement aux soins."
+          },
+          {
+            "t": "Les obstacles sont : se déplacer, accéder à un cabinet médical, comprendre une ordonnance.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Une partie des obstacles, quasi recopiée, sans explication : il manque les équipements et la formation des professionnels."
+          },
+          {
+            "t": "Les personnes handicapées ne peuvent pas se soigner car il n'existe aucun hôpital adapté en France.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Affirmation fausse et exagérée, absente du texte."
+          },
+          {
+            "t": "Les personnes en fauteuil roulant ne peuvent pas monter les escaliers des cabinets médicaux. Elles doivent donc trouver un autre médecin, ce qui est compliqué et fatigant.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Un seul obstacle, bien illustré, mais tu réduis le handicap au fauteuil roulant et oublies les autres obstacles du texte."
+          }
+        ]
+      },
+      {
+        "q": "Comment les établissements de santé pourraient-ils mieux accueillir les personnes en situation de handicap ? Argumentez.",
+        "points": 6,
+        "reponses": [
+          {
+            "t": "L'accès aux soins des personnes handicapées est un droit, mais il reste difficile. Les établissements de santé peuvent mieux les accueillir en agissant sur deux plans.\n\nD'abord, ils doivent rendre leurs locaux et leur matériel accessibles. Des rampes, des ascenseurs, une signalétique claire et des équipements adaptés, comme une table d'examen réglable en hauteur, permettent à chacun d'être soigné dans de bonnes conditions. Sans cela, le patient renonce avant même d'avoir franchi la porte.\n\nEnsuite, ils doivent former leurs équipes. Accueillir une personne sourde, aveugle ou présentant un handicap mental demande des savoir-faire : prendre plus de temps, utiliser des mots simples, des pictogrammes, ou s'adresser à la personne elle-même plutôt qu'à son accompagnant. Un soignant formé rassure et évite des examens vécus comme une épreuve.\n\nCes changements bénéficient d'ailleurs à tous les patients. Futur infirmier, je veux adapter mes soins à chaque personne, avec ses capacités et ses besoins.",
+            "ok": true,
+            "note": "6/6",
+            "why": "Deux axes d'amélioration développés avec des exemples précis, une introduction, une nuance finale et une ouverture sur le métier."
+          },
+          {
+            "t": "Les établissements doivent être plus accueillants et plus adaptés. Ils doivent faire des efforts pour les personnes handicapées, car c'est un droit. C'est très important.",
+            "ok": false,
+            "note": "1,5/6",
+            "why": "Tout est vrai mais vague : aucune mesure concrète n'est proposée ni expliquée."
+          },
+          {
+            "t": "Il faudrait créer des hôpitaux réservés aux personnes handicapées, avec des soignants spécialisés, pour qu'elles ne soient plus mélangées avec les autres patients.",
+            "ok": false,
+            "note": "1/6",
+            "why": "Séparer les patients va à l'inverse de l'accès aux soins pour tous : l'enjeu est d'adapter les lieux existants."
+          },
+          {
+            "t": "Les hôpitaux pourraient mettre des rampes et des ascenseurs, et former le personnel à la langue des signes. Comme ça, les personnes handicapées seraient mieux accueillies.",
+            "ok": false,
+            "note": "3/6",
+            "why": "Deux bonnes idées, mais peu développées, sans introduction ni conclusion, et limitées à deux types de handicap."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Des obstacles matériels et humains poussent des personnes handicapées à renoncer à des soins, alors que l'accès aux soins est un droit.",
+            "ok": true,
+            "why": "Tu relies les obstacles, leur conséquence et le principe du droit."
+          },
+          {
+            "t": "Les dentistes sont trop chers.",
+            "ok": false,
+            "why": "Le dentiste n'est qu'un exemple, et le coût n'est pas évoqué."
+          },
+          {
+            "t": "Le handicap est une maladie.",
+            "ok": false,
+            "why": "Affirmation inexacte et hors du propos du texte."
+          },
+          {
+            "t": "Les ordonnances sont mal écrites.",
+            "ok": false,
+            "why": "Un détail, pas le problème."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Comment les établissements pourraient-ils mieux accueillir les personnes handicapées ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Adapter les locaux et le matériel — II. Former les équipes à l'accueil.",
+            "ok": true,
+            "why": "Deux axes concrets qui répondent aux obstacles du texte."
+          },
+          {
+            "t": "I. Les différents types de handicap — II. Leurs causes médicales.",
+            "ok": false,
+            "why": "Plan de cours de médecine, sans rapport avec l'accueil."
+          },
+          {
+            "t": "I. Pour l'accessibilité — II. Contre l'accessibilité.",
+            "ok": false,
+            "why": "Faux débat : la question demande des propositions."
+          },
+          {
+            "t": "Une seule partie sur les rampes d'accès.",
+            "ok": false,
+            "why": "Trop limité : le handicap n'est pas seulement moteur."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Former les soignants est indispensable, car chaque handicap demande une approche adaptée. Par exemple, utiliser des pictogrammes aide un patient présentant un handicap mental à comprendre un examen. »",
+            "ok": true,
+            "why": "Idée, justification et exemple concret."
+          },
+          {
+            "t": "« Les personnes handicapées ont des droits. »",
+            "ok": false,
+            "why": "Vrai mais ce n'est pas une proposition argumentée."
+          },
+          {
+            "t": "« Il faut tout changer dans les hôpitaux. »",
+            "ok": false,
+            "why": "Trop vague."
+          },
+          {
+            "t": "« Le handicap, c'est difficile à vivre. »",
+            "ok": false,
+            "why": "Constat sans rapport avec la question."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Pour une personne handicapée, se soigner peut devenir un parcours d'obstacles. Comment les établissements peuvent-ils mieux l'accueillir ? Nous verrons l'adaptation des locaux, puis la formation des équipes. »",
+            "ok": true,
+            "why": "Accroche, problème et plan."
+          },
+          {
+            "t": "« Le handicap touche beaucoup de monde. »",
+            "ok": false,
+            "why": "Banal et sans annonce."
+          },
+          {
+            "t": "« J'ai un cousin en fauteuil roulant. »",
+            "ok": false,
+            "why": "Anecdote personnelle hors propos en introduction."
+          },
+          {
+            "t": "« Voici ma réponse. »",
+            "ok": false,
+            "why": "Pas une introduction."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Certaines personnes renoncent à des soins courants, faute d'équipements adaptés. »",
+            "ok": true,
+            "why": "Accords et ponctuation corrects."
+          },
+          {
+            "t": "« Certaines personnes renonce à des soins courant, faute d'équipements adapté. »",
+            "ok": false,
+            "why": "Fautes d'accord : « renoncent », « courants », « adaptés »."
+          },
+          {
+            "t": "« Y a des gens qui se soignent plus parce que c'est pas adapté. »",
+            "ok": false,
+            "why": "Registre oral."
+          },
+          {
+            "t": "« Certaines personnes, renoncent, à des soins courants faute, d'équipements adaptés. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Des locaux accessibles et des équipes formées rendraient l'accès aux soins plus juste. Futur infirmier, je veux adapter mes soins aux capacités et aux besoins de chaque patient. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, le handicap est un vaste sujet. »",
+            "ok": false,
+            "why": "Phrase vide."
+          },
+          {
+            "t": "« Voilà ce que je propose. »",
+            "ok": false,
+            "why": "Ne résume rien."
+          },
+          {
+            "t": "« Pour finir, je parlerai des maisons de retraite. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "precarite": {
+    "copies": [
+      {
+        "q": "Quelles sont les causes du renoncement aux soins évoquées dans le texte ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Le texte évoque plusieurs causes au renoncement aux soins. La première est financière : certains soins, comme les consultations mal remboursées, les lunettes ou les soins dentaires, coûtent trop cher pour les personnes aux revenus modestes. Mais le texte souligne que le coût n'explique pas tout : la complexité des démarches administratives, l'éloignement géographique des lieux de soins et la méfiance envers les institutions découragent aussi de se soigner.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Toutes les causes sont citées et reformulées, et tu reprends la nuance du texte : le coût n'est pas la seule cause."
+          },
+          {
+            "t": "Les gens renoncent aux soins parce qu'ils n'ont pas assez d'argent pour payer le médecin, les lunettes et le dentiste.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Tu ne donnes que la cause financière, alors que le texte insiste justement sur les autres causes."
+          },
+          {
+            "t": "Les causes sont « la complexité des démarches administratives, l'éloignement géographique ou la méfiance envers les institutions ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Recopié, et tu oublies la cause financière."
+          },
+          {
+            "t": "Les gens renoncent aux soins parce qu'ils ne prennent pas leur santé au sérieux et préfèrent dépenser leur argent pour autre chose.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Jugement absent du texte, qui culpabilise les personnes au lieu d'analyser les causes."
+          }
+        ]
+      },
+      {
+        "q": "Quelles en sont les conséquences pour la personne et pour la société ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Pour la personne, renoncer aux soins a des conséquences directes sur sa santé. Un problème non traité, comme une carie ou une maladie chronique non suivie, s'aggrave avec le temps. La personne souffre plus longtemps et peut voir sa qualité de vie se dégrader, jusqu'à ne plus pouvoir travailler.\n\nPour la société, ces retards ont aussi un coût. Le texte explique qu'ils conduisent à des prises en charge plus lourdes : une hospitalisation en urgence coûte plus cher qu'une consultation faite à temps. Le renoncement aux soins creuse enfin les inégalités de santé entre les personnes aisées et les plus modestes.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Les deux parties de la question sont traitées, avec des exemples et un lien avec le texte."
+          },
+          {
+            "t": "La personne est de plus en plus malade et elle souffre. Sa maladie s'aggrave et elle peut même mourir si elle ne se soigne pas.",
+            "ok": false,
+            "note": "1/3",
+            "why": "Tu ne traites que la personne, sans nuance, et oublies les conséquences pour la société."
+          },
+          {
+            "t": "- maladie plus grave\n- hospitalisation\n- plus cher pour la Sécurité sociale\n- inégalités",
+            "ok": false,
+            "note": "1/3",
+            "why": "Idées justes mais simple liste, sans phrases ni explications."
+          },
+          {
+            "t": "Les conséquences pour la société sont que la Sécurité sociale va faire faillite à cause des pauvres qui ne se soignent pas.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Exagération et ton stigmatisant : ce n'est pas ce que dit le texte."
+          }
+        ]
+      },
+      {
+        "q": "Quel peut être le rôle du soignant face à un patient en situation de précarité ?",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "Face à un patient en situation de précarité, le soignant ne peut pas résoudre seul ses difficultés, mais il peut l'aider à rester dans le parcours de soins.\n\nSon premier rôle est de créer la confiance. Le texte évoque la méfiance envers les institutions : un accueil sans jugement, qui prend le temps d'écouter, peut la lever. Un patient qui se sent respecté reviendra plus facilement.\n\nSon deuxième rôle est d'expliquer et d'orienter. Le soignant peut expliquer simplement le traitement, vérifier que le patient a compris, et l'orienter vers l'assistante sociale pour l'aider dans ses démarches et ses droits à une couverture santé. Il peut aussi adapter ses conseils à la situation réelle de la personne, par exemple en tenant compte de ses moyens.\n\nEnfin, il transmet à l'équipe les difficultés repérées, pour une prise en charge coordonnée.\n\nFutur infirmier, je veux soigner chaque patient avec la même attention, quelle que soit sa situation.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Des rôles concrets (confiance, explication, orientation, coordination), justifiés par le texte, avec une conclusion personnelle."
+          },
+          {
+            "t": "Le soignant doit aider le patient. Il doit être à l'écoute, compréhensif et ne pas juger. Il doit aussi l'aider dans ses démarches. C'est le rôle du soignant d'aider tout le monde.",
+            "ok": false,
+            "note": "2/5",
+            "why": "Les bonnes intentions sont là, mais rien n'est développé ni illustré."
+          },
+          {
+            "t": "Le soignant peut donner de l'argent au patient pour qu'il puisse payer ses soins, ou lui faire les soins gratuitement en dehors de ses heures de travail.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Idée inadaptée : le soignant oriente vers les dispositifs existants, il ne finance pas ses patients."
+          },
+          {
+            "t": "Moi j'ai connu des périodes difficiles financièrement, donc je comprends ces patients. C'est pour ça que je veux devenir infirmier, pour aider les gens qui en ont besoin.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Tu parles de ta motivation au lieu de décrire le rôle du soignant."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Le renoncement aux soins, dû au coût mais aussi aux démarches, à la distance et à la méfiance, aggrave l'état de santé des plus modestes.",
+            "ok": true,
+            "why": "Causes multiples et conséquences : c'est le cœur du texte."
+          },
+          {
+            "t": "Les lunettes coûtent cher.",
+            "ok": false,
+            "why": "Un exemple, pas le problème."
+          },
+          {
+            "t": "La Sécurité sociale est en déficit.",
+            "ok": false,
+            "why": "Le texte n'en parle pas."
+          },
+          {
+            "t": "Les administrations sont compliquées.",
+            "ok": false,
+            "why": "Une seule des causes, prise pour le problème."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Quel peut être le rôle du soignant face à un patient en situation de précarité ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Créer la confiance par un accueil sans jugement — II. Expliquer, orienter et coordonner.",
+            "ok": true,
+            "why": "Deux rôles concrets qui répondent aux causes décrites dans le texte."
+          },
+          {
+            "t": "I. La pauvreté en France — II. Le chômage.",
+            "ok": false,
+            "why": "Plan hors de la question sur le rôle du soignant."
+          },
+          {
+            "t": "I. Les riches — II. Les pauvres.",
+            "ok": false,
+            "why": "Opposition caricaturale et hors-sujet."
+          },
+          {
+            "t": "Un seul paragraphe sur la gentillesse.",
+            "ok": false,
+            "why": "Trop pauvre pour une question d'argumentation."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Le soignant peut orienter le patient vers l'assistante sociale, car les démarches administratives découragent beaucoup de personnes. Elle pourra par exemple l'aider à faire valoir ses droits à une couverture santé. »",
+            "ok": true,
+            "why": "Action, cause tirée du texte, exemple concret."
+          },
+          {
+            "t": "« Il faut aider les pauvres. »",
+            "ok": false,
+            "why": "Affirmation sans contenu, au vocabulaire peu adapté."
+          },
+          {
+            "t": "« La précarité est un fléau de notre société. »",
+            "ok": false,
+            "why": "Formule générale qui ne répond pas à la question."
+          },
+          {
+            "t": "« Le soignant doit tout faire pour le patient. »",
+            "ok": false,
+            "why": "Trop vague et irréaliste."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Pour les personnes aux revenus modestes, certains soins sont repoussés ou abandonnés. Que peut faire le soignant face à cette situation ? Nous verrons qu'il doit créer la confiance, puis expliquer et orienter. »",
+            "ok": true,
+            "why": "Sujet, problème, plan."
+          },
+          {
+            "t": "« La pauvreté existe depuis toujours. »",
+            "ok": false,
+            "why": "Généralité creuse."
+          },
+          {
+            "t": "« Je pense que c'est injuste. »",
+            "ok": false,
+            "why": "Opinion sans annonce de plan."
+          },
+          {
+            "t": "« Le texte parle de la santé. »",
+            "ok": false,
+            "why": "Trop vague."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Ces retards aggravent souvent l'état de santé des patients concernés. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Ces retards aggrave souvent l'état de santé des patients concerné. »",
+            "ok": false,
+            "why": "Fautes d'accord : « aggravent », « concernés »."
+          },
+          {
+            "t": "« Les gens qui se soignent pas, après c'est pire. »",
+            "ok": false,
+            "why": "Registre oral."
+          },
+          {
+            "t": "« Ces retards, aggravent souvent, l'état de santé des patients, concernés. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« En instaurant la confiance et en orientant le patient, le soignant l'aide à rester dans le parcours de soins. Futur infirmier, je veux accorder la même attention à chaque patient, quelle que soit sa situation. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« Voilà, c'est tout ce que j'ai à dire. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          },
+          {
+            "t": "« En conclusion, l'argent ne fait pas le bonheur. »",
+            "ok": false,
+            "why": "Proverbe hors de propos."
+          },
+          {
+            "t": "« Pour finir, parlons des déserts médicaux. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "numerique": {
+    "copies": [
+      {
+        "q": "Présentez les avantages et les limites du numérique en santé évoqués dans le texte.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Selon le texte, le numérique apporte des avantages réels à l'organisation des soins. La prise de rendez-vous en ligne, la téléconsultation, le dossier médical partagé et les objets connectés facilitent le suivi des patients à distance et font gagner du temps aux professionnels.\n\nMais le texte en souligne aussi les limites. Les données de santé, très personnelles, doivent être protégées. Les personnes peu à l'aise avec les outils numériques risquent d'être exclues de certains soins. Enfin, la relation de soin pourrait se déshumaniser si l'écran remplace le contact direct.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Avantages et limites sont présentés en deux paragraphes équilibrés, reformulés et complets."
+          },
+          {
+            "t": "Le numérique, c'est la téléconsultation, le dossier médical partagé et les objets connectés. C'est pratique et rapide.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Tu cites les outils mais tu oublies presque tous les avantages et toutes les limites."
+          },
+          {
+            "t": "Le numérique est très pratique : on peut prendre rendez-vous en ligne, consulter à distance et on gagne du temps. Les médecins aussi gagnent du temps et peuvent suivre leurs patients de loin.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Les avantages sont bien présentés, mais la question demande aussi les limites."
+          },
+          {
+            "t": "Le numérique est dangereux car les hackers vont voler toutes nos données de santé et les vendre. Il faut arrêter d'utiliser internet dans les hôpitaux.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Une seule limite, exagérée, et une conclusion qui contredit l'équilibre du texte."
+          }
+        ]
+      },
+      {
+        "q": "Le numérique peut-il remplacer la relation humaine dans le soin ? Argumentez votre réponse.",
+        "points": 6,
+        "reponses": [
+          {
+            "t": "Téléconsultation, dossiers partagés, objets connectés : le numérique prend une place croissante dans le soin. Peut-il pour autant remplacer la relation humaine ? Je ne le pense pas, même s'il peut l'enrichir.\n\nLe numérique est un outil précieux. Il permet à un patient isolé de consulter sans se déplacer, ou à un patient diabétique d'envoyer ses résultats à l'équipe qui le suit. Il facilite aussi la transmission d'informations entre professionnels.\n\nCependant, le soin ne se réduit pas à des données. Un regard, un geste, une présence rassurent un patient inquiet, et certaines observations ne passent pas par un écran : une pâleur, une gêne à la marche, une tristesse qui ne se dit pas. De plus, certaines personnes, notamment âgées, ne maîtrisent pas ces outils et ont besoin d'un contact direct.\n\nLe numérique doit donc rester au service de la relation, sans s'y substituer. Grâce à mon parcours en informatique, je sais combien ces outils sont utiles, mais futur infirmier, je veux qu'ils me laissent plus de temps pour le patient, pas moins.",
+            "ok": true,
+            "note": "6/6",
+            "why": "Une position nuancée, des arguments illustrés de chaque côté, et une conclusion qui relie ton parcours au futur métier."
+          },
+          {
+            "t": "Oui, le numérique va remplacer la relation humaine, car les robots et l'intelligence artificielle feront bientôt tout mieux que les soignants. Il n'y aura plus besoin d'infirmiers dans quelques années.",
+            "ok": false,
+            "note": "0,5/6",
+            "why": "Affirmation non argumentée et excessive, qui ignore les limites soulignées par le texte."
+          },
+          {
+            "t": "Non, le numérique ne peut pas remplacer la relation humaine. La relation humaine est très importante dans le soin. Les patients ont besoin de contact humain. Rien ne peut remplacer l'humain.",
+            "ok": false,
+            "note": "1,5/6",
+            "why": "Position claire mais répétée sans arguments ni exemples, et sans reconnaître les apports du numérique."
+          },
+          {
+            "t": "Le numérique peut aider, par exemple avec la téléconsultation pour les gens loin du médecin. Mais il ne remplace pas le contact, car le patient a besoin d'être rassuré par une vraie personne.",
+            "ok": false,
+            "note": "3/6",
+            "why": "Bon raisonnement, mais trop court : les idées mériteraient d'être développées, avec une introduction et une conclusion."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Le numérique améliore l'organisation des soins, mais pose des questions de protection des données, d'exclusion et de relation humaine.",
+            "ok": true,
+            "why": "Tu présentes les deux faces du sujet, comme le texte."
+          },
+          {
+            "t": "La téléconsultation existe.",
+            "ok": false,
+            "why": "Un exemple, pas le problème."
+          },
+          {
+            "t": "Les jeunes passent trop de temps sur internet.",
+            "ok": false,
+            "why": "Hors-sujet."
+          },
+          {
+            "t": "Les ordinateurs tombent souvent en panne.",
+            "ok": false,
+            "why": "Le texte n'en parle pas."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Le numérique peut-il remplacer la relation humaine dans le soin ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Le numérique, un outil précieux pour le soin — II. Mais il ne peut pas remplacer la présence humaine.",
+            "ok": true,
+            "why": "Plan dialectique qui permet une réponse nuancée et argumentée."
+          },
+          {
+            "t": "I. L'histoire d'internet — II. Les réseaux sociaux.",
+            "ok": false,
+            "why": "Hors de la question."
+          },
+          {
+            "t": "Une liste des applications de santé.",
+            "ok": false,
+            "why": "Pas de plan ni d'argumentation."
+          },
+          {
+            "t": "I. Mon métier d'informaticien — II. Mon envie de devenir infirmier.",
+            "ok": false,
+            "why": "Plan centré sur toi, hors-sujet."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Certaines observations ne passent pas par un écran, car elles demandent la présence du soignant. Par exemple, une infirmière remarque au domicile qu'une patiente a du mal à se lever, ce qu'une téléconsultation aurait pu manquer. »",
+            "ok": true,
+            "why": "Idée, justification et exemple concret."
+          },
+          {
+            "t": "« Le numérique, c'est l'avenir. »",
+            "ok": false,
+            "why": "Slogan sans argument."
+          },
+          {
+            "t": "« L'humain est irremplaçable. »",
+            "ok": false,
+            "why": "Affirmation non démontrée."
+          },
+          {
+            "t": "« Les données de santé sont importantes. »",
+            "ok": false,
+            "why": "Vague et sans lien avec la question posée."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Le numérique transforme l'organisation des soins. Peut-il pour autant remplacer la relation humaine ? Nous verrons ses apports, puis ses limites. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« Je travaille dans l'informatique depuis des années. »",
+            "ok": false,
+            "why": "Information personnelle sans rapport avec une introduction de rédaction."
+          },
+          {
+            "t": "« Internet a changé le monde. »",
+            "ok": false,
+            "why": "Généralité creuse."
+          },
+          {
+            "t": "« Je vais répondre à la question. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les outils numériques facilitent le suivi des patients à distance. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Les outils numérique facilite le suivi des patients à distance. »",
+            "ok": false,
+            "why": "Fautes d'accord : « numériques », « facilitent »."
+          },
+          {
+            "t": "« Avec le numérique, on suit les patients de loin, c'est trop pratique. »",
+            "ok": false,
+            "why": "Registre familier : « trop pratique »."
+          },
+          {
+            "t": "« Les outils numériques, facilitent, le suivi des patients, à distance. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Le numérique enrichit le soin, mais ne remplace pas la présence humaine. Futur infirmier, je veux utiliser ces outils pour gagner du temps auprès du patient. »",
+            "ok": true,
+            "why": "Bilan nuancé et ouverture sur le métier."
+          },
+          {
+            "t": "« Bref, le numérique c'est bien et pas bien. »",
+            "ok": false,
+            "why": "Formulation vague et familière."
+          },
+          {
+            "t": "« Pour finir, parlons de l'intelligence artificielle dans les voitures. »",
+            "ok": false,
+            "why": "Nouveau sujet hors propos."
+          },
+          {
+            "t": "« En conclusion, j'ai fini ma copie. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "antibio": {
+    "copies": [
+      {
+        "q": "Expliquez avec vos mots ce qu'est l'antibiorésistance d'après le texte.",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "L'antibiorésistance désigne la capacité de certaines bactéries à résister aux antibiotiques qui devraient les détruire. D'après le texte, elle apparaît quand les antibiotiques sont utilisés trop souvent ou de manière inadaptée. Les infections causées par ces bactéries deviennent alors plus difficiles, et parfois impossibles, à soigner.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Une définition claire avec tes mots, sa cause et sa conséquence, tirées du texte."
+          },
+          {
+            "t": "L'antibiorésistance, c'est quand le corps humain devient résistant aux antibiotiques à force d'en prendre, si bien que les médicaments ne lui font plus d'effet.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Contresens fréquent : ce sont les bactéries qui deviennent résistantes, pas le corps."
+          },
+          {
+            "t": "L'antibiorésistance est due à « l'utilisation excessive ou inadaptée des antibiotiques » qui « favorise l'apparition de bactéries résistantes ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Recopié, et la consigne demande « avec vos mots »."
+          },
+          {
+            "t": "C'est quand les antibiotiques ne marchent plus contre les virus comme la grippe.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Erreur : le texte rappelle que les antibiotiques n'agissent pas sur les virus. Il s'agit de bactéries."
+          }
+        ]
+      },
+      {
+        "q": "Quels comportements permettent de limiter ce phénomène ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Plusieurs comportements permettent de limiter l'antibiorésistance. D'abord, il faut utiliser les antibiotiques seulement quand ils sont utiles, c'est-à-dire contre les infections bactériennes et sur prescription : ils sont inefficaces contre les virus, comme ceux du rhume ou de la grippe.\n\nEnsuite, il faut respecter la durée du traitement prescrite, même si l'on se sent mieux avant la fin, et ne pas réutiliser un reste de boîte sans avis médical.\n\nEnfin, l'hygiène des mains, à l'hôpital comme en ville, limite la transmission des bactéries, y compris des bactéries résistantes.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Les trois comportements du texte sont présentés et expliqués, avec des exemples concrets."
+          },
+          {
+            "t": "Il faut prendre des antibiotiques dès qu'on est malade pour guérir plus vite et éviter que l'infection devienne résistante.",
+            "ok": false,
+            "note": "0/3",
+            "why": "C'est exactement le comportement qui favorise l'antibiorésistance : contresens complet."
+          },
+          {
+            "t": "Il faut se laver les mains souvent, surtout à l'hôpital, car cela évite de transmettre les bactéries.",
+            "ok": false,
+            "note": "1/3",
+            "why": "Juste mais incomplet : tu oublies le bon usage des antibiotiques et le respect de la durée du traitement."
+          },
+          {
+            "t": "- pas d'antibiotiques contre les virus\n- respecter la durée\n- se laver les mains",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Les trois idées sont justes, mais en liste, sans phrases ni explications."
+          }
+        ]
+      },
+      {
+        "q": "Quel rôle le futur infirmier peut-il jouer dans cette lutte ?",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "L'antibiorésistance est un enjeu de santé publique, et le futur infirmier peut y contribuer à plusieurs niveaux.\n\nD'abord, il doit montrer l'exemple par l'hygiène. Se désinfecter les mains avant et après chaque soin, appliquer les règles d'hygiène de l'établissement, c'est limiter la transmission des bactéries entre patients. À l'hôpital, ce geste simple a un effet direct.\n\nEnsuite, il a un rôle d'éducation. L'infirmier peut expliquer à un patient pourquoi il doit prendre son antibiotique jusqu'au bout, même s'il se sent mieux, ou rappeler à une mère qu'un antibiotique ne soignera pas le rhume de son enfant. Ces explications, données avec des mots simples, changent les comportements.\n\nEnfin, il administre les traitements selon la prescription et surveille leur efficacité, en alertant le médecin si l'infection ne recule pas.\n\nFutur infirmier, je mesure que chaque geste quotidien compte dans cette lutte collective.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Trois rôles concrets (hygiène, éducation, surveillance), chacun illustré, une introduction et une conclusion engagée."
+          },
+          {
+            "t": "Le futur infirmier peut jouer un grand rôle dans cette lutte. Il est important qu'il s'implique, car l'antibiorésistance est un problème grave. Il doit donc agir pour lutter contre ce phénomène.",
+            "ok": false,
+            "note": "1/5",
+            "why": "Des phrases qui tournent en rond, sans dire concrètement ce que fait l'infirmier."
+          },
+          {
+            "t": "L'infirmier peut décider lui-même de ne pas donner l'antibiotique prescrit par le médecin s'il pense que le patient a un virus.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "Inexact : l'infirmier ne modifie pas seul une prescription, il en parle au médecin."
+          },
+          {
+            "t": "L'infirmier doit se laver les mains et expliquer aux patients qu'il faut finir leur traitement. Ce sont deux gestes importants qui aident à limiter les bactéries résistantes.",
+            "ok": false,
+            "note": "2,5/5",
+            "why": "Deux bonnes idées, mais à peine développées, sans exemple ni conclusion."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Le mauvais usage des antibiotiques rend des bactéries résistantes, ce qui menace notre capacité à soigner certaines infections.",
+            "ok": true,
+            "why": "Cause et conséquence réunies : c'est le cœur du texte."
+          },
+          {
+            "t": "Les virus sont dangereux.",
+            "ok": false,
+            "why": "Le texte précise justement que les antibiotiques n'agissent pas sur les virus."
+          },
+          {
+            "t": "Il faut se laver les mains.",
+            "ok": false,
+            "why": "C'est une solution citée, pas le problème."
+          },
+          {
+            "t": "Les médicaments coûtent cher.",
+            "ok": false,
+            "why": "Hors-sujet."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Quel rôle le futur infirmier peut-il jouer dans cette lutte ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Appliquer et montrer les règles d'hygiène — II. Éduquer les patients au bon usage des antibiotiques.",
+            "ok": true,
+            "why": "Deux rôles concrets de l'infirmier, liés au texte."
+          },
+          {
+            "t": "I. La découverte de la pénicilline — II. L'histoire des antibiotiques.",
+            "ok": false,
+            "why": "Plan historique sans rapport avec le rôle infirmier."
+          },
+          {
+            "t": "I. Les bactéries — II. Les virus — III. Les champignons.",
+            "ok": false,
+            "why": "Plan de cours de biologie, hors de la question."
+          },
+          {
+            "t": "Un seul paragraphe sur le lavage des mains.",
+            "ok": false,
+            "why": "Trop limité pour une question d'argumentation."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« L'infirmier peut expliquer pourquoi il faut finir son traitement, car un patient qui arrête trop tôt favorise les bactéries résistantes. Par exemple, il peut le rappeler lors de la sortie d'hospitalisation. »",
+            "ok": true,
+            "why": "Action, justification et exemple concret."
+          },
+          {
+            "t": "« Les antibiotiques, c'est pas automatique. »",
+            "ok": false,
+            "why": "Un slogan n'est pas un argument."
+          },
+          {
+            "t": "« L'infirmier est très important. »",
+            "ok": false,
+            "why": "Affirmation vide."
+          },
+          {
+            "t": "« Les bactéries sont partout. »",
+            "ok": false,
+            "why": "Constat sans lien avec le rôle infirmier."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Le mauvais usage des antibiotiques rend certaines bactéries résistantes. Quel rôle le futur infirmier peut-il jouer face à ce danger ? Nous verrons l'importance de l'hygiène, puis celle de l'éducation des patients. »",
+            "ok": true,
+            "why": "Sujet amené, problème posé, plan annoncé."
+          },
+          {
+            "t": "« Les antibiotiques ont été inventés il y a longtemps. »",
+            "ok": false,
+            "why": "Accroche imprécise qui ne pose pas le problème."
+          },
+          {
+            "t": "« Je n'aime pas prendre de médicaments. »",
+            "ok": false,
+            "why": "Opinion personnelle hors propos."
+          },
+          {
+            "t": "« Voici ma réponse sur les antibiotiques. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les antibiotiques sont inefficaces contre les virus. »",
+            "ok": true,
+            "why": "Phrase correcte et exacte."
+          },
+          {
+            "t": "« Les antibiotiques est inefficace contre les virus. »",
+            "ok": false,
+            "why": "Faute d'accord : « sont inefficaces »."
+          },
+          {
+            "t": "« Les antibio ça marche pas sur les virus. »",
+            "ok": false,
+            "why": "Abréviation et registre oral."
+          },
+          {
+            "t": "« Les antibiotiques, sont inefficaces, contre les virus. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Par ses gestes d'hygiène et ses explications, l'infirmier participe à la lutte contre l'antibiorésistance. Futur soignant, je sais que chaque geste quotidien compte. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, les bactéries c'est dangereux. »",
+            "ok": false,
+            "why": "Banal et familier."
+          },
+          {
+            "t": "« Pour finir, parlons du cancer. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« J'espère avoir bien répondu. »",
+            "ok": false,
+            "why": "Ne résume rien."
+          }
+        ]
+      }
+    ]
+  },
+  "prendresoin": {
+    "copies": [
+      {
+        "q": "« Soigner, ce n'est pas seulement traiter une maladie, c'est prendre soin d'une personne. » Que vous inspire cette affirmation ? Développez une réponse argumentée, appuyée sur des exemples.",
+        "points": 10,
+        "reponses": [
+          {
+            "t": "Le mot « soin » recouvre deux réalités : traiter une maladie et prendre soin d'une personne. L'affirmation proposée invite à ne pas les séparer. Je la partage, car soigner efficacement suppose de considérer le patient dans sa globalité.\n\nD'abord, le traitement de la maladie reste indispensable. Administrer un médicament, réaliser un pansement ou surveiller des constantes demande rigueur et compétence. Sans ces gestes techniques, il n'y a pas de guérison possible.\n\nMais le patient n'est pas réduit à sa maladie. Il a une histoire, des peurs, des habitudes et des proches. Une personne âgée hospitalisée après une chute a besoin d'un soin pour sa blessure, mais aussi d'être rassurée, informée et respectée dans sa pudeur. Prendre le temps de lui expliquer un soin ou d'écouter ses inquiétudes améliore son confort et souvent sa coopération.\n\nEnfin, prendre soin, c'est aussi penser à l'après : préparer le retour à domicile, impliquer la famille, prévenir une nouvelle chute.\n\nEn définitive, soigner et prendre soin se complètent. Futur infirmier, je veux allier la rigueur des gestes à l'attention portée à chaque personne.",
+            "ok": true,
+            "note": "10/10",
+            "why": "Une introduction qui pose le problème, trois parties argumentées et illustrées, et une conclusion qui répond et ouvre sur le métier."
+          },
+          {
+            "t": "Cette phrase veut dire que soigner ce n'est pas seulement traiter une maladie mais aussi prendre soin d'une personne. C'est une phrase très juste. En effet, il faut prendre soin des personnes et pas seulement traiter les maladies. Les patients sont des personnes et pas seulement des maladies. C'est pour cela que je suis d'accord avec cette phrase.",
+            "ok": false,
+            "note": "2/10",
+            "why": "Tu paraphrases la citation sans l'argumenter : aucune idée n'est développée ni illustrée."
+          },
+          {
+            "t": "Je suis d'accord avec cette affirmation. J'ai toujours voulu aider les autres et c'est pour cela que je veux devenir infirmier. Dans mon ancien métier, j'étais déjà à l'écoute de mes collègues. Je pense avoir les qualités pour ce métier : je suis patient, organisé et empathique.",
+            "ok": false,
+            "note": "1/10",
+            "why": "Tu parles de ta motivation au lieu de réfléchir à l'affirmation : c'est un hors-sujet, à garder pour l'oral."
+          },
+          {
+            "t": "Le traitement de la maladie est indispensable : sans médicaments ni gestes techniques, le patient ne guérit pas. Mais le patient a aussi besoin d'être écouté et rassuré. Par exemple, un patient qui va être opéré est souvent inquiet, et quelques explications l'apaisent. Donc soigner et prendre soin vont ensemble.",
+            "ok": false,
+            "note": "5/10",
+            "why": "Le raisonnement est juste et illustré, mais beaucoup trop court pour un sujet de réflexion : il manque introduction, développement et ouverture."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Que demande exactement ce sujet de réflexion ?",
+        "opts": [
+          {
+            "t": "Réfléchir au lien entre traiter une maladie et prendre soin d'une personne, et donner un avis argumenté avec des exemples.",
+            "ok": true,
+            "why": "Tu identifies les deux notions à relier et la consigne : argumenter avec des exemples."
+          },
+          {
+            "t": "Expliquer pourquoi je veux devenir infirmier.",
+            "ok": false,
+            "why": "Piège classique : ce n'est pas une lettre de motivation."
+          },
+          {
+            "t": "Lister toutes les maladies qu'un infirmier soigne.",
+            "ok": false,
+            "why": "Hors-sujet : la réflexion porte sur la relation de soin."
+          },
+          {
+            "t": "Dire si l'on est d'accord, en une phrase.",
+            "ok": false,
+            "why": "La consigne demande une réponse développée et argumentée."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Traiter la maladie reste indispensable — II. Mais il faut aussi prendre soin de la personne — III. Les deux se complètent.",
+            "ok": true,
+            "why": "Un plan progressif qui examine chaque notion avant de les relier."
+          },
+          {
+            "t": "I. Ma vie — II. Mes qualités — III. Mon projet.",
+            "ok": false,
+            "why": "Plan de lettre de motivation."
+          },
+          {
+            "t": "I. Les médecins — II. Les infirmiers — III. Les aides-soignants.",
+            "ok": false,
+            "why": "Plan par métiers, sans lien avec la réflexion demandée."
+          },
+          {
+            "t": "Un seul paragraphe pour dire que c'est vrai.",
+            "ok": false,
+            "why": "Pas de plan pour un sujet qui en demande un."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Le patient n'est pas réduit à sa maladie, car il a des peurs et une histoire. Par exemple, expliquer un soin à une personne âgée inquiète l'apaise et facilite sa coopération. »",
+            "ok": true,
+            "why": "Idée, justification, exemple concret."
+          },
+          {
+            "t": "« Prendre soin, c'est très important dans le métier. »",
+            "ok": false,
+            "why": "Affirmation sans démonstration."
+          },
+          {
+            "t": "« Les malades sont des êtres humains comme nous. »",
+            "ok": false,
+            "why": "Évidence qui ne fait pas avancer la réflexion."
+          },
+          {
+            "t": "« Je suis quelqu'un de très empathique. »",
+            "ok": false,
+            "why": "Parler de soi n'est pas argumenter sur le sujet."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Le mot « soin » recouvre deux réalités : traiter une maladie et prendre soin d'une personne. Faut-il les distinguer ? Nous verrons que la technique reste indispensable, mais qu'elle ne suffit pas. »",
+            "ok": true,
+            "why": "Elle définit les termes, pose une question et annonce le plan."
+          },
+          {
+            "t": "« Cette phrase est très belle. »",
+            "ok": false,
+            "why": "Jugement esthétique, pas une introduction."
+          },
+          {
+            "t": "« Depuis toujours, les hommes soignent les hommes. »",
+            "ok": false,
+            "why": "Accroche creuse."
+          },
+          {
+            "t": "« Je veux devenir infirmier depuis que je suis petit. »",
+            "ok": false,
+            "why": "Début de lettre de motivation, hors-sujet."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Prendre soin d'une personne, c'est aussi l'écouter et respecter sa pudeur. »",
+            "ok": true,
+            "why": "Phrase correcte, virgule bien placée."
+          },
+          {
+            "t": "« Prendre soin d'une personne, c'est aussi l'écoutée et respecté sa pudeur. »",
+            "ok": false,
+            "why": "Infinitifs fautifs : « l'écouter », « respecter »."
+          },
+          {
+            "t": "« Prendre soin des gens, c'est genre les écouter. »",
+            "ok": false,
+            "why": "Registre oral : « genre »."
+          },
+          {
+            "t": "« Prendre soin, d'une personne c'est aussi, l'écouter et respecter, sa pudeur. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Soigner et prendre soin se complètent : la technique guérit, l'attention accompagne. Futur infirmier, je veux allier la rigueur des gestes à l'écoute de chaque personne. »",
+            "ok": true,
+            "why": "Réponse claire à la question et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, je suis d'accord. »",
+            "ok": false,
+            "why": "Trop pauvre : rien n'est résumé."
+          },
+          {
+            "t": "« Pour finir, voici mes qualités. »",
+            "ok": false,
+            "why": "Retour à la lettre de motivation."
+          },
+          {
+            "t": "« Voilà ce que m'inspire cette phrase. »",
+            "ok": false,
+            "why": "Pas une vraie conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "epuisement": {
+    "copies": [
+      {
+        "q": "Quelles sont les causes de l'épuisement professionnel des soignants d'après le texte ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "D'après le texte, l'épuisement professionnel des soignants a trois causes principales. La première tient à l'organisation du travail : les horaires décalés, de nuit ou le week-end, perturbent le sommeil et la vie personnelle. La deuxième est la charge de travail importante, qui laisse peu de temps pour récupérer. La troisième est la confrontation quotidienne à la souffrance des patients, qui pèse sur le moral.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Les trois causes sont citées, reformulées et brièvement expliquées."
+          },
+          {
+            "t": "Les causes sont « horaires décalés, charge de travail importante, confrontation quotidienne à la souffrance ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Recopié sans explication : il fallait montrer en quoi chaque cause épuise."
+          },
+          {
+            "t": "Les soignants s'épuisent parce qu'ils ne sont pas assez payés et qu'ils n'aiment plus leur métier.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Ces causes ne sont pas dans le texte : tu réponds avec tes idées au lieu de t'appuyer sur lui."
+          },
+          {
+            "t": "Les soignants travaillent la nuit et le week-end, ce qui les fatigue beaucoup et les empêche de voir leur famille.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Une seule cause, bien expliquée, mais il en manque deux."
+          }
+        ]
+      },
+      {
+        "q": "Comment se manifeste-t-il, et quelles en sont les conséquences ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Selon le texte, l'épuisement professionnel se manifeste par une fatigue intense, qui ne disparaît pas avec le repos, par le sentiment de ne plus être efficace dans son travail, et par une mise à distance des patients : le soignant devient moins disponible, parfois plus froid.\n\nSes conséquences dépassent la personne. Le soignant épuisé peut être arrêté, voire quitter la profession. Ces absences et ces départs désorganisent les équipes et rendent difficile la continuité des soins, ce qui augmente la charge des collègues restants et peut les épuiser à leur tour.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Manifestations et conséquences sont traitées dans deux paragraphes, avec la logique du cercle vicieux."
+          },
+          {
+            "t": "Le soignant est très fatigué, il n'a plus envie d'aller travailler et il peut faire une dépression.",
+            "ok": false,
+            "note": "1/3",
+            "why": "Tu évoques quelques signes, mais pas les conséquences sur les équipes et la continuité des soins."
+          },
+          {
+            "t": "- fatigue\n- sentiment d'inefficacité\n- distance avec les patients\n- arrêts\n- départs",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Toutes les idées y sont, mais une liste n'est pas une réponse rédigée."
+          },
+          {
+            "t": "Il faut que les hôpitaux embauchent plus de personnel et augmentent les salaires pour éviter le burn-out.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Tu proposes des solutions alors que la question porte sur les manifestations et les conséquences."
+          }
+        ]
+      },
+      {
+        "q": "Comment un futur infirmier peut-il préserver sa santé tout au long de sa carrière ? Argumentez.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "L'épuisement professionnel menace de nombreux soignants. Pour exercer longtemps, le futur infirmier doit apprendre à préserver sa santé, en s'appuyant sur lui-même et sur l'équipe.\n\nD'abord, il doit prendre soin de son équilibre personnel. Respecter son temps de repos, garder des activités en dehors du travail et entretenir ses relations aident à récupérer après des journées difficiles. Connaître ses limites permet aussi de repérer tôt les premiers signes de fatigue.\n\nEnsuite, il ne doit pas rester seul face aux situations difficiles. Parler d'un décès ou d'un patient agressif avec ses collègues, participer aux temps d'échange de l'équipe ou solliciter le psychologue du service aide à prendre du recul. Une équipe solidaire protège chacun de ses membres.\n\nEnfin, il peut continuer à se former, car se sentir compétent réduit le stress.\n\nCes démarches individuelles ne remplacent pas des conditions de travail correctes, mais elles y contribuent. Futur infirmier, je veux prendre soin de moi pour pouvoir prendre soin des autres.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Des moyens concrets, à la fois personnels et collectifs, chacun justifié, une nuance et une conclusion forte."
+          },
+          {
+            "t": "Le futur infirmier doit faire attention à sa santé. Il doit se reposer, faire du sport et bien manger. Il doit aussi parler à ses collègues. Comme ça, il ne fera pas de burn-out.",
+            "ok": false,
+            "note": "2/5",
+            "why": "Les idées sont justes mais listées sans explication, et la dernière phrase promet trop."
+          },
+          {
+            "t": "Le futur infirmier doit se protéger en ne s'attachant jamais aux patients et en restant toujours froid et distant, pour ne pas être touché par leur souffrance.",
+            "ok": false,
+            "note": "0,5/5",
+            "why": "La mise à distance des patients est justement un signe d'épuisement selon le texte : ce n'est pas une protection."
+          },
+          {
+            "t": "Franchement, le mieux c'est de pas faire trop d'heures sup et de se changer les idées le week-end. Et si ça va pas, faut en parler aux collègues.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "De bonnes pistes, mais en registre familier et sans développement ni structure."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Les conditions d'exercice exposent les soignants à l'épuisement, avec des conséquences pour eux et pour la continuité des soins.",
+            "ok": true,
+            "why": "Causes, effets et enjeu réunis."
+          },
+          {
+            "t": "Les soignants travaillent la nuit.",
+            "ok": false,
+            "why": "Une cause parmi d'autres, pas le problème."
+          },
+          {
+            "t": "Les patients sont de plus en plus exigeants.",
+            "ok": false,
+            "why": "Le texte n'en parle pas."
+          },
+          {
+            "t": "Le travail, c'est fatigant.",
+            "ok": false,
+            "why": "Beaucoup trop général."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Comment un futur infirmier peut-il préserver sa santé ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Préserver son équilibre personnel — II. S'appuyer sur l'équipe pour prendre du recul.",
+            "ok": true,
+            "why": "Deux leviers complémentaires, personnel et collectif."
+          },
+          {
+            "t": "I. Les causes du burn-out — II. Ses conséquences.",
+            "ok": false,
+            "why": "Ce plan répond aux deux premières questions, pas à la dernière."
+          },
+          {
+            "t": "I. Les hôpitaux publics — II. Les cliniques privées.",
+            "ok": false,
+            "why": "Hors-sujet."
+          },
+          {
+            "t": "Une liste de conseils de santé.",
+            "ok": false,
+            "why": "Pas de plan ni d'argumentation."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Parler des situations difficiles avec ses collègues aide à prendre du recul, car on ne garde pas tout pour soi. Par exemple, échanger en équipe après le décès d'un patient permet de partager ce qu'on a ressenti. »",
+            "ok": true,
+            "why": "Idée, justification, exemple."
+          },
+          {
+            "t": "« Il faut se reposer. »",
+            "ok": false,
+            "why": "Conseil sans explication."
+          },
+          {
+            "t": "« Le burn-out est une maladie grave. »",
+            "ok": false,
+            "why": "Constat qui ne répond pas à la question."
+          },
+          {
+            "t": "« Les infirmiers doivent être forts. »",
+            "ok": false,
+            "why": "Affirmation vague, qui néglige la prévention."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Horaires décalés, charge de travail, souffrance des patients : les soignants sont exposés à l'épuisement. Comment préserver sa santé pour exercer longtemps ? Nous verrons le rôle de l'équilibre personnel, puis celui de l'équipe. »",
+            "ok": true,
+            "why": "Sujet amené, problème posé, plan annoncé."
+          },
+          {
+            "t": "« Le burn-out, ça peut arriver à tout le monde. »",
+            "ok": false,
+            "why": "Banal et sans annonce."
+          },
+          {
+            "t": "« J'ai déjà été très fatigué dans mon travail. »",
+            "ok": false,
+            "why": "Anecdote personnelle hors propos."
+          },
+          {
+            "t": "« Je vais parler du travail des infirmiers. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les soignants épuisés se sentent souvent moins efficaces. »",
+            "ok": true,
+            "why": "Accords corrects."
+          },
+          {
+            "t": "« Les soignants épuisé se sente souvent moins efficace. »",
+            "ok": false,
+            "why": "Fautes d'accord : « épuisés », « sentent », « efficaces »."
+          },
+          {
+            "t": "« Les soignants, quand ils sont crevés, ils bossent moins bien. »",
+            "ok": false,
+            "why": "Registre familier."
+          },
+          {
+            "t": "« Les soignants, épuisés se sentent, souvent moins efficaces. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Préserver son équilibre et s'appuyer sur l'équipe aide à durer dans le métier. Futur infirmier, je veux prendre soin de moi pour pouvoir prendre soin des autres. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, il faut faire attention. »",
+            "ok": false,
+            "why": "Trop vague."
+          },
+          {
+            "t": "« Pour finir, parlons des salaires des médecins. »",
+            "ok": false,
+            "why": "Nouveau sujet."
+          },
+          {
+            "t": "« Voilà, j'ai répondu. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "addictions": {
+    "copies": [
+      {
+        "q": "Comment le texte définit-il une addiction ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Le texte définit l'addiction par deux éléments. D'une part, la personne perd le contrôle de sa consommation ou de son comportement : elle n'arrive plus à s'arrêter, même si elle le souhaite. D'autre part, elle continue malgré les conséquences négatives sur sa santé, sa vie familiale ou professionnelle. Le texte précise que l'addiction peut concerner des produits, comme l'alcool ou le tabac, mais aussi des comportements, comme les jeux d'argent ou les écrans.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Les deux critères de la définition sont expliqués, et tu précises qu'il existe des addictions sans produit."
+          },
+          {
+            "t": "Une addiction, c'est quand on fume, qu'on boit de l'alcool ou qu'on prend du cannabis.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Tu donnes des exemples, pas une définition : consommer ne suffit pas à être dépendant."
+          },
+          {
+            "t": "L'addiction se caractérise par « une perte de contrôle et par la poursuite d'un comportement malgré ses conséquences négatives ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Juste mais recopié : il fallait expliquer avec tes mots."
+          },
+          {
+            "t": "Une addiction, c'est un manque de volonté : les personnes dépendantes pourraient arrêter si elles le voulaient vraiment.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Contraire au texte, qui parle de perte de contrôle : c'est justement ce préjugé qui freine la demande d'aide."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi est-il difficile de demander de l'aide ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Demander de l'aide est difficile d'abord à cause de la honte. Le texte souligne que les addictions sont souvent associées à ce sentiment : la personne craint d'être vue comme faible ou responsable de sa situation, et préfère cacher ses difficultés à son entourage comme aux soignants.\n\nIl peut aussi être difficile de reconnaître le problème. Une personne qui a perdu le contrôle minimise parfois sa consommation ou pense pouvoir s'arrêter seule. Enfin, elle ne sait pas toujours que des accompagnements existent. Tous ces freins retardent le premier pas, alors que la situation s'aggrave.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Plusieurs raisons, dont celle du texte, développées et reliées à leur conséquence : le retard de la demande d'aide."
+          },
+          {
+            "t": "Parce que les gens ont honte.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Idée juste mais pas expliquée : honte de quoi, et avec quelles conséquences ?"
+          },
+          {
+            "t": "Les personnes ont honte de leur addiction. Elles ont peur du regard des autres et préfèrent la cacher à leur famille et à leur médecin.",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Une raison bien développée, mais une seule : tu pouvais ajouter le déni ou le manque d'information."
+          },
+          {
+            "t": "C'est difficile car il n'existe aucune aide pour les personnes dépendantes en France.",
+            "ok": false,
+            "note": "0/3",
+            "why": "Faux, et contraire au texte qui affirme que des accompagnements existent."
+          }
+        ]
+      },
+      {
+        "q": "Quelle attitude un soignant doit-il adopter face à un patient présentant une addiction ? Argumentez.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "Les addictions sont souvent vécues dans la honte, ce qui retarde la demande d'aide. L'attitude du soignant peut donc faciliter le premier pas, ou au contraire le décourager.\n\nD'abord, le soignant doit adopter une attitude sans jugement. Considérer l'addiction comme une maladie et non comme une faute permet au patient de se sentir respecté. Par exemple, aborder la consommation d'alcool avec une question ouverte et un ton neutre lors d'un entretien encourage le patient à en parler honnêtement.\n\nEnsuite, il doit écouter et respecter le rythme du patient. Celui-ci n'est pas toujours prêt à arrêter : l'infirmier peut l'aider à réfléchir à sa consommation, valoriser chaque progrès et l'informer des accompagnements existants, sans lui imposer de décision.\n\nEnfin, il travaille en équipe et oriente le patient vers les professionnels et les structures spécialisées.\n\nFutur infirmier, je sais que la confiance est souvent le point de départ du soin.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Une attitude décrite en plusieurs dimensions (non-jugement, écoute, orientation), chacune justifiée et illustrée."
+          },
+          {
+            "t": "Le soignant doit dire clairement au patient qu'il se détruit la santé et qu'il doit arrêter immédiatement, en lui montrant les risques pour lui faire peur.",
+            "ok": false,
+            "note": "1/5",
+            "why": "Une attitude moralisatrice et alarmiste renforce souvent la honte et fait fuir le patient."
+          },
+          {
+            "t": "Le soignant doit être bienveillant, à l'écoute, sans jugement, patient et respectueux. Ce sont des qualités essentielles pour aider un patient addict.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Une liste de qualités sans explication ni exemple : ce n'est pas une argumentation."
+          },
+          {
+            "t": "Le soignant ne doit pas juger le patient, car l'addiction est une maladie. Il doit l'écouter et l'orienter vers des structures spécialisées, comme des consultations en addictologie.",
+            "ok": false,
+            "note": "3/5",
+            "why": "Les bonnes idées sont là, mais trop brèves : il manque développement, exemples, introduction et conclusion."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Les addictions touchent tout le monde, mais la honte retarde la demande d'aide, alors qu'une attitude sans jugement peut la faciliter.",
+            "ok": true,
+            "why": "Tu réunis le constat, le frein et la piste de solution."
+          },
+          {
+            "t": "Le tabac provoque le cancer.",
+            "ok": false,
+            "why": "Vrai, mais absent du texte : hors-sujet."
+          },
+          {
+            "t": "Les jeunes jouent trop aux jeux vidéo.",
+            "ok": false,
+            "why": "Un exemple, pris pour le problème."
+          },
+          {
+            "t": "Il faut interdire l'alcool.",
+            "ok": false,
+            "why": "Opinion absente du texte."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Quelle attitude un soignant doit-il adopter ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Ne pas juger pour instaurer la confiance — II. Écouter, accompagner et orienter.",
+            "ok": true,
+            "why": "Deux parties qui décrivent l'attitude et la justifient par le texte."
+          },
+          {
+            "t": "I. Les drogues légales — II. Les drogues illégales.",
+            "ok": false,
+            "why": "Plan de classification, hors de la question."
+          },
+          {
+            "t": "I. Les dangers de l'alcool — II. Les dangers du tabac.",
+            "ok": false,
+            "why": "Ne parle pas de l'attitude du soignant."
+          },
+          {
+            "t": "Une phrase : il faut être gentil.",
+            "ok": false,
+            "why": "Pas de plan ni d'argument."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Le soignant doit éviter de juger, car la honte pousse le patient à cacher sa consommation. Par exemple, une question ouverte posée sur un ton neutre l'aide à en parler. »",
+            "ok": true,
+            "why": "Idée, justification, exemple."
+          },
+          {
+            "t": "« Les addictions, c'est dangereux. »",
+            "ok": false,
+            "why": "Constat vague."
+          },
+          {
+            "t": "« Le patient doit se prendre en main. »",
+            "ok": false,
+            "why": "Jugement moral contraire au texte."
+          },
+          {
+            "t": "« Il faut être bienveillant et empathique. »",
+            "ok": false,
+            "why": "Qualités citées sans explication."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Tabac, alcool, jeux : les addictions sont souvent vécues dans la honte. Comment le soignant peut-il faciliter la demande d'aide ? Nous verrons l'importance du non-jugement, puis de l'accompagnement. »",
+            "ok": true,
+            "why": "Sujet, problème et plan."
+          },
+          {
+            "t": "« Moi, je n'ai jamais fumé. »",
+            "ok": false,
+            "why": "Anecdote personnelle hors propos."
+          },
+          {
+            "t": "« La drogue, c'est mal. »",
+            "ok": false,
+            "why": "Slogan, pas une introduction."
+          },
+          {
+            "t": "« Je vais parler des addictions. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les personnes dépendantes hésitent souvent à demander de l'aide. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Les personnes dépendante hésite souvent à demander de l'aide. »",
+            "ok": false,
+            "why": "Fautes d'accord : « dépendantes », « hésitent »."
+          },
+          {
+            "t": "« Les gens accros, ils osent pas demander de l'aide. »",
+            "ok": false,
+            "why": "Registre familier et négation incomplète."
+          },
+          {
+            "t": "« Les personnes, dépendantes hésitent, souvent à demander, de l'aide. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Une attitude sans jugement et une écoute patiente peuvent aider le patient à faire le premier pas. Futur infirmier, je sais que la confiance est souvent le point de départ du soin. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, il ne faut pas boire. »",
+            "ok": false,
+            "why": "Morale hors de la question."
+          },
+          {
+            "t": "« Pour finir, parlons du sport. »",
+            "ok": false,
+            "why": "Nouveau sujet."
+          },
+          {
+            "t": "« C'est un sujet difficile. »",
+            "ok": false,
+            "why": "Ne résume rien."
+          }
+        ]
+      }
+    ]
+  },
+  "consentement": {
+    "copies": [
+      {
+        "q": "Qu'est-ce qu'un consentement « libre et éclairé » d'après le texte ?",
+        "points": 2,
+        "reponses": [
+          {
+            "t": "Un consentement est libre lorsque le patient accepte un soin sans pression ni contrainte : il peut aussi le refuser, ou revenir sur son accord à tout moment. Il est éclairé lorsque le patient a reçu au préalable une information claire, adaptée et compréhensible sur le soin proposé. Il sait donc à quoi il consent. Selon le texte, aucun acte ni traitement ne peut être pratiqué sans ce consentement.",
+            "ok": true,
+            "note": "2/2",
+            "why": "Tu expliques séparément « libre » et « éclairé », et tu rappelles le principe et la possibilité de retrait."
+          },
+          {
+            "t": "Le consentement libre et éclairé, c'est quand le patient signe un papier avant une opération.",
+            "ok": false,
+            "note": "0,5/2",
+            "why": "Réducteur : une signature ne prouve pas que l'information a été comprise, et le consentement concerne tous les soins."
+          },
+          {
+            "t": "Le consentement doit être « libre et éclairé », et le patient doit recevoir « une information claire, adaptée et compréhensible ».",
+            "ok": false,
+            "note": "1/2",
+            "why": "Recopié : tu n'expliques pas ce que signifient « libre » et « éclairé »."
+          },
+          {
+            "t": "Le consentement libre et éclairé, c'est quand le médecin décide du meilleur traitement à la place du patient, pour son bien.",
+            "ok": false,
+            "note": "0/2",
+            "why": "Contresens : c'est le patient qui décide, après avoir été informé."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi le respect de ce principe est-il parfois difficile dans la pratique ?",
+        "points": 3,
+        "reponses": [
+          {
+            "t": "Le texte cite trois situations qui rendent ce principe difficile à respecter. La première est l'urgence : quand la vie du patient est en jeu, il n'y a pas toujours le temps d'informer longuement, et le patient peut être inconscient.\n\nLa deuxième est le manque de temps au quotidien. Dans un service chargé, expliquer un soin, vérifier que le patient a compris et répondre à ses questions demande une disponibilité qui manque parfois.\n\nLa troisième concerne les personnes qui ont du mal à exprimer leur volonté, par exemple un patient atteint de troubles cognitifs ou qui ne parle pas la langue. Il faut alors trouver d'autres moyens de l'informer et de recueillir son avis.",
+            "ok": true,
+            "note": "3/3",
+            "why": "Les trois difficultés du texte sont expliquées et illustrées, dans une réponse bien organisée."
+          },
+          {
+            "t": "Parce qu'en urgence on n'a pas le temps de demander l'avis du patient.",
+            "ok": false,
+            "note": "0,5/3",
+            "why": "Une seule difficulté, à peine expliquée."
+          },
+          {
+            "t": "C'est difficile car les patients ne comprennent rien aux explications médicales, donc ça ne sert à rien de leur demander leur avis.",
+            "ok": false,
+            "note": "0/3",
+            "why": "Conclusion contraire au principe : c'est au soignant d'adapter son information pour que le patient comprenne."
+          },
+          {
+            "t": "- urgence\n- manque de temps\n- patient qui ne peut pas s'exprimer",
+            "ok": false,
+            "note": "1,5/3",
+            "why": "Les trois idées sont justes, mais en liste, sans explication."
+          }
+        ]
+      },
+      {
+        "q": "Comment l'infirmier peut-il contribuer au respect du consentement du patient ? Argumentez.",
+        "points": 5,
+        "reponses": [
+          {
+            "t": "Le consentement libre et éclairé est un droit du patient. Proche de lui au quotidien, l'infirmier a un rôle essentiel pour le faire respecter.\n\nD'abord, il informe avant chaque soin. Expliquer simplement ce qu'il va faire et pourquoi, par exemple avant une prise de sang ou la pose d'une perfusion, permet au patient de comprendre et d'accepter. L'infirmier vérifie ensuite qu'il a compris, en l'invitant à poser des questions.\n\nEnsuite, il respecte le refus. Si un patient refuse un soin, l'infirmier ne le force pas : il cherche à comprendre ses raisons, lui réexplique si besoin, et transmet l'information au médecin et à l'équipe.\n\nEnfin, il adapte sa communication aux personnes qui ont du mal à s'exprimer : mots simples, gestes, interprète, présence d'un proche ou de la personne de confiance.\n\nRespecter le consentement, c'est reconnaître le patient comme acteur de ses soins. Futur infirmier, je veux faire de chaque soin un moment d'explication et de respect.",
+            "ok": true,
+            "note": "5/5",
+            "why": "Trois actions concrètes (informer, respecter le refus, adapter la communication), illustrées, avec une conclusion de valeur."
+          },
+          {
+            "t": "Si le patient refuse un soin, l'infirmier doit insister jusqu'à ce qu'il accepte, ou le faire quand même s'il pense que c'est pour son bien.",
+            "ok": false,
+            "note": "0/5",
+            "why": "Faux et contraire au principe énoncé dans le texte : un soin ne peut pas être imposé à un patient qui le refuse."
+          },
+          {
+            "t": "L'infirmier doit informer le patient et respecter ses choix. Il doit être à l'écoute et respectueux. C'est très important pour le respect du patient.",
+            "ok": false,
+            "note": "1,5/5",
+            "why": "Juste mais vague, sans exemple ni développement."
+          },
+          {
+            "t": "L'infirmier peut expliquer chaque soin au patient avant de le faire, pour qu'il comprenne. Et si le patient refuse, il doit prévenir le médecin. Comme ça le consentement est respecté.",
+            "ok": false,
+            "note": "3/5",
+            "why": "Deux bonnes actions, mais peu développées, sans introduction ni conclusion."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Quel est le problème principal soulevé par ce texte ?",
+        "opts": [
+          {
+            "t": "Tout soin exige le consentement libre et éclairé du patient, mais ce principe est parfois difficile à respecter en pratique.",
+            "ok": true,
+            "why": "Principe et difficulté d'application : c'est le cœur du texte."
+          },
+          {
+            "t": "Les patients ne lisent pas les documents qu'on leur donne.",
+            "ok": false,
+            "why": "Le texte n'en parle pas."
+          },
+          {
+            "t": "Les urgences sont débordées.",
+            "ok": false,
+            "why": "Une des difficultés citées, pas le problème."
+          },
+          {
+            "t": "Les médecins décident pour les patients.",
+            "ok": false,
+            "why": "Contraire au principe exposé."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Pour la question « Comment l'infirmier peut-il contribuer au respect du consentement ? », quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Informer clairement avant chaque soin — II. Respecter le refus et adapter la communication.",
+            "ok": true,
+            "why": "Deux parties qui reprennent les conditions du consentement libre et éclairé."
+          },
+          {
+            "t": "I. L'histoire du droit des patients — II. Les lois en Europe.",
+            "ok": false,
+            "why": "Plan juridique sans lien avec le rôle infirmier."
+          },
+          {
+            "t": "I. Pour le consentement — II. Contre le consentement.",
+            "ok": false,
+            "why": "Faux débat : le consentement est un principe à respecter."
+          },
+          {
+            "t": "Une seule partie sur la signature des documents.",
+            "ok": false,
+            "why": "Trop réducteur."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« L'infirmier informe avant chaque soin, car un patient ne peut accepter que ce qu'il comprend. Par exemple, il explique le déroulement d'une prise de sang et invite le patient à poser ses questions. »",
+            "ok": true,
+            "why": "Idée, justification, exemple."
+          },
+          {
+            "t": "« Le consentement est un droit fondamental. »",
+            "ok": false,
+            "why": "Vrai mais ce n'est pas un argument sur le rôle infirmier."
+          },
+          {
+            "t": "« Il faut respecter les patients. »",
+            "ok": false,
+            "why": "Trop vague."
+          },
+          {
+            "t": "« Le patient doit faire confiance aux soignants. »",
+            "ok": false,
+            "why": "Inverse la logique : c'est au soignant d'informer."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Aucun soin ne peut être réalisé sans le consentement libre et éclairé du patient. Comment l'infirmier peut-il le faire respecter au quotidien ? Nous verrons l'importance de l'information, puis du respect du refus. »",
+            "ok": true,
+            "why": "Principe rappelé, problème posé, plan annoncé."
+          },
+          {
+            "t": "« Les patients ont des droits et des devoirs. »",
+            "ok": false,
+            "why": "Généralité sans lien précis."
+          },
+          {
+            "t": "« J'ai déjà signé un formulaire à l'hôpital. »",
+            "ok": false,
+            "why": "Anecdote hors propos."
+          },
+          {
+            "t": "« Je vais répondre aux questions. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Le patient peut retirer son consentement à tout moment. »",
+            "ok": true,
+            "why": "Phrase correcte et fidèle au texte."
+          },
+          {
+            "t": "« Le patient peux retirer son consentement à tout moments. »",
+            "ok": false,
+            "why": "Fautes : « peut », « à tout moment »."
+          },
+          {
+            "t": "« Le patient, s'il veut plus, il peut dire non. »",
+            "ok": false,
+            "why": "Registre oral."
+          },
+          {
+            "t": "« Le patient peut, retirer son consentement, à tout moment. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« En informant, en respectant le refus et en adaptant sa communication, l'infirmier fait du patient un acteur de ses soins. Futur soignant, je veux faire de chaque soin un moment d'explication. »",
+            "ok": true,
+            "why": "Bilan et ouverture sur le métier."
+          },
+          {
+            "t": "« En conclusion, le patient a toujours raison. »",
+            "ok": false,
+            "why": "Formule simpliste qui ne résume pas la réponse."
+          },
+          {
+            "t": "« Pour finir, parlons des déserts médicaux. »",
+            "ok": false,
+            "why": "Nouveau sujet."
+          },
+          {
+            "t": "« Voilà ma copie. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  }
+}

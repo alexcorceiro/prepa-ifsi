@@ -4,7 +4,7 @@ Application d'entraînement à la sélection IFSI, voie formation professionnell
 
 - **Accueil** : double compte à rebours (oral et écrit), bandeau « Priorité à l'oral », progression par thème et historique.
 - **Calculs** : exercices générés à l'infini sur sept thèmes, dont « Concours+ » (9 types de problèmes plus difficiles, avec le piège signalé), correction pas à pas et séries chronométrées de 12 questions en 30 minutes.
-- **Rédaction** : 12 sujets sanitaires et sociaux, trois modes :
+- **Rédaction** : 15 sujets sanitaires et sociaux. À l'ouverture, un sujet est tiré au hasard parmi ceux pas encore faits ; on peut aussi le choisir dans la liste (✓ = déjà fait). À la fin d'un sujet, « Sujet suivant » enchaîne sur un autre sujet au hasard, jusqu'à avoir fait le tour des 15. Trois modes :
   - « QCM : la meilleure copie » : 4 réponses rédigées et notées par question, puis la copie modèle ;
   - « QCM : la méthode » : 6 étapes de construction d'une copie ;
   - « Écrire ma copie » : chrono de 30 minutes, copie à grands carreaux, correction notée sur 20.
@@ -35,11 +35,15 @@ src/
   styles.css              couleurs, polices et mise en page (thème clair et sombre)
   hooks/
     useTimer.js           compte à rebours réutilisable
+  data/
+    sujets.json           les 15 sujets : thème, titre, texte, questions
+    qcm-redaction.json    pour chaque sujet : les copies notées et le QCM de méthode
   lib/
     dates.js              dates clés (oral, écrit) et calcul des jours restants
     generators.js         générateurs d'exercices de calcul (dont Concours+) et vérification des réponses
-    subjects.js           sujets de rédaction
-    redactionQcm.js       QCM de rédaction : données du sujet « Les aidants » et consignes pour Claude
+    subjects.js           lit la liste des sujets dans data/sujets.json
+    subjectPicker.js      choix du sujet au hasard (d'abord ceux pas encore faits) et sujets terminés
+    redactionQcm.js       chargement des QCM de rédaction, et consignes pour Claude (claude.ai)
     oralQuestions.js      questions du QCM de l'oral
     oralProfil.js         ton profil (lettre et CV) et les trames de tes 13 réponses personnelles
     oralPrompts.js        consignes envoyées à Claude pour l'oral (correction, entretien, bilan)
@@ -70,13 +74,15 @@ src/
 
 Pour ajouter une question à l'oral, ajoute un objet dans `src/lib/oralQuestions.js` : 4 options, une seule avec `ok: true`, et une explication `why` pour chacune.
 
-Pour ajouter un sujet de rédaction, ajoute un objet dans `src/lib/subjects.js`.
+Pour ajouter un sujet de rédaction, ajoute-le dans `src/data/sujets.json`, puis ajoute ses copies et son QCM de méthode dans `src/data/qcm-redaction.json`, sous le même `id` (même format que les autres sujets).
 Pour ajouter un type de calcul, ajoute une fonction dans le thème voulu de l'objet `GEN` de `src/lib/generators.js` : elle doit renvoyer `{ q, ans, unit, steps }`.
 
 ## Ce qui utilise Claude
 
-La correction des rédactions, les QCM de rédaction des sujets autres que « Les aidants », la correction des réponses orales, l'entretien blanc et son bilan utilisent Claude via `window.claude`, qui n'existe que lorsque la page est publiée comme artifact sur claude.ai.
-En local (`npm run dev`), ces fonctions affichent une solution de remplacement (grille d'autoévaluation, sujet « Les aidants » intégré, trame de réponse). Tout le reste fonctionne.
+Les QCM de rédaction des 15 sujets sont intégrés à l'application (`src/data/`) : ils fonctionnent partout, sans réseau ni Claude. Sur claude.ai, un bouton permet en plus de demander à Claude de nouvelles copies.
+
+La correction des rédactions, la correction des réponses orales, l'entretien blanc et son bilan utilisent Claude via `window.claude`, qui n'existe que lorsque la page est publiée comme artifact sur claude.ai.
+En local (`npm run dev`), ces fonctions affichent une solution de remplacement (grille d'autoévaluation, trame de réponse). Tout le reste fonctionne.
 
 La dictée utilise la reconnaissance vocale du navigateur (Chrome, Edge, Safari). Si elle n'est pas disponible, l'app conseille le micro du clavier du téléphone.
 

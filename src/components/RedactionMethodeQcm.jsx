@@ -1,16 +1,22 @@
 import { useEffect, useRef, useState } from 'react';
 import { SUBJ } from '../lib/subjects.js';
-import { pick, shuffle } from '../lib/format.js';
-import { getSampler, ERR } from '../lib/claude.js';
-import { ETAPES, METHODE_INTEGREE, isValidMethode, methodePrompt } from '../lib/redactionQcm.js';
+import { shuffle } from '../lib/format.js';
+import { getSampler } from '../lib/claude.js';
+import { doneIds, markDone, nextSubject, optionLabel } from '../lib/subjectPicker.js';
+import { ETAPES, loadQcm, isValidMethode, methodePrompt } from '../lib/redactionQcm.js';
 
 // Déroulé du QCM de méthode, question par question, puis score.
-function MethodeQuiz({ qs, onDone, onAgain }) {
+function MethodeQuiz({ qs, onDone, onAgain, againLabel, onFinish, onNext }) {
   const [i, setI] = useState(0),
     [picked, setPicked] = useState(null),
     [score, setScore] = useState(0),
     q = qs[i],
     end = i >= qs.length;
+  const finished = i >= qs.length;
+  // Fin du QCM : le sujet est noté comme terminé (une seule fois).
+  useEffect(() => {
+    if (finished) onFinish && onFinish();
+  }, [finished]); // eslint-disable-line react-hooks/exhaustive-deps
   if (end)
     return (
       <div className="panel">
@@ -28,11 +34,14 @@ function MethodeQuiz({ qs, onDone, onAgain }) {
           de voir.
         </p>
         <div className="row">
-          <button className="btn" onClick={onDone}>
+          <button className="btn" onClick={onNext}>
+            Sujet suivant
+          </button>
+          <button className="btn ghost" onClick={onDone}>
             Écrire ma copie sur ce sujet
           </button>
           <button className="btn ghost" onClick={onAgain}>
-            Refaire un QCM
+            {againLabel}
           </button>
         </div>
       </div>
@@ -96,32 +105,48 @@ function MethodeQuiz({ qs, onDone, onAgain }) {
   );
 }
 
-// Onglet Rédaction, mode « QCM : la méthode ». Claude crée les questions ; sans Claude, seul le sujet « Les aidants » est disponible.
+// Onglet Rédaction, mode « QCM : la méthode ».
+// Les questions viennent de src/data/qcm-redaction.json : elles s'affichent tout de suite, sans réseau ni Claude.
+// Sur claude.ai uniquement, un bouton permet en plus de demander à Claude un nouveau QCM.
 export default function RedactionMethodeQcm({ onWrite }) {
-  const [sid, setSid] = useState(SUBJ[0].id),
+  // À l'ouverture : un sujet au hasard, parmi ceux pas encore faits dans ce QCM.
+  const [sid, setSid] = useState(() => nextSubject('methode').id),
+    [finishedIds, setFinishedIds] = useState(() => doneIds('methode')),
+    [roundMsg, setRoundMsg] = useState(false),
     [st, setSt] = useState({ status: 'idle' }),
     [n, setN] = useState(0),
+    [hasClaude, setHasClaude] = useState(false),
     sj = SUBJ.find((x) => x.id === sid) || SUBJ[0],
     ac = useRef(null);
-  useEffect(
-    () => () => {
+  useEffect(() => {
+    let on = true;
+    getSampler().then((g) => on && setHasClaude(!!g));
+    return () => {
+      on = false;
       ac.current && ac.current.abort();
-    },
-    [],
-  );
+    };
+  }, []);
   const prep = (qs) => qs.map((q) => ({ ...q, opts: shuffle(q.opts) }));
-  const gen = () => {
+  // QCM intégré à l'application (cas normal).
+  const showLocal = (id = sj.id) => {
+    ac.current && ac.current.abort();
+    loadQcm()
+      .then((d) => {
+        const f = d[id] && d[id].methode;
+        setSt(f ? { status: 'ready', qs: prep(f), fixed: true } : { status: 'unavailable' });
+        setN((x) => x + 1);
+      })
+      .catch(() => setSt({ status: 'unavailable' }));
+  };
+  // Nouveau QCM créé par Claude (claude.ai uniquement) ; en cas d'échec, retour au QCM intégré.
+  const genClaude = () => {
     ac.current && ac.current.abort();
     const c = new AbortController();
     ac.current = c;
     setSt({ status: 'loading' });
     getSampler()
       .then((g) => {
-        if (!g) {
-          const f = METHODE_INTEGREE[sj.id];
-          setSt(f ? { status: 'ready', qs: prep(f), fixed: true } : { status: 'unavailable' });
-          return;
-        }
+        if (!g) return showLocal(sj.id);
         return g.json(methodePrompt(sj), { signal: c.signal }).then((r) => {
           const qs = r && r.questions;
           if (!isValidMethode(qs)) throw { code: 'bad' };
@@ -129,16 +154,30 @@ export default function RedactionMethodeQcm({ onWrite }) {
           setN((x) => x + 1);
         });
       })
-      .catch((e) => {
-        if (c.signal.aborted) return;
-        const f = METHODE_INTEGREE[sj.id];
-        setSt(f ? { status: 'ready', qs: prep(f), fixed: true } : { status: 'error', code: e && e.code });
+      .catch(() => {
+        if (!c.signal.aborted) showLocal(sj.id);
       });
   };
   const change = (id) => {
     ac.current && ac.current.abort();
     setSid(id);
     setSt({ status: 'idle' });
+    setRoundMsg(false);
+    setFinishedIds(doneIds('methode'));
+  };
+  // QCM terminé : le sujet est coché comme fait.
+  const finish = () => {
+    markDone('methode', sj.id);
+    setFinishedIds(doneIds('methode'));
+  };
+  // « Sujet suivant » : un autre sujet au hasard, pas encore fait, qui démarre tout de suite.
+  const goNext = () => {
+    const { id, newRound } = nextSubject('methode', sid);
+    setSid(id);
+    setFinishedIds(doneIds('methode'));
+    setRoundMsg(newRound);
+    showLocal(id);
+    window.scrollTo(0, 0);
   };
   return (
     <section className="view">
@@ -155,16 +194,18 @@ export default function RedactionMethodeQcm({ onWrite }) {
           <select id="methode-subject" value={sid} onChange={(e) => change(e.target.value)}>
             {SUBJ.map((x) => (
               <option key={x.id} value={x.id}>
-                {x.theme}
-                {' · '}
-                {x.title}
+                {optionLabel(x, finishedIds)}
               </option>
             ))}
           </select>
-          <button className="btn ghost" onClick={() => change(pick(SUBJ.filter((x) => x.id !== sid)).id)}>
+          <button className="btn ghost" onClick={() => change(nextSubject('methode', sid).id)}>
             Sujet au hasard
           </button>
         </div>
+        <p className="note">
+          {finishedIds.length}/{SUBJ.length} sujets faits · ✓ = déjà fait · le hasard choisit d'abord les sujets pas encore faits
+        </p>
+        {roundMsg && <p className="fb ok">Bravo, tu as fait les {SUBJ.length} sujets ! Un nouveau tour commence.</p>}
         <div className="sujet">
           <h3>{sj.title}</h3>
           {sj.doc && <blockquote>{sj.doc}</blockquote>}
@@ -176,7 +217,7 @@ export default function RedactionMethodeQcm({ onWrite }) {
         </div>
         {st.status === 'idle' && (
           <div>
-            <button className="btn" onClick={gen}>
+            <button className="btn" onClick={() => showLocal()}>
               Commencer le QCM
             </button>
           </div>
@@ -184,29 +225,24 @@ export default function RedactionMethodeQcm({ onWrite }) {
       </div>
       {st.status === 'loading' && (
         <div className="panel">
-          <p className="thinking">Préparation des questions sur ce sujet…</p>
+          <p className="thinking">Claude prépare un nouveau QCM sur ce sujet…</p>
         </div>
       )}
       {st.status === 'unavailable' && (
         <div className="panel">
-          <p>
-            Le QCM de ce sujet est créé par Claude, qui n'est pas disponible ici. Choisis le sujet « Les aidants, des soignants invisibles »
-            : son QCM est intégré à l'application.
-          </p>
-        </div>
-      )}
-      {st.status === 'error' && (
-        <div className="panel">
-          <p>{ERR[st.code] || "La création du QCM n'a pas abouti."}</p>
-          <div>
-            <button className="btn" onClick={gen}>
-              Réessayer
-            </button>
-          </div>
+          <p>Le QCM de ce sujet n'est pas encore disponible. Choisis un autre sujet.</p>
         </div>
       )}
       {st.status === 'ready' && (
-        <MethodeQuiz key={`${sid}-${n}-${st.fixed ? 'f' : 'g'}`} qs={st.qs} onDone={() => onWrite(sj.id)} onAgain={gen} />
+        <MethodeQuiz
+          key={`${sid}-${n}-${st.fixed ? 'f' : 'g'}`}
+          qs={st.qs}
+          onDone={() => onWrite(sj.id)}
+          onAgain={hasClaude ? genClaude : () => showLocal()}
+          onFinish={finish}
+          onNext={goNext}
+          againLabel={hasClaude ? 'Nouveau QCM avec Claude' : 'Refaire ce QCM'}
+        />
       )}
     </section>
   );

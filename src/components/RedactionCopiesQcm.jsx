@@ -1,16 +1,22 @@
 import { useEffect, useRef, useState } from 'react';
 import { SUBJ } from '../lib/subjects.js';
-import { pick, shuffle, f } from '../lib/format.js';
-import { getSampler, ERR } from '../lib/claude.js';
-import { COPIES_INTEGREES, isValidCopies, copiesPrompt } from '../lib/redactionQcm.js';
+import { shuffle, f } from '../lib/format.js';
+import { getSampler } from '../lib/claude.js';
+import { doneIds, markDone, nextSubject, optionLabel } from '../lib/subjectPicker.js';
+import { loadQcm, isValidCopies, copiesPrompt } from '../lib/redactionQcm.js';
 
 // Déroulé du QCM « la meilleure copie » : une question du sujet à la fois, puis la copie modèle complète.
-function CopiesQuiz({ sj, qs, onWrite, onAgain }) {
+function CopiesQuiz({ sj, qs, onWrite, onAgain, againLabel, onFinish, onNext }) {
   const [i, setI] = useState(0),
     [picked, setPicked] = useState(null),
     [got, setGot] = useState(0),
     q = qs[i],
     total = qs.reduce((a, x) => a + (Number(x.points) || 0), 0) || null;
+  const finished = i >= qs.length;
+  // Fin du QCM : le sujet est noté comme terminé (une seule fois).
+  useEffect(() => {
+    if (finished) onFinish && onFinish();
+  }, [finished]); // eslint-disable-line react-hooks/exhaustive-deps
   if (i >= qs.length) {
     const best = qs.map((x) => x.reponses.find((r) => r.ok));
     return (
@@ -45,11 +51,14 @@ function CopiesQuiz({ sj, qs, onWrite, onAgain }) {
           ))}
         </div>
         <div className="row">
-          <button className="btn" onClick={onWrite}>
+          <button className="btn" onClick={onNext}>
+            Sujet suivant
+          </button>
+          <button className="btn ghost" onClick={onWrite}>
             Rédiger ma copie sur ce sujet
           </button>
           <button className="btn ghost" onClick={onAgain}>
-            Nouvelles réponses
+            {againLabel}
           </button>
         </div>
       </div>
@@ -129,35 +138,48 @@ function CopiesQuiz({ sj, qs, onWrite, onAgain }) {
   );
 }
 
-// Onglet Rédaction, mode « QCM : la meilleure copie ». Claude rédige les copies ; sans Claude, seul le sujet « Les aidants » est disponible.
+// Onglet Rédaction, mode « QCM : la meilleure copie ».
+// Les copies viennent de src/data/qcm-redaction.json : elles s'affichent tout de suite, sans réseau ni Claude.
+// Sur claude.ai uniquement, un bouton permet en plus de demander à Claude de nouvelles copies.
 export default function RedactionCopiesQcm({ onWrite }) {
-  const [sid, setSid] = useState(SUBJ[0].id),
+  // À l'ouverture : un sujet au hasard, parmi ceux pas encore faits dans ce QCM.
+  const [sid, setSid] = useState(() => nextSubject('copies').id),
+    [finishedIds, setFinishedIds] = useState(() => doneIds('copies')),
+    [roundMsg, setRoundMsg] = useState(false),
     [st, setSt] = useState({ status: 'idle' }),
     [n, setN] = useState(0),
+    [hasClaude, setHasClaude] = useState(false),
     sj = SUBJ.find((x) => x.id === sid) || SUBJ[0],
     ac = useRef(null);
-  useEffect(
-    () => () => {
+  useEffect(() => {
+    let on = true;
+    getSampler().then((g) => on && setHasClaude(!!g));
+    return () => {
+      on = false;
       ac.current && ac.current.abort();
-    },
-    [],
-  );
+    };
+  }, []);
   const prep = (qs) => qs.map((q) => ({ ...q, points: Number(q.points) || 0, reponses: shuffle(q.reponses) }));
-  const fixed = () => {
-    const f = COPIES_INTEGREES[sj.id];
-    return f ? { status: 'ready', qs: prep(f), fixed: true } : null;
+  // Copies intégrées à l'application (cas normal).
+  const showLocal = (id = sj.id) => {
+    ac.current && ac.current.abort();
+    loadQcm()
+      .then((d) => {
+        const f = d[id] && d[id].copies;
+        setSt(f ? { status: 'ready', qs: prep(f), fixed: true } : { status: 'unavailable' });
+        setN((x) => x + 1);
+      })
+      .catch(() => setSt({ status: 'unavailable' }));
   };
-  const gen = () => {
+  // Nouvelles copies rédigées par Claude (claude.ai uniquement) ; en cas d'échec, retour aux copies intégrées.
+  const genClaude = () => {
     ac.current && ac.current.abort();
     const c = new AbortController();
     ac.current = c;
     setSt({ status: 'loading' });
     getSampler()
       .then((g) => {
-        if (!g) {
-          setSt(fixed() || { status: 'unavailable' });
-          return;
-        }
+        if (!g) return showLocal(sj.id);
         return g.json(copiesPrompt(sj), { signal: c.signal, modelTier: 'complex' }).then((r) => {
           const qs = r && r.questions;
           if (!isValidCopies(qs)) throw { code: 'bad' };
@@ -165,15 +187,30 @@ export default function RedactionCopiesQcm({ onWrite }) {
           setN((x) => x + 1);
         });
       })
-      .catch((e) => {
-        if (c.signal.aborted) return;
-        setSt(fixed() || { status: 'error', code: e && e.code });
+      .catch(() => {
+        if (!c.signal.aborted) showLocal(sj.id);
       });
   };
   const change = (id) => {
     ac.current && ac.current.abort();
     setSid(id);
     setSt({ status: 'idle' });
+    setRoundMsg(false);
+    setFinishedIds(doneIds('copies'));
+  };
+  // QCM terminé : le sujet est coché comme fait.
+  const finish = () => {
+    markDone('copies', sj.id);
+    setFinishedIds(doneIds('copies'));
+  };
+  // « Sujet suivant » : un autre sujet au hasard, pas encore fait, qui démarre tout de suite.
+  const goNext = () => {
+    const { id, newRound } = nextSubject('copies', sid);
+    setSid(id);
+    setFinishedIds(doneIds('copies'));
+    setRoundMsg(newRound);
+    showLocal(id);
+    window.scrollTo(0, 0);
   };
   return (
     <section className="view">
@@ -190,16 +227,18 @@ export default function RedactionCopiesQcm({ onWrite }) {
           <select id="copies-subject" value={sid} onChange={(e) => change(e.target.value)}>
             {SUBJ.map((x) => (
               <option key={x.id} value={x.id}>
-                {x.theme}
-                {' · '}
-                {x.title}
+                {optionLabel(x, finishedIds)}
               </option>
             ))}
           </select>
-          <button className="btn ghost" onClick={() => change(pick(SUBJ.filter((x) => x.id !== sid)).id)}>
+          <button className="btn ghost" onClick={() => change(nextSubject('copies', sid).id)}>
             Sujet au hasard
           </button>
         </div>
+        <p className="note">
+          {finishedIds.length}/{SUBJ.length} sujets faits · ✓ = déjà fait · le hasard choisit d'abord les sujets pas encore faits
+        </p>
+        {roundMsg && <p className="fb ok">Bravo, tu as fait les {SUBJ.length} sujets ! Un nouveau tour commence.</p>}
         <div className="sujet">
           <h3>{sj.title}</h3>
           {sj.doc && <blockquote>{sj.doc}</blockquote>}
@@ -211,7 +250,7 @@ export default function RedactionCopiesQcm({ onWrite }) {
         </div>
         {st.status === 'idle' && (
           <div>
-            <button className="btn" onClick={gen}>
+            <button className="btn" onClick={() => showLocal()}>
               Voir les copies
             </button>
           </div>
@@ -224,24 +263,20 @@ export default function RedactionCopiesQcm({ onWrite }) {
       )}
       {st.status === 'unavailable' && (
         <div className="panel">
-          <p>
-            Les copies de ce sujet sont rédigées par Claude, qui n'est pas disponible ici. Choisis le sujet « Les aidants, des soignants
-            invisibles » : ses copies sont intégrées à l'application.
-          </p>
-        </div>
-      )}
-      {st.status === 'error' && (
-        <div className="panel">
-          <p>{ERR[st.code] || "La création des copies n'a pas abouti."}</p>
-          <div>
-            <button className="btn" onClick={gen}>
-              Réessayer
-            </button>
-          </div>
+          <p>Les copies de ce sujet ne sont pas encore disponibles. Choisis un autre sujet.</p>
         </div>
       )}
       {st.status === 'ready' && (
-        <CopiesQuiz key={`${sid}-${n}-${st.fixed ? 'f' : 'g'}`} sj={sj} qs={st.qs} onWrite={() => onWrite(sj.id)} onAgain={gen} />
+        <CopiesQuiz
+          key={`${sid}-${n}-${st.fixed ? 'f' : 'g'}`}
+          sj={sj}
+          qs={st.qs}
+          onWrite={() => onWrite(sj.id)}
+          onAgain={hasClaude ? genClaude : () => showLocal()}
+          onFinish={finish}
+          onNext={goNext}
+          againLabel={hasClaude ? 'Nouvelles copies avec Claude' : 'Recommencer ce QCM'}
+        />
       )}
     </section>
   );
