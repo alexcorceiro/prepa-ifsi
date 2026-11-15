@@ -158,5 +158,75 @@
       "Pourquoi le respect de ce principe est-il parfois difficile dans la pratique ?",
       "Comment l'infirmier peut-il contribuer au respect du consentement du patient ? Argumentez."
     ]
+  },
+  {
+    "id": "pdf-alimentation",
+    "theme": "Prévention",
+    "title": "Alimentation, obésité et prévention *",
+    "doc": "L'alimentation joue un rôle essentiel dans le maintien d'une bonne santé. Elle apporte à l'organisme les nutriments nécessaires à son fonctionnement et contribue au développement physique et intellectuel.\n\nCependant, les habitudes alimentaires ont évolué au cours des dernières décennies. La consommation de produits transformés, souvent riches en sucres, en sel et en matières grasses, a augmenté. Parallèlement, les modes de vie sont devenus plus sédentaires, notamment en raison du développement des écrans et de la diminution de certaines activités physiques quotidiennes.\n\nCes changements favorisent l'apparition de maladies chroniques telles que le diabète de type 2, les maladies cardiovasculaires et l'obésité.\n\nLa prévention repose notamment sur l'éducation nutritionnelle, la pratique régulière d'une activité physique et l'accès à une alimentation équilibrée. Les professionnels de santé ont un rôle important à jouer dans l'accompagnement des personnes, sans jugement ni culpabilisation.\n\nL'objectif n'est pas d'imposer un modèle alimentaire unique, mais d'aider chacun à comprendre ses besoins et à adopter progressivement des habitudes favorables à sa santé.",
+    "qs": [
+      "Explique pourquoi l'alimentation est essentielle au fonctionnement de l'organisme.",
+      "Cite trois facteurs qui favorisent le développement de l'obésité selon le texte.",
+      "Quelles maladies chroniques sont mentionnées dans le texte ?",
+      "Explique ce que signifie « éducation nutritionnelle ».",
+      "Pourquoi est-il important que les professionnels de santé accompagnent les patients sans les culpabiliser ?",
+      "Selon toi, comment les professionnels de santé peuvent-ils contribuer à améliorer les habitudes alimentaires de la population ? Développe ton argumentation avec des exemples concrets, une introduction, un développement et une conclusion (20 à 25 lignes)."
+    ]
+  },
+  {
+    "id": "pdf-vieillissement",
+    "theme": "Vieillissement",
+    "title": "Vieillissement et maintien à domicile *",
+    "doc": "L'espérance de vie augmente dans de nombreux pays. Cette évolution constitue un progrès, mais elle entraîne également de nouveaux besoins en matière de santé et d'accompagnement.\n\nAvec l'âge, certaines personnes peuvent rencontrer des difficultés pour effectuer les gestes de la vie quotidienne : se laver, s'habiller, préparer les repas ou se déplacer. Ces difficultés peuvent être liées à des maladies chroniques, à une diminution de la mobilité ou à des troubles cognitifs.\n\nLe maintien à domicile représente une solution privilégiée par de nombreuses personnes âgées. Il leur permet de conserver leurs habitudes, leur environnement et une certaine autonomie. Toutefois, cette solution nécessite parfois l'intervention de professionnels : infirmiers, aides-soignants, auxiliaires de vie ou services d'aide à domicile.\n\nLes proches jouent également un rôle important. Cependant, leur investissement peut entraîner une fatigue physique et psychologique. Il est donc nécessaire de proposer des dispositifs de soutien aux aidants.\n\nL'accompagnement des personnes âgées doit respecter leur dignité, leurs choix et leur rythme de vie. Il ne s'agit pas de faire systématiquement à leur place, mais de les aider à conserver autant que possible leur autonomie.",
+    "qs": [
+      "Pourquoi le vieillissement de la population représente-t-il un enjeu pour le système de santé ?",
+      "Cite quatre activités quotidiennes pouvant devenir difficiles avec l'âge.",
+      "Quels sont les avantages du maintien à domicile ?",
+      "Pourquoi les proches aidants peuvent-ils avoir besoin de soutien ?",
+      "Explique la différence entre aider une personne et faire systématiquement à sa place.",
+      "Le maintien de l'autonomie des personnes âgées doit-il être une priorité dans notre société ? Présente les avantages, les difficultés et le rôle des professionnels de santé (20 à 25 lignes)."
+    ]
+  },
+  {
+    "id": "pdf-santementale",
+    "theme": "Santé mentale",
+    "title": "Santé mentale et isolement social *",
+    "doc": "La santé mentale constitue une composante essentielle de la santé globale. Elle ne se limite pas à l'absence de maladie psychique : elle concerne également le bien-être émotionnel, psychologique et social.\n\nChez les jeunes, plusieurs facteurs peuvent fragiliser cet équilibre. Les difficultés scolaires, les problèmes familiaux, la précarité, les discriminations ou encore l'isolement peuvent avoir des conséquences importantes.\n\nLes réseaux sociaux occupent une place croissante dans la vie quotidienne. Ils facilitent les échanges et permettent de maintenir des liens à distance. Toutefois, leur utilisation excessive peut favoriser la comparaison sociale, le sentiment d'exclusion ou les troubles du sommeil.\n\nCertaines personnes rencontrant des difficultés psychologiques hésitent à demander de l'aide. La peur du jugement et les idées reçues concernant les troubles psychiques peuvent constituer des obstacles.\n\nLa prévention passe par l'information, l'écoute et l'accès aux professionnels compétents. Il est important de rappeler qu'une souffrance psychologique ne doit pas être minimisée et qu'une demande d'aide constitue une démarche positive.",
+    "qs": [
+      "Pourquoi la santé mentale ne se limite-t-elle pas à l'absence de maladie psychique ?",
+      "Cite quatre facteurs pouvant fragiliser la santé mentale des jeunes.",
+      "Donne deux effets positifs et deux effets négatifs possibles des réseaux sociaux.",
+      "Pourquoi certaines personnes hésitent-elles à demander de l'aide ?",
+      "Cite trois moyens de prévention évoqués ou suggérés par le texte.",
+      "Les problèmes de santé mentale chez les jeunes sont-ils suffisamment pris en considération par la société ? Développe ton point de vue en présentant les difficultés, les conséquences et les solutions possibles (20 à 25 lignes)."
+    ]
+  },
+  {
+    "id": "pdf-acces",
+    "theme": "Accès aux soins",
+    "title": "Accès aux soins et déserts médicaux *",
+    "doc": "L'accès aux soins constitue un enjeu majeur de santé publique. En France, toutes les personnes ne bénéficient pas des mêmes possibilités pour consulter un professionnel de santé.\n\nDans certains territoires, notamment les zones rurales ou certaines zones périurbaines, le nombre de médecins disponibles est insuffisant par rapport aux besoins de la population. Ces territoires sont souvent désignés sous le terme de « déserts médicaux ».\n\nCette situation peut entraîner des délais d'attente importants, des déplacements longs et parfois un renoncement aux soins. Les personnes âgées, les personnes en situation de handicap et les personnes disposant de faibles ressources peuvent être particulièrement touchées.\n\nPlusieurs solutions sont envisagées pour améliorer la situation : développer les maisons de santé pluriprofessionnelles, renforcer les équipes de soins, favoriser la télémédecine et améliorer l'attractivité des territoires pour les professionnels.\n\nCependant, les outils numériques ne peuvent pas remplacer toutes les consultations physiques. Le contact humain, l'examen clinique et la relation de confiance restent essentiels dans de nombreuses situations.\n\nL'accès aux soins doit être considéré comme un élément fondamental de l'égalité entre les citoyens.",
+    "qs": [
+      "Qu'appelle-t-on un désert médical ?",
+      "Quelles conséquences peuvent découler du manque de professionnels de santé ?",
+      "Quelles populations sont particulièrement touchées ?",
+      "Cite trois solutions permettant d'améliorer l'accès aux soins.",
+      "Pourquoi la télémédecine ne peut-elle pas remplacer toutes les consultations ?",
+      "L'accès aux soins devrait-il être identique pour tous les citoyens, quel que soit leur lieu de résidence ? Argumente ta réponse en utilisant des exemples concrets (20 à 25 lignes)."
+    ]
+  },
+  {
+    "id": "pdf-ethique",
+    "theme": "Éthique",
+    "title": "Éthique, bientraitance et profession infirmière *",
+    "doc": "La prise en charge d'une personne malade ne se limite pas à la réalisation de soins techniques. Elle nécessite également une attention particulière à sa dignité, à son intimité, à ses choix et à ses besoins.\n\nLa bientraitance repose sur une attitude professionnelle respectueuse, bienveillante et adaptée à chaque personne. Elle implique notamment de prendre le temps d'écouter le patient, de lui expliquer les soins et de respecter autant que possible son rythme.\n\nDans certaines situations, les professionnels de santé sont confrontés à des difficultés : manque de temps, effectifs insuffisants, fatigue ou situations d'urgence. Ces contraintes peuvent fragiliser la qualité de l'accompagnement.\n\nLe respect du consentement est également essentiel. Un patient doit recevoir des informations compréhensibles afin de pouvoir participer aux décisions concernant sa santé. Son refus doit être entendu et pris en compte dans le cadre légal et médical applicable.\n\nLe travail en équipe permet de partager les informations utiles, d'améliorer la coordination et de prévenir certaines erreurs. Chaque professionnel doit connaître ses responsabilités et respecter les compétences des autres membres de l'équipe.\n\nLa qualité des soins dépend donc à la fois des connaissances techniques, de l'organisation et des qualités humaines des professionnels.",
+    "qs": [
+      "Pourquoi la prise en charge d'un patient ne se limite-t-elle pas aux soins techniques ?",
+      "Donne quatre exemples de comportements relevant de la bientraitance.",
+      "Quelles contraintes peuvent fragiliser la qualité de l'accompagnement ?",
+      "Pourquoi le consentement du patient est-il important ?",
+      "Quel est l'intérêt du travail en équipe dans les soins ?",
+      "Peut-on être un bon professionnel de santé sans qualités humaines ? Tu développeras une argumentation structurée en abordant les compétences techniques, l'écoute, l'empathie et le travail en équipe (20 à 25 lignes)."
+    ]
   }
 ]

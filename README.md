@@ -4,7 +4,7 @@ Application d'entraînement à la sélection IFSI, voie formation professionnell
 
 - **Accueil** : double compte à rebours (oral et écrit), bandeau « Priorité à l'oral », progression par thème et historique.
 - **Calculs** : exercices générés à l'infini sur sept thèmes, dont « Concours+ » (9 types de problèmes plus difficiles, avec le piège signalé), correction pas à pas et séries chronométrées de 12 questions en 30 minutes.
-- **Rédaction** : 15 sujets sanitaires et sociaux. À l'ouverture, un sujet est tiré au hasard parmi ceux pas encore faits ; on peut aussi le choisir dans la liste (✓ = déjà fait). À la fin d'un sujet, « Sujet suivant » enchaîne sur un autre sujet au hasard, jusqu'à avoir fait le tour des 15. Trois modes :
+- **Rédaction** : 20 sujets sanitaires et sociaux, dont 5 sujets d'entraînement marqués « * » (avec leurs corrigés). À l'ouverture, un sujet est tiré au hasard parmi ceux pas encore faits ; on peut aussi le choisir dans la liste (✓ = déjà fait). À la fin d'un sujet, « Sujet suivant » enchaîne sur un autre sujet au hasard, jusqu'à avoir fait le tour des 15. Trois modes :
   - « QCM : la meilleure copie » : 4 réponses rédigées et notées par question, puis la copie modèle ;
   - « QCM : la méthode » : 6 étapes de construction d'une copie ;
   - « Écrire ma copie » : chrono de 30 minutes, copie à grands carreaux, correction notée sur 20.
@@ -38,6 +38,7 @@ src/
   data/
     sujets.json           les 15 sujets : thème, titre, texte, questions
     qcm-redaction.json    pour chaque sujet : les copies notées et le QCM de méthode
+    calculs-sujets.json   exercices de calcul des sujets « * » (thème « Sujets * » de l'onglet Calculs)
   lib/
     dates.js              dates clés (oral, écrit) et calcul des jours restants
     generators.js         générateurs d'exercices de calcul (dont Concours+) et vérification des réponses

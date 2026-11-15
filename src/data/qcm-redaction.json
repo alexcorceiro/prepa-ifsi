@@ -3628,5 +3628,1715 @@
         ]
       }
     ]
+  },
+  "pdf-alimentation": {
+    "copies": [
+      {
+        "q": "Explique pourquoi l'alimentation est essentielle au fonctionnement de l'organisme.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "L'alimentation apporte à l'organisme les nutriments nécessaires à son fonctionnement. Elle lui fournit de l'énergie, contribue au développement physique et intellectuel et participe au maintien d'une bonne santé.",
+            "ok": true,
+            "note": "4/4",
+            "why": "C'est la réponse du corrigé : rôle des nutriments, énergie, développement et santé, en phrases complètes."
+          },
+          {
+            "t": "Parce qu'il faut manger pour vivre.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Vrai mais beaucoup trop court : la question demande d'expliquer, avec les éléments du texte."
+          },
+          {
+            "t": "L'alimentation « apporte à l'organisme les nutriments nécessaires à son fonctionnement ».",
+            "ok": false,
+            "note": "2/4",
+            "why": "Une partie juste, mais recopiée et incomplète : il manque le développement physique et intellectuel."
+          },
+          {
+            "t": "L'alimentation est essentielle car les produits transformés rendent malade et font grossir.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Hors-sujet : tu parles des risques de certains aliments, pas du rôle de l'alimentation pour l'organisme."
+          }
+        ]
+      },
+      {
+        "q": "Cite trois facteurs qui favorisent le développement de l'obésité selon le texte.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte cite trois facteurs : la consommation de produits transformés riches en sucres, en sel et en matières grasses ; la sédentarité, liée notamment aux écrans ; et la diminution de l'activité physique quotidienne.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les trois facteurs du corrigé sont cités clairement, avec une précision tirée du texte."
+          },
+          {
+            "t": "Les sucres, le sel et le gras.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Tu détailles un seul facteur (les produits transformés) et oublies la sédentarité et le manque d'activité physique."
+          },
+          {
+            "t": "La génétique, le stress et le manque de sommeil.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Ces facteurs existent, mais ils ne sont pas dans le texte : la question demande « selon le texte »."
+          },
+          {
+            "t": "Les produits transformés, les écrans.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Deux bonnes idées sur trois, sans phrase rédigée."
+          }
+        ]
+      },
+      {
+        "q": "Quelles maladies chroniques sont mentionnées dans le texte ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte mentionne trois maladies chroniques : le diabète de type 2, les maladies cardiovasculaires et l'obésité.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les trois maladies du texte, dans une phrase complète."
+          },
+          {
+            "t": "Le diabète et le cancer.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Le diabète est juste, mais le cancer n'est pas cité dans le texte, et il manque deux maladies."
+          },
+          {
+            "t": "Le diabète de type 2, les maladies cardiovasculaires.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Deux maladies sur trois : l'obésité manque."
+          },
+          {
+            "t": "Les maladies chroniques sont des maladies qui durent longtemps.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Tu définis le mot au lieu de citer les maladies demandées."
+          }
+        ]
+      },
+      {
+        "q": "Explique ce que signifie « éducation nutritionnelle ».",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "L'éducation nutritionnelle regroupe les actions d'information et de sensibilisation qui aident les personnes à comprendre l'équilibre alimentaire et à faire des choix adaptés à leurs besoins.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Définition claire et complète, conforme au corrigé."
+          },
+          {
+            "t": "C'est un régime imposé par un médecin pour perdre du poids.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Contresens : le texte précise qu'il ne s'agit pas d'imposer un modèle alimentaire."
+          },
+          {
+            "t": "C'est apprendre à bien manger.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Idée juste mais trop vague : il faut parler d'information, de compréhension et de choix adaptés."
+          },
+          {
+            "t": "L'éducation nutritionnelle, c'est l'école qui donne des cours de cuisine aux enfants.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Exemple réducteur qui ne définit pas la notion."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi est-il important que les professionnels de santé accompagnent les patients sans les culpabiliser ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Les habitudes alimentaires ne dépendent pas seulement de la volonté : elles sont liées aux revenus, à l'environnement, à la culture et aux conditions de vie. Une approche bienveillante favorise le dialogue et permet des changements progressifs, alors qu'un patient culpabilisé risque de se fermer.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Tu expliques les deux raisons du corrigé : les causes multiples des habitudes et l'efficacité d'une approche bienveillante."
+          },
+          {
+            "t": "Parce que c'est méchant de culpabiliser les gens.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Jugement moral sans explication : pourquoi est-ce contre-productif ?"
+          },
+          {
+            "t": "Un patient culpabilisé se sent jugé et n'ose plus parler de ses habitudes. Il vaut mieux l'écouter.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Bonne idée sur le dialogue, mais tu oublies que les habitudes dépendent aussi des revenus, de la culture et du mode de vie."
+          },
+          {
+            "t": "Il ne faut pas culpabiliser les patients, sinon ils vont porter plainte contre l'hôpital.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Raison hors de propos : la question porte sur la relation de soin et la prévention."
+          }
+        ]
+      },
+      {
+        "q": "Selon toi, comment les professionnels de santé peuvent-ils contribuer à améliorer les habitudes alimentaires de la population ? Développe ton argumentation avec des exemples concrets, une introduction, un développement et une conclusion (20 à 25 lignes).",
+        "points": 30,
+        "reponses": [
+          {
+            "t": "L'alimentation occupe une place importante dans notre santé. Pourtant, les habitudes alimentaires évoluent et certaines personnes consomment régulièrement des produits trop riches en sucres, en sel ou en matières grasses. Les professionnels de santé ont donc un rôle essentiel dans la prévention.\n\nTout d'abord, ils peuvent informer la population sur les bienfaits d'une alimentation équilibrée. Par exemple, ils peuvent expliquer l'intérêt de consommer des fruits et des légumes, de boire suffisamment d'eau et de limiter les produits très transformés.\n\nEnsuite, ils peuvent accompagner individuellement les personnes qui rencontrent des difficultés. Une personne en surpoids ne doit pas être jugée ou culpabilisée. Il est préférable de comprendre ses habitudes et de lui proposer des changements progressifs et réalisables.\n\nEnfin, la prévention doit commencer dès l'enfance. Les écoles, les familles et les professionnels de santé peuvent travailler ensemble pour sensibiliser les jeunes à l'importance de l'alimentation et de l'activité physique.\n\nPour conclure, les professionnels de santé ne doivent pas seulement soigner les maladies liées à l'alimentation. Ils doivent également informer, écouter et accompagner la population afin de prévenir leur apparition.",
+            "ok": true,
+            "note": "30/30",
+            "why": "C'est la rédaction modèle du corrigé : introduction, trois arguments illustrés (informer, accompagner, agir dès l'enfance) et une conclusion qui répond à la question."
+          },
+          {
+            "t": "Les professionnels de santé peuvent faire des affiches, des conférences, des vidéos sur internet, des consultations, des ateliers cuisine et des interventions dans les écoles. Ils peuvent aussi conseiller de manger cinq fruits et légumes par jour et de faire du sport.",
+            "ok": false,
+            "note": "9/30",
+            "why": "Des idées justes mais seulement listées : pas d'introduction, aucun argument expliqué, pas de conclusion."
+          },
+          {
+            "t": "J'ai toujours voulu devenir infirmier car j'aime aider les autres. Je pense que je pourrai aider les patients à mieux manger. Mon expérience professionnelle m'a appris l'écoute et la patience, ce qui me servira dans ce métier.",
+            "ok": false,
+            "note": "3/30",
+            "why": "Hors-sujet : tu parles de ta motivation au lieu de répondre à la question posée."
+          },
+          {
+            "t": "Les professionnels de santé doivent obliger les gens à manger équilibré. Il faudrait interdire les fast-foods et taxer fortement les sodas. Les personnes obèses doivent faire des efforts et arrêter de manger n'importe quoi.",
+            "ok": false,
+            "note": "6/30",
+            "why": "Ton culpabilisant, contraire au texte, et propositions qui ne concernent pas le rôle des soignants."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Que demande exactement la question de réflexion ?",
+        "opts": [
+          {
+            "t": "Expliquer, avec des exemples, comment les soignants peuvent aider la population à améliorer ses habitudes alimentaires.",
+            "ok": true,
+            "why": "Tu identifies l'acteur (les soignants), l'objectif (les habitudes) et la consigne (argumenter avec des exemples)."
+          },
+          {
+            "t": "Expliquer ce qu'est l'obésité.",
+            "ok": false,
+            "why": "Une définition ne répond pas à la question du rôle des soignants."
+          },
+          {
+            "t": "Dire si l'on aime manger équilibré.",
+            "ok": false,
+            "why": "Avis personnel hors sujet."
+          },
+          {
+            "t": "Résumer le texte.",
+            "ok": false,
+            "why": "Le résumé n'est pas demandé dans la réflexion."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Informer la population — II. Accompagner chaque personne sans la juger — III. Agir dès l'enfance.",
+            "ok": true,
+            "why": "Trois manières d'agir des soignants : c'est le plan du corrigé."
+          },
+          {
+            "t": "I. Les aliments sucrés — II. Les aliments salés — III. Les aliments gras.",
+            "ok": false,
+            "why": "Plan de catalogue, qui ne parle pas du rôle des soignants."
+          },
+          {
+            "t": "I. Mes habitudes — II. Celles de ma famille.",
+            "ok": false,
+            "why": "Plan personnel hors sujet."
+          },
+          {
+            "t": "Une seule partie sur le diabète.",
+            "ok": false,
+            "why": "Trop étroit et pas en lien avec la question."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Les soignants peuvent accompagner chaque personne sans la juger, car un patient culpabilisé se ferme. Par exemple, ils peuvent proposer des changements progressifs, comme remplacer les sodas par de l'eau. »",
+            "ok": true,
+            "why": "Idée, justification et exemple concret."
+          },
+          {
+            "t": "« Il faut manger équilibré. »",
+            "ok": false,
+            "why": "Conseil général, pas un argument sur le rôle des soignants."
+          },
+          {
+            "t": "« L'obésité est un grave problème de santé publique. »",
+            "ok": false,
+            "why": "Constat sans lien avec la question."
+          },
+          {
+            "t": "« Les soignants sont très importants. »",
+            "ok": false,
+            "why": "Affirmation vide."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Les habitudes alimentaires ont évolué et favorisent certaines maladies. Comment les soignants peuvent-ils aider à les améliorer ? Nous verrons qu'ils peuvent informer, accompagner et agir dès l'enfance. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« Moi, je mange équilibré. »",
+            "ok": false,
+            "why": "Anecdote personnelle hors propos."
+          },
+          {
+            "t": "« Depuis toujours, l'homme mange. »",
+            "ok": false,
+            "why": "Accroche creuse."
+          },
+          {
+            "t": "« Je vais répondre à la question. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les produits transformés sont souvent riches en sucres et en sel. »",
+            "ok": true,
+            "why": "Accords corrects et registre adapté."
+          },
+          {
+            "t": "« Les produits transformé est souvent riche en sucres et en sel. »",
+            "ok": false,
+            "why": "Fautes d'accord : « transformés », « sont », « riches »."
+          },
+          {
+            "t": "« La malbouffe, c'est blindé de sucre. »",
+            "ok": false,
+            "why": "Registre familier."
+          },
+          {
+            "t": "« Les produits, transformés sont souvent, riches en sucres. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Les soignants ne doivent pas seulement soigner les maladies liées à l'alimentation : en informant, en écoutant et en accompagnant, ils peuvent aussi les prévenir. »",
+            "ok": true,
+            "why": "Elle résume les arguments et répond à la question."
+          },
+          {
+            "t": "« Bref, il faut manger des légumes. »",
+            "ok": false,
+            "why": "Familier et sans bilan."
+          },
+          {
+            "t": "« Pour finir, parlons du tabac. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« Voilà ma copie. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "pdf-vieillissement": {
+    "copies": [
+      {
+        "q": "Pourquoi le vieillissement de la population représente-t-il un enjeu pour le système de santé ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "L'augmentation du nombre de personnes âgées entraîne des besoins supplémentaires en soins, en accompagnement et en prise en charge de la perte d'autonomie. Le système de santé doit donc s'adapter pour y répondre.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Réponse du corrigé : plus de personnes âgées, donc plus de besoins en soins et en accompagnement."
+          },
+          {
+            "t": "Parce que les personnes âgées coûtent cher à la société.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Formulation réductrice et peu respectueuse : il faut parler des besoins de soins et d'accompagnement."
+          },
+          {
+            "t": "Parce que l'espérance de vie augmente.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "C'est le constat de départ, mais tu n'expliques pas pourquoi c'est un enjeu."
+          },
+          {
+            "t": "Le vieillissement est un progrès car les gens vivent plus longtemps.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Le texte le dit, mais cela ne répond pas à la question de l'enjeu pour le système de santé."
+          }
+        ]
+      },
+      {
+        "q": "Cite quatre activités quotidiennes pouvant devenir difficiles avec l'âge.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Avec l'âge, quatre activités peuvent devenir difficiles : se laver, s'habiller, préparer les repas et se déplacer.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les quatre activités du texte, dans une phrase complète."
+          },
+          {
+            "t": "Se laver, s'habiller.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Deux activités sur quatre."
+          },
+          {
+            "t": "Conduire, faire du sport, voyager et travailler.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Ces activités ne sont pas celles du texte, qui parle des gestes de la vie quotidienne."
+          },
+          {
+            "t": "Les maladies chroniques, la mobilité et les troubles cognitifs.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Ce sont les causes des difficultés, pas les activités demandées."
+          }
+        ]
+      },
+      {
+        "q": "Quels sont les avantages du maintien à domicile ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le maintien à domicile permet à la personne âgée de conserver ses habitudes, son environnement familier et ses repères, ainsi qu'une certaine autonomie.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les avantages du corrigé : habitudes, environnement, repères et autonomie."
+          },
+          {
+            "t": "C'est moins cher qu'une maison de retraite.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Ce n'est pas dans le texte, qui parle du bien-être et de l'autonomie de la personne."
+          },
+          {
+            "t": "La personne garde ses habitudes.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Un seul avantage, très bref."
+          },
+          {
+            "t": "Le maintien à domicile nécessite l'intervention d'infirmiers et d'aides-soignants.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "C'est une condition, pas un avantage."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi les proches aidants peuvent-ils avoir besoin de soutien ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Accompagner un proche au quotidien peut entraîner une fatigue physique, du stress et parfois un épuisement psychologique. Les aidants ont donc besoin de soutien pour continuer à aider sans mettre leur propre santé en danger.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Tu nommes les risques (fatigue, stress, épuisement) et tu expliques pourquoi le soutien est nécessaire."
+          },
+          {
+            "t": "Parce qu'ils sont fatigués.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Idée juste mais à peine formulée et sans explication."
+          },
+          {
+            "t": "Parce qu'ils n'ont pas envie de s'occuper de leurs parents.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Jugement absent du texte : le besoin de soutien vient de l'épuisement, pas d'un manque d'envie."
+          },
+          {
+            "t": "Leur investissement peut entraîner « une fatigue physique et psychologique ».",
+            "ok": false,
+            "note": "2/4",
+            "why": "Juste mais recopié, et sans dire à quoi sert le soutien."
+          }
+        ]
+      },
+      {
+        "q": "Explique la différence entre aider une personne et faire systématiquement à sa place.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Aider une personne, c'est l'accompagner dans ce qu'elle peut encore faire elle-même. Faire systématiquement à sa place risque au contraire de diminuer son autonomie et sa confiance en elle. Par exemple, laisser une personne âgée s'habiller seule en l'aidant seulement pour les boutons préserve ses capacités.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les deux notions sont distinguées, la conséquence est expliquée et un exemple illustre la différence."
+          },
+          {
+            "t": "Aider, c'est faire les choses pour la personne pour qu'elle se fatigue moins.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Contresens : c'est justement ce que le texte appelle « faire à sa place »."
+          },
+          {
+            "t": "Aider, c'est laisser la personne faire ce qu'elle peut. Faire à sa place, c'est tout faire pour elle.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Distinction juste, mais tu n'expliques pas la conséquence sur l'autonomie."
+          },
+          {
+            "t": "Il ne faut jamais aider les personnes âgées pour qu'elles restent autonomes.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Excès inverse : l'aide reste nécessaire, elle doit simplement être adaptée."
+          }
+        ]
+      },
+      {
+        "q": "Le maintien de l'autonomie des personnes âgées doit-il être une priorité dans notre société ? Présente les avantages, les difficultés et le rôle des professionnels de santé (20 à 25 lignes).",
+        "points": 30,
+        "reponses": [
+          {
+            "t": "Le vieillissement de la population est une réalité qui concerne l'ensemble de la société. Avec l'âge, certaines personnes rencontrent des difficultés pour réaliser les gestes de la vie quotidienne. Il est donc important de préserver leur autonomie le plus longtemps possible.\n\nTout d'abord, rester autonome permet à une personne âgée de conserver sa liberté et sa dignité. Par exemple, pouvoir choisir ses vêtements, préparer un repas simple ou participer à ses déplacements contribue à maintenir son indépendance.\n\nEnsuite, le maintien à domicile peut favoriser le bien-être. La personne reste dans un environnement qu'elle connaît et conserve ses habitudes. Les professionnels de santé peuvent intervenir pour assurer les soins et accompagner les gestes devenus difficiles.\n\nCependant, cette solution présente certaines limites. Une personne vivant seule peut être confrontée à l'isolement ou à des risques d'accident domestique. Les proches aidants peuvent également être épuisés par leurs responsabilités.\n\nPour conclure, préserver l'autonomie des personnes âgées doit être une priorité. Il faut cependant adapter l'accompagnement à chaque situation, afin de garantir leur sécurité tout en respectant leurs choix et leur dignité.",
+            "ok": true,
+            "note": "30/30",
+            "why": "C'est la rédaction modèle du corrigé : avantages, difficultés et rôle des professionnels, avec une conclusion nuancée."
+          },
+          {
+            "t": "Oui, l'autonomie des personnes âgées doit être une priorité. C'est très important pour elles et pour la société. Il faut tout faire pour qu'elles restent autonomes, car l'autonomie est essentielle. C'est pourquoi c'est une priorité.",
+            "ok": false,
+            "note": "6/30",
+            "why": "Tu répètes la même idée sans arguments ni exemples, et tu oublies les difficultés et le rôle des professionnels."
+          },
+          {
+            "t": "Avantages : habitudes, liberté. Difficultés : isolement, chutes, aidants fatigués. Rôle des professionnels : soins, aide à la toilette.",
+            "ok": false,
+            "note": "10/30",
+            "why": "Le contenu est pertinent, mais présenté en notes : il faut une introduction, des paragraphes rédigés et une conclusion."
+          },
+          {
+            "t": "Je pense qu'il vaut mieux placer toutes les personnes âgées en maison de retraite, car c'est plus sûr et leurs enfants peuvent continuer à travailler sans s'inquiéter.",
+            "ok": false,
+            "note": "4/30",
+            "why": "Position non argumentée, qui ignore le respect des choix de la personne souligné par le texte."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Que demande exactement la question de réflexion ?",
+        "opts": [
+          {
+            "t": "Dire si l'autonomie des personnes âgées doit être une priorité, en présentant avantages, difficultés et rôle des professionnels.",
+            "ok": true,
+            "why": "La consigne indique elle-même les trois parties attendues."
+          },
+          {
+            "t": "Décrire une maison de retraite.",
+            "ok": false,
+            "why": "Hors-sujet."
+          },
+          {
+            "t": "Raconter la vie de ses grands-parents.",
+            "ok": false,
+            "why": "Anecdote personnelle, pas une argumentation."
+          },
+          {
+            "t": "Définir le mot « autonomie » seulement.",
+            "ok": false,
+            "why": "Une définition ne suffit pas à répondre."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Les avantages de l'autonomie et du domicile — II. Les difficultés — III. Le rôle des professionnels.",
+            "ok": true,
+            "why": "Il suit exactement les trois éléments demandés."
+          },
+          {
+            "t": "I. L'enfance — II. L'âge adulte — III. La vieillesse.",
+            "ok": false,
+            "why": "Plan chronologique sans lien avec la question."
+          },
+          {
+            "t": "I. Pour les EHPAD — II. Contre les EHPAD.",
+            "ok": false,
+            "why": "Débat déplacé par rapport à la consigne."
+          },
+          {
+            "t": "Une liste d'aides financières.",
+            "ok": false,
+            "why": "Hors-sujet."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Rester autonome préserve la dignité, car la personne garde le contrôle de sa vie. Par exemple, choisir ses vêtements ou préparer un repas simple l'aide à rester indépendante. »",
+            "ok": true,
+            "why": "Idée, justification, exemple."
+          },
+          {
+            "t": "« Les personnes âgées sont nombreuses. »",
+            "ok": false,
+            "why": "Constat sans argument."
+          },
+          {
+            "t": "« L'autonomie, c'est important. »",
+            "ok": false,
+            "why": "Affirmation vide."
+          },
+          {
+            "t": "« Les aidants sont fatigués. »",
+            "ok": false,
+            "why": "Idée juste mais ni développée ni reliée à la question."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« L'espérance de vie augmente, mais certaines personnes âgées perdent en autonomie. Faut-il en faire une priorité ? Nous verrons les avantages, les difficultés, puis le rôle des soignants. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« Ma grand-mère a 90 ans. »",
+            "ok": false,
+            "why": "Anecdote en introduction."
+          },
+          {
+            "t": "« Vieillir, c'est la vie. »",
+            "ok": false,
+            "why": "Formule creuse."
+          },
+          {
+            "t": "« Je vais parler des vieux. »",
+            "ok": false,
+            "why": "Registre familier et pas de problématique."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Les personnes âgées souhaitent souvent rester chez elles. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Les personnes âgée souhaite souvent rester chez elle. »",
+            "ok": false,
+            "why": "Fautes d'accord : « âgées », « souhaitent », « elles »."
+          },
+          {
+            "t": "« Les vieux, ils veulent rester chez eux. »",
+            "ok": false,
+            "why": "Registre familier."
+          },
+          {
+            "t": "« Les personnes âgées, souhaitent souvent, rester chez elles. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Préserver l'autonomie des personnes âgées doit être une priorité, en adaptant l'accompagnement à chacun pour concilier sécurité, choix et dignité. »",
+            "ok": true,
+            "why": "Réponse claire et nuancée à la question."
+          },
+          {
+            "t": "« En conclusion, vieillir est difficile. »",
+            "ok": false,
+            "why": "Ne répond pas à la question."
+          },
+          {
+            "t": "« Pour finir, parlons des jeunes. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« Voilà. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "pdf-santementale": {
+    "copies": [
+      {
+        "q": "Pourquoi la santé mentale ne se limite-t-elle pas à l'absence de maladie psychique ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "La santé mentale ne se limite pas à l'absence de maladie psychique, car elle comprend aussi le bien-être émotionnel, psychologique et social. Une personne sans maladie diagnostiquée peut donc tout de même aller mal.",
+            "ok": true,
+            "note": "4/4",
+            "why": "La définition élargie du corrigé, avec une conséquence bien tirée."
+          },
+          {
+            "t": "Parce que tout le monde peut être malade.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Réponse vague, qui ne reprend pas la définition du texte."
+          },
+          {
+            "t": "Elle concerne « le bien-être émotionnel, psychologique et social ».",
+            "ok": false,
+            "note": "2/4",
+            "why": "Juste mais recopié, sans phrase rédigée."
+          },
+          {
+            "t": "La santé mentale, c'est quand on va voir un psychiatre.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Contresens : la santé mentale concerne tout le monde, pas seulement les personnes suivies."
+          }
+        ]
+      },
+      {
+        "q": "Cite quatre facteurs pouvant fragiliser la santé mentale des jeunes.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte cite plusieurs facteurs qui peuvent fragiliser la santé mentale des jeunes, par exemple les difficultés scolaires, les problèmes familiaux, la précarité et l'isolement. Les discriminations en font aussi partie.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Quatre facteurs du texte (le corrigé accepte n'importe lesquels des cinq), en phrases."
+          },
+          {
+            "t": "Les difficultés scolaires, les problèmes familiaux.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Deux facteurs sur quatre."
+          },
+          {
+            "t": "Le sport, la musique, les amis et les vacances.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Ce ne sont pas des facteurs de fragilisation, et ils ne sont pas dans le texte."
+          },
+          {
+            "t": "Les réseaux sociaux, les écrans, les jeux vidéo et la télévision.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Le texte cite les réseaux sociaux à part ; les autres éléments ne sont pas dans le texte."
+          }
+        ]
+      },
+      {
+        "q": "Donne deux effets positifs et deux effets négatifs possibles des réseaux sociaux.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Les réseaux sociaux ont des effets positifs : ils facilitent les échanges et permettent de maintenir des liens à distance. Ils ont aussi des effets négatifs lorsqu'ils sont utilisés de manière excessive : ils favorisent la comparaison sociale et peuvent provoquer des troubles du sommeil ou un sentiment d'exclusion.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Deux effets positifs et deux négatifs, clairement séparés, conformes au corrigé."
+          },
+          {
+            "t": "Les réseaux sociaux sont mauvais pour la santé car ils rendent dépendant.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Aucun effet positif, et l'effet cité n'est pas celui du texte."
+          },
+          {
+            "t": "Positif : échanger. Négatif : comparaison sociale, troubles du sommeil.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Il manque un effet positif, et la réponse n'est pas rédigée."
+          },
+          {
+            "t": "Positifs : communiquer avec ses amis et s'informer. Négatifs : perdre son temps et voir de la publicité.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Un effet positif juste ; les autres ne viennent pas du texte."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi certaines personnes hésitent-elles à demander de l'aide ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Certaines personnes hésitent à demander de l'aide par peur d'être jugées, à cause des préjugés qui entourent les troubles psychiques, ou parce qu'elles minimisent leur propre souffrance et pensent qu'elle n'est pas assez grave.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les trois freins du corrigé : jugement, préjugés, minimisation."
+          },
+          {
+            "t": "Parce qu'elles ont honte.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Idée proche, mais trop courte et non expliquée."
+          },
+          {
+            "t": "Parce que les psychologues sont trop chers.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Le texte ne parle pas du coût."
+          },
+          {
+            "t": "La peur du jugement et les idées reçues.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Deux freins justes, sans phrase rédigée ni explication."
+          }
+        ]
+      },
+      {
+        "q": "Cite trois moyens de prévention évoqués ou suggérés par le texte.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte évoque trois moyens de prévention : informer la population sur la santé mentale, favoriser l'écoute, et faciliter l'accès à des professionnels compétents.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les trois moyens du corrigé, rédigés."
+          },
+          {
+            "t": "Interdire les réseaux sociaux aux moins de 18 ans.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Ce moyen n'est ni évoqué ni suggéré par le texte."
+          },
+          {
+            "t": "L'information et l'écoute.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Deux moyens sur trois : il manque l'accès aux professionnels."
+          },
+          {
+            "t": "Il faut faire de la prévention auprès des jeunes.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Tu répètes la question sans citer de moyens."
+          }
+        ]
+      },
+      {
+        "q": "Les problèmes de santé mentale chez les jeunes sont-ils suffisamment pris en considération par la société ? Développe ton point de vue en présentant les difficultés, les conséquences et les solutions possibles (20 à 25 lignes).",
+        "points": 30,
+        "reponses": [
+          {
+            "t": "La santé mentale est un sujet de plus en plus présent dans notre société. Les jeunes peuvent être confrontés à différentes difficultés qui affectent leur bien-être psychologique. Pourtant, ces problèmes ne sont pas toujours suffisamment reconnus.\n\nTout d'abord, les jeunes peuvent subir une pression importante liée aux études, à leur avenir professionnel ou à leur situation familiale. Les réseaux sociaux peuvent également renforcer le sentiment de comparaison et d'exclusion.\n\nEnsuite, les conséquences peuvent être importantes. Certaines personnes peuvent s'isoler, perdre confiance en elles ou rencontrer des difficultés dans leur vie quotidienne. Lorsqu'une souffrance psychologique n'est pas prise en charge, elle peut s'aggraver.\n\nIl est donc essentiel de développer la prévention. Les établissements scolaires pourraient renforcer les actions de sensibilisation et faciliter l'accès à des professionnels. Les familles et les proches ont également un rôle important en étant attentifs aux changements de comportement.\n\nEnfin, il faut lutter contre les préjugés. Une personne souffrant psychologiquement ne doit pas être considérée comme faible. Demander de l'aide est au contraire une démarche positive.\n\nPour conclure, la santé mentale des jeunes mérite une attention particulière. L'information, l'écoute et l'accès aux soins doivent être renforcés pour éviter que certaines souffrances restent invisibles.",
+            "ok": true,
+            "note": "30/30",
+            "why": "C'est la rédaction modèle du corrigé : difficultés, conséquences, solutions et lutte contre les préjugés, avec une position claire."
+          },
+          {
+            "t": "Non, la société ne prend pas assez en compte la santé mentale des jeunes. C'est un vrai problème. Les jeunes vont mal et personne ne fait rien. Il faudrait que ça change rapidement.",
+            "ok": false,
+            "note": "5/30",
+            "why": "Une opinion répétée, sans difficultés, conséquences ni solutions développées."
+          },
+          {
+            "t": "Les jeunes passent trop de temps sur leur téléphone. C'est la faute des réseaux sociaux s'ils vont mal. Les parents devraient confisquer les téléphones et les jeunes iraient beaucoup mieux.",
+            "ok": false,
+            "note": "6/30",
+            "why": "Une cause unique et une solution simpliste : le texte cite de nombreux autres facteurs."
+          },
+          {
+            "t": "Les jeunes subissent la pression des études et l'isolement. Cela peut les rendre tristes et les isoler davantage. Il faudrait plus de psychologues dans les écoles.",
+            "ok": false,
+            "note": "13/30",
+            "why": "Les trois éléments sont présents mais à peine développés : il manque une introduction, des exemples et une conclusion."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Que demande exactement la question de réflexion ?",
+        "opts": [
+          {
+            "t": "Donner un avis argumenté sur la prise en compte de la santé mentale des jeunes, en présentant difficultés, conséquences et solutions.",
+            "ok": true,
+            "why": "La consigne indique la question et les trois éléments attendus."
+          },
+          {
+            "t": "Lister les maladies psychiatriques.",
+            "ok": false,
+            "why": "Hors-sujet."
+          },
+          {
+            "t": "Raconter un moment difficile de sa jeunesse.",
+            "ok": false,
+            "why": "Anecdote personnelle, pas une argumentation."
+          },
+          {
+            "t": "Critiquer les réseaux sociaux.",
+            "ok": false,
+            "why": "Un seul aspect, trop étroit."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Les difficultés des jeunes — II. Leurs conséquences — III. Les solutions et la lutte contre les préjugés.",
+            "ok": true,
+            "why": "Il reprend les trois éléments demandés, dans un ordre logique."
+          },
+          {
+            "t": "I. Facebook — II. Instagram — III. TikTok.",
+            "ok": false,
+            "why": "Plan hors sujet."
+          },
+          {
+            "t": "I. Les adultes — II. Les personnes âgées.",
+            "ok": false,
+            "why": "Le sujet porte sur les jeunes."
+          },
+          {
+            "t": "Une seule partie sur l'école.",
+            "ok": false,
+            "why": "Trop limité."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Une souffrance non prise en charge peut s'aggraver, car le jeune s'isole davantage. Par exemple, un élève qui n'ose pas parler de son anxiété peut décrocher scolairement. »",
+            "ok": true,
+            "why": "Idée, justification, exemple."
+          },
+          {
+            "t": "« La santé mentale, c'est important. »",
+            "ok": false,
+            "why": "Affirmation vide."
+          },
+          {
+            "t": "« Les jeunes sont fragiles. »",
+            "ok": false,
+            "why": "Généralisation sans argument."
+          },
+          {
+            "t": "« Il faut des psychologues. »",
+            "ok": false,
+            "why": "Solution non justifiée."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« La santé mentale des jeunes est de plus en plus évoquée, mais reste mal reconnue. Est-elle assez prise en compte ? Nous verrons les difficultés, leurs conséquences, puis les solutions. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« Les jeunes d'aujourd'hui sont trop sensibles. »",
+            "ok": false,
+            "why": "Jugement sans fondement."
+          },
+          {
+            "t": "« Je vais parler de la dépression. »",
+            "ok": false,
+            "why": "Trop pauvre et trop étroit."
+          },
+          {
+            "t": "« Depuis toujours, l'homme est triste. »",
+            "ok": false,
+            "why": "Accroche creuse."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Demander de l'aide est une démarche positive. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Demander de l'aide sont une démarche positif. »",
+            "ok": false,
+            "why": "Fautes d'accord : « est », « positive »."
+          },
+          {
+            "t": "« Demander de l'aide, c'est pas la honte. »",
+            "ok": false,
+            "why": "Registre familier et négation incomplète."
+          },
+          {
+            "t": "« Demander, de l'aide est, une démarche positive. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« La santé mentale des jeunes mérite plus d'attention : information, écoute et accès aux soins doivent être renforcés pour qu'aucune souffrance ne reste invisible. »",
+            "ok": true,
+            "why": "Réponse claire à la question et rappel des solutions."
+          },
+          {
+            "t": "« Bref, faut aller voir un psy. »",
+            "ok": false,
+            "why": "Familier et sans bilan."
+          },
+          {
+            "t": "« Pour finir, parlons du sport. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« J'ai fini. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "pdf-acces": {
+    "copies": [
+      {
+        "q": "Qu'appelle-t-on un désert médical ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "On appelle désert médical un territoire où le nombre de professionnels de santé, notamment de médecins, est insuffisant par rapport aux besoins de la population. Il s'agit souvent de zones rurales ou de certaines zones périurbaines.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Définition du corrigé, complétée par les types de territoires cités dans le texte."
+          },
+          {
+            "t": "Un désert médical est un désert où il n'y a pas d'hôpital.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Sens littéral : le texte parle de territoires habités qui manquent de médecins."
+          },
+          {
+            "t": "C'est un endroit où il manque des médecins.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Idée juste mais imprécise : il faut parler du rapport entre l'offre et les besoins."
+          },
+          {
+            "t": "Un désert médical, ce sont les zones rurales.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Tu donnes un exemple de lieu, pas une définition."
+          }
+        ]
+      },
+      {
+        "q": "Quelles conséquences peuvent découler du manque de professionnels de santé ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le manque de professionnels de santé entraîne des délais d'attente importants pour obtenir un rendez-vous, des déplacements longs, et parfois un renoncement aux soins.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les conséquences du corrigé, en une phrase claire."
+          },
+          {
+            "t": "Les médecins sont débordés et fatigués.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Ce n'est pas ce que dit le texte, qui parle des conséquences pour les patients."
+          },
+          {
+            "t": "Des délais d'attente.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Une seule conséquence, sans phrase."
+          },
+          {
+            "t": "Les gens vont aux urgences, attendent longtemps et renoncent parfois à se soigner.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Deux conséquences justes, mais les urgences ne sont pas citées dans ce texte et les déplacements longs manquent."
+          }
+        ]
+      },
+      {
+        "q": "Quelles populations sont particulièrement touchées ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Les populations particulièrement touchées sont les personnes âgées, les personnes en situation de handicap et les personnes disposant de faibles ressources.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les trois populations du texte."
+          },
+          {
+            "t": "Les enfants et les sportifs.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Ces populations ne sont pas citées dans le texte."
+          },
+          {
+            "t": "Les personnes âgées.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Une population sur trois."
+          },
+          {
+            "t": "Les habitants des campagnes.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Tu cites un lieu de vie, alors que la question porte sur des populations fragiles."
+          }
+        ]
+      },
+      {
+        "q": "Cite trois solutions permettant d'améliorer l'accès aux soins.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le texte propose plusieurs solutions, par exemple développer les maisons de santé pluriprofessionnelles, favoriser la télémédecine et améliorer l'attractivité des territoires pour les professionnels. Le renforcement des équipes de soins en fait aussi partie.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Au moins trois solutions du corrigé, rédigées."
+          },
+          {
+            "t": "Obliger les médecins à s'installer à la campagne.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Cette solution n'est pas dans le texte."
+          },
+          {
+            "t": "Télémédecine, maisons de santé.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Deux solutions sur trois, sans phrase."
+          },
+          {
+            "t": "Il faut améliorer l'accès aux soins pour tous.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Tu répètes l'objectif sans citer de solution."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi la télémédecine ne peut-elle pas remplacer toutes les consultations ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "La télémédecine ne peut pas remplacer toutes les consultations, car certaines situations nécessitent un examen physique, un contact direct ou des gestes médicaux. La relation de confiance entre le patient et le professionnel reste aussi essentielle.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les limites du corrigé, avec l'importance de la relation de confiance soulignée par le texte."
+          },
+          {
+            "t": "Parce que tout le monde n'a pas internet.",
+            "ok": false,
+            "note": "1/4",
+            "why": "C'est une vraie limite, mais ce n'est pas celle du texte."
+          },
+          {
+            "t": "Parce que la télémédecine ne marche pas bien.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Affirmation vague et non justifiée."
+          },
+          {
+            "t": "Parce que le médecin doit parfois examiner le patient.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Une raison juste mais incomplète : il manque le contact humain et la relation de confiance."
+          }
+        ]
+      },
+      {
+        "q": "L'accès aux soins devrait-il être identique pour tous les citoyens, quel que soit leur lieu de résidence ? Argumente ta réponse en utilisant des exemples concrets (20 à 25 lignes).",
+        "points": 30,
+        "reponses": [
+          {
+            "t": "L'accès aux soins est un élément essentiel de notre système de santé. Pourtant, selon leur lieu de résidence, les citoyens ne disposent pas toujours des mêmes possibilités pour consulter un professionnel de santé. Cette situation soulève une question importante d'égalité.\n\nTout d'abord, chaque personne devrait pouvoir bénéficier de soins adaptés à ses besoins, quel que soit son lieu de résidence. Une personne vivant dans une zone rurale ne devrait pas avoir davantage de difficultés à consulter un médecin qu'une personne habitant dans une grande ville.\n\nEnsuite, les déserts médicaux peuvent entraîner des conséquences importantes. Les patients peuvent attendre plusieurs semaines pour obtenir un rendez-vous ou devoir parcourir de longues distances. Certaines personnes finissent même par renoncer à consulter.\n\nPour améliorer cette situation, plusieurs solutions peuvent être développées. Les maisons de santé permettent de regrouper différents professionnels. La télémédecine peut également faciliter certaines consultations, notamment pour les personnes ayant des difficultés à se déplacer.\n\nCependant, les outils numériques ne remplacent pas le contact humain. Certaines situations nécessitent un examen physique et une relation directe entre le patient et le professionnel.\n\nPour conclure, l'égalité d'accès aux soins doit être un objectif prioritaire. Il est nécessaire de développer des solutions adaptées aux territoires afin que chacun puisse être accompagné correctement.",
+            "ok": true,
+            "note": "30/30",
+            "why": "C'est la rédaction modèle du corrigé : principe d'égalité, conséquences, solutions et limite du numérique, avec une conclusion claire."
+          },
+          {
+            "t": "Oui, tout le monde doit avoir les mêmes droits. C'est normal, on est en France et c'est l'égalité. Il n'est pas juste que certains aient un médecin et pas d'autres.",
+            "ok": false,
+            "note": "5/30",
+            "why": "Position juste mais non argumentée, sans exemples concrets ni structure."
+          },
+          {
+            "t": "Non, car les gens qui habitent à la campagne ont choisi d'y vivre. Ils savent qu'il y a moins de médecins et doivent accepter de faire de la route.",
+            "ok": false,
+            "note": "6/30",
+            "why": "Position possible, mais non nuancée et contraire au principe d'égalité rappelé par le texte, sans exemples développés."
+          },
+          {
+            "t": "Dans ma ville, il faut trois semaines pour voir un médecin. Ma mère a dû faire 40 minutes de route pour un rendez-vous. C'est pour cela que je veux devenir infirmier, pour aider ces patients.",
+            "ok": false,
+            "note": "4/30",
+            "why": "Un exemple personnel n'est pas une argumentation, et la fin dérive vers ta motivation."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Que demande exactement la question de réflexion ?",
+        "opts": [
+          {
+            "t": "Dire si l'accès aux soins devrait être le même partout, en argumentant avec des exemples concrets.",
+            "ok": true,
+            "why": "Tu repères la question d'égalité et la consigne d'exemples."
+          },
+          {
+            "t": "Expliquer comment devenir médecin.",
+            "ok": false,
+            "why": "Hors-sujet."
+          },
+          {
+            "t": "Comparer la France et d'autres pays.",
+            "ok": false,
+            "why": "La question porte sur les lieux de résidence en France."
+          },
+          {
+            "t": "Décrire la télémédecine en détail.",
+            "ok": false,
+            "why": "Un aspect seulement, pas la question posée."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Un principe d'égalité — II. Une réalité inégale et ses conséquences — III. Des solutions et leurs limites.",
+            "ok": true,
+            "why": "Plan progressif : le principe, le constat, puis les réponses."
+          },
+          {
+            "t": "I. La ville — II. La campagne — III. La montagne.",
+            "ok": false,
+            "why": "Plan descriptif sans argumentation."
+          },
+          {
+            "t": "I. Mon médecin traitant — II. Mon pharmacien.",
+            "ok": false,
+            "why": "Plan personnel."
+          },
+          {
+            "t": "Une seule partie sur les urgences.",
+            "ok": false,
+            "why": "Trop étroit."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Les déserts médicaux créent des inégalités, car certains patients renoncent à se soigner. Par exemple, une personne âgée sans voiture peut abandonner un suivi faute de médecin proche. »",
+            "ok": true,
+            "why": "Idée, justification, exemple concret."
+          },
+          {
+            "t": "« L'égalité, c'est important. »",
+            "ok": false,
+            "why": "Affirmation vide."
+          },
+          {
+            "t": "« Il y a moins de médecins à la campagne. »",
+            "ok": false,
+            "why": "Constat sans argument."
+          },
+          {
+            "t": "« La télémédecine, c'est l'avenir. »",
+            "ok": false,
+            "why": "Slogan non justifié."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Selon leur lieu de vie, les citoyens n'ont pas le même accès aux soins. L'accès devrait-il être identique pour tous ? Nous verrons le principe d'égalité, la réalité des déserts médicaux, puis les solutions. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« J'habite en ville. »",
+            "ok": false,
+            "why": "Anecdote hors propos."
+          },
+          {
+            "t": "« La santé, c'est précieux. »",
+            "ok": false,
+            "why": "Formule creuse."
+          },
+          {
+            "t": "« Je vais parler des médecins. »",
+            "ok": false,
+            "why": "Trop vague."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Certaines personnes doivent parcourir de longues distances pour consulter. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Certaines personnes doit parcourir de longue distances pour consulté. »",
+            "ok": false,
+            "why": "Fautes : « doivent », « longues », « consulter »."
+          },
+          {
+            "t": "« Y a des gens qui font des kilomètres pour voir un docteur. »",
+            "ok": false,
+            "why": "Registre oral."
+          },
+          {
+            "t": "« Certaines personnes, doivent parcourir, de longues distances. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« L'égalité d'accès aux soins doit rester un objectif prioritaire, avec des solutions adaptées à chaque territoire pour que chacun soit correctement accompagné. »",
+            "ok": true,
+            "why": "Elle répond à la question et rappelle les solutions."
+          },
+          {
+            "t": "« En conclusion, c'est injuste. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          },
+          {
+            "t": "« Pour finir, parlons du prix des médicaments. »",
+            "ok": false,
+            "why": "Nouveau sujet en conclusion."
+          },
+          {
+            "t": "« Voilà ce que je pense. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
+  },
+  "pdf-ethique": {
+    "copies": [
+      {
+        "q": "Pourquoi la prise en charge d'un patient ne se limite-t-elle pas aux soins techniques ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "La prise en charge ne se limite pas aux soins techniques, car le patient a aussi des besoins physiques, psychologiques et sociaux. Sa dignité, son intimité, ses choix et ses émotions doivent être respectés.",
+            "ok": true,
+            "note": "4/4",
+            "why": "La réponse du corrigé : les différents besoins du patient et le respect de sa personne."
+          },
+          {
+            "t": "Parce que les soins techniques ne servent pas à grand-chose.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Contresens : les soins techniques restent indispensables, ils ne suffisent simplement pas."
+          },
+          {
+            "t": "Parce qu'il faut respecter sa « dignité, son intimité, ses choix et ses besoins ».",
+            "ok": false,
+            "note": "2/4",
+            "why": "Juste mais recopié, sans explication."
+          },
+          {
+            "t": "Parce que le patient est un être humain.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Idée juste mais trop générale, sans les éléments du texte."
+          }
+        ]
+      },
+      {
+        "q": "Donne quatre exemples de comportements relevant de la bientraitance.",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Plusieurs comportements relèvent de la bientraitance : écouter le patient, lui expliquer les soins, respecter son intimité et adapter les soins à son rythme.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les quatre comportements du corrigé."
+          },
+          {
+            "t": "Être gentil, souriant.",
+            "ok": false,
+            "note": "1/4",
+            "why": "Deux attitudes vagues au lieu de quatre comportements concrets."
+          },
+          {
+            "t": "Faire les soins vite pour ne pas déranger le patient.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Contraire au texte, qui insiste sur le temps pris pour écouter et expliquer."
+          },
+          {
+            "t": "Écouter le patient et lui expliquer les soins.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Deux comportements sur quatre."
+          }
+        ]
+      },
+      {
+        "q": "Quelles contraintes peuvent fragiliser la qualité de l'accompagnement ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Plusieurs contraintes peuvent fragiliser la qualité de l'accompagnement : le manque de temps, les effectifs insuffisants, la fatigue des professionnels et les situations d'urgence.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les quatre contraintes du texte."
+          },
+          {
+            "t": "Les patients difficiles et les familles exigeantes.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Ces contraintes ne sont pas citées dans le texte."
+          },
+          {
+            "t": "Le manque de temps et la fatigue.",
+            "ok": false,
+            "note": "2/4",
+            "why": "Deux contraintes sur quatre."
+          },
+          {
+            "t": "Le manque de matériel médical.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Contrainte réelle, mais absente du texte."
+          }
+        ]
+      },
+      {
+        "q": "Pourquoi le consentement du patient est-il important ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le consentement est important, car il permet au patient de participer aux décisions concernant sa santé. Il garantit le respect de ses droits et de son autonomie. Pour cela, le patient doit recevoir des informations compréhensibles, et son refus doit être entendu.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Réponse du corrigé, enrichie par les conditions du consentement données dans le texte."
+          },
+          {
+            "t": "Parce que sinon l'hôpital peut avoir des problèmes avec la justice.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Raison secondaire : le texte met en avant les droits et l'autonomie du patient."
+          },
+          {
+            "t": "Parce que le patient doit être d'accord.",
+            "ok": false,
+            "note": "1,5/4",
+            "why": "Vrai mais tautologique : pourquoi son accord compte-t-il ?"
+          },
+          {
+            "t": "Le consentement permet au médecin de décider à la place du patient.",
+            "ok": false,
+            "note": "0/4",
+            "why": "Contresens complet."
+          }
+        ]
+      },
+      {
+        "q": "Quel est l'intérêt du travail en équipe dans les soins ?",
+        "points": 4,
+        "reponses": [
+          {
+            "t": "Le travail en équipe facilite le partage des informations utiles, améliore la coordination des soins, aide à prévenir les erreurs et assure la continuité de la prise en charge.",
+            "ok": true,
+            "note": "4/4",
+            "why": "Les quatre intérêts du corrigé."
+          },
+          {
+            "t": "Le travail en équipe permet de se répartir le travail et de finir plus tôt.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Vision réductrice, qui ne reprend pas l'intérêt pour les soins."
+          },
+          {
+            "t": "Partager les informations et éviter les erreurs.",
+            "ok": false,
+            "note": "2,5/4",
+            "why": "Deux intérêts justes, sans phrase rédigée."
+          },
+          {
+            "t": "Parce qu'un infirmier ne peut rien faire seul.",
+            "ok": false,
+            "note": "0,5/4",
+            "why": "Exagéré et sans explication."
+          }
+        ]
+      },
+      {
+        "q": "Peut-on être un bon professionnel de santé sans qualités humaines ? Tu développeras une argumentation structurée en abordant les compétences techniques, l'écoute, l'empathie et le travail en équipe (20 à 25 lignes).",
+        "points": 30,
+        "reponses": [
+          {
+            "t": "Les professionnels de santé possèdent des compétences techniques indispensables pour prendre en charge les patients. Cependant, exercer un métier dans le domaine des soins ne consiste pas uniquement à réaliser des actes médicaux. Les qualités humaines occupent également une place essentielle.\n\nTout d'abord, un professionnel doit maîtriser les connaissances et les gestes nécessaires à son métier. Il doit être rigoureux, respecter les protocoles et connaître ses responsabilités afin de garantir la sécurité des patients.\n\nCependant, les compétences techniques ne suffisent pas. Un patient peut être inquiet, souffrir ou avoir peur de son hospitalisation. Il est donc important de savoir écouter, rassurer et expliquer les soins. Par exemple, prendre quelques minutes pour expliquer un geste peut permettre à une personne de mieux comprendre sa prise en charge et de se sentir davantage en confiance.\n\nDe plus, le respect de la dignité et de l'intimité est indispensable. Chaque patient doit être considéré comme une personne à part entière, quels que soient son âge, son état de santé ou sa situation sociale.\n\nEnfin, les professionnels doivent travailler en équipe. La communication et l'entraide permettent d'améliorer la qualité des soins.\n\nPour conclure, les qualités humaines et les compétences techniques sont complémentaires. Un bon professionnel de santé doit savoir soigner, mais également écouter, respecter et accompagner les personnes.",
+            "ok": true,
+            "note": "30/30",
+            "why": "C'est la rédaction modèle du corrigé : elle aborde les quatre éléments demandés (technique, écoute, empathie, équipe) et conclut sur leur complémentarité."
+          },
+          {
+            "t": "Non, on ne peut pas être un bon professionnel sans qualités humaines. Les qualités humaines sont indispensables. Un soignant doit être humain, sinon ce n'est pas un bon soignant. L'humain est au cœur du soin.",
+            "ok": false,
+            "note": "5/30",
+            "why": "Réponse circulaire, sans arguments ni exemples, et sans aborder la technique ni le travail en équipe."
+          },
+          {
+            "t": "Oui, car l'important est de bien faire les soins. Un patient veut surtout être guéri. Si l'infirmier fait bien les piqûres et les pansements, peu importe qu'il soit aimable ou non.",
+            "ok": false,
+            "note": "6/30",
+            "why": "Position non nuancée, qui ignore l'écoute, l'empathie et le travail en équipe demandés par la consigne."
+          },
+          {
+            "t": "Je suis quelqu'un de très empathique et à l'écoute, mes collègues me l'ont souvent dit. Je pense donc que je serai un bon infirmier, car j'ai déjà les qualités humaines nécessaires.",
+            "ok": false,
+            "note": "3/30",
+            "why": "Hors-sujet : tu parles de toi au lieu de construire une argumentation."
+          }
+        ]
+      }
+    ],
+    "methode": [
+      {
+        "etape": "Comprendre le sujet",
+        "q": "Que demande exactement la question de réflexion ?",
+        "opts": [
+          {
+            "t": "Dire si l'on peut être un bon soignant sans qualités humaines, en abordant technique, écoute, empathie et travail en équipe.",
+            "ok": true,
+            "why": "La consigne fixe la question et les quatre points à traiter."
+          },
+          {
+            "t": "Lister les gestes techniques d'un infirmier.",
+            "ok": false,
+            "why": "Un seul aspect, hors de la question."
+          },
+          {
+            "t": "Décrire ses propres qualités.",
+            "ok": false,
+            "why": "Piège classique : ce n'est pas une lettre de motivation."
+          },
+          {
+            "t": "Raconter une hospitalisation.",
+            "ok": false,
+            "why": "Anecdote, pas une argumentation."
+          }
+        ]
+      },
+      {
+        "etape": "Choisir le plan",
+        "q": "Quel plan est le plus adapté ?",
+        "opts": [
+          {
+            "t": "I. Les compétences techniques sont indispensables — II. Mais l'écoute, l'empathie et le respect le sont aussi — III. Le travail en équipe relie les deux.",
+            "ok": true,
+            "why": "Plan nuancé qui traite les quatre éléments demandés."
+          },
+          {
+            "t": "I. Les médecins — II. Les infirmiers — III. Les aides-soignants.",
+            "ok": false,
+            "why": "Plan par métiers, hors question."
+          },
+          {
+            "t": "I. Mes qualités — II. Mes défauts.",
+            "ok": false,
+            "why": "Plan d'entretien oral."
+          },
+          {
+            "t": "Une seule partie sur l'empathie.",
+            "ok": false,
+            "why": "Trop étroit."
+          }
+        ]
+      },
+      {
+        "etape": "Argumenter",
+        "q": "Quel paragraphe est le mieux argumenté ?",
+        "opts": [
+          {
+            "t": "« Les compétences techniques ne suffisent pas, car un patient inquiet a besoin d'être rassuré. Par exemple, expliquer un geste avant de le faire l'aide à se sentir en confiance. »",
+            "ok": true,
+            "why": "Idée, justification, exemple."
+          },
+          {
+            "t": "« L'empathie est une qualité essentielle. »",
+            "ok": false,
+            "why": "Affirmation sans démonstration."
+          },
+          {
+            "t": "« Les soignants doivent être gentils. »",
+            "ok": false,
+            "why": "Trop vague."
+          },
+          {
+            "t": "« La technique, c'est la base. »",
+            "ok": false,
+            "why": "Affirmation familière et non développée."
+          }
+        ]
+      },
+      {
+        "etape": "Introduire",
+        "q": "Quelle introduction est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Soigner demande des compétences techniques, mais aussi des qualités humaines. Peut-on être un bon soignant sans ces dernières ? Nous verrons l'importance de la technique, puis celle de l'écoute, de l'empathie et du travail en équipe. »",
+            "ok": true,
+            "why": "Sujet amené, question posée, plan annoncé."
+          },
+          {
+            "t": "« Je suis très empathique. »",
+            "ok": false,
+            "why": "Parler de soi en introduction."
+          },
+          {
+            "t": "« Le soin est un art. »",
+            "ok": false,
+            "why": "Formule creuse."
+          },
+          {
+            "t": "« Voici ma réponse. »",
+            "ok": false,
+            "why": "Trop pauvre."
+          }
+        ]
+      },
+      {
+        "etape": "Bien écrire",
+        "q": "Quelle phrase est correctement écrite ?",
+        "opts": [
+          {
+            "t": "« Chaque patient doit être considéré comme une personne à part entière. »",
+            "ok": true,
+            "why": "Phrase correcte."
+          },
+          {
+            "t": "« Chaque patients doivent être considéré comme une personne à part entière. »",
+            "ok": false,
+            "why": "« Chaque » est suivi du singulier : « chaque patient doit »."
+          },
+          {
+            "t": "« Les patients, faut les respecter. »",
+            "ok": false,
+            "why": "Registre oral."
+          },
+          {
+            "t": "« Chaque patient, doit être considéré, comme une personne. »",
+            "ok": false,
+            "why": "Virgules mal placées."
+          }
+        ]
+      },
+      {
+        "etape": "Conclure",
+        "q": "Quelle conclusion est la meilleure ?",
+        "opts": [
+          {
+            "t": "« Qualités humaines et compétences techniques sont complémentaires : un bon soignant doit savoir soigner, mais aussi écouter, respecter et accompagner. »",
+            "ok": true,
+            "why": "Réponse nuancée et claire à la question."
+          },
+          {
+            "t": "« En conclusion, il faut être gentil. »",
+            "ok": false,
+            "why": "Réducteur."
+          },
+          {
+            "t": "« Pour finir, parlons des salaires. »",
+            "ok": false,
+            "why": "Nouveau sujet."
+          },
+          {
+            "t": "« Voilà, c'est fini. »",
+            "ok": false,
+            "why": "Pas une conclusion."
+          }
+        ]
+      }
+    ]
   }
 }

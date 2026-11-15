@@ -3,6 +3,8 @@
 // Pour kind 'time', ans est un nombre de minutes depuis minuit.
 
 import { R, pick, shuffle, clean, f, gcd, hm, dur } from './format.js';
+// Exercices de calcul des 5 sujets d'entraînement (sujets marqués « * »), avec leurs corrigés.
+import CALCULS_SUJETS from '../data/calculs-sujets.json';
 
 export const CATS = {
   pct: 'Pourcentages',
@@ -12,6 +14,7 @@ export const CATS = {
   debit: 'Débits et dosages',
   ops: 'Opérations',
   plus: 'Concours+',
+  sujets: 'Sujets *',
 };
 
 function convGen(units) {
@@ -446,6 +449,8 @@ const GEN = {
       };
     },
   ],
+  // Sujets * : les exercices de calcul des 5 sujets d'entraînement, valeurs et corrigés fixes.
+  sujets: CALCULS_SUJETS.map((x) => () => ({ q: `${x.q} (Sujet : ${x.sujet})`, ans: x.ans, unit: x.unit, steps: x.steps })),
 };
 
 // Tire une question au hasard parmi les thèmes donnés.
