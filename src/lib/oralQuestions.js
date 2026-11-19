@@ -12,6 +12,8 @@ export const THEMES = {
   metier: 'Connaissance du métier',
   qualites: 'Qualités et mises en situation',
   formation: 'Suivre la formation',
+  contenu: 'Contenu de la formation',
+  actu: 'Actualité santé et médico-sociale',
 };
 
 export const QUESTIONS = [
@@ -877,5 +879,605 @@ export const QUESTIONS = [
         why: 'Il suit les horaires du service, y compris parfois en soirée ou le week-end.',
       },
     ],
+  },
+
+  // ---------- Contenu de la formation ----------
+  {
+    id: 'c1',
+    theme: 'contenu',
+    jury: false,
+    q: 'À quoi mène la formation en soins infirmiers ?',
+    opts: [
+      {
+        t: "Au diplôme d'État d'infirmier, en 6 semestres et 180 crédits ECTS, qui confère le grade de licence",
+        ok: true,
+        why: '3 ans, 6 semestres de 30 ECTS chacun, soit 180 ECTS : le DE donne le grade licence (niveau 6).',
+      },
+      { t: 'À un BTS en 2 ans', ok: false, why: "Ce n'est pas un BTS : c'est un diplôme d'État en 3 ans, avec le grade licence." },
+      {
+        t: 'À un master en 5 ans',
+        ok: false,
+        why: 'Le DE confère le grade licence. Le master vient ensuite (IPA, cadre, spécialisations).',
+      },
+      { t: "À un certificat d'école sans valeur nationale", ok: false, why: "C'est un diplôme d'État, reconnu partout en France." },
+    ],
+    tip: 'Phrase à placer : « un diplôme d’État en 3 ans, 180 ECTS, avec le grade licence ».',
+  },
+  {
+    id: 'c2',
+    theme: 'contenu',
+    jury: false,
+    q: 'Si tu entres en septembre 2027, quel référentiel de formation suivras-tu ?',
+    opts: [
+      {
+        t: "Le nouveau référentiel fixé par l'arrêté du 20 février 2026, applicable aux étudiants qui entrent en formation à partir de septembre 2026",
+        ok: true,
+        why: "L'arrêté du 20 février 2026 remplace celui du 31 juillet 2009 pour les promotions entrées depuis septembre 2026. Ce sera donc ton référentiel.",
+      },
+      {
+        t: 'Le référentiel du 31 juillet 2009, sans changement',
+        ok: false,
+        why: "Il ne concerne plus que les étudiants entrés avant septembre 2026. Beaucoup de sites d'IFSI le présentent encore.",
+      },
+      { t: 'Un référentiel propre à chaque IFSI', ok: false, why: 'Le programme est national : le même pour tous les IFSI.' },
+      {
+        t: "Aucun : chaque formateur choisit ce qu'il enseigne",
+        ok: false,
+        why: 'La formation suit un référentiel national fixé par arrêté.',
+      },
+    ],
+    tip: "Atout à l'oral : « J'ai vu que le site présente le référentiel de 2009, mais ma promotion suivra celui de 2026. » Dis-le avec modestie, sans corriger le jury.",
+  },
+  {
+    id: 'c3',
+    theme: 'contenu',
+    jury: false,
+    q: 'Quel est le volume de la formation dans le référentiel 2026 ?',
+    opts: [
+      {
+        t: "4 620 heures : 2 310 h de stage (66 semaines), 1 890 h d'enseignement et 420 h de travail en autonomie",
+        ok: true,
+        why: "C'est ce que fixe l'arrêté du 20 février 2026. La part des stages augmente : 66 semaines au lieu de 60.",
+      },
+      {
+        t: '4 200 heures : 2 100 h de théorie et 2 100 h de stage, plus 900 h de travail personnel',
+        ok: false,
+        why: "C'est le référentiel de 2009, celui décrit sur le site de l'IFSI. Bon à connaître, mais ta promotion suivra celui de 2026.",
+      },
+      { t: '1 000 heures, surtout en ligne', ok: false, why: 'Beaucoup trop peu : la formation est à temps plein sur 3 ans.' },
+      { t: 'Uniquement des stages, sans cours', ok: false, why: 'La formation alterne toujours cours et stages.' },
+    ],
+    tip: 'Si tu hésites le jour J, dis simplement : « environ la moitié du temps en stage, sur 3 ans, à 35 h par semaine ».',
+  },
+  {
+    id: 'c4',
+    theme: 'contenu',
+    jury: false,
+    q: 'Le référentiel de 2009 (décrit sur le site de Longjumeau) compte 10 compétences. Laquelle fait partie des 5 compétences « cœur de métier » ?',
+    opts: [
+      {
+        t: 'Évaluer une situation clinique et établir un diagnostic dans le domaine infirmier',
+        ok: true,
+        why: "C'est la compétence 1. Les autres « cœur de métier » : projet de soins, soins du quotidien, actions diagnostiques et thérapeutiques, soins éducatifs et préventifs.",
+      },
+      { t: 'Gérer le budget du service', ok: false, why: "Ce n'est pas une compétence du référentiel infirmier." },
+      { t: 'Prescrire tous les médicaments', ok: false, why: "L'infirmier ne prescrit qu'une liste limitée de produits et d'examens." },
+      { t: 'Réaliser des interventions chirurgicales', ok: false, why: 'Cela relève du chirurgien.' },
+    ],
+  },
+  {
+    id: 'c5',
+    theme: 'contenu',
+    jury: false,
+    q: 'Laquelle de ces compétences est une compétence « transverse » du référentiel de 2009 ?',
+    opts: [
+      {
+        t: 'Communiquer et conduire une relation dans un contexte de soins',
+        ok: true,
+        why: 'Les 5 transverses : communiquer et conduire une relation, analyser la qualité des soins, rechercher et traiter des données, organiser et coordonner, informer et former.',
+      },
+      { t: 'Accompagner une personne dans les soins du quotidien', ok: false, why: "C'est une compétence « cœur de métier »." },
+      { t: 'Concevoir et conduire un projet de soins infirmiers', ok: false, why: "C'est une compétence « cœur de métier »." },
+      {
+        t: 'Établir un diagnostic médical',
+        ok: false,
+        why: "Le diagnostic médical relève du médecin. L'infirmier pose un diagnostic infirmier.",
+      },
+    ],
+    tip: 'Ton atout : en informatique, tu as déjà formé des utilisateurs, rédigé des procédures et coordonné des interventions. Ce sont des compétences transverses.',
+  },
+  {
+    id: 'c6',
+    theme: 'contenu',
+    jury: false,
+    q: 'Le référentiel 2026 organise les enseignements en 5 domaines. Lequel en fait partie ?',
+    opts: [
+      {
+        t: 'Communication, travail en équipe et leadership',
+        ok: true,
+        why: 'Les 5 domaines : sciences infirmières et raisonnement clinique ; pratiques cliniques, qualité et gestion des risques ; prévention et promotion de la santé ; communication, travail en équipe et leadership ; démarche scientifique et recherche.',
+      },
+      { t: "Gestion financière de l'hôpital", ok: false, why: "Ce n'est pas un domaine de la formation infirmière." },
+      { t: 'Chirurgie et anesthésie', ok: false, why: 'Ce sont des spécialités médicales.' },
+      {
+        t: 'Droit pénal et procédure',
+        ok: false,
+        why: "Le droit est abordé (responsabilité, éthique), mais ce n'est pas un domaine du référentiel.",
+      },
+    ],
+    tip: 'Retiens au moins le premier : « raisonnement clinique ». C’est le fil rouge de la réforme.',
+  },
+  {
+    id: 'c7',
+    theme: 'contenu',
+    jury: false,
+    q: 'Qui délivre désormais le diplôme d’État d’infirmier ?',
+    opts: [
+      {
+        t: 'Les universités accréditées, sur proposition d’un jury : c’est l’universitarisation de la formation',
+        ok: true,
+        why: "Avec le référentiel 2026, le diplôme est délivré par les universités. À Longjumeau, une partie des cours a lieu à l'Université Paris-Saclay (site du Kremlin-Bicêtre).",
+      },
+      {
+        t: "L'hôpital où l'étudiant a fait le plus de stages",
+        ok: false,
+        why: 'Les lieux de stage évaluent, mais ne délivrent pas le diplôme.',
+      },
+      { t: "L'Ordre national des infirmiers", ok: false, why: "L'Ordre inscrit les infirmiers diplômés, mais ne délivre pas le diplôme." },
+      { t: 'Une école privée', ok: false, why: "C'est un diplôme d'État délivré par les universités." },
+    ],
+  },
+  {
+    id: 'c8',
+    theme: 'contenu',
+    jury: false,
+    q: 'Où se déroulent les stages pendant la formation ?',
+    opts: [
+      {
+        t: "À l'hôpital (public ou privé) et hors de l'hôpital : libéral, centres de santé, médico-social, santé scolaire, psychiatrie…",
+        ok: true,
+        why: "Les stages couvrent des lieux variés pour découvrir l'aigu, le chronique, les soins primaires et les personnes vulnérables.",
+      },
+      { t: 'Uniquement aux urgences', ok: false, why: 'Les stages sont variés, pas seulement aux urgences.' },
+      {
+        t: "Uniquement dans l'hôpital rattaché à l'IFSI",
+        ok: false,
+        why: "Les stages ont lieu dans de nombreuses structures, à l'hôpital et en dehors.",
+      },
+      { t: 'Seulement en 3e année', ok: false, why: 'Il y a des stages chaque année, dès la 1re année.' },
+    ],
+  },
+  {
+    id: 'c9',
+    theme: 'contenu',
+    jury: false,
+    q: 'Que signifie former un « praticien réflexif » ?',
+    opts: [
+      {
+        t: "Un professionnel qui analyse sa pratique pour comprendre ce qu'il fait et l'améliorer",
+        ok: true,
+        why: 'La formation vise un praticien autonome, responsable et réflexif : on analyse ses situations de stage pour progresser.',
+      },
+      { t: 'Un professionnel qui réagit très vite, par réflexe', ok: false, why: 'Réflexif vient de « réflexion », pas de « réflexe ».' },
+      {
+        t: 'Un professionnel qui applique les consignes sans les questionner',
+        ok: false,
+        why: "C'est l'inverse : on attend une analyse de sa pratique.",
+      },
+      { t: 'Un professionnel spécialisé dans la rééducation', ok: false, why: "Ce n'est pas le sens du mot." },
+    ],
+    tip: "Exemple à donner : en informatique, après un incident, tu faisais un retour d'expérience pour éviter qu'il se reproduise. C'est déjà une démarche réflexive.",
+  },
+  {
+    id: 'c10',
+    theme: 'contenu',
+    jury: true,
+    q: 'Selon vous, pourquoi la formation alterne-t-elle cours et stages ?',
+    opts: [
+      {
+        t: "Parce que les cours donnent les connaissances et le raisonnement, et les stages permettent de les mettre en pratique auprès de vrais patients, puis d'analyser ce qu'on a vécu. Les deux se nourrissent.",
+        ok: true,
+        why: 'Tu montres que tu as compris la logique de la formation : apprendre, pratiquer, analyser.',
+      },
+      {
+        t: 'Pour que les étudiants servent de renfort dans les services.',
+        ok: false,
+        why: "Le stage est un temps d'apprentissage, pas de main-d'œuvre.",
+      },
+      { t: 'Pour que les cours soient moins longs.', ok: false, why: 'Réponse superficielle, qui ne montre pas la logique pédagogique.' },
+      { t: "Je ne sais pas, c'est comme ça.", ok: false, why: 'Le jury attend une réflexion sur la formation.' },
+    ],
+  },
+  {
+    id: 'c11',
+    theme: 'contenu',
+    jury: true,
+    q: "À l'IFSI, chaque étudiant a un suivi individuel par un formateur. Comment comptez-vous l'utiliser ?",
+    opts: [
+      {
+        t: "Comme un appui régulier : faire le point sur mes stages et mes résultats, repérer tôt mes difficultés et construire mon parcours, surtout pour la reprise d'études.",
+        ok: true,
+        why: 'Tu montres que tu sais demander de l’aide et que tu anticipes, ce que le jury apprécie chez un candidat en reconversion.',
+      },
+      {
+        t: 'Je ne pense pas en avoir besoin, je suis autonome.',
+        ok: false,
+        why: "L'autonomie, c'est aussi savoir s'appuyer sur les ressources.",
+      },
+      {
+        t: "Seulement si j'ai une très mauvaise note.",
+        ok: false,
+        why: 'Le suivi est utile tout au long de la formation, pas seulement en cas d’échec.',
+      },
+      { t: 'Pour qu’il fasse mes travaux à ma place.', ok: false, why: 'Le formateur accompagne, il ne fait pas à la place.' },
+    ],
+  },
+  {
+    id: 'c12',
+    theme: 'contenu',
+    jury: false,
+    q: 'Quelle condition faut-il remplir, en plus de valider les 6 semestres, pour obtenir le diplôme (référentiel 2026) ?',
+    opts: [
+      {
+        t: "Avoir l'attestation de formation aux gestes et soins d'urgence de niveau 2 (AFGSU 2)",
+        ok: true,
+        why: "L'AFGSU 2 fait partie des conditions de délivrance du diplôme.",
+      },
+      { t: 'Avoir le permis de conduire', ok: false, why: "Ce n'est pas une condition du diplôme." },
+      { t: 'Avoir travaillé 5 ans à l’hôpital', ok: false, why: "Aucune expérience n'est exigée pour obtenir le diplôme." },
+      {
+        t: 'Réussir un concours national en fin de 3e année',
+        ok: false,
+        why: 'Il n’y a pas de concours final : on valide des semestres et des compétences.',
+      },
+    ],
+  },
+  {
+    id: 'c13',
+    theme: 'contenu',
+    jury: false,
+    q: 'Pour passer en 2e année, que faut-il valider (référentiel 2026) ?',
+    opts: [
+      {
+        t: 'Les deux semestres de l’année, ou au moins 51 crédits sur 60',
+        ok: true,
+        why: "C'est la règle de passage fixée par l'arrêté du 20 février 2026.",
+      },
+      { t: 'Seulement les stages', ok: false, why: 'Les enseignements théoriques comptent aussi.' },
+      { t: 'Rien : le passage est automatique', ok: false, why: 'Il faut valider des crédits ECTS.' },
+      {
+        t: 'Un examen oral unique en juin',
+        ok: false,
+        why: 'L’évaluation se fait par contrôle continu et/ou examens terminaux, et par la validation des stages.',
+      },
+    ],
+  },
+  {
+    id: 'c14',
+    theme: 'contenu',
+    jury: false,
+    q: 'Pour un étudiant en promotion professionnelle financé par son employeur, combien de semaines de stage peut-il faire chez cet employeur au maximum ?',
+    opts: [
+      {
+        t: '33 semaines',
+        ok: true,
+        why: "L'arrêté de 2026 limite à 33 semaines les stages chez l'employeur qui finance (hors apprentis), pour garantir la diversité des stages.",
+      },
+      { t: 'Toutes les 66 semaines', ok: false, why: 'Il faut aussi découvrir d’autres lieux de soins.' },
+      { t: 'Aucune', ok: false, why: 'Une partie des stages peut avoir lieu chez l’employeur.' },
+      { t: '5 semaines', ok: false, why: 'La limite est plus haute : 33 semaines.' },
+    ],
+    tip: 'Utile si ta formation est financée par un employeur : cela montre que tu connais les règles de la voie FPC.',
+  },
+  {
+    id: 'c15',
+    theme: 'contenu',
+    jury: true,
+    q: 'Pouvez-vous bénéficier de dispenses dans la formation ?',
+    opts: [
+      {
+        t: 'Des dispenses sont possibles selon les diplômes, certifications et le parcours professionnel, après étude du dossier. Je me suis renseigné : dans mon cas, je pense suivre le cursus complet, ce qui me convient pour bien reprendre les bases.',
+        ok: true,
+        why: "Tu montres que tu connais le dispositif et que tu l'appliques honnêtement à ta situation.",
+      },
+      {
+        t: 'Oui, mon expérience en informatique me dispense de la 1re année.',
+        ok: false,
+        why: 'Une expérience hors santé ne donne pas de dispense automatique.',
+      },
+      { t: "Je n'en ai aucune idée.", ok: false, why: 'Le jury attend que tu te sois renseigné.' },
+      {
+        t: 'Non, personne ne peut en avoir.',
+        ok: false,
+        why: 'Faux : des dispenses existent (par exemple pour certains aides-soignants, qui peuvent entrer en 2e année sous conditions).',
+      },
+    ],
+    tip: "Adapte la réponse si tu as un diplôme ou une expérience de soin. Les aides-soignants avec 3 ans d'expérience sur les 5 dernières années peuvent, sous conditions, intégrer la 2e année.",
+  },
+
+  // ---------- Actualité santé et médico-sociale ----------
+  {
+    id: 'a1',
+    theme: 'actu',
+    jury: false,
+    q: 'Que permet la loi sur la profession d’infirmier du 27 juin 2025 ?',
+    opts: [
+      {
+        t: 'Elle reconnaît la consultation infirmière, le diagnostic infirmier et un droit de prescription encadré',
+        ok: true,
+        why: "La loi n° 2025-581 modifie le Code de la santé publique : l'infirmier effectue des consultations, pose un diagnostic infirmier et prescrit certains produits et examens.",
+      },
+      {
+        t: 'Elle permet aux infirmiers de prescrire tous les médicaments',
+        ok: false,
+        why: 'La prescription est limitée à une liste fixée par arrêté.',
+      },
+      { t: 'Elle supprime le diplôme d’État', ok: false, why: 'Le DE existe toujours.' },
+      { t: 'Elle réserve la profession aux titulaires d’un master', ok: false, why: 'Le DE (grade licence) reste le diplôme d’accès.' },
+    ],
+    tip: 'C’est LA réforme du métier : elle est entrée en application concrète à l’été 2026.',
+  },
+  {
+    id: 'a2',
+    theme: 'actu',
+    jury: false,
+    q: 'Depuis fin juin 2026, que peut prescrire un infirmier (liste fixée par arrêté) ?',
+    opts: [
+      {
+        t: 'Par exemple des substituts nicotiniques, certains vaccins, des pansements et dispositifs pour les plaies, des antalgiques de palier 1',
+        ok: true,
+        why: 'Les arrêtés du 26 juin 2026 fixent la liste. Elle inclut aussi le renouvellement de contraceptifs oraux (6 mois) et certains examens de biologie. Elle sera révisée au moins tous les 3 ans.',
+      },
+      { t: 'Des morphiniques, sans limite', ok: false, why: 'Les antalgiques autorisés sont de palier 1 (comme le paracétamol).' },
+      { t: 'Tous les médicaments', ok: false, why: 'La prescription infirmière est encadrée par une liste.' },
+      { t: 'Aucun produit de santé', ok: false, why: 'Le droit de prescription existe et a été élargi.' },
+    ],
+  },
+  {
+    id: 'a3',
+    theme: 'actu',
+    jury: false,
+    q: 'Qu’est-ce que le PLFSS ?',
+    opts: [
+      {
+        t: 'Le projet de loi de financement de la Sécurité sociale, examiné chaque automne, qui fixe notamment l’ONDAM',
+        ok: true,
+        why: "Le PLFSS fixe chaque année les recettes, les dépenses et l'objectif national de dépenses d'assurance maladie (ONDAM).",
+      },
+      { t: 'Un plan de lutte contre les fraudes sociales', ok: false, why: "Ce n'est pas le sens du sigle." },
+      { t: 'Le programme de la formation en soins infirmiers', ok: false, why: "Aucun rapport : c'est le budget de la Sécu." },
+      { t: 'Une prime versée aux soignants', ok: false, why: "C'est une loi de financement." },
+    ],
+  },
+  {
+    id: 'a4',
+    theme: 'actu',
+    jury: false,
+    q: 'Où en est le budget 2027 de la Sécurité sociale (PLFSS 2027) mi-novembre 2026 ?',
+    opts: [
+      {
+        t: "Rejeté par l'Assemblée nationale en première lecture, puis adopté par le Sénat le 18 novembre 2026 ; une commission mixte paritaire doit suivre",
+        ok: true,
+        why: 'Le texte prévoit un ONDAM en hausse de 2 % et vise un déficit de 12,7 Md€ en 2027 (contre 21,8 Md€ en 2026).',
+      },
+      { t: 'Définitivement adopté début octobre', ok: false, why: 'Le débat parlementaire était toujours en cours mi-novembre.' },
+      { t: 'Abandonné par le gouvernement', ok: false, why: 'Le texte a été examiné par les deux assemblées.' },
+      { t: 'Remplacé par un référendum', ok: false, why: 'Le budget de la Sécurité sociale est voté par le Parlement.' },
+    ],
+    tip: 'Ça bouge vite : regarde les dernières infos la veille de ton oral (CMP, nouvelle lecture…).',
+  },
+  {
+    id: 'a5',
+    theme: 'actu',
+    jury: false,
+    q: 'Que signifie le sigle ONDAM ?',
+    opts: [
+      {
+        t: "Objectif national de dépenses d'assurance maladie",
+        ok: true,
+        why: "C'est le plafond de dépenses de santé voté chaque année. Pour 2027, le projet prévoit +2 %.",
+      },
+      { t: 'Office national des droits des malades', ok: false, why: "Ce n'est pas le bon sigle." },
+      { t: 'Ordre national des aides médicaux', ok: false, why: "Ce n'est pas le bon sigle." },
+      { t: 'Organisation nationale des dispensaires et maternités', ok: false, why: "Ce n'est pas le bon sigle." },
+    ],
+    tip: 'Un ONDAM qui progresse moins vite que les besoins, cela veut dire des hôpitaux sous tension : un lien utile avec le quotidien des soignants.',
+  },
+  {
+    id: 'a6',
+    theme: 'actu',
+    jury: false,
+    q: 'Quelle affirmation sur la loi relative à l’aide à mourir est exacte ?',
+    opts: [
+      {
+        t: "Adoptée définitivement en juillet 2026, validée avec réserves par le Conseil constitutionnel, elle a été publiée au Journal officiel en août 2026 ; ses décrets d'application sont attendus",
+        ok: true,
+        why: "Elle concerne des adultes atteints d'une maladie grave et incurable, en phase avancée ou terminale, avec une souffrance réfractaire ou insupportable, capables d'une volonté libre et éclairée.",
+      },
+      { t: 'Elle a été rejetée par le Parlement', ok: false, why: 'Elle a été adoptée définitivement le 15 juillet 2026.' },
+      { t: 'Elle s’applique aux mineurs', ok: false, why: 'Il faut être majeur.' },
+      {
+        t: 'Une souffrance psychologique seule suffit',
+        ok: false,
+        why: 'Non : il faut une maladie grave et incurable engageant le pronostic vital.',
+      },
+    ],
+  },
+  {
+    id: 'a7',
+    theme: 'actu',
+    jury: false,
+    q: "Dans l'aide à mourir, quel est le principe pour le geste final ?",
+    opts: [
+      {
+        t: "La personne s'administre elle-même la substance ; un médecin ou un infirmier n'intervient que si elle ne peut pas le faire physiquement",
+        ok: true,
+        why: "C'est le principe d'autoadministration. Les soignants disposent d'une clause de conscience.",
+      },
+      {
+        t: 'Le geste est toujours réalisé par un infirmier',
+        ok: false,
+        why: "L'intervention d'un soignant est l'exception, pas la règle.",
+      },
+      {
+        t: 'La famille décide à la place du patient',
+        ok: false,
+        why: 'La demande doit venir de la personne elle-même, libre et éclairée.',
+      },
+      { t: 'Le geste peut être fait sans avis médical', ok: false, why: 'La procédure est encadrée par des médecins.' },
+    ],
+  },
+  {
+    id: 'a8',
+    theme: 'actu',
+    jury: true,
+    q: 'Que pensez-vous de la loi sur l’aide à mourir ?',
+    opts: [
+      {
+        t: "Je présente les faits (texte adopté en 2026, conditions strictes), je dis que c'est un sujet éthique sensible, et que pour moi le rôle infirmier reste d'écouter, de soulager et d'accompagner, en lien avec les soins palliatifs, dans le respect de la volonté du patient et de la loi.",
+        ok: true,
+        why: 'Le jury ne note pas ton opinion : il évalue ta connaissance, ta nuance et ta posture professionnelle.',
+      },
+      {
+        t: "C'est une très mauvaise loi, je refuserai toujours d'en parler.",
+        ok: false,
+        why: "Trop tranché et fermé : le jury attend de la nuance et de l'écoute.",
+      },
+      {
+        t: "Je n'ai pas d'avis, ça ne me concerne pas.",
+        ok: false,
+        why: "Ça concerne directement les infirmiers : cela montre un manque d'intérêt.",
+      },
+      { t: "C'est une excellente loi, il faut l'étendre à tout le monde.", ok: false, why: 'Trop militant : reste factuel et nuancé.' },
+    ],
+    tip: 'Sur les sujets éthiques : faits → enjeux (autonomie, protection des personnes vulnérables) → rôle infirmier → ton avis, en une phrase, nuancé.',
+  },
+  {
+    id: 'a9',
+    theme: 'actu',
+    jury: false,
+    q: 'Quelle « grande cause nationale » a été lancée en 2025 et prolongée en 2026 ?',
+    opts: [
+      {
+        t: 'La santé mentale',
+        ok: true,
+        why: "Le gouvernement l'a prolongée en 2026, notamment face à la dégradation de la santé mentale des jeunes.",
+      },
+      { t: 'La lutte contre le tabac', ok: false, why: "Ce n'est pas la grande cause nationale de 2025-2026." },
+      { t: 'Le sport à l’école', ok: false, why: "Ce n'est pas la grande cause nationale de 2025-2026." },
+      { t: 'La sécurité routière', ok: false, why: "Ce n'est pas la grande cause nationale de 2025-2026." },
+    ],
+  },
+  {
+    id: 'a10',
+    theme: 'actu',
+    jury: false,
+    q: 'Parmi ces mesures annoncées en 2026 pour la santé mentale, laquelle est exacte ?',
+    opts: [
+      {
+        t: "Un objectif de « zéro contention » en psychiatrie à l'horizon 2030, avec formation des équipes à la désescalade",
+        ok: true,
+        why: 'Annoncé en juin 2026, avec aussi l’objectif « aucun élève en souffrance psychique sans solution » et un rendez-vous rapide (48 h si besoin).',
+      },
+      { t: 'La fermeture des Maisons des adolescents', ok: false, why: "C'est l'inverse : elles doivent être renforcées." },
+      {
+        t: 'La fin du remboursement des séances de psychologue',
+        ok: false,
+        why: 'Le dispositif Mon soutien psy continue (près de 1,8 million de bénéficiaires).',
+      },
+      { t: 'La suppression de la psychiatrie publique', ok: false, why: 'Aucune annonce de ce type.' },
+    ],
+  },
+  {
+    id: 'a11',
+    theme: 'actu',
+    jury: false,
+    q: "Qu'est-ce que « Mon soutien psy » ?",
+    opts: [
+      {
+        t: 'Un dispositif de séances avec un psychologue remboursées par l’Assurance maladie',
+        ok: true,
+        why: "Il permet d'accéder à des séances chez un psychologue partenaire, remboursées, pour les troubles d'intensité légère à modérée.",
+      },
+      { t: 'Une application de méditation payante', ok: false, why: "C'est un dispositif de remboursement." },
+      { t: "Un numéro d'urgence psychiatrique", ok: false, why: 'Le numéro national de prévention du suicide est le 3114.' },
+      { t: 'Une hospitalisation sans consentement', ok: false, why: 'Aucun rapport.' },
+    ],
+    tip: 'À connaître aussi : le 3114, numéro national de prévention du suicide (24 h/24).',
+  },
+  {
+    id: 'a12',
+    theme: 'actu',
+    jury: false,
+    q: 'Campagne grippe et Covid 2026-2027 : quelle affirmation est juste ?',
+    opts: [
+      {
+        t: 'Elle a commencé le 13 octobre 2026 ; les deux vaccins peuvent être faits le même jour, et les infirmiers peuvent vacciner',
+        ok: true,
+        why: "Elle cible les 65 ans et plus, les malades chroniques, les femmes enceintes, l'entourage et les soignants. Une obligation de vaccination antigrippale des soignants est en préparation.",
+      },
+      { t: 'Seuls les médecins peuvent vacciner', ok: false, why: 'Infirmiers, pharmaciens et sages-femmes vaccinent aussi.' },
+      { t: 'La vaccination est réservée aux enfants', ok: false, why: 'Elle cible surtout les personnes à risque de forme grave.' },
+      { t: 'Il faut attendre 3 mois entre les deux vaccins', ok: false, why: 'Ils peuvent être administrés lors de la même séance.' },
+    ],
+  },
+  {
+    id: 'a13',
+    theme: 'actu',
+    jury: false,
+    q: "Qu'est-ce qu'un Médicobus ?",
+    opts: [
+      {
+        t: 'Un cabinet médical itinérant qui va dans les territoires manquant de médecins',
+        ok: true,
+        why: "En novembre 2026, une deuxième vague a été annoncée pour atteindre 100 cabinets itinérants. C'est une réponse aux déserts médicaux.",
+      },
+      { t: 'Une ambulance de réanimation', ok: false, why: "C'est un cabinet de consultation mobile, pas un véhicule d'urgence." },
+      { t: 'Un bus qui transporte les patients à l’hôpital', ok: false, why: "C'est le soignant qui vient au patient." },
+      { t: 'Une application de téléconsultation', ok: false, why: "C'est un véhicule aménagé, présent physiquement." },
+    ],
+    tip: "Lien avec ton futur métier : face aux déserts médicaux, l'infirmier (consultation, prescription, libéral) devient un acteur de l'accès aux soins.",
+  },
+  {
+    id: 'a14',
+    theme: 'actu',
+    jury: false,
+    q: "Qu'est-ce que l'APA ?",
+    opts: [
+      {
+        t: "L'allocation personnalisée d'autonomie, versée par le département aux personnes de 60 ans et plus en perte d'autonomie",
+        ok: true,
+        why: "Elle finance l'aide à domicile ou une partie du tarif dépendance en EHPAD. Le PLFSS 2027 prévoit de transférer 300 M€ aux départements pour l'APA et la PCH.",
+      },
+      { t: "L'aide personnalisée au logement", ok: false, why: "C'est l'APL." },
+      { t: 'Une allocation pour les étudiants', ok: false, why: "Elle concerne les personnes âgées en perte d'autonomie." },
+      {
+        t: 'Une aide pour les personnes handicapées de moins de 20 ans',
+        ok: false,
+        why: "C'est l'AEEH. Pour les adultes handicapés, c'est la PCH.",
+      },
+    ],
+    tip: 'Le vieillissement de la population est un enjeu majeur : maintien à domicile, EHPAD, besoin croissant d’infirmiers.',
+  },
+  {
+    id: 'a15',
+    theme: 'actu',
+    jury: true,
+    q: 'Quelle actualité dans le domaine de la santé vous a marqué récemment ?',
+    opts: [
+      {
+        t: "Je choisis un sujet précis (par exemple la loi infirmière), je donne les faits en 2 ou 3 phrases, j'explique ce qu'il change pour les infirmiers et les patients, puis ce que j'en pense.",
+        ok: true,
+        why: 'Un sujet maîtrisé et relié au métier vaut mieux que cinq sujets survolés.',
+      },
+      {
+        t: "Je ne suis pas trop l'actualité.",
+        ok: false,
+        why: "Le jury attend que tu t'intéresses à ton futur environnement professionnel.",
+      },
+      { t: "Je cite une série médicale que j'ai regardée.", ok: false, why: "Une fiction n'est pas une actualité." },
+      { t: 'Je cite plusieurs sujets sans les expliquer.', ok: false, why: 'Le jury relancera et verra que tu ne maîtrises pas.' },
+    ],
+    tip: 'Prépare 2 sujets à fond : la loi infirmière (consultation, diagnostic, prescription) et la santé mentale. En réserve : aide à mourir, PLFSS 2027, déserts médicaux.',
   },
 ];

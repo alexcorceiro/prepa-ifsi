@@ -254,7 +254,7 @@ function Memo() {
         </ul>
       </details>
       <details>
-        <summary>Les 5 thèmes à préparer</summary>
+        <summary>Les 7 thèmes à préparer</summary>
         <ol>
           <li>
             <b>Ton parcours</b> : « Pouvez-vous vous présenter ? », « Pourquoi quitter l'informatique ? »
@@ -271,7 +271,68 @@ function Memo() {
           <li>
             <b>Ta capacité à suivre la formation</b> : organisation, financement, réaction aux difficultés.
           </li>
+          <li>
+            <b>Le contenu de la formation</b> : durée, référentiel, stages, compétences.
+          </li>
+          <li>
+            <b>L'actualité santé et médico-sociale</b> : 2 sujets maîtrisés, reliés au métier.
+          </li>
         </ol>
+      </details>
+      <details>
+        <summary>La formation en bref</summary>
+        <ul>
+          <li>
+            <b>3 ans, 6 semestres, 180 ECTS</b> (30 par semestre) : diplôme d'État d'infirmier, <b>grade licence</b>, délivré par les
+            universités.
+          </li>
+          <li>
+            Ta promotion (septembre 2027) suivra le <b>référentiel du 20 février 2026</b> : 4 620 h, dont <b>66 semaines de stage</b> (2 310
+            h), 1 890 h d'enseignement et 420 h de travail en autonomie.
+          </li>
+          <li>
+            5 domaines : raisonnement clinique ; pratiques cliniques, qualité et risques ; prévention et promotion de la santé ;
+            communication, équipe et leadership ; démarche scientifique et recherche.
+          </li>
+          <li>
+            Le site de l'IFSI décrit encore le <b>référentiel de 2009</b> : 10 compétences (5 cœur de métier, 5 transverses), 2 100 h de
+            théorie, 2 100 h de stage.
+          </li>
+          <li>
+            Longjumeau : cours à l'IFSI et à l'Université Paris-Saclay (Kremlin-Bicêtre), stages hospitaliers et extrahospitaliers, suivi
+            individuel par un formateur, dispenses possibles selon le parcours.
+          </li>
+          <li>
+            Objectif : un <b>praticien autonome, responsable et réflexif</b>. Diplôme : 6 semestres validés + AFGSU 2.
+          </li>
+        </ul>
+      </details>
+      <details>
+        <summary>L'actualité à connaître (au 19 novembre 2026)</summary>
+        <ul>
+          <li>
+            <b>Loi infirmière du 27 juin 2025</b> : consultation infirmière, diagnostic infirmier, prescription encadrée. Arrêtés du 26 juin
+            2026 : liste des produits prescrits (vaccins, pansements, substituts nicotiniques, antalgiques de palier 1…).
+          </li>
+          <li>
+            <b>PLFSS 2027</b> : rejeté à l'Assemblée en 1re lecture, adopté au Sénat le 18 novembre ; CMP à suivre. ONDAM +2 %, déficit visé
+            12,7 Md€.
+          </li>
+          <li>
+            <b>Aide à mourir</b> : loi adoptée en juillet 2026, validée avec réserves par le Conseil constitutionnel, publiée en août ;
+            décrets attendus. Autoadministration, clause de conscience.
+          </li>
+          <li>
+            <b>Santé mentale</b> : grande cause nationale prolongée en 2026 ; objectif « zéro contention » en 2030 ; Mon soutien psy ; 3114.
+          </li>
+          <li>
+            <b>Vaccination grippe et Covid</b> depuis le 13 octobre 2026, possible le même jour, aussi par les infirmiers.
+          </li>
+          <li>
+            <b>Accès aux soins</b> : Médicobus (objectif 100 cabinets itinérants). <b>Grand âge</b> : APA, maintien à domicile.
+          </li>
+        </ul>
+        <p className="muted">Vérifie les dernières infos la veille de ton oral : le PLFSS peut encore évoluer.</p>
       </details>
       <details>
         <summary>La trame de ta présentation (2 à 3 minutes)</summary>
