@@ -1097,3 +1097,76 @@ select {
     order: 1;
   }
 }
+
+/* Oral : sous-parties et méthode guidée */
+.oral-modes {
+  flex-wrap: wrap;
+}
+.msteps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+.msteps button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.msteps button[aria-current='step'] {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+.msteps .n {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: var(--sunk);
+}
+.msteps .n.ok {
+  background: var(--ok);
+  color: #fff;
+}
+.msteps .n.warn {
+  background: var(--warn);
+  color: #fff;
+}
+.msteps .n.bad {
+  background: var(--bad);
+  color: #fff;
+}
+.msteps .t {
+  flex: 1;
+}
+.msteps .s {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.mlist {
+  display: grid;
+  gap: 6px;
+  padding-left: 1.2em;
+}
+.mphrase {
+  margin: 0;
+  font-style: italic;
+}
+.attendu ul {
+  margin: 0;
+  padding-left: 1.2em;
+}

@@ -151,7 +151,7 @@ export default function Home({ onGo }) {
         <button className="start" onClick={() => onGo('oral')}>
           <em>Priorité · dès le 16 nov.</em>
           <b>Oral</b>
-          <span>Entretien blanc avec Claude en jury, réponses dictées corrigées, trames perso et QCM.</span>
+          <span>Réponses au jury chronométrées, méthodes guidées sur la formation et l'actualité, entretien blanc et QCM.</span>
         </button>
       </div>
 

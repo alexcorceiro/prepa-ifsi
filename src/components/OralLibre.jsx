@@ -4,6 +4,8 @@ import { getSampler, ERR } from '../lib/claude.js';
 import { REPONSES_PERSO, loadOralNotes, saveOralNotes, fmtTime } from '../lib/oralProfil.js';
 import { reponsePrompt } from '../lib/oralPrompts.js';
 import Mic, { appendText } from './Mic.jsx';
+import OralCheck from './OralCheck.jsx';
+import { HAS_CLAUDE } from '../lib/oralQuestions.js';
 
 // Correction d'une réponse par Claude : note sur 10, points forts, à améliorer, version améliorée, conseil.
 function ReponseCorrection({ q, txt, used, onSaved }) {
@@ -45,12 +47,7 @@ function ReponseCorrection({ q, txt, used, onSaved }) {
         <p className="thinking">Le jury lit ta réponse…</p>
       </div>
     );
-  if (st.status === 'unavailable')
-    return (
-      <div className="panel">
-        <p>La correction par Claude n'est pas disponible ici. Compare ta réponse à ta trame ci-dessous.</p>
-      </div>
-    );
+  if (st.status === 'unavailable') return null;
   if (st.status !== 'done')
     return (
       <div className="panel">
@@ -171,8 +168,9 @@ export default function OralLibre() {
       <p className="eyebrow">Le plus important</p>
       <h2>Réponds comme devant le jury</h2>
       <p>
-        Choisis une question, lance le chrono et réponds à voix haute, comme le jour J. Écris ensuite ce que tu as dit (ou réponds
-        directement par écrit), puis fais corriger ta réponse.
+        {HAS_CLAUDE
+          ? 'Choisis une question, lance le chrono et réponds à voix haute, comme le jour J. Écris ensuite ce que tu as dit (ou réponds directement par écrit), puis fais corriger ta réponse.'
+          : 'Choisis une question, lance le chrono et réponds à voix haute, comme le jour J. Tu peux dicter ou écrire ta réponse, mais ce n’est pas obligatoire. Compare-la ensuite à ta trame et évalue-toi avec la grille.'}
       </p>
       <label className="view" style={{ gap: 6 }}>
         <b>Question</b>
@@ -210,8 +208,8 @@ export default function OralLibre() {
               {run ? 'Pause' : el ? 'Reprendre' : 'Lancer le chrono'}
             </button>
             <span className="muted grow num">{plural(w, 'mot')}</span>
-            <button className="btn" disabled={w < 15} onClick={submit}>
-              Faire corriger
+            <button className="btn" disabled={HAS_CLAUDE && w < 15} onClick={submit}>
+              {HAS_CLAUDE ? 'Faire corriger' : 'J’ai répondu'}
             </button>
           </div>
           {over && <p className="fb bad">Durée conseillée dépassée : au jury, une réponse trop longue perd en clarté.</p>}
@@ -226,16 +224,47 @@ export default function OralLibre() {
             onChange={(e) => setTxt(e.target.value)}
             placeholder="Dicte ou écris ici ce que tu as dit au jury (au moins quelques phrases)."
           />
-          <p className="note">{w < 15 ? 'Écris au moins 15 mots pour obtenir une correction.' : 'Prêt ? Clique sur « Faire corriger ».'}</p>
+          <p className="note">
+            {!HAS_CLAUDE
+              ? 'Quand tu as fini de parler, clique sur « J’ai répondu ».'
+              : w < 15
+                ? 'Écris au moins 15 mots pour obtenir une correction.'
+                : 'Prêt ? Clique sur « Faire corriger ».'}
+          </p>
         </>
       )}
       {phase === 'result' && (
         <>
-          <details>
-            <summary>Ta réponse</summary>
-            <p style={{ whiteSpace: 'pre-wrap', marginTop: 8 }}>{txt}</p>
-          </details>
-          <ReponseCorrection key={k} q={q} txt={txt} used={used} onSaved={saved} />
+          {txt.trim() && (
+            <details>
+              <summary>Ta réponse</summary>
+              <p style={{ whiteSpace: 'pre-wrap', marginTop: 8 }}>{txt}</p>
+            </details>
+          )}
+          {used != null && (
+            <p className={`fb ${used > q.sec ? 'bad' : 'ok'}`}>
+              {'Durée : '}
+              {fmtTime(used)}
+              {' pour '}
+              {fmtTime(q.sec)}
+              {' conseillées.'}
+            </p>
+          )}
+          {HAS_CLAUDE ? (
+            <ReponseCorrection key={k} q={q} txt={txt} used={used} onSaved={saved} />
+          ) : (
+            <>
+              <div className="panel">
+                <h3>Ta trame de réponse</h3>
+                <ul>
+                  {q.trame.map((t, i) => (
+                    <li key={i}>{t}</li>
+                  ))}
+                </ul>
+              </div>
+              <OralCheck key={k} onScore={(note) => saved({ note })} />
+            </>
+          )}
           <div className="row">
             <button className="btn" onClick={() => reset()}>
               Recommencer cette question
@@ -246,7 +275,7 @@ export default function OralLibre() {
           </div>
         </>
       )}
-      <Trame key={q.id} q={q} />
+      {(HAS_CLAUDE || phase !== 'result') && <Trame key={q.id} q={q} />}
     </section>
   );
 }

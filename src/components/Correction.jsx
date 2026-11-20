@@ -137,7 +137,7 @@ export default function Correction({ subject, text, used, onResult }) {
         </div>
       );
     case 'unavailable':
-      return <SelfEval message="La correction par Claude n'est pas disponible ici. Utilise la grille pour relire ta copie." />;
+      return <SelfEval message="Relis ta copie avec cette grille, critère par critère." />;
     case 'loading':
       return (
         <div className="panel">

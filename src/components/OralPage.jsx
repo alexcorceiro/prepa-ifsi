@@ -1,18 +1,12 @@
 import { useState } from 'react';
-import { QUESTIONS, THEMES } from '../lib/oralQuestions.js';
-import { shuffle } from '../lib/format.js';
-import { statOral, addHist } from '../lib/storage.js';
+import { QUESTIONS, THEMES, HAS_CLAUDE } from '../lib/oralQuestions.js';
+import { addHist } from '../lib/storage.js';
+import Quiz, { prepare } from './OralQuiz.jsx';
+import OralMethode from './OralMethode.jsx';
 import OralLibre from './OralLibre.jsx';
 import Entretien from './Entretien.jsx';
+import EntretienLocal from './EntretienLocal.jsx';
 import MesReponses from './MesReponses.jsx';
-
-const LETTERS = ['A', 'B', 'C', 'D'];
-
-// Prépare une série : questions mélangées, et options mélangées dans chaque question.
-const prepare = (pool, count) =>
-  shuffle(pool)
-    .slice(0, count === 'all' ? pool.length : Math.min(count, pool.length))
-    .map((q) => ({ ...q, opts: shuffle(q.opts) }));
 
 function Setup({ themes, setThemes, count, setCount, onStart }) {
   const pool = QUESTIONS.filter((q) => themes.has(q.theme));
@@ -56,96 +50,6 @@ function Setup({ themes, setThemes, count, setCount, onStart }) {
           Commencer le QCM
         </button>
       </div>
-    </div>
-  );
-}
-
-function Quiz({ list, onDone, onQuit }) {
-  const [i, setI] = useState(0);
-  const [picked, setPicked] = useState(null);
-  const [answers, setAnswers] = useState([]); // [{ q, picked, ok }]
-  const q = list[i];
-  const isLast = i === list.length - 1;
-
-  const choose = (k) => {
-    if (picked !== null) return;
-    const ok = q.opts[k].ok;
-    setPicked(k);
-    statOral(q.theme, ok);
-    setAnswers((a) => [...a, { q, picked: k, ok }]);
-  };
-
-  const next = () => {
-    if (isLast) return onDone(answers);
-    setI(i + 1);
-    setPicked(null);
-    window.scrollTo(0, 0);
-  };
-
-  const okSoFar = answers.filter((a) => a.ok).length;
-  const right = picked !== null && q.opts[picked].ok;
-
-  return (
-    <div className="view">
-      <div className="runbar">
-        <span className="muted grow">
-          Question {i + 1} sur {list.length}
-          {answers.length > 0 && ` · ${okSoFar} bonne${okSoFar > 1 ? 's' : ''} réponse${okSoFar > 1 ? 's' : ''}`}
-        </span>
-        <button className="btn ghost" onClick={onQuit}>
-          Arrêter
-        </button>
-      </div>
-      <div className="progress" aria-hidden="true">
-        <div style={{ width: `${((i + (picked !== null ? 1 : 0)) / list.length) * 100}%` }} />
-      </div>
-
-      <article className="qcard">
-        <div className="qmeta">
-          <span className="tag">{THEMES[q.theme]}</span>
-        </div>
-        {q.jury ? (
-          <div className="jury">
-            <span className="who">Le jury</span>
-            <p className="qtext">« {q.q} »</p>
-            <p className="muted">Quelle réponse convaincrait le mieux le jury ?</p>
-          </div>
-        ) : (
-          <p className="qtext">{q.q}</p>
-        )}
-
-        <div className="opts" role="group" aria-label="Réponses">
-          {q.opts.map((o, k) => {
-            const state = picked === null ? '' : o.ok ? 'right' : k === picked ? 'wrong' : 'dim';
-            return (
-              <button key={k} type="button" className={`opt ${state}`} disabled={picked !== null} onClick={() => choose(k)}>
-                <span className="l">{picked !== null && o.ok ? '✓' : picked === k ? '✗' : LETTERS[k]}</span>
-                <span>{o.t}</span>
-                {picked !== null && <span className="why">{o.why}</span>}
-              </button>
-            );
-          })}
-        </div>
-
-        {picked !== null && (
-          <>
-            <div className={`fb ${right ? 'ok' : 'bad'}`}>
-              <strong>{right ? 'Bonne réponse.' : 'Pas la meilleure réponse.'}</strong>{' '}
-              {right ? 'Lis quand même les explications des autres options.' : 'La meilleure réponse est marquée ✓.'}
-            </div>
-            {q.tip && (
-              <p className="conseil">
-                <strong>Conseil :</strong> {q.tip}
-              </p>
-            )}
-            <div>
-              <button className="btn" onClick={next} autoFocus>
-                {isLast ? 'Voir mon résultat' : 'Question suivante'}
-              </button>
-            </div>
-          </>
-        )}
-      </article>
     </div>
   );
 }
@@ -272,67 +176,12 @@ function Memo() {
             <b>Ta capacité à suivre la formation</b> : organisation, financement, réaction aux difficultés.
           </li>
           <li>
-            <b>Le contenu de la formation</b> : durée, référentiel, stages, compétences.
+            <b>Le contenu de la formation</b> : voir la méthode guidée « La formation ».
           </li>
           <li>
-            <b>L'actualité santé et médico-sociale</b> : 2 sujets maîtrisés, reliés au métier.
+            <b>L'actualité santé et médico-sociale</b> : voir la méthode guidée « L'actualité ».
           </li>
         </ol>
-      </details>
-      <details>
-        <summary>La formation en bref</summary>
-        <ul>
-          <li>
-            <b>3 ans, 6 semestres, 180 ECTS</b> (30 par semestre) : diplôme d'État d'infirmier, <b>grade licence</b>, délivré par les
-            universités.
-          </li>
-          <li>
-            Ta promotion (septembre 2027) suivra le <b>référentiel du 20 février 2026</b> : 4 620 h, dont <b>66 semaines de stage</b> (2 310
-            h), 1 890 h d'enseignement et 420 h de travail en autonomie.
-          </li>
-          <li>
-            5 domaines : raisonnement clinique ; pratiques cliniques, qualité et risques ; prévention et promotion de la santé ;
-            communication, équipe et leadership ; démarche scientifique et recherche.
-          </li>
-          <li>
-            Le site de l'IFSI décrit encore le <b>référentiel de 2009</b> : 10 compétences (5 cœur de métier, 5 transverses), 2 100 h de
-            théorie, 2 100 h de stage.
-          </li>
-          <li>
-            Longjumeau : cours à l'IFSI et à l'Université Paris-Saclay (Kremlin-Bicêtre), stages hospitaliers et extrahospitaliers, suivi
-            individuel par un formateur, dispenses possibles selon le parcours.
-          </li>
-          <li>
-            Objectif : un <b>praticien autonome, responsable et réflexif</b>. Diplôme : 6 semestres validés + AFGSU 2.
-          </li>
-        </ul>
-      </details>
-      <details>
-        <summary>L'actualité à connaître (au 19 novembre 2026)</summary>
-        <ul>
-          <li>
-            <b>Loi infirmière du 27 juin 2025</b> : consultation infirmière, diagnostic infirmier, prescription encadrée. Arrêtés du 26 juin
-            2026 : liste des produits prescrits (vaccins, pansements, substituts nicotiniques, antalgiques de palier 1…).
-          </li>
-          <li>
-            <b>PLFSS 2027</b> : rejeté à l'Assemblée en 1re lecture, adopté au Sénat le 18 novembre ; CMP à suivre. ONDAM +2 %, déficit visé
-            12,7 Md€.
-          </li>
-          <li>
-            <b>Aide à mourir</b> : loi adoptée en juillet 2026, validée avec réserves par le Conseil constitutionnel, publiée en août ;
-            décrets attendus. Autoadministration, clause de conscience.
-          </li>
-          <li>
-            <b>Santé mentale</b> : grande cause nationale prolongée en 2026 ; objectif « zéro contention » en 2030 ; Mon soutien psy ; 3114.
-          </li>
-          <li>
-            <b>Vaccination grippe et Covid</b> depuis le 13 octobre 2026, possible le même jour, aussi par les infirmiers.
-          </li>
-          <li>
-            <b>Accès aux soins</b> : Médicobus (objectif 100 cabinets itinérants). <b>Grand âge</b> : APA, maintien à domicile.
-          </li>
-        </ul>
-        <p className="muted">Vérifie les dernières infos la veille de ton oral : le PLFSS peut encore évoluer.</p>
       </details>
       <details>
         <summary>La trame de ta présentation (2 à 3 minutes)</summary>
@@ -356,8 +205,33 @@ function Memo() {
   );
 }
 
-// Onglet Oral : réponses chronométrées, entretien blanc, trames perso, QCM et fiche mémo.
+const MODES = [
+  ['repondre', 'Répondre au jury'],
+  ['formation', 'Méthode : la formation'],
+  ['actu', "Méthode : l'actualité"],
+  ['entretien', 'Entretien blanc'],
+  ['qcm', 'QCM et fiche mémo'],
+];
+const MODE_KEY = 'ifsi-oral-mode';
+
+// Onglet Oral : cinq sous-parties. Tout fonctionne hors ligne ; Claude n'est utilisé que s'il est disponible (artifact claude.ai).
 export default function OralPage() {
+  const [mode, setModeState] = useState(() => {
+    try {
+      const m = localStorage.getItem(MODE_KEY);
+      return MODES.some(([k]) => k === m) ? m : 'repondre';
+    } catch {
+      return 'repondre';
+    }
+  });
+  const setMode = (m) => {
+    setModeState(m);
+    try {
+      localStorage.setItem(MODE_KEY, m);
+    } catch {
+      /* ignoré */
+    }
+  };
   const [stage, setStage] = useState('setup'); // setup | quiz | result
   const [themes, setThemes] = useState(() => new Set(Object.keys(THEMES)));
   const [count, setCount] = useState(10);
@@ -374,16 +248,28 @@ export default function OralPage() {
 
   return (
     <section className="view">
-      {stage === 'setup' && (
+      <div className="seg oral-modes" role="group" aria-label="Parties de l'oral">
+        {MODES.map(([k, label]) => (
+          <button key={k} aria-pressed={mode === k} onClick={() => setMode(k)}>
+            {label}
+          </button>
+        ))}
+      </div>
+      {mode === 'repondre' && (
         <>
           <OralLibre />
-          <Entretien />
           <MesReponses />
+        </>
+      )}
+      {(mode === 'formation' || mode === 'actu') && <OralMethode key={mode} partie={mode} />}
+      {mode === 'entretien' && (HAS_CLAUDE ? <Entretien /> : <EntretienLocal />)}
+      {mode === 'qcm' && stage === 'setup' && (
+        <>
           <Setup themes={themes} setThemes={setThemes} count={count} setCount={setCount} onStart={start} />
           <Memo />
         </>
       )}
-      {stage === 'quiz' && (
+      {mode === 'qcm' && stage === 'quiz' && (
         <Quiz
           key={run}
           list={list}
@@ -396,7 +282,7 @@ export default function OralPage() {
           }}
         />
       )}
-      {stage === 'result' && (
+      {mode === 'qcm' && stage === 'result' && (
         <Result
           answers={answers}
           onRetry={() =>
