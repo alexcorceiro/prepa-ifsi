@@ -1170,3 +1170,62 @@ select {
   margin: 0;
   padding-left: 1.2em;
 }
+
+/* Fiches de l'oral : texte, infographie et sources */
+.fiche {
+  display: grid;
+  gap: 8px;
+}
+.fiche h4 {
+  margin: 6px 0 0;
+}
+.fiche p {
+  margin: 0;
+}
+.fig {
+  margin: 4px 0;
+  max-width: 460px;
+}
+.fig svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--f-body);
+}
+.fig .a {
+  fill: var(--accent);
+}
+.fig .s {
+  fill: var(--accent-soft);
+}
+.fig .t {
+  fill: var(--ink);
+}
+.fig .m {
+  fill: var(--muted);
+}
+.fig .k {
+  fill: var(--accent-ink);
+}
+.fig .b {
+  fill: var(--surface);
+}
+.fig .w {
+  fill: var(--warn);
+}
+.fig .l {
+  stroke: var(--line);
+}
+.fig circle.b.l {
+  stroke: var(--muted);
+}
+.sources ul {
+  margin: 6px 0 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 6px;
+}
+.sources a {
+  color: var(--accent);
+  word-break: break-word;
+}

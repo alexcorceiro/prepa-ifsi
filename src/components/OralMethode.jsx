@@ -3,6 +3,43 @@ import { METHODES, MAJ, questionById } from '../lib/oralQuestions.js';
 import { addHist } from '../lib/storage.js';
 import Quiz, { prepare } from './OralQuiz.jsx';
 
+// Images des fiches (SVG intégrés à l'app : elles s'affichent hors ligne et suivent le thème clair ou sombre).
+const IMAGES = Object.fromEntries(
+  Object.entries(import.meta.glob('../data/images/*.svg', { query: '?raw', import: 'default', eager: true })).map(([path, svg]) => [
+    path.split('/').pop().replace('.svg', ''),
+    svg,
+  ]),
+);
+
+// La fiche d'une étape : l'essentiel à savoir, une image et les sources.
+function Fiche({ fiche }) {
+  if (!fiche) return null;
+  const svg = fiche.image && IMAGES[fiche.image];
+  return (
+    <div className="fiche">
+      <h4>L'essentiel à savoir</h4>
+      {fiche.texte.map((t, k) => (
+        <p key={k}>{t}</p>
+      ))}
+      {svg && <figure className="fig" dangerouslySetInnerHTML={{ __html: svg }} />}
+      {fiche.sources && fiche.sources.length > 0 && (
+        <details className="sources">
+          <summary>Sources ({fiche.sources.length})</summary>
+          <ul>
+            {fiche.sources.map((s, k) => (
+              <li key={k}>
+                <a href={s.url} target="_blank" rel="noopener noreferrer">
+                  {s.titre}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+    </div>
+  );
+}
+
 // Résultats par étape, gardés dans ce navigateur : { [partie]: { [etape]: { ok, n } } }
 const KEY = 'ifsi-oral-methode-v1';
 const load = () => {
@@ -223,11 +260,13 @@ export default function OralMethode({ partie }) {
           Étape {idx + 1} sur {P.etapes.length}
         </p>
         <h3>{E.titre}</h3>
+        <h4>La méthode</h4>
         <ol className="mlist">
           {E.methode.map((m, k) => (
             <li key={k}>{m}</li>
           ))}
         </ol>
+        <Fiche fiche={E.fiche} />
         <div className="jury">
           <span className="who">À dire au jury</span>
           <p className="qtext">{E.phrase}</p>

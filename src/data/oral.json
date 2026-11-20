@@ -1,6 +1,6 @@
 {
   "_info": "Données de l'oral : thèmes, questions du QCM et méthodes guidées. Modifie ce fichier pour ajouter ou corriger une question (4 options, une seule avec ok: true).",
-  "maj": "2026-11-19",
+  "maj": "2026-11-20",
   "themes": {
     "deroule": "L'épreuve",
     "parcours": "Ton parcours",
@@ -26,7 +26,46 @@
             "Ajoute l’universitarisation : le diplôme est délivré par l’université (Paris-Saclay pour Longjumeau)."
           ],
           "phrase": "« C’est une formation de 3 ans, en 6 semestres, qui mène au diplôme d’État d’infirmier avec le grade licence. »",
-          "questions": ["cm1", "c1", "c7", "f2"]
+          "questions": [
+            "cm1",
+            "c1",
+            "c7",
+            "f2",
+            "fc1",
+            "fc2",
+            "fc3",
+            "fc4",
+            "fc5",
+            "fc6",
+            "fc7",
+            "fc8",
+            "fc9",
+            "fc10",
+            "fc11",
+            "fc12",
+            "fc13",
+            "fc14",
+            "fc15",
+            "fc16"
+          ],
+          "fiche": {
+            "texte": [
+              "La formation dure 3 ans, soit 6 semestres de 30 crédits ECTS : 180 ECTS au total. Elle mène au diplôme d'État d'infirmier, enregistré au niveau 6 et qui confère le grade de licence.",
+              "Depuis la réforme de 2026, le diplôme est délivré par les universités accréditées, et non plus par le préfet de région. À Longjumeau, une partie des cours a lieu à l'Université Paris-Saclay (site du Kremlin-Bicêtre).",
+              "Pour la voie FPC : au moins 25 % des places, une sélection sur dossier, un entretien de 20 minutes et une épreuve écrite. Résultats le 1er février 2027, rentrée en septembre 2027."
+            ],
+            "image": "form-cadre",
+            "sources": [
+              {
+                "titre": "Arrêté du 20 février 2026 relatif au diplôme d'État d'infirmier (Légifrance)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053568913/2026-09-29"
+              },
+              {
+                "titre": "Diplôme d’État infirmier : 4 620 heures en trois ans (Caducée.net, 26/02/2026)",
+                "url": "https://www.caducee.net/actualite-medicale/16818/diplome-d-etat-infirmier-4-620-heures-en-trois-ans-un-nouveau-referentiel-sous-tension-des-septembre-2026.html"
+              }
+            ]
+          }
         },
         {
           "id": "programme",
@@ -37,7 +76,49 @@
             "Le site de l’IFSI présente encore le référentiel de 2009 (10 compétences) : connais-le aussi, sans corriger le jury."
           ],
           "phrase": "« Ma promotion suivra le nouveau référentiel de 2026, centré sur le raisonnement clinique, la prévention et la coordination des soins. »",
-          "questions": ["c2", "c6", "c4", "c5", "c9"]
+          "questions": [
+            "c2",
+            "c6",
+            "c4",
+            "c5",
+            "c9",
+            "fp1",
+            "fp2",
+            "fp3",
+            "fp4",
+            "fp5",
+            "fp6",
+            "fp7",
+            "fp8",
+            "fp9",
+            "fp10",
+            "fp11",
+            "fp12",
+            "fp13",
+            "fp14",
+            "fp15",
+            "fp16",
+            "fp17",
+            "fp18"
+          ],
+          "fiche": {
+            "texte": [
+              "Ta promotion suivra le référentiel du 20 février 2026, applicable aux étudiants entrés à partir de septembre 2026. Il compte 5 domaines, 12 activités et 13 compétences.",
+              "Nouveautés : le diagnostic infirmier en première compétence, la prescription de produits de santé et d'examens, les éco-soins (développement durable) et la gestion d'une structure d'exercice (libéral, centre de santé).",
+              "Le site de l'IFSI présente encore le référentiel de 2009 : 10 compétences (5 « cœur de métier », 5 transverses). Connais les deux, sans corriger le jury."
+            ],
+            "image": "form-programme",
+            "sources": [
+              {
+                "titre": "Arrêté du 20 février 2026 relatif au diplôme d'État d'infirmier (Légifrance)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053568913/2026-09-29"
+              },
+              {
+                "titre": "Référentiel 2026 : présentation (IFSI du CH Charles Perrens)",
+                "url": "https://iform.ch-perrens.fr/referentiel-2026"
+              }
+            ]
+          }
         },
         {
           "id": "stages",
@@ -48,7 +129,55 @@
             "Explique l’intérêt : apprendre, pratiquer, puis analyser sa pratique."
           ],
           "phrase": "« L’alternance permet de mettre en pratique les cours auprès des patients, puis d’analyser ce qu’on a vécu pour progresser. »",
-          "questions": ["c3", "c8", "c10", "f7", "c14"]
+          "questions": [
+            "c3",
+            "c8",
+            "c10",
+            "f7",
+            "c14",
+            "fs1",
+            "fs2",
+            "fs3",
+            "fs4",
+            "fs5",
+            "fs6",
+            "fs7",
+            "fs8",
+            "fs9",
+            "fs10",
+            "fs11",
+            "fs12",
+            "fs13",
+            "fs14",
+            "fs15",
+            "fs16",
+            "fs17",
+            "fs18",
+            "fs19",
+            "fs20"
+          ],
+          "fiche": {
+            "texte": [
+              "66 semaines de stage : 12 en 1re année, 26 en 2e, 28 en 3e (60 semaines dans le référentiel de 2009). Une semaine fait 35 h et vaut 1 ECTS, dont 5 h de réflexion sur sa pratique.",
+              "4 types de stage : phase aiguë, état stabilisé, soins primaires, accompagnement des personnes vulnérables. À l'hôpital, en libéral, en centre de santé, en médico-social, en santé scolaire…",
+              "L'étudiant est encadré par un tuteur infirmier et suit sa progression dans un portfolio. Au-delà de 20 % d'absence, le stage n'est pas validé. Indemnités : 36 €, 46 € puis 60 € par semaine."
+            ],
+            "image": "form-stages",
+            "sources": [
+              {
+                "titre": "Arrêté du 20 février 2026 relatif au diplôme d'État d'infirmier (Légifrance)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053568913/2026-09-29"
+              },
+              {
+                "titre": "Diplôme d’État infirmier : 4 620 heures en trois ans (Caducée.net, 26/02/2026)",
+                "url": "https://www.caducee.net/actualite-medicale/16818/diplome-d-etat-infirmier-4-620-heures-en-trois-ans-un-nouveau-referentiel-sous-tension-des-septembre-2026.html"
+              },
+              {
+                "titre": "Rentrée 2026 : les étudiants infirmiers toujours exposés à la précarité (Infirmiers.com, 02/09/2026)",
+                "url": "https://www.infirmiers.com/etudiants/admission-et-cursus-en-ifsi/en-cette-rentree-2026-les-etudiants-infirmiers-toujours-exposes-une-forte-precarite"
+              }
+            ]
+          }
         },
         {
           "id": "validation",
@@ -59,7 +188,41 @@
             "Des dispenses existent selon le parcours : dis honnêtement si tu es concerné."
           ],
           "phrase": "« On valide des crédits par semestre, en cours comme en stage, avec un suivi régulier des compétences. »",
-          "questions": ["c13", "c12", "c15"]
+          "questions": [
+            "c13",
+            "c12",
+            "c15",
+            "fv1",
+            "fv2",
+            "fv3",
+            "fv4",
+            "fv5",
+            "fv6",
+            "fv7",
+            "fv8",
+            "fv9",
+            "fv10",
+            "fv11",
+            "fv12",
+            "fv13",
+            "fv14",
+            "fv15",
+            "fv16",
+            "fv17"
+          ],
+          "fiche": {
+            "texte": [
+              "Une unité d'enseignement est validée à 10/20, avec compensation possible dans le semestre. Deux sessions d'examen par semestre. Les crédits acquis le sont définitivement.",
+              "Passage en année supérieure : les deux semestres validés, ou 51 crédits sur 60. Le diplôme exige les 6 semestres et l'AFGSU de niveau 2 (gestes et soins d'urgence).",
+              "Des dispenses existent selon le parcours : les aides-soignants avec 3 ans d'expérience sur 5 ans peuvent, sous conditions, entrer en 2e année."
+            ],
+            "sources": [
+              {
+                "titre": "Arrêté du 20 février 2026 relatif au diplôme d'État d'infirmier (Légifrance)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053568913/2026-09-29"
+              }
+            ]
+          }
         },
         {
           "id": "toi",
@@ -70,7 +233,41 @@
             "Présente le suivi individuel par un formateur comme une ressource que tu utiliseras."
           ],
           "phrase": "« Je me suis organisé pour être pleinement disponible : j’ai prévu mon financement, mon rythme de travail et je compte m’appuyer sur le suivi pédagogique. »",
-          "questions": ["f1", "f3", "f4", "f5", "f6", "c11"]
+          "questions": [
+            "f1",
+            "f3",
+            "f4",
+            "f5",
+            "f6",
+            "c11",
+            "ft1",
+            "ft2",
+            "ft3",
+            "ft4",
+            "ft5",
+            "ft6",
+            "ft7",
+            "ft8",
+            "ft9",
+            "ft10",
+            "ft11",
+            "ft12",
+            "ft13",
+            "ft14"
+          ],
+          "fiche": {
+            "texte": [
+              "Le jury vérifie que ton projet est réaliste : organisation personnelle, financement, mobilité pour les stages, capacité à reprendre des études.",
+              "Prépare des réponses concrètes : une piste de financement et un plan B, l'organisation de ta semaine, ce que tu feras d'ici la rentrée. Remplace les [crochets] par ta situation.",
+              "La précarité est réelle : selon la FAGE, une rentrée coûte en moyenne 3 239 € en 2026. Montrer que tu as anticipé ton budget rassure le jury."
+            ],
+            "sources": [
+              {
+                "titre": "Rentrée 2026 : les étudiants infirmiers toujours exposés à la précarité (Infirmiers.com)",
+                "url": "https://www.infirmiers.com/etudiants/admission-et-cursus-en-ifsi/en-cette-rentree-2026-les-etudiants-infirmiers-toujours-exposes-une-forte-precarite"
+              }
+            ]
+          }
         }
       ]
     },
@@ -89,7 +286,21 @@
             "Ton avis, en une phrase nuancée."
           ],
           "phrase": "« Un sujet qui m’a marqué, c’est… Concrètement… Pour les infirmiers, cela change… Personnellement, je pense que… »",
-          "questions": ["am1", "a15"]
+          "questions": ["am1", "a15"],
+          "fiche": {
+            "texte": [
+              "Le jury ne note pas ton opinion : il évalue si tu connais ton futur environnement, si tu comprends les enjeux et si tu sais rester nuancé.",
+              "En une minute environ : deux phrases de faits avec un chiffre, une phrase d'enjeux, une phrase sur ce que ça change pour les infirmiers, une phrase d'avis personnel.",
+              "Choisis des sources fiables : sites officiels (gouvernement, Légifrance, Assurance maladie), presse santé reconnue, Ordre infirmier. Évite les réseaux sociaux."
+            ],
+            "image": "actu-structure",
+            "sources": [
+              {
+                "titre": "Actualités de la semaine du 9 novembre 2026 (Réussir les concours)",
+                "url": "https://reussirlesconcours.substack.com/p/actualites-de-la-semaine-du-09-novembre"
+              }
+            ]
+          }
         },
         {
           "id": "vocabulaire",
@@ -100,7 +311,29 @@
             "APA : l’aide du département aux personnes âgées en perte d’autonomie."
           ],
           "phrase": "« Le PLFSS fixe chaque année l’ONDAM, c’est-à-dire ce que l’Assurance maladie peut dépenser. »",
-          "questions": ["a3", "a5", "a14"]
+          "questions": ["a3", "a5", "a14", "ax15", "ax16", "ax17", "ax18"],
+          "fiche": {
+            "texte": [
+              "Chaque automne, le Parlement vote la loi de financement de la Sécurité sociale (LFSS). Le projet (PLFSS) fixe l'ONDAM, le plafond de dépenses de l'Assurance maladie.",
+              "PLFSS 2027 : ONDAM en hausse de 2 %, environ 4 milliards d'économies, déficit visé de 12,7 Md€ (21,8 Md€ en 2026). Rejeté par l'Assemblée en première lecture, il a été adopté par le Sénat le 18 novembre 2026. Une commission mixte paritaire doit suivre.",
+              "Autres mesures : extension de la taxe soda à d'autres produits sucrés, transfert de 300 M€ aux départements pour l'APA (personnes âgées) et la PCH (handicap)."
+            ],
+            "image": "actu-plfss",
+            "sources": [
+              {
+                "titre": "PLFSS 2027 : contenu, débats et état du texte (Legiwatch, 14/11/2026)",
+                "url": "https://www.legiwatch.fr/loi/plfss-2027/"
+              },
+              {
+                "titre": "PLFSS 2027 : les sénateurs votent un texte (Hospimedia, 18/11/2026)",
+                "url": "https://www.hospimedia.fr/actualite/articles/20261118-plfss-2027-les-senateurs-votent-un-texte-integrant"
+              },
+              {
+                "titre": "Projet de loi de financement de la Sécurité sociale 2027 (budget.gouv.fr)",
+                "url": "https://www.budget.gouv.fr/documentation/file-download/33499"
+              }
+            ]
+          }
         },
         {
           "id": "loi",
@@ -111,7 +344,33 @@
             "Enjeu : l’accès aux soins face aux déserts médicaux (exemple : les Médicobus)."
           ],
           "phrase": "« La loi de 2025 reconnaît la consultation et le diagnostic infirmiers : la profession gagne en autonomie, et c’est aussi ce qui m’attire. »",
-          "questions": ["a1", "a2", "a13"]
+          "questions": ["a1", "a2", "a13", "ax1", "ax2", "ax3", "ax4", "ax5", "ax6"],
+          "fiche": {
+            "texte": [
+              "La loi n° 2025-581 du 27 juin 2025 inscrit dans le Code de la santé publique que l'infirmier effectue des consultations, pose un diagnostic infirmier et prescrit certains produits de santé et examens.",
+              "Le décret du 24 décembre 2025 et deux arrêtés du 26 juin 2026 la rendent applicable depuis le 28 juin 2026. Exemples de prescriptions : vaccins, pansements, substituts nicotiniques, antalgiques de palier 1, renouvellement de contraceptifs oraux (6 mois). La liste est révisée au moins tous les 3 ans.",
+              "Enjeu : l'accès aux soins. Le gouvernement vise 100 Médicobus en 2027 (34 labellisés en novembre 2026), intégrés au réseau France Santé (des soins à moins de 30 minutes et sous 48 heures)."
+            ],
+            "image": "actu-loi",
+            "sources": [
+              {
+                "titre": "Loi n° 2025-581 du 27 juin 2025 sur la profession d’infirmier (AP-HP, affaires juridiques)",
+                "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2025-581-du-27-juin-2025-sur-la-profession-dinfirmier-1/"
+              },
+              {
+                "titre": "Décret compétences infirmier 2026 : arrêtés publiés (MonRFS)",
+                "url": "https://monrfs.com/article-decret-competences-infirmier-2026"
+              },
+              {
+                "titre": "Un deuxième appel à projets pour atteindre 100 Médicobus (Banque des Territoires, 09/11/2026)",
+                "url": "https://www.banquedesterritoires.fr/acces-aux-soins-un-deuxieme-appel-projets-pour-atteindre-lobjectif-de-100-medicobus"
+              },
+              {
+                "titre": "Déserts médicaux : 100 Médicobus labellisés en 2027 (Vidal)",
+                "url": "https://www.vidal.fr/actualites/38566-deserts-medicaux-le-gouvernement-veut-100-medicobus-labellises-en-2027.html"
+              }
+            ]
+          }
         },
         {
           "id": "mentale",
@@ -122,7 +381,26 @@
             "Dispositifs à citer : Mon soutien psy, le 3114 (prévention du suicide)."
           ],
           "phrase": "« La santé mentale est grande cause nationale : l’infirmier y a un rôle clé d’écoute, de repérage et d’orientation. »",
-          "questions": ["a9", "a10", "a11"]
+          "questions": ["a9", "a10", "a11", "ax7", "ax8", "ax9", "ax10"],
+          "fiche": {
+            "texte": [
+              "La santé mentale est la grande cause nationale de 2025, prolongée en 2026 face à la dégradation de la santé mentale des jeunes. Les acteurs demandent des moyens concrets : l'attente atteint 6 à 12 mois en psychiatrie.",
+              "Annonces de juin 2026 : objectif « zéro contention » en psychiatrie d'ici 2030 (formation à la désescalade, espaces d'apaisement), « aucun élève en souffrance psychique sans solution » avec un rendez-vous rapide, Maisons des adolescents renforcées.",
+              "Dispositifs à citer : Mon soutien psy (12 séances remboursées par an, en accès direct, près de 1,8 million de bénéficiaires), le 3114 (prévention du suicide), 300 000 personnes formées aux premiers secours en santé mentale."
+            ],
+            "image": "actu-mentale",
+            "sources": [
+              {
+                "titre": "Santé mentale : la grande cause nationale prolongée en 2026 (Banque des Territoires)",
+                "url": "https://www.banquedesterritoires.fr/sante-mentale-la-grande-cause-nationale-prolongee-en-2026"
+              },
+              {
+                "titre": "Santé mentale : les annonces de la ministre Stéphanie Rist (Handicap.fr, 04/06/2026)",
+                "url": "https://informations.handicap.fr/a-sante-mentale-les-annonces-de-la-ministre-stephanie-rist-39245.php"
+              },
+              { "titre": "3114, numéro national de prévention du suicide", "url": "https://3114.fr" }
+            ]
+          }
         },
         {
           "id": "reserve",
@@ -133,7 +411,33 @@
             "Vaccination grippe et Covid : campagne depuis le 13 octobre 2026, les infirmiers vaccinent."
           ],
           "phrase": "« Sur les sujets éthiques, je m’appuie sur les faits et je garde en tête le respect de la volonté du patient. »",
-          "questions": ["a4", "a6", "a7", "a8", "a12"]
+          "questions": ["a4", "a6", "a7", "a8", "a12", "ax11", "ax12", "ax13", "ax14"],
+          "fiche": {
+            "texte": [
+              "Aide à mourir : loi n° 2026-794 du 18 août 2026, validée avec trois réserves par le Conseil constitutionnel le 14 août. Conditions : être majeur, atteint d'une maladie grave et incurable en phase avancée ou terminale, avec une souffrance réfractaire ou insupportable, et exprimer une volonté libre et éclairée. La personne s'administre elle-même le produit, sauf impossibilité physique. Clause de conscience pour les médecins, infirmiers et pharmaciens. Décrets d'application attendus.",
+              "Vaccination grippe et Covid : campagne depuis le 13 octobre 2026, les deux vaccins le même jour possibles, infirmiers et pharmaciens vaccinent. Une obligation de vaccination antigrippale des soignants se prépare (cadre attendu début 2027).",
+              "Budget de la Sécurité sociale : la procédure continue au Parlement. Vérifie où il en est la veille de ton oral."
+            ],
+            "image": "actu-reserve",
+            "sources": [
+              {
+                "titre": "Aide à mourir : ce que change la loi promulguée le 18 août 2026 (24matins)",
+                "url": "https://www.24matins.fr/aide-a-mourir-ce-que-change-la-loi-promulguee-le-18-aout-2026-1419406"
+              },
+              {
+                "titre": "Loi n° 2026-794 du 18 août 2026 relative au droit à l’aide à mourir (AP-HP, affaires juridiques)",
+                "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2026-794-du-18-aout-2026-relative-au-droit-a-laide-a-mourir/"
+              },
+              {
+                "titre": "La loi relative au droit à l’aide à mourir définitivement adoptée (Parlons Fin de Vie)",
+                "url": "https://www.parlons-fin-de-vie.fr/la-loi-relative-au-droit-a-laide-a-mourir-definitivement-adoptee/"
+              },
+              {
+                "titre": "Grippe et Covid-19 : la campagne de vaccination 2026-2027 (Vidal)",
+                "url": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html"
+              }
+            ]
+          }
         }
       ]
     }
@@ -1717,6 +2021,1712 @@
         { "t": "Je cite plusieurs sujets sans les expliquer.", "ok": false, "why": "Le jury relancera et verra que tu ne maîtrises pas." }
       ],
       "tip": "Prépare 2 sujets à fond : la loi infirmière (consultation, diagnostic, prescription) et la santé mentale. En réserve : aide à mourir, PLFSS 2027, déserts médicaux."
+    },
+    {
+      "id": "fc1",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de crédits ECTS vaut un semestre de formation ?",
+      "opts": [
+        { "t": "30 ECTS", "ok": true, "why": "6 semestres × 30 ECTS = 180 ECTS pour le diplôme." },
+        { "t": "10 ECTS", "ok": false, "why": "Trop peu : un semestre vaut 30 ECTS." },
+        { "t": "60 ECTS", "ok": false, "why": "60 ECTS, c'est une année entière (2 semestres)." },
+        { "t": "180 ECTS", "ok": false, "why": "180 ECTS, c'est le total des 3 ans." }
+      ]
+    },
+    {
+      "id": "fc2",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que signifie le sigle ECTS ?",
+      "opts": [
+        {
+          "t": "Système européen de transfert et d'accumulation de crédits",
+          "ok": true,
+          "why": "Les ECTS permettent de comparer et de faire reconnaître les formations en Europe. Ils s'acquièrent définitivement."
+        },
+        { "t": "Examen de contrôle des techniques de soins", "ok": false, "why": "Ce n'est pas un examen : ce sont des crédits." },
+        { "t": "École de cadres en techniques de santé", "ok": false, "why": "Aucun rapport avec une école." },
+        { "t": "Évaluation continue des travaux scolaires", "ok": false, "why": "Ce n'est pas une modalité d'évaluation." }
+      ]
+    },
+    {
+      "id": "fc3",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que permet le grade de licence conféré par le diplôme d’État ?",
+      "opts": [
+        {
+          "t": "D'accéder ensuite à un master, par exemple pour devenir infirmier en pratique avancée (IPA)",
+          "ok": true,
+          "why": "Le grade licence ouvre la poursuite d’études universitaires."
+        },
+        {
+          "t": "D'exercer directement comme médecin",
+          "ok": false,
+          "why": "Le diplôme mène au métier d’infirmier, pas à celui de médecin."
+        },
+        {
+          "t": "De se dispenser de l’inscription à l’Ordre",
+          "ok": false,
+          "why": "L’inscription à l’Ordre reste obligatoire pour exercer."
+        },
+        { "t": "Rien de particulier, c'est un titre honorifique", "ok": false, "why": "Le grade licence a une vraie valeur universitaire." }
+      ]
+    },
+    {
+      "id": "fc4",
+      "theme": "contenu",
+      "jury": false,
+      "q": "À quel niveau du cadre national des certifications le diplôme d’État d’infirmier est-il enregistré ?",
+      "opts": [
+        { "t": "Niveau 6 (équivalent licence)", "ok": true, "why": "L'arrêté de 2026 l'enregistre au niveau 6, comme une licence." },
+        { "t": "Niveau 3 (équivalent CAP)", "ok": false, "why": "Le niveau 3 correspond au CAP : le DE infirmier est au niveau 6." },
+        { "t": "Niveau 5 (équivalent BTS)", "ok": false, "why": "Le DE infirmier est au niveau 6." },
+        { "t": "Niveau 8 (doctorat)", "ok": false, "why": "Beaucoup trop haut." }
+      ]
+    },
+    {
+      "id": "fc5",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quel texte fixe le nouveau référentiel de formation infirmière ?",
+      "opts": [
+        {
+          "t": "L'arrêté du 20 février 2026 relatif au diplôme d'État d'infirmier, publié au Journal officiel le 25 février 2026",
+          "ok": true,
+          "why": "C'est le texte de référence pour les étudiants entrés à partir de septembre 2026."
+        },
+        {
+          "t": "La loi du 4 mars 2002 sur les droits des malades",
+          "ok": false,
+          "why": "Loi importante, mais elle porte sur les droits des patients."
+        },
+        {
+          "t": "Le Code du travail",
+          "ok": false,
+          "why": "La formation relève d’un arrêté du ministère de la Santé et de l’Enseignement supérieur."
+        },
+        {
+          "t": "Un règlement propre à chaque IFSI",
+          "ok": false,
+          "why": "Le référentiel est national. Chaque IFSI a aussi un règlement intérieur, mais il ne fixe pas le programme."
+        }
+      ]
+    },
+    {
+      "id": "fc6",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle part minimale des places de l’IFSI est réservée à la formation professionnelle continue (FPC) ?",
+      "opts": [
+        {
+          "t": "Au moins 25 % de la capacité d’accueil",
+          "ok": true,
+          "why": "L'arrêté de 2026 garantit au moins 25 % des places à la voie FPC, la tienne."
+        },
+        { "t": "5 %", "ok": false, "why": "C’est plus : au moins 25 %." },
+        { "t": "50 % exactement", "ok": false, "why": "Le minimum est de 25 %." },
+        { "t": "Aucune place réservée", "ok": false, "why": "Des places sont réservées à la FPC." }
+      ],
+      "tip": "Utile pour montrer que tu connais ta voie d’accès."
+    },
+    {
+      "id": "fc7",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Comment se déroule la sélection en voie FPC ?",
+      "opts": [
+        {
+          "t": "Un dossier, puis un entretien de 20 minutes noté sur 20 et une épreuve écrite notée sur 20 ; il faut au moins 20/40 et aucune note sous 8/20",
+          "ok": true,
+          "why": "Ce sont les règles de l’arrêté, reprises par l’ARS."
+        },
+        { "t": "Un concours national unique avec classement", "ok": false, "why": "Chaque groupement organise sa sélection." },
+        { "t": "Uniquement un dossier, sans épreuve", "ok": false, "why": "Il y a deux épreuves en plus du dossier." },
+        { "t": "Parcoursup, comme les lycéens", "ok": false, "why": "Parcoursup concerne la voie initiale, pas la FPC." }
+      ]
+    },
+    {
+      "id": "fc8",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelles sont les voies d’accès à la formation en soins infirmiers ?",
+      "opts": [
+        {
+          "t": "Parcoursup (formation initiale), l’apprentissage et la formation professionnelle continue",
+          "ok": true,
+          "why": "L’arrêté prévoit la voie initiale, dont l’apprentissage, et la FPC."
+        },
+        { "t": "Uniquement Parcoursup", "ok": false, "why": "Les adultes en reconversion passent par la FPC." },
+        { "t": "Uniquement après un bac scientifique", "ok": false, "why": "Tous les bacs sont acceptés, et des équivalences existent." },
+        {
+          "t": "Uniquement après 3 ans comme aide-soignant",
+          "ok": false,
+          "why": "C'est une voie possible pour entrer en 2e année, pas la seule."
+        }
+      ]
+    },
+    {
+      "id": "fc9",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quel âge minimal faut-il avoir pour entrer en formation ?",
+      "opts": [
+        {
+          "t": "17 ans au 31 décembre de l’année d’entrée",
+          "ok": true,
+          "why": "C'est la condition de l'arrêté de 2026. Il n'y a pas d'âge maximal."
+        },
+        { "t": "18 ans révolus le jour de la rentrée", "ok": false, "why": "L’âge minimal est 17 ans au 31 décembre." },
+        { "t": "21 ans", "ok": false, "why": "Trop élevé." },
+        {
+          "t": "Il faut avoir moins de 45 ans",
+          "ok": false,
+          "why": "Il n'y a pas d'âge maximal : la reconversion est possible à tout âge."
+        }
+      ]
+    },
+    {
+      "id": "fc10",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Si tu es admis mais que tu ne peux pas entrer en septembre 2027, que se passe-t-il ?",
+      "opts": [
+        {
+          "t": "Un report d’admission est possible sous conditions (par exemple congé maternité, garde d’un enfant de moins de 3 ans), dans la limite de 3 ans cumulés",
+          "ok": true,
+          "why": "L'arrêté encadre les reports : certains sont de droit, d'autres sont accordés par le directeur."
+        },
+        { "t": "Tu perds définitivement ta place", "ok": false, "why": "Un report est possible dans certains cas." },
+        { "t": "Tu peux reporter autant d’années que tu veux", "ok": false, "why": "Le report est limité à 3 ans cumulés." },
+        { "t": "Tu entres automatiquement en 2e année", "ok": false, "why": "Le report ne donne aucune dispense." }
+      ]
+    },
+    {
+      "id": "fc11",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Pour le groupement Université Paris-Saclay, quand seront publiés les résultats de la sélection FPC ?",
+      "opts": [
+        {
+          "t": "Le 1er février 2027, avec confirmation de ton choix avant le 9 février",
+          "ok": true,
+          "why": "Ce sont les dates du document ARS du groupement."
+        },
+        { "t": "Le jour même de l’oral", "ok": false, "why": "Les résultats sont publiés après toutes les épreuves." },
+        { "t": "En juillet 2027", "ok": false, "why": "C’est plus tôt : le 1er février 2027." },
+        { "t": "Il n’y a pas de résultats publiés", "ok": false, "why": "Les résultats sont publiés à une date fixée." }
+      ],
+      "tip": "Note-toi la date de confirmation : sans réponse, la place peut être perdue."
+    },
+    {
+      "id": "fc12",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Avant la réforme, qui délivrait le diplôme d’État d’infirmier ?",
+      "opts": [
+        {
+          "t": "Le préfet de région",
+          "ok": true,
+          "why": "Depuis le référentiel 2026, ce sont les universités accréditées qui le délivrent."
+        },
+        { "t": "L’Ordre des infirmiers", "ok": false, "why": "L’Ordre n’a jamais délivré le diplôme." },
+        { "t": "L’hôpital de rattachement", "ok": false, "why": "Les hôpitaux accueillent les stages, sans délivrer le diplôme." },
+        { "t": "Le maire", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fc13",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’appelle-t-on « l’universitarisation » de la formation infirmière ?",
+      "opts": [
+        {
+          "t": "Le rapprochement des IFSI avec l’université : diplôme délivré par l’université, cours partagés, accès aux droits et services étudiants",
+          "ok": true,
+          "why": "À Longjumeau, une partie des cours a lieu à l’Université Paris-Saclay (Kremlin-Bicêtre)."
+        },
+        { "t": "La suppression des IFSI", "ok": false, "why": "Les IFSI continuent d’assurer la formation, avec l’université." },
+        { "t": "La fin des stages", "ok": false, "why": "Les stages restent la moitié de la formation." },
+        { "t": "Le passage à 5 ans d’études", "ok": false, "why": "La formation reste en 3 ans." }
+      ]
+    },
+    {
+      "id": "fc14",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle est la charge de travail totale estimée sur les 3 ans, en comptant le travail personnel ?",
+      "opts": [
+        {
+          "t": "Entre 4 620 et 5 400 heures environ",
+          "ok": true,
+          "why": "4 620 h prévues par le référentiel, plus jusqu’à 780 h de travail personnel complémentaire."
+        },
+        { "t": "Environ 1 500 heures", "ok": false, "why": "Beaucoup trop peu." },
+        { "t": "Exactement 3 000 heures", "ok": false, "why": "C’est plus : au moins 4 620 h." },
+        { "t": "Plus de 10 000 heures", "ok": false, "why": "Trop élevé." }
+      ],
+      "tip": "Montre au jury que tu mesures cette charge : c’est l’équivalent d’un emploi à temps plein."
+    },
+    {
+      "id": "fc15",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Après le diplôme d’État, quelles spécialisations un infirmier peut-il envisager ?",
+      "opts": [
+        {
+          "t": "Infirmier anesthésiste (IADE), de bloc opératoire (IBODE), puéricultrice (IPDE), en pratique avancée (IPA), ou cadre de santé",
+          "ok": true,
+          "why": "Ces formations se font après quelques années d’expérience pour la plupart."
+        },
+        { "t": "Aucune : le diplôme est définitif", "ok": false, "why": "De nombreuses évolutions existent." },
+        {
+          "t": "Uniquement médecin, par passerelle automatique",
+          "ok": false,
+          "why": "Il n’existe pas de passerelle automatique vers médecine."
+        },
+        { "t": "Uniquement aide-soignant", "ok": false, "why": "C'est un autre métier, pas une évolution." }
+      ],
+      "tip": "Au jury, reste ouvert : « j’aimerais d’abord acquérir de l’expérience, puis éventuellement… »"
+    },
+    {
+      "id": "fc16",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« Pourquoi une formation aussi longue pour devenir infirmier ? »",
+      "opts": [
+        {
+          "t": "Parce que l’infirmier a un rôle propre, raisonne, décide, prescrit certains produits et engage sa responsabilité : il faut des connaissances solides et beaucoup de pratique encadrée.",
+          "ok": true,
+          "why": "Tu relies la durée aux responsabilités réelles du métier."
+        },
+        { "t": "Je trouve aussi que c’est trop long.", "ok": false, "why": "Tu donnes l’impression de subir la formation." },
+        { "t": "C’est pour limiter le nombre d’infirmiers.", "ok": false, "why": "Faux et négatif." },
+        {
+          "t": "Parce qu’il faut apprendre beaucoup de techniques.",
+          "ok": false,
+          "why": "Juste en partie : le raisonnement et la relation comptent autant."
+        }
+      ]
+    },
+    {
+      "id": "fp1",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de compétences compte le référentiel 2026 ?",
+      "opts": [
+        {
+          "t": "13 compétences, réparties dans 5 domaines et 12 activités",
+          "ok": true,
+          "why": "C'est la synthèse de l'annexe I de l'arrêté du 20 février 2026."
+        },
+        { "t": "10 compétences", "ok": false, "why": "C'était le référentiel de 2009." },
+        { "t": "5 compétences", "ok": false, "why": "5, c’est le nombre de domaines." },
+        { "t": "20 compétences", "ok": false, "why": "Trop : il y en a 13." }
+      ]
+    },
+    {
+      "id": "fp2",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle est la première compétence du référentiel 2026 ?",
+      "opts": [
+        {
+          "t": "Élaborer le diagnostic infirmier pour une personne ou un groupe de personnes",
+          "ok": true,
+          "why": "Le raisonnement clinique et le diagnostic infirmier sont au cœur du nouveau référentiel."
+        },
+        { "t": "Prescrire tous les médicaments", "ok": false, "why": "La prescription infirmière est limitée à une liste." },
+        { "t": "Réaliser des injections", "ok": false, "why": "Les soins techniques font partie d’une autre compétence." },
+        { "t": "Gérer le budget de l’hôpital", "ok": false, "why": "Ce n’est pas une compétence infirmière." }
+      ]
+    },
+    {
+      "id": "fp3",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle compétence est nouvelle dans le référentiel 2026, en lien avec la loi infirmière ?",
+      "opts": [
+        {
+          "t": "Prescrire des produits de santé (médicaments, dispositifs médicaux) et des examens",
+          "ok": true,
+          "why": "La loi de 2025 a reconnu la prescription infirmière : la formation l’intègre."
+        },
+        { "t": "Communiquer avec le patient", "ok": false, "why": "Elle existait déjà en 2009." },
+        { "t": "Accompagner dans les soins du quotidien", "ok": false, "why": "Elle existait déjà." },
+        { "t": "Respecter le secret professionnel", "ok": false, "why": "C’est une obligation, pas une nouvelle compétence." }
+      ]
+    },
+    {
+      "id": "fp4",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Le référentiel 2026 introduit une compétence sur les « éco-soins ». De quoi s’agit-il ?",
+      "opts": [
+        {
+          "t": "De projets et d’actions de soins qui tiennent compte du développement durable (déchets, ressources, impact environnemental)",
+          "ok": true,
+          "why": "Le secteur de la santé pèse sur l’environnement : la formation intègre cette dimension."
+        },
+        { "t": "De soins à base de plantes", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "De soins réalisés à domicile uniquement", "ok": false, "why": "Ce n'est pas le sens." },
+        {
+          "t": "De soins moins chers pour l’Assurance maladie",
+          "ok": false,
+          "why": "L'enjeu est environnemental, pas seulement financier."
+        }
+      ]
+    },
+    {
+      "id": "fp5",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle compétence du référentiel 2026 concerne l’exercice libéral ou en centre de santé ?",
+      "opts": [
+        {
+          "t": "Gérer ou organiser une structure d’exercice individuel ou collectif",
+          "ok": true,
+          "why": "Elle prépare aussi à exercer en cabinet libéral, comme les infirmiers qui soignaient ta mère."
+        },
+        { "t": "Réaliser des soins palliatifs", "ok": false, "why": "C’est une autre compétence." },
+        { "t": "Élaborer le diagnostic infirmier", "ok": false, "why": "C’est la compétence 1." },
+        { "t": "Aucune : le libéral n’est pas abordé", "ok": false, "why": "Le libéral est bien intégré au référentiel 2026." }
+      ]
+    },
+    {
+      "id": "fp6",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’est-ce que le diagnostic infirmier ?",
+      "opts": [
+        {
+          "t": "Le jugement clinique de l’infirmier sur les réactions d’une personne à un problème de santé, qui guide ses interventions",
+          "ok": true,
+          "why": "Il ne remplace pas le diagnostic médical : il porte sur les besoins et réactions de la personne (douleur, anxiété, risque de chute…)."
+        },
+        { "t": "Le nom de la maladie posé par le médecin", "ok": false, "why": "C'est le diagnostic médical." },
+        { "t": "Le résultat d’une prise de sang", "ok": false, "why": "C'est un examen biologique." },
+        { "t": "Un avis demandé à l’Ordre", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fp7",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Dans quel ordre se déroule la démarche de soins infirmiers ?",
+      "opts": [
+        {
+          "t": "Recueil de données → analyse et diagnostic infirmier → objectifs → interventions → évaluation",
+          "ok": true,
+          "why": "C’est la démarche clinique enseignée dès la 1re année."
+        },
+        {
+          "t": "Interventions → recueil de données → objectifs",
+          "ok": false,
+          "why": "On ne soigne pas avant d’avoir recueilli et analysé les données."
+        },
+        { "t": "Évaluation → diagnostic → recueil", "ok": false, "why": "L’ordre est inversé." },
+        { "t": "Il n’y a pas d’ordre, on improvise", "ok": false, "why": "La démarche est structurée." }
+      ]
+    },
+    {
+      "id": "fp8",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que sont les transmissions ciblées, souvent apprises en formation ?",
+      "opts": [
+        {
+          "t": "Une façon structurée d’écrire dans le dossier de soins : une cible, puis Données, Actions, Résultats (DAR)",
+          "ok": true,
+          "why": "Elles assurent la continuité des soins entre les équipes."
+        },
+        { "t": "Des messages envoyés à la famille", "ok": false, "why": "Ce sont des écrits professionnels dans le dossier patient." },
+        { "t": "Des ordonnances du médecin", "ok": false, "why": "Ce sont des écrits infirmiers." },
+        {
+          "t": "Des informations confidentielles qu’on ne note pas",
+          "ok": false,
+          "why": "Au contraire : on écrit pour assurer la continuité."
+        }
+      ],
+      "tip": "Ton expérience des tickets et procédures en informatique est un bon lien : tracer pour assurer la continuité."
+    },
+    {
+      "id": "fp9",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle place la simulation peut-elle occuper dans l’enseignement clinique ?",
+      "opts": [
+        {
+          "t": "Jusqu’à 10 % de l’enseignement clinique",
+          "ok": true,
+          "why": "La simulation (mannequins, situations jouées) permet de s'entraîner sans risque pour le patient."
+        },
+        { "t": "Elle remplace tous les stages", "ok": false, "why": "Les stages restent indispensables." },
+        { "t": "Elle est interdite", "ok": false, "why": "Elle est encouragée et encadrée." },
+        { "t": "50 % des stages", "ok": false, "why": "La limite est de 10 %." }
+      ],
+      "tip": "Principe souvent cité : « jamais la première fois sur le patient »."
+    },
+    {
+      "id": "fp10",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Le domaine 3 du référentiel 2026 porte sur la promotion de la santé. Laquelle de ces actions en relève ?",
+      "opts": [
+        {
+          "t": "Mener une action de prévention sur le tabac auprès de lycéens",
+          "ok": true,
+          "why": "Prévention, éducation à la santé et éducation thérapeutique font partie du domaine 3."
+        },
+        { "t": "Poser une perfusion", "ok": false, "why": "C’est un soin technique (domaine 2)." },
+        { "t": "Faire le planning de l’équipe", "ok": false, "why": "C’est de l’organisation (domaine 4)." },
+        { "t": "Écrire un article scientifique", "ok": false, "why": "C’est la démarche scientifique (domaine 5)." }
+      ]
+    },
+    {
+      "id": "fp11",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Le domaine 2 du référentiel 2026 couvre les soins. Lesquels ?",
+      "opts": [
+        {
+          "t": "Les soins à visée de dépistage, préventive, diagnostique, thérapeutique et palliative",
+          "ok": true,
+          "why": "Le domaine 2 couvre toute la palette des soins, jusqu’aux soins palliatifs."
+        },
+        { "t": "Uniquement les soins d’urgence", "ok": false, "why": "Les urgences n’en sont qu’une partie." },
+        { "t": "Uniquement les soins d’hygiène", "ok": false, "why": "C’est beaucoup plus large." },
+        {
+          "t": "Uniquement les soins prescrits par le médecin",
+          "ok": false,
+          "why": "Le rôle propre et la prescription infirmière en font partie."
+        }
+      ]
+    },
+    {
+      "id": "fp12",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Le domaine 5 du référentiel 2026 porte sur la démarche scientifique. Qu’apprend-on ?",
+      "opts": [
+        {
+          "t": "À rechercher et analyser des données scientifiques pour améliorer sa pratique, et à formaliser des documents professionnels",
+          "ok": true,
+          "why": "C’est l’initiation à la recherche en soins infirmiers."
+        },
+        { "t": "À faire des expériences en laboratoire", "ok": false, "why": "Ce n’est pas le sens." },
+        { "t": "À devenir chercheur à temps plein", "ok": false, "why": "C’est une initiation, pas une carrière de chercheur." },
+        { "t": "Rien d’utile pour le soin", "ok": false, "why": "Au contraire : c’est pour soigner selon les connaissances actuelles." }
+      ]
+    },
+    {
+      "id": "fp13",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Dans le référentiel 2026, quelle compétence concerne la transmission du savoir ?",
+      "opts": [
+        {
+          "t": "Accompagner les pairs, les apprenants et les autres professionnels",
+          "ok": true,
+          "why": "L'infirmier encadre les stagiaires et les nouveaux collègues : on l'apprend en formation."
+        },
+        { "t": "Élaborer le diagnostic infirmier", "ok": false, "why": "C’est la compétence 1." },
+        { "t": "Prescrire des examens", "ok": false, "why": "C’est la compétence 4." },
+        { "t": "Aucune", "ok": false, "why": "Elle existe : compétence 10." }
+      ],
+      "tip": "Ton expérience de formation des agents en mairie est un vrai atout ici."
+    },
+    {
+      "id": "fp14",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelles matières retrouve-t-on dans la formation infirmière ?",
+      "opts": [
+        {
+          "t": "Sciences infirmières, biologie, anatomie, pharmacologie, santé publique, psychologie, sociologie, droit et éthique",
+          "ok": true,
+          "why": "La formation mélange sciences biologiques, sciences humaines et sciences infirmières."
+        },
+        { "t": "Uniquement des techniques de soins", "ok": false, "why": "Les sciences humaines et le raisonnement sont essentiels." },
+        { "t": "Uniquement de la médecine", "ok": false, "why": "Les sciences infirmières sont au centre." },
+        { "t": "Uniquement de la psychologie", "ok": false, "why": "C’est une partie seulement." }
+      ]
+    },
+    {
+      "id": "fp15",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Les calculs de doses sont-ils enseignés en formation ?",
+      "opts": [
+        {
+          "t": "Oui, avec la pharmacologie : ils sont indispensables pour préparer et administrer les traitements en sécurité",
+          "ok": true,
+          "why": "C'est aussi pourquoi l'épreuve écrite de sélection comporte des calculs."
+        },
+        { "t": "Non, c’est le pharmacien qui calcule", "ok": false, "why": "L'infirmier prépare et calcule les doses à administrer." },
+        { "t": "Non, les machines calculent tout", "ok": false, "why": "Le contrôle humain reste indispensable." },
+        { "t": "Seulement en option", "ok": false, "why": "Ce sont des compétences obligatoires." }
+      ],
+      "tip": "Lien à faire au jury : « je m’entraîne déjà aux calculs pour l’écrit »."
+    },
+    {
+      "id": "fp16",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Le référentiel de 2009 était organisé en 6 champs d’unités d’enseignement. Lequel en faisait partie ?",
+      "opts": [
+        {
+          "t": "Sciences humaines, sociales et droit",
+          "ok": true,
+          "why": "Les 6 champs : sciences humaines, sociales et droit ; sciences biologiques et médicales ; fondements des soins ; interventions infirmières ; intégration des savoirs ; méthodes de travail."
+        },
+        { "t": "Gestion et comptabilité", "ok": false, "why": "Ce champ n’existait pas." },
+        { "t": "Langues anciennes", "ok": false, "why": "Ce champ n’existait pas." },
+        { "t": "Mathématiques avancées", "ok": false, "why": "Ce champ n’existait pas." }
+      ]
+    },
+    {
+      "id": "fp17",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« Quelle compétence du référentiel vous semble la plus difficile pour vous ? »",
+      "opts": [
+        {
+          "t": "Les soins techniques, que je n’ai jamais pratiqués : je compte beaucoup sur la simulation et les stages pour progresser pas à pas, en demandant conseil.",
+          "ok": true,
+          "why": "Tu es honnête, tu nommes une vraie difficulté et tu montres comment tu vas la travailler."
+        },
+        { "t": "Aucune, je suis à l’aise partout.", "ok": false, "why": "Peu crédible pour quelqu’un qui débute." },
+        { "t": "Toutes, je ne sais pas si j’y arriverai.", "ok": false, "why": "Trop négatif : le jury doute de ta capacité." },
+        { "t": "La relation avec les patients, je n’aime pas trop parler.", "ok": false, "why": "Inquiétant pour un futur soignant." }
+      ]
+    },
+    {
+      "id": "fp18",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« Quelles compétences de votre parcours retrouvez-vous dans le référentiel ? »",
+      "opts": [
+        {
+          "t": "La communication (expliquer simplement aux agents), l’organisation et la coordination des interventions, et la formation des utilisateurs : ce sont des compétences du référentiel.",
+          "ok": true,
+          "why": "Tu fais un lien concret entre ton expérience et la formation."
+        },
+        { "t": "Aucune, l’informatique n’a rien à voir.", "ok": false, "why": "Tu dévalorises ton parcours." },
+        { "t": "Toutes : je suis déjà presque infirmier.", "ok": false, "why": "Excessif : le jury attend de la modestie." },
+        { "t": "Je sais réparer les ordinateurs du service.", "ok": false, "why": "Hors sujet par rapport aux compétences de soins." }
+      ]
+    },
+    {
+      "id": "fs1",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Comment les 66 semaines de stage sont-elles réparties dans le référentiel 2026 ?",
+      "opts": [
+        { "t": "12 semaines en 1re année, 26 en 2e, 28 en 3e", "ok": true, "why": "La part de stage augmente chaque année." },
+        { "t": "22 semaines chaque année", "ok": false, "why": "La répartition n’est pas égale." },
+        { "t": "15, 20 et 25 semaines", "ok": false, "why": "C'était le référentiel de 2009 (60 semaines)." },
+        { "t": "Tout en 3e année", "ok": false, "why": "Il y a des stages dès la 1re année." }
+      ]
+    },
+    {
+      "id": "fs2",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien d’heures représente en moyenne une semaine de stage ?",
+      "opts": [
+        { "t": "35 heures", "ok": true, "why": "Une semaine de stage de 35 h vaut 1 ECTS, dont 5 h d'appropriation réflexive." },
+        { "t": "20 heures", "ok": false, "why": "Trop peu." },
+        { "t": "48 heures", "ok": false, "why": "Trop : la moyenne est de 35 h." },
+        { "t": "Cela dépend uniquement de l’étudiant", "ok": false, "why": "Les horaires sont fixés avec le lieu de stage." }
+      ]
+    },
+    {
+      "id": "fs3",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de semaines de stage comptait le référentiel de 2009 ?",
+      "opts": [
+        { "t": "60 semaines", "ok": true, "why": "Le référentiel 2026 passe à 66 semaines." },
+        { "t": "66 semaines", "ok": false, "why": "C'est le référentiel 2026." },
+        { "t": "30 semaines", "ok": false, "why": "Trop peu." },
+        { "t": "100 semaines", "ok": false, "why": "Trop." }
+      ]
+    },
+    {
+      "id": "fs4",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quels sont les 4 types de stage du référentiel 2026 ?",
+      "opts": [
+        {
+          "t": "Soins en phase aiguë, état stabilisé, soins primaires, accompagnement des personnes vulnérables",
+          "ok": true,
+          "why": "Ces 4 types garantissent un parcours varié."
+        },
+        { "t": "Urgences, bloc, réanimation, pédiatrie", "ok": false, "why": "Ce sont des services, pas les types de stage." },
+        { "t": "Matin, après-midi, nuit, week-end", "ok": false, "why": "Ce sont des horaires." },
+        { "t": "Public, privé, libéral, associatif", "ok": false, "why": "Ce sont des statuts d’établissement." }
+      ]
+    },
+    {
+      "id": "fs5",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qui encadre l’étudiant au quotidien sur son lieu de stage ?",
+      "opts": [
+        {
+          "t": "Un tuteur, infirmier diplômé d’État, avec les professionnels de proximité",
+          "ok": true,
+          "why": "Le tuteur suit la progression ; un cadre de santé ou un formateur est le référent du stage."
+        },
+        { "t": "Personne, l’étudiant est autonome", "ok": false, "why": "L'étudiant est toujours encadré." },
+        { "t": "Uniquement le médecin du service", "ok": false, "why": "Le tuteur est un infirmier." },
+        { "t": "Un autre étudiant de 3e année", "ok": false, "why": "Les étudiants s’entraident, mais le tuteur est un professionnel." }
+      ]
+    },
+    {
+      "id": "fs6",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’est-ce que le portfolio de l’étudiant ?",
+      "opts": [
+        {
+          "t": "Un outil de suivi des compétences et des actes acquis en stage, rempli avec les tuteurs",
+          "ok": true,
+          "why": "Il sert à la validation des stages par le jury de semestre."
+        },
+        { "t": "Un classeur de photos des stages", "ok": false, "why": "C’est un outil pédagogique, pas un album." },
+        { "t": "Le dossier médical des patients", "ok": false, "why": "Il ne contient aucune donnée de patient." },
+        { "t": "Un CV pour trouver un emploi", "ok": false, "why": "C’est un outil de formation." }
+      ]
+    },
+    {
+      "id": "fs7",
+      "theme": "contenu",
+      "jury": false,
+      "q": "À partir de quel taux d’absence un stage ne peut-il pas être validé ?",
+      "opts": [
+        {
+          "t": "Plus de 20 % d’absence sur le stage",
+          "ok": true,
+          "why": "Il faut au moins 80 % de présence effective. Sinon, on refait un stage du même type."
+        },
+        { "t": "Dès 1 jour d’absence", "ok": false, "why": "Une absence ponctuelle n’empêche pas la validation." },
+        { "t": "Plus de 50 %", "ok": false, "why": "La limite est de 20 %." },
+        { "t": "Les absences ne comptent pas", "ok": false, "why": "La présence est obligatoire en stage." }
+      ]
+    },
+    {
+      "id": "fs8",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que se passe-t-il si un stage n’est pas validé ?",
+      "opts": [
+        {
+          "t": "L’étudiant refait un stage du même type",
+          "ok": true,
+          "why": "Le stage manqué doit être rattrapé pour acquérir la compétence."
+        },
+        { "t": "Il est exclu de la formation", "ok": false, "why": "Ce n’est pas automatique." },
+        { "t": "Rien, on passe au suivant", "ok": false, "why": "Le stage doit être rattrapé." },
+        { "t": "Il repasse la sélection", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fs9",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelles indemnités de stage prévoit l’arrêté de 2026 ?",
+      "opts": [
+        {
+          "t": "36 € par semaine en 1re année, 46 € en 2e, 60 € en 3e",
+          "ok": true,
+          "why": "Des frais de déplacement peuvent aussi être pris en charge. La FNESI juge ces montants trop faibles."
+        },
+        { "t": "Un salaire d’infirmier", "ok": false, "why": "L'étudiant n'est pas salarié pendant ses stages." },
+        { "t": "Rien du tout", "ok": false, "why": "Une indemnité existe." },
+        { "t": "500 € par semaine", "ok": false, "why": "Beaucoup trop." }
+      ],
+      "tip": "Si ta formation est financée (salaire maintenu, rémunération Transitions Pro…), ces indemnités dépendent de ta situation : renseigne-toi."
+    },
+    {
+      "id": "fs10",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quels horaires un étudiant peut-il faire en stage ?",
+      "opts": [
+        {
+          "t": "Ceux du service : matin, après-midi, parfois nuit et week-end",
+          "ok": true,
+          "why": "L'étudiant suit les horaires de l'équipe pour découvrir la continuité des soins."
+        },
+        { "t": "Uniquement 9 h – 17 h en semaine", "ok": false, "why": "Les soins sont assurés 24 h/24." },
+        { "t": "Uniquement la nuit", "ok": false, "why": "Les horaires varient." },
+        { "t": "Il choisit librement", "ok": false, "why": "Ils sont fixés avec le lieu de stage." }
+      ]
+    },
+    {
+      "id": "fs11",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qui choisit et agrée les lieux de stage ?",
+      "opts": [
+        {
+          "t": "L’institut, avec une commission dédiée qui agrée les lieux de stage",
+          "ok": true,
+          "why": "Les lieux doivent offrir un encadrement de qualité. L'étudiant ne choisit pas seul."
+        },
+        { "t": "L’étudiant uniquement", "ok": false, "why": "L'étudiant peut exprimer des souhaits, mais ne décide pas seul." },
+        { "t": "L’Ordre des infirmiers", "ok": false, "why": "L’Ordre ne gère pas les stages." },
+        { "t": "Le patient", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fs12",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Un stage à l’étranger est-il possible ?",
+      "opts": [
+        {
+          "t": "Oui, la mobilité de stage est possible, dans l’Union européenne ou ailleurs, avec l’accord de l’institut",
+          "ok": true,
+          "why": "La mobilité pour les études est, elle, limitée à un semestre."
+        },
+        { "t": "Non, jamais", "ok": false, "why": "La mobilité internationale est prévue." },
+        { "t": "Oui, toute la formation peut se faire à l’étranger", "ok": false, "why": "C’est encadré et limité." },
+        { "t": "Seulement après le diplôme", "ok": false, "why": "Elle est possible pendant la formation." }
+      ]
+    },
+    {
+      "id": "fs13",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Si ton employeur finance ta formation, peux-tu faire un stage dans le service où tu travaillais ?",
+      "opts": [
+        {
+          "t": "Non : les stages chez l’employeur sont possibles (33 semaines maximum), mais pas dans un service où tu as déjà travaillé",
+          "ok": true,
+          "why": "Un regard neuf est nécessaire pour apprendre en tant qu’étudiant."
+        },
+        { "t": "Oui, tous tes stages", "ok": false, "why": "C’est limité et exclu dans ton ancien service." },
+        { "t": "Oui, c’est même obligatoire", "ok": false, "why": "Ce n’est pas obligatoire." },
+        { "t": "Aucune règle", "ok": false, "why": "L’arrêté de 2026 fixe des règles." }
+      ]
+    },
+    {
+      "id": "fs14",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Pendant un stage, l’étudiant est-il tenu au secret professionnel ?",
+      "opts": [
+        {
+          "t": "Oui, comme tous les professionnels qui interviennent auprès des patients",
+          "ok": true,
+          "why": "Le secret s’applique dès le premier jour de stage."
+        },
+        { "t": "Non, il n’est pas encore diplômé", "ok": false, "why": "Le secret s’impose aussi aux étudiants." },
+        { "t": "Seulement en psychiatrie", "ok": false, "why": "Il s’applique partout." },
+        { "t": "Seulement s’il signe un contrat", "ok": false, "why": "Il s’applique par la loi." }
+      ]
+    },
+    {
+      "id": "fs15",
+      "theme": "contenu",
+      "jury": false,
+      "q": "À quoi sert l’analyse de la pratique professionnelle après un stage ?",
+      "opts": [
+        {
+          "t": "À revenir sur des situations vécues pour comprendre, prendre du recul et progresser",
+          "ok": true,
+          "why": "C’est ce qui fait de toi un praticien réflexif."
+        },
+        { "t": "À noter le tuteur", "ok": false, "why": "Ce n'est pas l’objectif." },
+        { "t": "À raconter sa vie personnelle", "ok": false, "why": "On analyse des situations professionnelles." },
+        { "t": "À rien, c’est facultatif", "ok": false, "why": "C'est un temps de formation important." }
+      ]
+    },
+    {
+      "id": "fs16",
+      "theme": "formation",
+      "jury": true,
+      "q": "« En stage, on vous demande un soin que vous ne maîtrisez pas. Que faites-vous ? »",
+      "opts": [
+        {
+          "t": "Je le dis honnêtement, je demande à être accompagné ou à observer d’abord, et je ne le réalise pas seul tant que je ne suis pas en sécurité.",
+          "ok": true,
+          "why": "La sécurité du patient passe avant tout : savoir dire « je ne sais pas » est une compétence."
+        },
+        { "t": "Je le fais quand même pour ne pas décevoir.", "ok": false, "why": "Dangereux pour le patient." },
+        { "t": "Je refuse et je quitte le service.", "ok": false, "why": "Trop brutal : il faut demander de l’aide." },
+        {
+          "t": "Je cherche un tutoriel sur internet et je le fais.",
+          "ok": false,
+          "why": "Pas de soin sans encadrement quand on ne maîtrise pas."
+        }
+      ]
+    },
+    {
+      "id": "fs17",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Un stage en psychiatrie ou en gériatrie vous fait-il peur ? »",
+      "opts": [
+        {
+          "t": "Je les aborde avec curiosité : ce sont des stages où l’écoute et la relation sont centrales. Si une situation me met en difficulté, j’en parlerai à mon tuteur.",
+          "ok": true,
+          "why": "Tu montres de l’ouverture et tu sais où trouver du soutien."
+        },
+        { "t": "Oui, je préfère les éviter.", "ok": false, "why": "Ils font partie du parcours : tu ne peux pas les éviter." },
+        { "t": "Non, ça ne me fait rien du tout.", "ok": false, "why": "Peu crédible : mieux vaut reconnaître ses appréhensions." },
+        { "t": "Je ne veux faire que les urgences.", "ok": false, "why": "Trop fermé." }
+      ]
+    },
+    {
+      "id": "fs18",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Votre tuteur de stage vous fait une remarque critique. Comment réagissez-vous ? »",
+      "opts": [
+        {
+          "t": "Je l’écoute sans me justifier tout de suite, je demande des précisions pour comprendre, et je m’en sers pour progresser.",
+          "ok": true,
+          "why": "La critique est un outil d’apprentissage : le jury attend cette posture."
+        },
+        { "t": "Je me défends : je sais ce que je fais.", "ok": false, "why": "Fermé à l’apprentissage." },
+        { "t": "Je me plains au formateur.", "ok": false, "why": "Inadapté : il faut d’abord en parler avec le tuteur." },
+        { "t": "Je ne dis rien mais je n’en tiens pas compte.", "ok": false, "why": "Pas constructif." }
+      ]
+    },
+    {
+      "id": "fs19",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Les stages peuvent être loin de chez vous. Comment allez-vous faire ? »",
+      "opts": [
+        {
+          "t": "J’ai anticipé : je suis mobile [permis, voiture ou transports], et j’organiserai mes trajets selon les horaires du service.",
+          "ok": true,
+          "why": "Tu montres que tu as anticipé une contrainte concrète."
+        },
+        { "t": "Je demanderai des stages à côté de chez moi uniquement.", "ok": false, "why": "Ce n’est pas toujours possible." },
+        { "t": "Je n’y ai pas pensé.", "ok": false, "why": "Manque d’anticipation." },
+        { "t": "Je serai souvent en retard, ce n’est pas grave.", "ok": false, "why": "La ponctualité est essentielle en soins." }
+      ],
+      "tip": "Remplace le crochet par ta situation réelle (permis, véhicule, RER…)."
+    },
+    {
+      "id": "fs20",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Pourquoi les stages ont-ils lieu aussi hors de l’hôpital (libéral, centres de santé, médico-social, santé scolaire) ?",
+      "opts": [
+        {
+          "t": "Parce que les infirmiers exercent de plus en plus hors de l’hôpital, notamment avec le virage domiciliaire et les soins primaires",
+          "ok": true,
+          "why": "Le référentiel 2026 met l’accent sur les soins primaires et l’accès aux soins."
+        },
+        { "t": "Parce que les hôpitaux n’ont plus de place", "ok": false, "why": "Ce n'est pas la raison pédagogique." },
+        { "t": "Pour que les stages soient plus courts", "ok": false, "why": "La durée ne change pas." },
+        { "t": "Pour éviter les soins techniques", "ok": false, "why": "On y fait aussi des soins techniques." }
+      ]
+    },
+    {
+      "id": "fv1",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Avec quelle note une unité d’enseignement est-elle validée ?",
+      "opts": [
+        {
+          "t": "10/20, avec une compensation possible entre unités d’un même semestre",
+          "ok": true,
+          "why": "Une UE validée apporte ses crédits ECTS, acquis définitivement."
+        },
+        { "t": "12/20 sans compensation", "ok": false, "why": "Le seuil est 10/20." },
+        { "t": "8/20", "ok": false, "why": "Ce seuil concerne la sélection (note éliminatoire), pas les UE." },
+        { "t": "Il n’y a pas de note", "ok": false, "why": "Les UE sont notées." }
+      ]
+    },
+    {
+      "id": "fv2",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de sessions d’examen y a-t-il par semestre ?",
+      "opts": [
+        {
+          "t": "Deux sessions : en cas d’échec, on peut se rattraper",
+          "ok": true,
+          "why": "La meilleure note des deux sessions est retenue."
+        },
+        { "t": "Une seule, sans rattrapage", "ok": false, "why": "Il existe une deuxième session." },
+        { "t": "Cinq sessions", "ok": false, "why": "Il y en a deux." },
+        { "t": "Aucune : tout est validé automatiquement", "ok": false, "why": "Il faut réussir les évaluations." }
+      ]
+    },
+    {
+      "id": "fv3",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que se passe-t-il si un étudiant obtient entre 30 et 50 crédits sur l’année ?",
+      "opts": [
+        {
+          "t": "Il peut redoubler pour valider ce qui lui manque",
+          "ok": true,
+          "why": "Le passage en année supérieure exige 51 crédits sur 60 ou les deux semestres."
+        },
+        { "t": "Il passe quand même en année supérieure", "ok": false, "why": "Il faut au moins 51 crédits." },
+        { "t": "Il est exclu définitivement", "ok": false, "why": "Le redoublement est possible." },
+        { "t": "Il obtient le diplôme", "ok": false, "why": "Le diplôme exige les 6 semestres." }
+      ]
+    },
+    {
+      "id": "fv4",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Comment les stages sont-ils validés ?",
+      "opts": [
+        {
+          "t": "Par le jury de semestre, à partir de la présence (au moins 80 %), du portfolio et de l’évaluation du tuteur",
+          "ok": true,
+          "why": "La validation des stages repose sur la mise en œuvre des compétences."
+        },
+        { "t": "Par un examen écrit", "ok": false, "why": "Le stage s’évalue en situation." },
+        { "t": "Automatiquement", "ok": false, "why": "La validation n’est pas automatique." },
+        { "t": "Par le patient", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fv5",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de temps peut durer une interruption de formation ?",
+      "opts": [
+        { "t": "3 ans au maximum, et une seule fois", "ok": true, "why": "Les notes obtenues sont conservées." },
+        { "t": "1 mois", "ok": false, "why": "C’est plus long." },
+        { "t": "Sans limite", "ok": false, "why": "L’interruption est limitée." },
+        { "t": "Interdite", "ok": false, "why": "Elle est possible, par exemple pour raison de santé ou familiale." }
+      ],
+      "tip": "Bon à savoir en reconversion, mais au jury, mets l'accent sur ton engagement."
+    },
+    {
+      "id": "fv6",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelle condition doit remplir un aide-soignant pour intégrer directement la 2e année ?",
+      "opts": [
+        {
+          "t": "Au moins 3 ans d’expérience sur les 5 dernières années, la sélection FPC et un parcours spécifique de 3 mois",
+          "ok": true,
+          "why": "C'est le dispositif prévu par l'arrêté de 2026."
+        },
+        { "t": "Aucune, c’est automatique", "ok": false, "why": "Il y a des conditions." },
+        { "t": "10 ans d’expérience", "ok": false, "why": "C’est 3 ans sur les 5 dernières années." },
+        { "t": "Avoir le bac scientifique", "ok": false, "why": "Ce n’est pas une condition." }
+      ]
+    },
+    {
+      "id": "fv7",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Un étudiant venant d’une autre formation de santé peut-il bénéficier d’un parcours adapté ?",
+      "opts": [
+        {
+          "t": "Oui, selon sa formation, il peut accéder à la 1re ou à la 2e année avec des dispenses",
+          "ok": true,
+          "why": "Les dispenses sont étudiées au cas par cas."
+        },
+        { "t": "Non, jamais", "ok": false, "why": "Des passerelles existent." },
+        { "t": "Oui, il obtient directement le diplôme", "ok": false, "why": "Il doit suivre une partie de la formation." },
+        { "t": "Seulement s’il est médecin à l’étranger", "ok": false, "why": "D’autres profils sont concernés." }
+      ]
+    },
+    {
+      "id": "fv8",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quels sont les modes d’évaluation pendant la formation ?",
+      "opts": [
+        {
+          "t": "Contrôle continu et/ou examen terminal : écrits, oraux, études de situation, simulation, et validation des stages",
+          "ok": true,
+          "why": "Les formes varient selon les unités d’enseignement."
+        },
+        { "t": "Un seul examen final en 3e année", "ok": false, "why": "Les évaluations ont lieu chaque semestre." },
+        { "t": "Uniquement des QCM", "ok": false, "why": "Les formes sont variées." },
+        { "t": "Uniquement les stages", "ok": false, "why": "Les UE théoriques sont aussi évaluées." }
+      ]
+    },
+    {
+      "id": "fv9",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que contient l’AFGSU 2, obligatoire pour le diplôme ?",
+      "opts": [
+        {
+          "t": "Une formation aux gestes et soins d’urgence : arrêt cardiaque, défibrillateur, hémorragie, alerte, situations sanitaires exceptionnelles",
+          "ok": true,
+          "why": "Elle s'acquiert pendant la formation."
+        },
+        { "t": "Un permis de conduire les ambulances", "ok": false, "why": "Aucun rapport." },
+        { "t": "Un diplôme de secourisme en montagne", "ok": false, "why": "Aucun rapport." },
+        { "t": "Un stage aux urgences", "ok": false, "why": "C'est une formation spécifique, pas un stage." }
+      ],
+      "tip": "Si tu as un PSC1 ou une formation de secourisme, cite-la au jury."
+    },
+    {
+      "id": "fv10",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qui délivre le diplôme à la fin des 3 ans ?",
+      "opts": [
+        {
+          "t": "Une université accréditée, sur proposition d’un jury qui se réunit au moins deux fois par an",
+          "ok": true,
+          "why": "C’est l’une des nouveautés du référentiel 2026."
+        },
+        {
+          "t": "Le directeur de l’IFSI seul",
+          "ok": false,
+          "why": "Il préside des instances, mais le diplôme est délivré par l’université."
+        },
+        { "t": "Le tuteur de dernier stage", "ok": false, "why": "Il évalue le stage, pas le diplôme." },
+        { "t": "Le ministère, sans jury", "ok": false, "why": "Un jury est prévu." }
+      ]
+    },
+    {
+      "id": "fv11",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Après le diplôme, que doit faire l’infirmier pour exercer ?",
+      "opts": [
+        {
+          "t": "S’inscrire à l’Ordre national des infirmiers",
+          "ok": true,
+          "why": "L'inscription à l'Ordre est obligatoire pour exercer, quel que soit le mode d'exercice."
+        },
+        { "t": "Repasser un concours", "ok": false, "why": "Aucun concours après le diplôme." },
+        { "t": "Attendre 2 ans", "ok": false, "why": "Il peut exercer dès son inscription." },
+        { "t": "Rien", "ok": false, "why": "L’inscription est obligatoire." }
+      ]
+    },
+    {
+      "id": "fv12",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Une unité d’enseignement validée doit-elle être repassée en cas de redoublement ?",
+      "opts": [
+        {
+          "t": "Non : les crédits d’une UE validée sont acquis définitivement",
+          "ok": true,
+          "why": "C’est le principe des crédits ECTS capitalisables."
+        },
+        { "t": "Oui, toujours", "ok": false, "why": "Les crédits acquis sont conservés." },
+        { "t": "Oui, si la note est inférieure à 15", "ok": false, "why": "Une UE validée reste acquise." },
+        { "t": "Cela dépend du formateur", "ok": false, "why": "La règle est nationale." }
+      ]
+    },
+    {
+      "id": "fv13",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qui examine la situation individuelle d’un étudiant (difficultés, absences, redoublement, comportement) ?",
+      "opts": [
+        {
+          "t": "Une instance compétente de l’institut, qui réunit direction, formateurs et représentants des étudiants",
+          "ok": true,
+          "why": "Ces instances garantissent un traitement équitable."
+        },
+        { "t": "Le directeur de l’hôpital seul", "ok": false, "why": "Une instance collégiale est prévue." },
+        { "t": "Les autres étudiants", "ok": false, "why": "Ils sont représentés, mais ne décident pas seuls." },
+        { "t": "Personne", "ok": false, "why": "Une instance est prévue par les textes." }
+      ]
+    },
+    {
+      "id": "fv14",
+      "theme": "contenu",
+      "jury": false,
+      "q": "En 3e année, on parle souvent d’initiation à la recherche. De quoi s’agit-il ?",
+      "opts": [
+        {
+          "t": "D’un travail écrit où l’étudiant analyse une question de soins à partir de données scientifiques et de sa pratique",
+          "ok": true,
+          "why": "Il prépare à la démarche scientifique du domaine 5."
+        },
+        { "t": "D’une thèse de doctorat", "ok": false, "why": "C’est une initiation, pas une thèse." },
+        { "t": "D’une expérience en laboratoire", "ok": false, "why": "Ce n’est pas le sens." },
+        { "t": "D’un exposé sur sa vie personnelle", "ok": false, "why": "C’est un travail professionnel." }
+      ]
+    },
+    {
+      "id": "fv15",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de stages non validés peut-on rattraper ?",
+      "opts": [
+        {
+          "t": "On refait un stage du même type pour acquérir la compétence ; le jury de semestre décide de la suite",
+          "ok": true,
+          "why": "La règle est d’acquérir la compétence, pas de cumuler les heures."
+        },
+        { "t": "Aucun : un échec, c’est l’exclusion", "ok": false, "why": "Le rattrapage est prévu." },
+        { "t": "Tous, sans conséquence", "ok": false, "why": "Les échecs répétés peuvent mener au redoublement." },
+        { "t": "On rattrape en faisant un examen écrit", "ok": false, "why": "Un stage se rattrape par un stage." }
+      ]
+    },
+    {
+      "id": "fv16",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« Que ferez-vous si vous échouez à une unité d’enseignement ? »",
+      "opts": [
+        {
+          "t": "J’analyserai mes erreurs avec le formateur, je réviserai avec une méthode adaptée et je me présenterai à la deuxième session.",
+          "ok": true,
+          "why": "Tu montres que tu connais le rattrapage et que tu réagis de façon constructive."
+        },
+        { "t": "J’abandonnerai, ce n’est pas fait pour moi.", "ok": false, "why": "Trop défaitiste." },
+        { "t": "Je contesterai la note.", "ok": false, "why": "Pas constructif en premier réflexe." },
+        { "t": "Ça ne m’arrivera pas.", "ok": false, "why": "Peu crédible." }
+      ]
+    },
+    {
+      "id": "fv17",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Pourquoi faut-il au moins 80 % de présence en stage ?",
+      "opts": [
+        {
+          "t": "Parce que les compétences s’acquièrent en situation réelle : sans présence suffisante, on ne peut pas les évaluer",
+          "ok": true,
+          "why": "La présence en stage est obligatoire."
+        },
+        { "t": "Pour que le service ait assez de personnel", "ok": false, "why": "L'étudiant n'est pas un renfort." },
+        { "t": "Pour toucher les indemnités", "ok": false, "why": "Ce n'est pas la raison." },
+        { "t": "Ce n’est pas une règle", "ok": false, "why": "C'est une règle de l'arrêté." }
+      ]
+    },
+    {
+      "id": "ft1",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Comment allez-vous concilier la formation et votre vie personnelle ? »",
+      "opts": [
+        {
+          "t": "J’ai prévu une organisation concrète : [garde, aide de mes proches, répartition des tâches], un temps de travail personnel chaque jour, et j’en ai parlé avec mon entourage.",
+          "ok": true,
+          "why": "Le jury veut voir que ton projet est réaliste et soutenu."
+        },
+        { "t": "Je verrai au fur et à mesure.", "ok": false, "why": "Manque d’anticipation." },
+        { "t": "Ma vie personnelle passera toujours avant.", "ok": false, "why": "Le jury doute de ta disponibilité." },
+        { "t": "Je n’aurai plus de vie personnelle pendant 3 ans.", "ok": false, "why": "Peu réaliste : le jury craint l’épuisement." }
+      ],
+      "tip": "Remplace les crochets par ta situation réelle."
+    },
+    {
+      "id": "ft2",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Pourquoi passer par la formation professionnelle continue ? »",
+      "opts": [
+        {
+          "t": "Parce que je suis un adulte en reconversion, avec une expérience professionnelle : cette voie reconnaît mon parcours et me permet de chercher un financement adapté.",
+          "ok": true,
+          "why": "Tu montres que tu connais ta voie d’accès et ses avantages."
+        },
+        { "t": "Parce que c’est plus facile que Parcoursup.", "ok": false, "why": "Maladroit : le jury attend une raison positive." },
+        { "t": "Je ne savais pas qu’il y avait d’autres voies.", "ok": false, "why": "Manque d’information." },
+        { "t": "Pour être payé pendant la formation.", "ok": false, "why": "Réducteur : la motivation doit être le métier." }
+      ]
+    },
+    {
+      "id": "ft3",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Quelles méthodes de travail comptez-vous utiliser ? »",
+      "opts": [
+        {
+          "t": "Des fiches de synthèse après chaque cours, des révisions régulières plutôt qu’au dernier moment, du travail en groupe et des outils numériques que je maîtrise.",
+          "ok": true,
+          "why": "Concret et réaliste : tu valorises aussi ton aisance avec le numérique."
+        },
+        { "t": "Je réviserai la veille des examens.", "ok": false, "why": "Risqué vu la charge de travail." },
+        { "t": "Je n’ai pas besoin de méthode.", "ok": false, "why": "Le jury en doute." },
+        { "t": "Je recopierai les cours de mes camarades.", "ok": false, "why": "Pas une méthode personnelle." }
+      ]
+    },
+    {
+      "id": "ft4",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Comment vivez-vous le travail en groupe ? »",
+      "opts": [
+        {
+          "t": "Bien : en informatique, je travaillais en équipe avec des techniciens et des agents. J’écoute, je partage les tâches et je respecte les échéances.",
+          "ok": true,
+          "why": "Le travail en groupe est fréquent en IFSI : un exemple vécu rassure le jury."
+        },
+        { "t": "Je préfère travailler seul.", "ok": false, "why": "Inquiétant pour un métier d’équipe." },
+        { "t": "Je laisse les autres faire.", "ok": false, "why": "Manque d’implication." },
+        { "t": "Je prends toujours la direction.", "ok": false, "why": "Peut mettre en difficulté le groupe." }
+      ]
+    },
+    {
+      "id": "ft5",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Un conflit éclate dans votre groupe de travail. Que faites-vous ? »",
+      "opts": [
+        {
+          "t": "Je propose d’en parler calmement, j’écoute chaque point de vue et on cherche ensemble une solution ; si ça bloque, on sollicite le formateur.",
+          "ok": true,
+          "why": "Tu montres des compétences de communication et de médiation."
+        },
+        { "t": "Je quitte le groupe.", "ok": false, "why": "Fuite du problème." },
+        { "t": "J’impose ma solution.", "ok": false, "why": "Autoritaire." },
+        { "t": "Je laisse faire, ça finira par passer.", "ok": false, "why": "Passif." }
+      ]
+    },
+    {
+      "id": "ft6",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Êtes-vous à l’aise avec l’écrit et l’informatique ? »",
+      "opts": [
+        {
+          "t": "Oui : j’ai rédigé des procédures et des documents en mairie, et l’informatique est mon métier. C’est utile pour le dossier de soins informatisé et les travaux écrits.",
+          "ok": true,
+          "why": "Tu transformes ton parcours en atout concret."
+        },
+        {
+          "t": "Pas trop, mais ce n’est pas important pour un infirmier.",
+          "ok": false,
+          "why": "Faux : les écrits professionnels sont essentiels."
+        },
+        { "t": "Je suis expert, je n’aurai rien à apprendre.", "ok": false, "why": "Trop sûr de toi." },
+        { "t": "Je ferai écrire les autres.", "ok": false, "why": "Inadapté." }
+      ]
+    },
+    {
+      "id": "ft7",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Les horaires de nuit et de week-end ne vous font-ils pas peur ? »",
+      "opts": [
+        {
+          "t": "J’en ai conscience : la continuité des soins l’exige. J’ai déjà eu des horaires variables [en intérim], et mon entourage est prêt.",
+          "ok": true,
+          "why": "Tu montres que tu as anticipé une contrainte réelle du métier."
+        },
+        { "t": "Je n’en ferai pas.", "ok": false, "why": "Ce n'est pas négociable en soins." },
+        { "t": "Je ne savais pas.", "ok": false, "why": "Manque de connaissance du métier." },
+        { "t": "Je demanderai une dispense.", "ok": false, "why": "Pas réaliste." }
+      ]
+    },
+    {
+      "id": "ft8",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Que ferez-vous d’ici la rentrée de septembre 2027 ? »",
+      "opts": [
+        {
+          "t": "Je continue à découvrir le métier [échanges avec des infirmiers, bénévolat, emploi d’agent hospitalier si possible], je révise les bases (calculs, biologie) et je prépare mon financement.",
+          "ok": true,
+          "why": "Tu montres que tu utilises le temps avant la rentrée de façon active."
+        },
+        { "t": "Rien de particulier, j’attends.", "ok": false, "why": "Passif." },
+        { "t": "Je pars en vacances, ce sera dur après.", "ok": false, "why": "Pas une mauvaise idée en soi, mais insuffisant." },
+        { "t": "J’apprends déjà toutes les techniques de soins seul.", "ok": false, "why": "Irréaliste et inutile sans encadrement." }
+      ],
+      "tip": "Remplace les crochets par ce que tu prévois vraiment."
+    },
+    {
+      "id": "ft9",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Et si vous n’êtes pas retenu cette année ? »",
+      "opts": [
+        {
+          "t": "Je serai déçu, mais je chercherai à comprendre pourquoi, je renforcerai mon projet et je me représenterai : mon envie est réfléchie et durable.",
+          "ok": true,
+          "why": "Tu montres que ton projet ne dépend pas d’une seule tentative."
+        },
+        { "t": "Je laisserai tomber.", "ok": false, "why": "Fait douter de ta motivation." },
+        { "t": "Ce n’est pas possible, je serai pris.", "ok": false, "why": "Trop sûr de toi." },
+        { "t": "Je deviendrai aide-soignant à la place.", "ok": false, "why": "Donne l’impression d’un projet par défaut." }
+      ]
+    },
+    {
+      "id": "ft10",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Que craignez-vous le plus dans la formation ? »",
+      "opts": [
+        {
+          "t": "La quantité de connaissances à acquérir après plusieurs années sans études. C’est pourquoi je m’organise dès maintenant et je compterai sur le suivi pédagogique.",
+          "ok": true,
+          "why": "Une crainte honnête, accompagnée d’une solution."
+        },
+        { "t": "Rien du tout.", "ok": false, "why": "Peu crédible." },
+        { "t": "Les patients.", "ok": false, "why": "Inquiétant pour un futur soignant." },
+        { "t": "Tout, je ne suis pas sûr d’y arriver.", "ok": false, "why": "Trop négatif." }
+      ]
+    },
+    {
+      "id": "ft11",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Quel infirmier aimeriez-vous être plus tard ? »",
+      "opts": [
+        {
+          "t": "J’aimerais d’abord acquérir de l’expérience, peut-être à l’hôpital, puis me tourner vers le domicile ou le libéral, comme les infirmiers qui ont soigné ma mère. Je reste ouvert à ce que je découvrirai en stage.",
+          "ok": true,
+          "why": "Un projet personnel, mais ouvert : c’est ce que le jury apprécie."
+        },
+        {
+          "t": "Infirmier libéral dès le diplôme, c’est décidé.",
+          "ok": false,
+          "why": "Trop fermé : l’expérience est recommandée avant le libéral."
+        },
+        { "t": "Je ne sais pas du tout.", "ok": false, "why": "Manque de projection." },
+        { "t": "Cadre de santé le plus vite possible.", "ok": false, "why": "Donne l’impression de vouloir fuir le soin." }
+      ]
+    },
+    {
+      "id": "ft12",
+      "theme": "formation",
+      "jury": false,
+      "q": "Quels dispositifs peuvent financer une reconversion en FPC ?",
+      "opts": [
+        {
+          "t": "Le projet de transition professionnelle (Transitions Pro), le CPF, l’employeur, France Travail ou la Région selon la situation",
+          "ok": true,
+          "why": "Les dispositifs dépendent de ton statut : salarié, intérimaire, demandeur d’emploi."
+        },
+        { "t": "Uniquement les économies personnelles", "ok": false, "why": "De nombreux dispositifs existent." },
+        { "t": "L’IFSI paie tout automatiquement", "ok": false, "why": "Ce n’est pas automatique." },
+        { "t": "Seulement un prêt bancaire", "ok": false, "why": "C'est une option parmi d'autres." }
+      ],
+      "tip": "Pour le jury : une piste principale + un plan B, avec les démarches déjà faites."
+    },
+    {
+      "id": "ft13",
+      "theme": "formation",
+      "jury": false,
+      "q": "Selon l’enquête de la FAGE relayée par la FNESI, combien coûte en moyenne la rentrée d’un étudiant en 2026 ?",
+      "opts": [
+        {
+          "t": "Environ 3 200 € (3 239 €)",
+          "ok": true,
+          "why": "La précarité étudiante est un sujet d’actualité pour les étudiants infirmiers."
+        },
+        { "t": "Environ 300 €", "ok": false, "why": "Bien plus." },
+        { "t": "Environ 10 000 €", "ok": false, "why": "Moins." },
+        { "t": "Rien, tout est gratuit", "ok": false, "why": "Il y a des frais (logement, transport, matériel…)." }
+      ],
+      "tip": "Montre que tu as anticipé ton budget : c’est un facteur d’abandon selon la FNESI."
+    },
+    {
+      "id": "ft14",
+      "theme": "formation",
+      "jury": true,
+      "q": "« Vous avez plus d’expérience de vie que la plupart des étudiants. Comment le vivrez-vous ? »",
+      "opts": [
+        {
+          "t": "Comme une richesse : je peux apporter mon expérience au groupe, tout en restant à ma place d’étudiant, prêt à apprendre de tous, y compris des plus jeunes.",
+          "ok": true,
+          "why": "Tu montres humilité et ouverture."
+        },
+        { "t": "Je n’aurai pas grand-chose à apprendre d’eux.", "ok": false, "why": "Condescendant." },
+        { "t": "Ça me gênera, je resterai à l’écart.", "ok": false, "why": "Isolement inquiétant." },
+        { "t": "Je compte devenir le délégué pour les diriger.", "ok": false, "why": "Maladroit." }
+      ]
+    },
+    {
+      "id": "ax1",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quand les arrêtés d’application de la loi infirmière sont-ils entrés en vigueur ?",
+      "opts": [
+        {
+          "t": "Le 28 juin 2026, après leur publication au Journal officiel le 27 juin 2026",
+          "ok": true,
+          "why": "Le décret de décembre 2025 entrait en vigueur au lendemain de la publication des arrêtés."
+        },
+        { "t": "Le 1er janvier 2025", "ok": false, "why": "Trop tôt : la loi date du 27 juin 2025." },
+        { "t": "Ils ne sont pas encore publiés", "ok": false, "why": "Ils ont été publiés en juin 2026." },
+        { "t": "En 2030", "ok": false, "why": "Ils sont déjà en vigueur." }
+      ]
+    },
+    {
+      "id": "ax2",
+      "theme": "actu",
+      "jury": false,
+      "q": "Tous les combien de temps la liste des prescriptions infirmières doit-elle être révisée ?",
+      "opts": [
+        {
+          "t": "Au moins tous les 3 ans, après avis de la HAS et de l’Académie nationale de médecine",
+          "ok": true,
+          "why": "La liste peut donc s’élargir avec le temps."
+        },
+        { "t": "Jamais", "ok": false, "why": "Elle est révisable." },
+        { "t": "Chaque mois", "ok": false, "why": "Trop fréquent." },
+        { "t": "Tous les 20 ans", "ok": false, "why": "C’est au moins tous les 3 ans." }
+      ]
+    },
+    {
+      "id": "ax3",
+      "theme": "actu",
+      "jury": false,
+      "q": "Le renouvellement de contraceptifs oraux par l’infirmier est limité à :",
+      "opts": [
+        { "t": "6 mois", "ok": true, "why": "C'est l'une des prescriptions prévues par l'arrêté du 26 juin 2026." },
+        { "t": "1 semaine", "ok": false, "why": "Trop court." },
+        { "t": "5 ans", "ok": false, "why": "Trop long." },
+        { "t": "Il est interdit", "ok": false, "why": "Il est autorisé, dans la limite de 6 mois." }
+      ]
+    },
+    {
+      "id": "ax4",
+      "theme": "actu",
+      "jury": false,
+      "q": "Qu’est-ce que le réseau « France Santé » ?",
+      "opts": [
+        {
+          "t": "Un réseau de structures de soins labellisées pour offrir des soins à moins de 30 minutes et sous 48 heures, avec 5 000 structures visées fin 2027",
+          "ok": true,
+          "why": "Centres de santé, maisons pluriprofessionnelles, hôpitaux de proximité, pharmacies… Les Médicobus doivent s’y intégrer."
+        },
+        { "t": "Une mutuelle publique", "ok": false, "why": "Ce n'est pas une mutuelle." },
+        { "t": "Une chaîne de télévision santé", "ok": false, "why": "Aucun rapport." },
+        { "t": "Un site de prise de rendez-vous privé", "ok": false, "why": "C'est un réseau public de structures de soins." }
+      ]
+    },
+    {
+      "id": "ax5",
+      "theme": "actu",
+      "jury": false,
+      "q": "Combien de Médicobus étaient labellisés en novembre 2026 ?",
+      "opts": [
+        {
+          "t": "34, avec un objectif de 100 en 2027",
+          "ok": true,
+          "why": "Un 2e appel à projets vise 70 Médicobus supplémentaires (coût moyen : 200 000 € par an)."
+        },
+        { "t": "1 000", "ok": false, "why": "Beaucoup trop." },
+        { "t": "Aucun", "ok": false, "why": "Il y en a déjà 34." },
+        { "t": "100, objectif déjà atteint", "ok": false, "why": "L'objectif de 100 est pour 2027." }
+      ]
+    },
+    {
+      "id": "ax6",
+      "theme": "actu",
+      "jury": false,
+      "q": "Dans un Médicobus, quel peut être le rôle de l’infirmier ?",
+      "opts": [
+        {
+          "t": "Assister des téléconsultations avec un médecin à distance",
+          "ok": true,
+          "why": "C'est un exemple concret d'infirmier au cœur de l'accès aux soins."
+        },
+        { "t": "Aucun, il n’y a que des médecins", "ok": false, "why": "Les infirmiers peuvent y intervenir." },
+        { "t": "Conduire le bus uniquement", "ok": false, "why": "Aucun rapport." },
+        { "t": "Opérer les patients", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "ax7",
+      "theme": "actu",
+      "jury": false,
+      "q": "Combien de séances avec un psychologue « Mon soutien psy » rembourse-t-il par an ?",
+      "opts": [
+        {
+          "t": "12 séances, accessibles directement, sans ordonnance du médecin",
+          "ok": true,
+          "why": "Depuis 2024, l'accès est direct et le nombre de séances est passé à 12."
+        },
+        { "t": "3 séances", "ok": false, "why": "C’est plus." },
+        { "t": "Illimité", "ok": false, "why": "Le nombre est limité." },
+        { "t": "Aucune, il faut tout payer", "ok": false, "why": "Les séances sont remboursées." }
+      ]
+    },
+    {
+      "id": "ax8",
+      "theme": "actu",
+      "jury": false,
+      "q": "Le 3114, c’est :",
+      "opts": [
+        {
+          "t": "Le numéro national de prévention du suicide, gratuit, 24 h/24 et 7 j/7",
+          "ok": true,
+          "why": "Il s'adresse aux personnes en souffrance et à leurs proches, mais aussi aux professionnels."
+        },
+        { "t": "Le numéro du SAMU", "ok": false, "why": "Le SAMU, c’est le 15." },
+        { "t": "Le numéro de l’Assurance maladie", "ok": false, "why": "Ce n'est pas le bon numéro." },
+        { "t": "Le numéro contre le harcèlement scolaire", "ok": false, "why": "C'est le 3018 pour le cyberharcèlement." }
+      ]
+    },
+    {
+      "id": "ax9",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quels délais d’accès aux soins en psychiatrie sont dénoncés par les acteurs du secteur ?",
+      "opts": [
+        {
+          "t": "Souvent 6 à 12 mois d’attente selon la FHP Psy",
+          "ok": true,
+          "why": "Ces délais expliquent les demandes de mesures concrètes au-delà de la grande cause nationale."
+        },
+        { "t": "Moins de 24 heures partout", "ok": false, "why": "Malheureusement non." },
+        { "t": "Aucun délai", "ok": false, "why": "Les délais sont un problème majeur." },
+        { "t": "10 ans", "ok": false, "why": "Exagéré." }
+      ]
+    },
+    {
+      "id": "ax10",
+      "theme": "actu",
+      "jury": false,
+      "q": "Combien de personnes ont été formées aux Premiers secours en santé mentale (PSSM) ?",
+      "opts": [
+        {
+          "t": "Environ 300 000",
+          "ok": true,
+          "why": "Ces formations apprennent à repérer une détresse psychique et à orienter vers l’aide adaptée."
+        },
+        { "t": "Environ 300", "ok": false, "why": "Bien plus." },
+        { "t": "Toute la population", "ok": false, "why": "Pas encore." },
+        { "t": "Personne, la formation n’existe pas", "ok": false, "why": "Elle existe." }
+      ],
+      "tip": "Si tu as fait la formation PSSM ou PSC1, cite-la au jury."
+    },
+    {
+      "id": "ax11",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quel est le numéro et la date de la loi sur l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "Loi n° 2026-794 du 18 août 2026",
+          "ok": true,
+          "why": "Promulguée 4 jours après la décision du Conseil constitutionnel du 14 août 2026."
+        },
+        { "t": "Loi du 27 juin 2025", "ok": false, "why": "C'est la loi infirmière." },
+        { "t": "Loi Leonetti de 2005", "ok": false, "why": "C'est une loi plus ancienne sur la fin de vie." },
+        { "t": "Elle n’a pas encore de numéro", "ok": false, "why": "Elle a été promulguée." }
+      ]
+    },
+    {
+      "id": "ax12",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que prévoit la clause de conscience dans la loi sur l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "Médecins, infirmiers et pharmaciens peuvent refuser d’y participer, mais doivent orienter immédiatement la personne vers un autre professionnel",
+          "ok": true,
+          "why": "Le Conseil constitutionnel a précisé la clause des pharmaciens dans ses réserves."
+        },
+        { "t": "Aucun soignant ne peut refuser", "ok": false, "why": "Une clause de conscience existe." },
+        { "t": "Le soignant qui refuse n’a rien à faire de plus", "ok": false, "why": "Il doit orienter vers un confrère." },
+        { "t": "Seuls les médecins peuvent refuser", "ok": false, "why": "Les infirmiers et pharmaciens aussi." }
+      ]
+    },
+    {
+      "id": "ax13",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quelle loi plus ancienne encadre déjà la fin de vie et la sédation profonde et continue ?",
+      "opts": [
+        {
+          "t": "La loi Claeys-Leonetti de 2016",
+          "ok": true,
+          "why": "Elle a créé la sédation profonde et continue jusqu'au décès et renforcé les directives anticipées."
+        },
+        { "t": "La loi Veil de 1975", "ok": false, "why": "Elle concerne l'IVG." },
+        { "t": "La loi Kouchner de 2002", "ok": false, "why": "Elle concerne les droits des malades (consentement, accès au dossier)." },
+        { "t": "Aucune", "ok": false, "why": "La fin de vie est encadrée depuis 2005 (loi Leonetti)." }
+      ],
+      "tip": "Les directives anticipées et la personne de confiance sont des notions à connaître."
+    },
+    {
+      "id": "ax14",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quel nouveau projet concernant les soignants a été annoncé pour la vaccination contre la grippe ?",
+      "opts": [
+        {
+          "t": "Une obligation vaccinale antigrippale pour les professionnels de santé, dont le cadre est attendu début 2027",
+          "ok": true,
+          "why": "Elle vise à protéger les patients fragiles."
+        },
+        { "t": "L’interdiction de vacciner pour les infirmiers", "ok": false, "why": "Les infirmiers vaccinent." },
+        { "t": "La fin de la campagne annuelle", "ok": false, "why": "La campagne a lieu chaque automne." },
+        { "t": "Un vaccin unique pour toute la vie", "ok": false, "why": "Ce n'est pas le cas pour la grippe." }
+      ]
+    },
+    {
+      "id": "ax15",
+      "theme": "actu",
+      "jury": false,
+      "q": "Qu’est-ce qu’une commission mixte paritaire (CMP) ?",
+      "opts": [
+        {
+          "t": "Une réunion de 7 députés et 7 sénateurs chargée de trouver un texte commun quand les deux assemblées ne sont pas d’accord",
+          "ok": true,
+          "why": "C'est la prochaine étape du PLFSS 2027 après le vote du Sénat."
+        },
+        { "t": "Une commission de médecins", "ok": false, "why": "C'est une instance parlementaire." },
+        { "t": "Un syndicat infirmier", "ok": false, "why": "Aucun rapport." },
+        { "t": "Le Conseil constitutionnel", "ok": false, "why": "C'est une autre institution." }
+      ]
+    },
+    {
+      "id": "ax16",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que propose le PLFSS 2027 pour aider les départements à financer l’APA et la PCH ?",
+      "opts": [
+        {
+          "t": "Le transfert de 300 millions d’euros de CSG vers les départements",
+          "ok": true,
+          "why": "Les départements financent l’APA (personnes âgées) et la PCH (handicap)."
+        },
+        { "t": "La suppression de l’APA", "ok": false, "why": "Aucune suppression." },
+        { "t": "Un financement par les mutuelles uniquement", "ok": false, "why": "Ce n'est pas la mesure." },
+        { "t": "Rien", "ok": false, "why": "Un transfert est prévu." }
+      ]
+    },
+    {
+      "id": "ax17",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quelle taxe le PLFSS 2027 prévoit-il d’étendre, pour la prévention ?",
+      "opts": [
+        {
+          "t": "La taxe sur les sodas, à de nouveaux produits transformés sucrés",
+          "ok": true,
+          "why": "Objectif de santé publique : réduire la consommation de sucre (obésité, diabète)."
+        },
+        { "t": "Une taxe sur le pain", "ok": false, "why": "Aucun rapport." },
+        { "t": "Une taxe sur les consultations", "ok": false, "why": "Ce n'est pas une taxe de prévention." },
+        { "t": "Une taxe sur les fruits", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "ax18",
+      "theme": "actu",
+      "jury": false,
+      "q": "Qu’est-ce que la PCH ?",
+      "opts": [
+        {
+          "t": "La prestation de compensation du handicap, versée par le département après décision de la MDPH",
+          "ok": true,
+          "why": "Elle finance des aides humaines, techniques ou d'aménagement."
+        },
+        { "t": "La prime de compétences hospitalières", "ok": false, "why": "Ce n'est pas le bon sigle." },
+        { "t": "La pension des cadres hospitaliers", "ok": false, "why": "Ce n'est pas le bon sigle." },
+        { "t": "Le plan canicule hospitalier", "ok": false, "why": "Ce n'est pas le bon sigle." }
+      ]
     }
   ]
 }
