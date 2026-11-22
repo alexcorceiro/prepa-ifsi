@@ -1,6 +1,6 @@
 {
   "_info": "Données de l'oral : thèmes, questions du QCM et méthodes guidées. Modifie ce fichier pour ajouter ou corriger une question (4 options, une seule avec ok: true).",
-  "maj": "2026-11-20",
+  "maj": "2026-11-22",
   "themes": {
     "deroule": "L'épreuve",
     "parcours": "Ton parcours",
@@ -119,6 +119,63 @@
               }
             ]
           }
+        },
+        {
+          "id": "cours",
+          "titre": "Les cours : ce que tu vas apprendre",
+          "methode": [
+            "Cite 3 ou 4 grands enseignements : sciences biomédicales (anatomie, pathologies, pharmacologie), soins infirmiers, sciences humaines, santé publique.",
+            "Donne un exemple précis : les calculs de doses et le circuit du médicament, ou l’hygiène et la prévention des infections.",
+            "Relie un cours à ton parcours : le numérique en santé (données, cybersécurité) ou la démarche qualité."
+          ],
+          "phrase": "« On apprend les sciences biomédicales, avec l’anatomie, les pathologies et la pharmacologie, mais aussi les soins, les sciences humaines, la santé publique et le numérique en santé. »",
+          "fiche": {
+            "texte": [
+              "Les cours représentent 114 ECTS, répartis en unités d'enseignement (UE) dans les 5 domaines ; les stages apportent les 66 autres. Les deux UE les plus lourdes valent 18 ECTS chacune : B.1 « Sciences biomédicales » et B.3 « Pratiques et interventions infirmières ».",
+              "Sciences biomédicales (B.1) : biochimie, biologie cellulaire, hématologie, anatomie et physiologie, douleur, pathologies par appareil (cœur et poumons, système nerveux, digestif, urinaire, endocrinien, cancers…) avec la pharmacologie associée, infections et infections associées aux soins, pédiatrie, psychiatrie, gériatrie, urgences, soins palliatifs.",
+              "Pratiques infirmières (B.3) : hygiène et asepsie, soins techniques, plaies et pansements, vaccination, examen clinique, consultation et prescription infirmières, circuit du médicament, calculs de doses, pharmacovigilance, transfusion, AFGSU 2 et santé mentale.",
+              "Et aussi : législation, déontologie et éthique (A.2), psychologie, sociologie et anthropologie (B.2), qualité et gestion des risques (B.4), santé publique et éducation thérapeutique (C.1, dont 40 h d'ETP), santé environnementale (C.2), communication (D.1), numérique en santé (D.4), recherche (E.1) et anglais (E.2)."
+            ],
+            "image": "form-cours",
+            "sources": [
+              {
+                "titre": "Arrêté du 20 février 2026, annexe III : contenu des unités d'enseignement (Légifrance)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053568913/2026-09-29"
+              },
+              {
+                "titre": "Référentiel 2026 : présentation (IFSI du CH Charles Perrens)",
+                "url": "https://iform.ch-perrens.fr/referentiel-2026"
+              }
+            ]
+          },
+          "questions": [
+            "fk1",
+            "fk2",
+            "fk3",
+            "fk4",
+            "fk5",
+            "fk6",
+            "fk7",
+            "fk8",
+            "fk9",
+            "fk10",
+            "fk11",
+            "fk12",
+            "fk13",
+            "fk14",
+            "fk15",
+            "fk16",
+            "fk17",
+            "fk18",
+            "fk19",
+            "fk20",
+            "fk21",
+            "fk22",
+            "fk23",
+            "fk24",
+            "fk25",
+            "fk26"
+          ]
         },
         {
           "id": "stages",
@@ -3204,6 +3261,445 @@
         { "t": "Pour que le service ait assez de personnel", "ok": false, "why": "L'étudiant n'est pas un renfort." },
         { "t": "Pour toucher les indemnités", "ok": false, "why": "Ce n'est pas la raison." },
         { "t": "Ce n’est pas une règle", "ok": false, "why": "C'est une règle de l'arrêté." }
+      ]
+    },
+    {
+      "id": "fk1",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Dans le référentiel 2026, dans quelle UE apprend-on l’anatomie, les pathologies et la pharmacologie ?",
+      "opts": [
+        {
+          "t": "L’UE B.1 « Sciences biomédicales » (18 ECTS)",
+          "ok": true,
+          "why": "La pharmacologie y est enseignée avec chaque pathologie, appareil par appareil."
+        },
+        { "t": "L’UE A.2 « Législation, déontologie, éthique »", "ok": false, "why": "Cette UE porte sur le droit et l’éthique." },
+        { "t": "L’UE E.2 « Langue vivante étrangère »", "ok": false, "why": "C'est l'anglais." },
+        { "t": "Ces matières ne sont plus enseignées", "ok": false, "why": "Elles sont au cœur de la formation." }
+      ]
+    },
+    {
+      "id": "fk2",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelles sont les deux UE les plus importantes en crédits (18 ECTS chacune) ?",
+      "opts": [
+        {
+          "t": "B.1 « Sciences biomédicales » et B.3 « Pratiques et interventions infirmières »",
+          "ok": true,
+          "why": "Elles forment le socle scientifique et pratique du métier."
+        },
+        { "t": "A.1 et A.2", "ok": false, "why": "Elles valent 9 et 6 ECTS." },
+        { "t": "D.2 et D.4", "ok": false, "why": "Elles valent 2 ECTS chacune." },
+        { "t": "E.2 et E.3", "ok": false, "why": "Elles valent 6 et 3 ECTS." }
+      ]
+    },
+    {
+      "id": "fk3",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Combien de crédits ECTS représentent les cours (hors stages) sur les 3 ans ?",
+      "opts": [
+        { "t": "114 ECTS, les stages apportant les 66 autres", "ok": true, "why": "114 + 66 = 180 ECTS." },
+        { "t": "180 ECTS", "ok": false, "why": "180, c'est le total avec les stages." },
+        { "t": "30 ECTS", "ok": false, "why": "Beaucoup plus." },
+        { "t": "66 ECTS", "ok": false, "why": "66 ECTS, ce sont les stages." }
+      ]
+    },
+    {
+      "id": "fk4",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Dans quelle UE apprend-on les calculs de doses ?",
+      "opts": [
+        {
+          "t": "L’UE B.3 « Pratiques et interventions infirmières », avec le circuit du médicament et la pharmacovigilance",
+          "ok": true,
+          "why": "Les calculs de doses font partie des produits de santé, au même titre que la transfusion et les cathéters."
+        },
+        { "t": "Aucune : on les apprend seul", "ok": false, "why": "Ils sont enseignés et évalués." },
+        { "t": "L’UE C.2 « Santé environnementale »", "ok": false, "why": "Ce n'est pas le sujet de cette UE." },
+        { "t": "L’UE D.4 « Numérique en santé »", "ok": false, "why": "Le numérique en santé porte sur les données et les outils." }
+      ],
+      "tip": "Lien à faire au jury : l’épreuve écrite de sélection comporte justement des calculs."
+    },
+    {
+      "id": "fk5",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’est-ce que la pharmacovigilance ?",
+      "opts": [
+        {
+          "t": "La surveillance des effets indésirables des médicaments et leur déclaration",
+          "ok": true,
+          "why": "Tout soignant, dont l'infirmier, peut et doit déclarer un effet indésirable."
+        },
+        { "t": "La surveillance des pharmacies par la police", "ok": false, "why": "Aucun rapport." },
+        { "t": "Le calcul du prix des médicaments", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "La fabrication des médicaments", "ok": false, "why": "C'est l'industrie pharmaceutique." }
+      ]
+    },
+    {
+      "id": "fk6",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quelles sont les étapes du circuit du médicament ?",
+      "opts": [
+        {
+          "t": "Prescription → dispensation par la pharmacie → administration par l’infirmier → surveillance",
+          "ok": true,
+          "why": "L'infirmier intervient à l'administration et à la surveillance, et vérifie la cohérence de la prescription."
+        },
+        { "t": "Administration → prescription → surveillance", "ok": false, "why": "On n'administre pas avant la prescription." },
+        { "t": "Achat → stockage → vente", "ok": false, "why": "C'est un circuit commercial." },
+        { "t": "Il n’y a pas de circuit défini", "ok": false, "why": "Le circuit est très encadré pour éviter les erreurs." }
+      ]
+    },
+    {
+      "id": "fk7",
+      "theme": "contenu",
+      "jury": false,
+      "q": "La règle des « 5 B » sert à sécuriser l’administration des médicaments. Que signifie-t-elle ?",
+      "opts": [
+        {
+          "t": "Le bon patient, le bon médicament, la bonne dose, la bonne voie, le bon moment",
+          "ok": true,
+          "why": "C'est une règle de sécurité promue par la Haute Autorité de santé."
+        },
+        {
+          "t": "Bien boire, bien bouger, bien manger, bien dormir, bien respirer",
+          "ok": false,
+          "why": "Ce sont des conseils d'hygiène de vie."
+        },
+        { "t": "Les 5 boîtes de médicaments autorisées", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Les 5 bilans sanguins obligatoires", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk8",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« Pourquoi un infirmier doit-il connaître la pharmacologie alors que le médecin prescrit ? »",
+      "opts": [
+        {
+          "t": "Pour administrer en sécurité, surveiller l’efficacité et les effets indésirables, repérer une erreur, expliquer le traitement au patient, et aussi parce que l’infirmier prescrit désormais certains produits.",
+          "ok": true,
+          "why": "Tu montres que tu comprends la responsabilité de l’infirmier dans le médicament."
+        },
+        {
+          "t": "Ce n’est pas vraiment utile, il suffit de suivre l’ordonnance.",
+          "ok": false,
+          "why": "Faux : l'infirmier engage sa responsabilité à l'administration."
+        },
+        { "t": "Pour pouvoir remplacer le médecin.", "ok": false, "why": "Ce ne sont pas les mêmes rôles." },
+        { "t": "Pour vendre des médicaments.", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fk9",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’est-ce qu’une infection associée aux soins (ou nosocomiale à l’hôpital) ?",
+      "opts": [
+        {
+          "t": "Une infection contractée au cours d’une prise en charge, absente à l’arrivée du patient",
+          "ok": true,
+          "why": "Leur prévention est au programme en B.1 et en B.3."
+        },
+        { "t": "Une infection héréditaire", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Une infection qu’on soigne à domicile", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Une maladie de la peau", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk10",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Quel est le geste le plus efficace pour prévenir les infections associées aux soins ?",
+      "opts": [
+        {
+          "t": "L’hygiène des mains, en particulier la friction avec une solution hydroalcoolique",
+          "ok": true,
+          "why": "C'est la première mesure des précautions standard, enseignée dès le début de la formation."
+        },
+        {
+          "t": "Porter des gants en permanence",
+          "ok": false,
+          "why": "Les gants ne remplacent pas l’hygiène des mains et ont des indications précises."
+        },
+        { "t": "Donner des antibiotiques à tous les patients", "ok": false, "why": "Cela favoriserait les résistances." },
+        { "t": "Aérer une fois par jour", "ok": false, "why": "Utile, mais insuffisant." }
+      ]
+    },
+    {
+      "id": "fk11",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que sont les DASRI, abordés dans l’UE sur l’hygiène ?",
+      "opts": [
+        {
+          "t": "Les déchets d’activités de soins à risques infectieux (aiguilles, compresses souillées…), éliminés dans une filière spécifique",
+          "ok": true,
+          "why": "Leur tri protège les soignants, les agents et l’environnement."
+        },
+        { "t": "Des dossiers administratifs", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Des médicaments périmés uniquement", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Une classification des maladies", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk12",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Dans l’UE A.2 (législation, déontologie, éthique), quelles responsabilités de l’infirmier étudie-t-on ?",
+      "opts": [
+        {
+          "t": "Civile, pénale et disciplinaire",
+          "ok": true,
+          "why": "L'infirmier peut avoir à répondre de ses actes devant un juge ou devant l'Ordre."
+        },
+        { "t": "Uniquement financière", "ok": false, "why": "Ce n'est pas la seule." },
+        { "t": "Aucune : c’est le médecin qui est responsable", "ok": false, "why": "L'infirmier est responsable de ses actes." },
+        { "t": "Politique et électorale", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fk13",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’est-ce que la personne de confiance ?",
+      "opts": [
+        {
+          "t": "Une personne désignée par le patient pour l’accompagner et être consultée s’il ne peut plus exprimer sa volonté",
+          "ok": true,
+          "why": "Elle est prévue par la loi : on l’étudie avec les droits des usagers (A.2)."
+        },
+        { "t": "Le médecin traitant", "ok": false, "why": "C'est la personne choisie par le patient, pas forcément un soignant." },
+        { "t": "Le directeur de l’hôpital", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "N’importe quel membre de la famille, automatiquement", "ok": false, "why": "Elle doit être désignée par le patient." }
+      ]
+    },
+    {
+      "id": "fk14",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que trouve-t-on dans l’UE B.2 « Sciences humaines et sociales » ?",
+      "opts": [
+        {
+          "t": "Psychologie, sociologie (dont les inégalités sociales de santé), anthropologie et approche interculturelle, addictions, violences sexistes et sexuelles",
+          "ok": true,
+          "why": "Ces cours aident à comprendre la personne soignée dans son contexte."
+        },
+        { "t": "Anatomie et physiologie", "ok": false, "why": "C'est l'UE B.1." },
+        { "t": "Calculs de doses", "ok": false, "why": "C'est l'UE B.3." },
+        { "t": "Anglais scientifique", "ok": false, "why": "C'est l'UE E.2." }
+      ]
+    },
+    {
+      "id": "fk15",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que désigne l’expression « inégalités sociales de santé » ?",
+      "opts": [
+        {
+          "t": "Les différences d’état de santé liées à la situation sociale (revenus, études, logement, territoire)",
+          "ok": true,
+          "why": "Par exemple, l’espérance de vie varie selon le niveau de revenu."
+        },
+        { "t": "Les différences de salaire entre soignants", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Les maladies génétiques", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Les différences de prix entre hôpitaux", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk16",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’est-ce que l’éducation thérapeutique du patient (ETP), enseignée pendant 40 heures ?",
+      "opts": [
+        {
+          "t": "Aider une personne atteinte d’une maladie chronique (diabète, asthme…) à acquérir des compétences pour gérer sa maladie au quotidien",
+          "ok": true,
+          "why": "C'est un soin à part entière, dans l'UE C.1."
+        },
+        {
+          "t": "Expliquer au patient ce que le médecin a décidé, sans échanger",
+          "ok": false,
+          "why": "L'ETP est un échange et un apprentissage, pas une simple information."
+        },
+        { "t": "Une formation pour les étudiants infirmiers", "ok": false, "why": "Elle s’adresse aux patients." },
+        { "t": "Un traitement médicamenteux", "ok": false, "why": "C’est une démarche éducative." }
+      ]
+    },
+    {
+      "id": "fk17",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Qu’appelle-t-on les « déterminants de santé », étudiés en santé publique ?",
+      "opts": [
+        {
+          "t": "Les facteurs qui influencent la santé : comportements, environnement, conditions de vie, accès aux soins, facteurs biologiques",
+          "ok": true,
+          "why": "Ils orientent les actions de prévention."
+        },
+        { "t": "Les résultats d’analyses biologiques", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Les médicaments essentiels", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Les diplômes des soignants", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk18",
+      "theme": "contenu",
+      "jury": false,
+      "q": "L’UE C.2 aborde l’approche « Une seule santé ». Que signifie-t-elle ?",
+      "opts": [
+        {
+          "t": "La santé humaine, la santé animale et celle de l’environnement sont liées",
+          "ok": true,
+          "why": "Elle s'inscrit dans l'UE « Santé environnementale et transition écologique »."
+        },
+        { "t": "Un seul médecin par patient", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Une seule mutuelle pour tous", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Une seule maladie à la fois", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk19",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Que contient l’UE D.4 « Numérique en santé » ?",
+      "opts": [
+        {
+          "t": "La santé numérique, l’intelligence artificielle en santé, les données de santé, la cybersécurité et la confidentialité",
+          "ok": true,
+          "why": "Une UE où ton expérience en informatique est un vrai atout."
+        },
+        { "t": "Apprendre à programmer des logiciels", "ok": false, "why": "Ce n'est pas l'objectif." },
+        { "t": "Uniquement la bureautique", "ok": false, "why": "C'est plus large." },
+        { "t": "La réparation des ordinateurs", "ok": false, "why": "Aucun rapport." }
+      ],
+      "tip": "À dire au jury : « Mon expérience en informatique me servira notamment en numérique en santé : données, cybersécurité, confidentialité. »"
+    },
+    {
+      "id": "fk20",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« En quoi votre parcours en informatique peut-il vous servir dans la formation ? »",
+      "opts": [
+        {
+          "t": "Dans l’UE numérique en santé (données, cybersécurité, confidentialité), dans les transmissions écrites et la démarche qualité, et pour aider les autres avec les outils numériques, tout en restant humble sur le soin, que je découvre.",
+          "ok": true,
+          "why": "Tu fais un lien précis avec le programme, sans surestimer ton expérience."
+        },
+        { "t": "À rien, ce sont deux mondes différents.", "ok": false, "why": "Tu dévalorises ton parcours." },
+        { "t": "Je pourrai réparer les ordinateurs de l’IFSI.", "ok": false, "why": "Hors sujet." },
+        {
+          "t": "Je n’aurai pas besoin de suivre les cours de numérique.",
+          "ok": false,
+          "why": "Prétentieux : la santé numérique a ses propres règles."
+        }
+      ]
+    },
+    {
+      "id": "fk21",
+      "theme": "contenu",
+      "jury": false,
+      "q": "L’UE B.4 « Démarche qualité et gestion des risques » utilise le cycle PDCA. Que signifie-t-il ?",
+      "opts": [
+        {
+          "t": "Planifier, faire, vérifier, agir (roue de Deming) : un cycle d’amélioration continue",
+          "ok": true,
+          "why": "Tu l’as peut-être déjà rencontré en informatique : c’est un bon lien à faire."
+        },
+        { "t": "Patient, docteur, chirurgien, aide-soignant", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Prescrire, doser, contrôler, administrer", "ok": false, "why": "Ce n'est pas le sens." },
+        { "t": "Une échelle de douleur", "ok": false, "why": "Ce n'est pas le sens." }
+      ]
+    },
+    {
+      "id": "fk22",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Pourquoi déclare-t-on un événement indésirable (erreur, chute, presque-accident) ?",
+      "opts": [
+        {
+          "t": "Pour analyser ce qui s’est passé et éviter que cela se reproduise, dans une culture de sécurité non punitive",
+          "ok": true,
+          "why": "C'est l'objet de la gestion des risques (UE B.4)."
+        },
+        { "t": "Pour sanctionner le soignant responsable", "ok": false, "why": "L'objectif est d'apprendre, pas de punir." },
+        { "t": "Ce n’est pas utile si le patient va bien", "ok": false, "why": "Les presque-accidents aussi sont riches d’enseignements." },
+        { "t": "Pour informer la presse", "ok": false, "why": "Aucun rapport." }
+      ]
+    },
+    {
+      "id": "fk23",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Pourquoi une UE d’anglais (6 ECTS) est-elle au programme ?",
+      "opts": [
+        {
+          "t": "Pour accéder à la littérature scientifique, majoritairement publiée en anglais",
+          "ok": true,
+          "why": "Elle fait partie du domaine E, démarche scientifique et recherche."
+        },
+        { "t": "Pour travailler obligatoirement à l’étranger", "ok": false, "why": "Ce n'est pas l'objectif." },
+        { "t": "Pour remplacer le français à l’hôpital", "ok": false, "why": "Aucun rapport." },
+        { "t": "Elle n’est pas au programme", "ok": false, "why": "Elle y est : UE E.2." }
+      ]
+    },
+    {
+      "id": "fk24",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Comment l’infirmier évalue-t-il la douleur, sujet abordé dans plusieurs UE ?",
+      "opts": [
+        {
+          "t": "Avec des échelles : échelle numérique de 0 à 10, échelle visuelle analogique, ou échelles d’observation pour les personnes qui ne peuvent pas s’exprimer",
+          "ok": true,
+          "why": "L'évaluation de la douleur est un rôle propre de l'infirmier."
+        },
+        { "t": "Il devine en regardant le patient", "ok": false, "why": "Il utilise des outils validés." },
+        { "t": "Seul le médecin peut l’évaluer", "ok": false, "why": "C'est aussi un rôle infirmier." },
+        { "t": "Avec une prise de sang", "ok": false, "why": "La douleur s'évalue par des échelles." }
+      ]
+    },
+    {
+      "id": "fk25",
+      "theme": "contenu",
+      "jury": false,
+      "q": "Virginia Henderson, souvent étudiée en sciences infirmières, est connue pour :",
+      "opts": [
+        {
+          "t": "Les 14 besoins fondamentaux de la personne",
+          "ok": true,
+          "why": "Son modèle sert de base au recueil de données et à l'histoire des théories en soins infirmiers (UE A.1)."
+        },
+        { "t": "La découverte des antibiotiques", "ok": false, "why": "C'est Alexander Fleming." },
+        { "t": "La création de la Croix-Rouge", "ok": false, "why": "C'est Henri Dunant." },
+        { "t": "Le premier vaccin", "ok": false, "why": "C'est Edward Jenner, puis Louis Pasteur." }
+      ],
+      "tip": "Florence Nightingale est aussi une figure à connaître : elle a fondé les soins infirmiers modernes."
+    },
+    {
+      "id": "fk26",
+      "theme": "contenu",
+      "jury": true,
+      "q": "« Quel enseignement vous attire le plus, et lequel vous inquiète ? »",
+      "opts": [
+        {
+          "t": "Les sciences biomédicales m’attirent, comprendre comment le corps fonctionne et comment agissent les traitements. La pharmacologie et les calculs de doses demandent de la rigueur : je révise déjà les bases pour l’épreuve écrite.",
+          "ok": true,
+          "why": "Tu montres de l’intérêt, de la lucidité et une action concrète."
+        },
+        { "t": "Aucun ne m’inquiète.", "ok": false, "why": "Peu crédible." },
+        {
+          "t": "Les cours théoriques ne m’intéressent pas, je préfère les stages.",
+          "ok": false,
+          "why": "Inquiétant : la théorie fonde la pratique."
+        },
+        { "t": "Je ne connais pas encore le programme.", "ok": false, "why": "Le jury attend que tu te sois renseigné." }
       ]
     },
     {
