@@ -1,6 +1,6 @@
 {
   "_info": "Données de l'oral : thèmes, questions du QCM et méthodes guidées. Modifie ce fichier pour ajouter ou corriger une question (4 options, une seule avec ok: true).",
-  "maj": "2026-11-22",
+  "maj": "2026-11-23",
   "themes": {
     "deroule": "L'épreuve",
     "parcours": "Ton parcours",
@@ -330,25 +330,25 @@
     },
     {
       "id": "actu",
-      "titre": "L’actualité santé et médico-sociale",
-      "intro": "Le jury veut voir que tu t’intéresses à ton futur environnement et que tu sais prendre du recul. Pour chaque actualité : les faits → les enjeux → le rôle infirmier → ton avis nuancé. Prépare 2 sujets à fond, garde les autres en réserve. Informations à jour au 19 novembre 2026.",
+      "titre": "L’actualité : 3 sujets à maîtriser",
+      "intro": "Le jury veut voir que tu t’intéresses à ton futur environnement et que tu sais prendre du recul. Concentre-toi sur 3 sujets qui touchent directement le métier : la prescription infirmière, l’aide à mourir et la santé mentale. Pour chacun : les faits → les enjeux → le rôle infirmier → ton avis nuancé, avec une réponse modèle d’une minute.",
       "etapes": [
         {
           "id": "structure",
-          "titre": "La structure de ta réponse",
+          "titre": "La méthode : 3 sujets, 1 minute chacun",
           "methode": [
-            "Les faits : quoi, quand, qui, en 2 phrases avec 1 ou 2 chiffres.",
+            "Les faits : quoi, quand, qui, en 2 phrases avec une date ou un chiffre.",
             "Les enjeux : pour les patients, les soignants, le système de santé.",
-            "Le lien avec le rôle infirmier.",
-            "Ton avis, en une phrase nuancée."
+            "Le rôle infirmier : ce que ça change pour le métier.",
+            "Ton avis : une phrase nuancée."
           ],
           "phrase": "« Un sujet qui m’a marqué, c’est… Concrètement… Pour les infirmiers, cela change… Personnellement, je pense que… »",
           "questions": ["am1", "a15"],
           "fiche": {
             "texte": [
-              "Le jury ne note pas ton opinion : il évalue si tu connais ton futur environnement, si tu comprends les enjeux et si tu sais rester nuancé.",
-              "En une minute environ : deux phrases de faits avec un chiffre, une phrase d'enjeux, une phrase sur ce que ça change pour les infirmiers, une phrase d'avis personnel.",
-              "Choisis des sources fiables : sites officiels (gouvernement, Légifrance, Assurance maladie), presse santé reconnue, Ordre infirmier. Évite les réseaux sociaux."
+              "Concentre-toi sur 3 sujets maîtrisés plutôt que 10 survolés : la prescription infirmière, l'aide à mourir et la santé mentale. Ils touchent tous directement le métier.",
+              "Pour chacun, prépare une réponse d'une minute : deux phrases de faits avec un chiffre ou une date, une phrase d'enjeux, une phrase sur le rôle infirmier, une phrase d'avis nuancé.",
+              "Le jury relancera : connais un ou deux détails de plus par sujet. Et vérifie l'actualité la veille de l'oral (décret sur l'aide à mourir, par exemple)."
             ],
             "image": "actu-structure",
             "sources": [
@@ -360,93 +360,211 @@
           }
         },
         {
-          "id": "vocabulaire",
-          "titre": "Le vocabulaire de base",
+          "id": "prescription",
+          "titre": "Sujet 1 : la prescription infirmière",
           "methode": [
-            "PLFSS : le budget de la Sécurité sociale, voté chaque automne.",
-            "ONDAM : l’objectif national de dépenses d’assurance maladie.",
-            "APA : l’aide du département aux personnes âgées en perte d’autonomie."
+            "Date clé : loi du 27 juin 2025, applicable depuis fin juin 2026.",
+            "Trois nouveautés : consultation, diagnostic infirmier, prescription.",
+            "Deux exemples de prescription : vaccins, pansements, substituts nicotiniques, INR…",
+            "Enjeu : l’accès aux soins, avec la coordination avec le médecin."
           ],
-          "phrase": "« Le PLFSS fixe chaque année l’ONDAM, c’est-à-dire ce que l’Assurance maladie peut dépenser. »",
-          "questions": ["a3", "a5", "a14", "ax15", "ax16", "ax17", "ax18"],
+          "phrase": "« Un sujet qui m’a marqué, c’est la loi infirmière du 27 juin 2025. Depuis fin juin 2026, les infirmiers peuvent faire des consultations, poser un diagnostic infirmier et prescrire certains produits : vaccins, pansements, substituts nicotiniques, ou des examens comme l’INR. L’enjeu, c’est l’accès aux soins, quand les patients attendent longtemps un médecin. Pour les infirmiers, c’est plus d’autonomie mais aussi plus de responsabilité, d’où l’importance de la pharmacologie en formation et de la coordination avec le médecin traitant. J’y vois une vraie reconnaissance du métier, à condition que la formation et la coopération suivent. »",
+          "questions": [
+            "a1",
+            "a2",
+            "ax1",
+            "ax2",
+            "ax3",
+            "ap1",
+            "ap2",
+            "ap3",
+            "ap4",
+            "ap5",
+            "ap6",
+            "ap7",
+            "ap8",
+            "ap9",
+            "ap10",
+            "ap11",
+            "ap12",
+            "ap13",
+            "ap14",
+            "ap15",
+            "ap16"
+          ],
           "fiche": {
-            "texte": [
-              "Chaque automne, le Parlement vote la loi de financement de la Sécurité sociale (LFSS). Le projet (PLFSS) fixe l'ONDAM, le plafond de dépenses de l'Assurance maladie.",
-              "PLFSS 2027 : ONDAM en hausse de 2 %, environ 4 milliards d'économies, déficit visé de 12,7 Md€ (21,8 Md€ en 2026). Rejeté par l'Assemblée en première lecture, il a été adopté par le Sénat le 18 novembre 2026. Une commission mixte paritaire doit suivre.",
-              "Autres mesures : extension de la taxe soda à d'autres produits sucrés, transfert de 300 M€ aux départements pour l'APA (personnes âgées) et la PCH (handicap)."
+            "parties": [
+              {
+                "titre": "Les faits",
+                "texte": "La loi n° 2025-581 du 27 juin 2025 reconnaît la consultation infirmière, le diagnostic infirmier et un droit de prescription. Un décret du 24 décembre 2025 et deux arrêtés du 26 juin 2026 (publiés le 27) la rendent applicable. L'infirmier peut prescrire : des vaccins (dès 11 ans, Covid dès 5 ans), des pansements (7 jours au départ), de la contention, la contraception d'urgence et des dépistages d'IST, des substituts nicotiniques, des antalgiques de palier 1, et des examens comme l'INR ou l'HbA1c chez le diabétique. Il peut renouveler une contraception orale pour 6 mois. La liste sera révisée au moins tous les 3 ans."
+              },
+              {
+                "titre": "Les enjeux",
+                "texte": "L'accès aux soins dans un contexte de déserts médicaux, et la reconnaissance des compétences infirmières. Mais aussi la coordination avec le médecin traitant (qui suit un résultat anormal ?), la responsabilité de l'infirmier, sa formation, et la rémunération de la consultation en libéral, encore à négocier."
+              },
+              {
+                "titre": "Le rôle infirmier",
+                "texte": "Consultation, examen clinique, repérage (détresse psychologique, risque suicidaire, chute, perte d'autonomie), prescription tracée dans le dossier ou le DMP, orientation vers le médecin quand c'est nécessaire. La formation l'intègre : la compétence 4 du référentiel 2026 porte sur la prescription."
+              },
+              {
+                "titre": "Les points de vue",
+                "texte": "L'Ordre infirmier y voit « une voie supplémentaire d'accès aux soins ». La HAS a donné un avis favorable avec des réserves. Certains médecins craignent un manque de coordination. Le syndicat infirmier SNPI juge la liste encore trop limitée."
+              }
             ],
-            "image": "actu-plfss",
+            "images": ["actu-loi", "actu-prescription"],
             "sources": [
               {
-                "titre": "PLFSS 2027 : contenu, débats et état du texte (Legiwatch, 14/11/2026)",
-                "url": "https://www.legiwatch.fr/loi/plfss-2027/"
+                "titre": "Arrêté du 26 juin 2026 : liste des produits et examens prescrits par les infirmiers (AP-HP)",
+                "url": "https://affairesjuridiques.aphp.fr/textes/arrete-du-26-juin-2026-fixant-la-liste-des-produits-de-sante-et-examens-complementaires-que-les-infirmiers-diplomes-detat-sont-autorises-a-prescrire-ou-a-renouveler/"
               },
               {
-                "titre": "PLFSS 2027 : les sénateurs votent un texte (Hospimedia, 18/11/2026)",
-                "url": "https://www.hospimedia.fr/actualite/articles/20261118-plfss-2027-les-senateurs-votent-un-texte-integrant"
+                "titre": "Arrêté du 26 juin 2026, texte intégral (FHF, PDF)",
+                "url": "https://www.fhf.fr/sites/default/files/2026-06/Arr%C3%AAt%C3%A9%20du%2026%20juin%202026%20-%20liste%20des%20produits%20de%20sant%C3%A9%20et%20examens%20compl%C3%A9mentaires.pdf"
               },
               {
-                "titre": "Projet de loi de financement de la Sécurité sociale 2027 (budget.gouv.fr)",
-                "url": "https://www.budget.gouv.fr/documentation/file-download/33499"
+                "titre": "Réforme infirmière : prescription, consultation et actes entrent dans une nouvelle phase (Caducée.net, 29/06/2026)",
+                "url": "https://www.caducee.net/actualite-medicale/16935/reforme-infirmiere-prescription-consultation-et-actes-infirmiers-entrent-dans-une-nouvelle-phase.html"
+              },
+              {
+                "titre": "Prescription infirmière : la liste complète (Pharmactu)",
+                "url": "https://pharmactu.fr/articles/prescription-infirmiers-liste-produits-examens-arrete-2026"
+              },
+              {
+                "titre": "Loi n° 2025-581 du 27 juin 2025 sur la profession d’infirmier (AP-HP)",
+                "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2025-581-du-27-juin-2025-sur-la-profession-dinfirmier-1/"
               }
             ]
           }
         },
         {
-          "id": "loi",
-          "titre": "Sujet n° 1 : la loi infirmière et l’accès aux soins",
+          "id": "aide",
+          "titre": "Sujet 2 : l’aide à mourir",
           "methode": [
-            "Loi du 27 juin 2025 : consultation infirmière, diagnostic infirmier, prescription encadrée.",
-            "Les arrêtés du 26 juin 2026 fixent la liste de ce que l’infirmier peut prescrire.",
-            "Enjeu : l’accès aux soins face aux déserts médicaux (exemple : les Médicobus)."
+            "Date clé : loi du 18 août 2026, application annoncée en janvier 2027.",
+            "Les conditions en une phrase : adulte, maladie grave et incurable en phase avancée, souffrance réfractaire, volonté libre.",
+            "Le principe : demande au médecin, décision collégiale, la personne s’administre le produit.",
+            "Reste nuancé : autonomie du patient, protection des plus fragiles, soins palliatifs, clause de conscience."
           ],
-          "phrase": "« La loi de 2025 reconnaît la consultation et le diagnostic infirmiers : la profession gagne en autonomie, et c’est aussi ce qui m’attire. »",
-          "questions": ["a1", "a2", "a13", "ax1", "ax2", "ax3", "ax4", "ax5", "ax6"],
+          "phrase": "« Un sujet important, c’est la loi du 18 août 2026 sur l’aide à mourir. Elle permet à un adulte atteint d’une maladie grave et incurable, en phase avancée ou terminale, avec des souffrances réfractaires, de demander une aide à mourir après une procédure collégiale. Elle doit s’appliquer en janvier 2027, et la HAS vient de publier ses recommandations. Les enjeux sont éthiques : respecter l’autonomie du patient tout en protégeant les personnes vulnérables, et garantir l’accès aux soins palliatifs. Pour l’infirmier, l’écoute et l’accompagnement sont centraux, avec une clause de conscience. Ce qui compte pour moi, c’est que le patient soit écouté et soulagé, quel que soit son choix. »",
+          "questions": [
+            "a6",
+            "a7",
+            "a8",
+            "ax11",
+            "ax12",
+            "ax13",
+            "ad1",
+            "ad2",
+            "ad3",
+            "ad4",
+            "ad5",
+            "ad6",
+            "ad7",
+            "ad8",
+            "ad9",
+            "ad10",
+            "ad11",
+            "ad12",
+            "ad13",
+            "ad14"
+          ],
           "fiche": {
-            "texte": [
-              "La loi n° 2025-581 du 27 juin 2025 inscrit dans le Code de la santé publique que l'infirmier effectue des consultations, pose un diagnostic infirmier et prescrit certains produits de santé et examens.",
-              "Le décret du 24 décembre 2025 et deux arrêtés du 26 juin 2026 la rendent applicable depuis le 28 juin 2026. Exemples de prescriptions : vaccins, pansements, substituts nicotiniques, antalgiques de palier 1, renouvellement de contraceptifs oraux (6 mois). La liste est révisée au moins tous les 3 ans.",
-              "Enjeu : l'accès aux soins. Le gouvernement vise 100 Médicobus en 2027 (34 labellisés en novembre 2026), intégrés au réseau France Santé (des soins à moins de 30 minutes et sous 48 heures)."
+            "parties": [
+              {
+                "titre": "Les faits",
+                "texte": "Loi n° 2026-794 du 18 août 2026, adoptée le 15 juillet (291 voix pour, 241 contre) et validée avec trois réserves par le Conseil constitutionnel le 14 août. Cinq conditions cumulatives : être majeur ; Français ou résident stable ; atteint d'une maladie grave et incurable, en phase avancée ou terminale ; avec une souffrance réfractaire ou insupportable ; capable d'une volonté libre et éclairée. La personne fait la demande à un médecin, qui décide après une procédure collégiale, dans les 15 jours. Elle peut renoncer à tout moment. Elle s'administre le produit elle-même, sauf impossibilité physique (un médecin ou un infirmier le fait alors)."
+              },
+              {
+                "titre": "Où en est-on ?",
+                "texte": "La HAS a publié 60 recommandations le 19 novembre 2026. La ministre de la Santé a annoncé une application en janvier 2027, mais un décret en Conseil d'État est encore attendu. Une commission de contrôle et d'évaluation et un registre de soignants volontaires sont prévus."
+              },
+              {
+                "titre": "Les enjeux",
+                "texte": "Respecter l'autonomie et la volonté du patient, tout en protégeant les personnes vulnérables. Garantir un vrai accès aux soins palliatifs, encore inégal. Protéger la liberté des soignants avec la clause de conscience, et soutenir les équipes."
+              },
+              {
+                "titre": "Le rôle infirmier",
+                "texte": "Écouter la demande sans juger et la transmettre, accompagner le patient et ses proches, soulager (soins palliatifs), participer à la réflexion en équipe, administrer le produit seulement si le patient ne le peut pas. L'infirmier peut refuser grâce à la clause de conscience, mais doit orienter vers un autre professionnel."
+              }
             ],
-            "image": "actu-loi",
+            "images": ["actu-aide"],
             "sources": [
               {
-                "titre": "Loi n° 2025-581 du 27 juin 2025 sur la profession d’infirmier (AP-HP, affaires juridiques)",
-                "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2025-581-du-27-juin-2025-sur-la-profession-dinfirmier-1/"
+                "titre": "Loi n° 2026-794 du 18 août 2026 relative au droit à l’aide à mourir (AP-HP)",
+                "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2026-794-du-18-aout-2026-relative-au-droit-a-laide-a-mourir/"
               },
               {
-                "titre": "Décret compétences infirmier 2026 : arrêtés publiés (MonRFS)",
-                "url": "https://monrfs.com/article-decret-competences-infirmier-2026"
+                "titre": "Aide à mourir : la HAS publie 60 recommandations (SantéMatin, 19/11/2026)",
+                "url": "https://www.santematin.fr/aide-a-mourir-has-60-recommandations-accompagnement-19-novembre-2026"
               },
               {
-                "titre": "Un deuxième appel à projets pour atteindre 100 Médicobus (Banque des Territoires, 09/11/2026)",
-                "url": "https://www.banquedesterritoires.fr/acces-aux-soins-un-deuxieme-appel-projets-pour-atteindre-lobjectif-de-100-medicobus"
+                "titre": "Aide à mourir : ce qui doit encore être organisé avant janvier 2027 (Medisite)",
+                "url": "https://www.medisite.fr/aide-a-mourir-ce-qui-doit-encore-etre-organise-avant-janvier-2027.5718187.2071.html"
               },
               {
-                "titre": "Déserts médicaux : 100 Médicobus labellisés en 2027 (Vidal)",
-                "url": "https://www.vidal.fr/actualites/38566-deserts-medicaux-le-gouvernement-veut-100-medicobus-labellises-en-2027.html"
+                "titre": "Fin de vie : l’aide à mourir entrera en vigueur en janvier 2027 (Aladom)",
+                "url": "https://www.aladom.fr/actualites/secteur-service/11400/fin-de-vie-laide-a-mourir-entrera-en-vigueur-en-janvier-2027-ce-que-prevoit-la-nouvelle-loi/"
+              },
+              {
+                "titre": "Aide à mourir : ce que change la loi promulguée le 18 août 2026 (24matins)",
+                "url": "https://www.24matins.fr/aide-a-mourir-ce-que-change-la-loi-promulguee-le-18-aout-2026-1419406"
               }
             ]
           }
         },
         {
           "id": "mentale",
-          "titre": "Sujet n° 2 : la santé mentale",
+          "titre": "Sujet 3 : la santé mentale",
           "methode": [
-            "Grande cause nationale en 2025, prolongée en 2026.",
-            "Mesures : objectif « zéro contention » en psychiatrie d’ici 2030, accès rapide pour les élèves en souffrance.",
-            "Dispositifs à citer : Mon soutien psy, le 3114 (prévention du suicide)."
+            "Date clé : grande cause nationale en 2025, prolongée en 2026.",
+            "Deux dispositifs : Mon soutien psy (12 séances remboursées) et le 3114.",
+            "Le problème : 6 à 12 mois d’attente en psychiatrie, jeunes en souffrance.",
+            "Le rôle infirmier : repérer la détresse et le risque suicidaire, écouter, orienter."
           ],
-          "phrase": "« La santé mentale est grande cause nationale : l’infirmier y a un rôle clé d’écoute, de repérage et d’orientation. »",
-          "questions": ["a9", "a10", "a11", "ax7", "ax8", "ax9", "ax10"],
+          "phrase": "« La santé mentale est grande cause nationale depuis 2025, prolongée en 2026, notamment parce que celle des jeunes se dégrade. Il existe des dispositifs comme Mon soutien psy, avec 12 séances de psychologue remboursées, ou le 3114 pour la prévention du suicide. Mais les délais en psychiatrie atteignent 6 à 12 mois. L’infirmier a un rôle clé : depuis 2026, repérer la détresse psychologique et le risque suicidaire fait partie de son rôle propre. Je trouve important de lever le tabou, mais il faudra des moyens durables pour que la grande cause se traduise dans les soins. »",
+          "questions": [
+            "a9",
+            "a10",
+            "a11",
+            "ax7",
+            "ax8",
+            "ax9",
+            "ax10",
+            "as1",
+            "as2",
+            "as3",
+            "as4",
+            "as5",
+            "as6",
+            "as7",
+            "as8",
+            "as9",
+            "as10",
+            "as11",
+            "as12",
+            "as13"
+          ],
           "fiche": {
-            "texte": [
-              "La santé mentale est la grande cause nationale de 2025, prolongée en 2026 face à la dégradation de la santé mentale des jeunes. Les acteurs demandent des moyens concrets : l'attente atteint 6 à 12 mois en psychiatrie.",
-              "Annonces de juin 2026 : objectif « zéro contention » en psychiatrie d'ici 2030 (formation à la désescalade, espaces d'apaisement), « aucun élève en souffrance psychique sans solution » avec un rendez-vous rapide, Maisons des adolescents renforcées.",
-              "Dispositifs à citer : Mon soutien psy (12 séances remboursées par an, en accès direct, près de 1,8 million de bénéficiaires), le 3114 (prévention du suicide), 300 000 personnes formées aux premiers secours en santé mentale."
+            "parties": [
+              {
+                "titre": "Les faits",
+                "texte": "Grande cause nationale en 2025, prolongée en 2026 (annonce du 27 novembre 2025). Plus de 3 000 événements « Parlons santé mentale ! ». En juin 2026 : objectif « zéro contention » en psychiatrie d'ici 2030, « aucun élève en souffrance psychique sans solution », Maisons des adolescents renforcées. Mon soutien psy : 12 séances de psychologue remboursées par an, en accès direct (près de 1,8 million de bénéficiaires). Le 3114 pour la prévention du suicide, 300 000 personnes formées aux premiers secours en santé mentale."
+              },
+              {
+                "titre": "Les enjeux",
+                "texte": "La santé mentale des jeunes se dégrade. L'attente atteint 6 à 12 mois en psychiatrie, on manque de psychiatres et de moyens : pour les acteurs du secteur et la commission d'enquête parlementaire, les progrès sont trop lents. La stigmatisation retarde encore l'accès aux soins."
+              },
+              {
+                "titre": "Le rôle infirmier",
+                "texte": "Repérer la détresse psychologique et le risque suicidaire (rôle propre depuis l'arrêté de juin 2026), écouter, orienter (médecin, CMP, 3114), soigner en psychiatrie par la relation, l'entretien et l'éducation, travailler en CMP ou comme IPA en psychiatrie. Le référentiel 2026 intègre une formation en santé mentale."
+              }
             ],
-            "image": "actu-mentale",
+            "images": ["actu-mentale"],
             "sources": [
+              {
+                "titre": "Santé mentale : grande cause nationale 2026 (Pourquoi Docteur, 28/11/2025)",
+                "url": "https://www.pourquoidocteur.fr/Articles/Question-d-actu/53284-Sante-mentale-grande-cause-nationale-2026-maintenant"
+              },
               {
                 "titre": "Santé mentale : la grande cause nationale prolongée en 2026 (Banque des Territoires)",
                 "url": "https://www.banquedesterritoires.fr/sante-mentale-la-grande-cause-nationale-prolongee-en-2026"
@@ -455,44 +573,11 @@
                 "titre": "Santé mentale : les annonces de la ministre Stéphanie Rist (Handicap.fr, 04/06/2026)",
                 "url": "https://informations.handicap.fr/a-sante-mentale-les-annonces-de-la-ministre-stephanie-rist-39245.php"
               },
+              {
+                "titre": "Mon soutien psy (info.gouv.fr)",
+                "url": "https://www.info.gouv.fr/actualite/monpsy-un-dispositif-pour-faciliter-lacces-a-un-accompagnement-psychologique"
+              },
               { "titre": "3114, numéro national de prévention du suicide", "url": "https://3114.fr" }
-            ]
-          }
-        },
-        {
-          "id": "reserve",
-          "titre": "Les sujets de réserve",
-          "methode": [
-            "Budget 2027 de la Sécurité sociale : toujours en débat au Parlement, vérifie la veille de ton oral.",
-            "Aide à mourir : loi adoptée en 2026, décrets attendus. Reste factuel et nuancé.",
-            "Vaccination grippe et Covid : campagne depuis le 13 octobre 2026, les infirmiers vaccinent."
-          ],
-          "phrase": "« Sur les sujets éthiques, je m’appuie sur les faits et je garde en tête le respect de la volonté du patient. »",
-          "questions": ["a4", "a6", "a7", "a8", "a12", "ax11", "ax12", "ax13", "ax14"],
-          "fiche": {
-            "texte": [
-              "Aide à mourir : loi n° 2026-794 du 18 août 2026, validée avec trois réserves par le Conseil constitutionnel le 14 août. Conditions : être majeur, atteint d'une maladie grave et incurable en phase avancée ou terminale, avec une souffrance réfractaire ou insupportable, et exprimer une volonté libre et éclairée. La personne s'administre elle-même le produit, sauf impossibilité physique. Clause de conscience pour les médecins, infirmiers et pharmaciens. Décrets d'application attendus.",
-              "Vaccination grippe et Covid : campagne depuis le 13 octobre 2026, les deux vaccins le même jour possibles, infirmiers et pharmaciens vaccinent. Une obligation de vaccination antigrippale des soignants se prépare (cadre attendu début 2027).",
-              "Budget de la Sécurité sociale : la procédure continue au Parlement. Vérifie où il en est la veille de ton oral."
-            ],
-            "image": "actu-reserve",
-            "sources": [
-              {
-                "titre": "Aide à mourir : ce que change la loi promulguée le 18 août 2026 (24matins)",
-                "url": "https://www.24matins.fr/aide-a-mourir-ce-que-change-la-loi-promulguee-le-18-aout-2026-1419406"
-              },
-              {
-                "titre": "Loi n° 2026-794 du 18 août 2026 relative au droit à l’aide à mourir (AP-HP, affaires juridiques)",
-                "url": "https://affairesjuridiques.aphp.fr/textes/loi-n-2026-794-du-18-aout-2026-relative-au-droit-a-laide-a-mourir/"
-              },
-              {
-                "titre": "La loi relative au droit à l’aide à mourir définitivement adoptée (Parlons Fin de Vie)",
-                "url": "https://www.parlons-fin-de-vie.fr/la-loi-relative-au-droit-a-laide-a-mourir-definitivement-adoptee/"
-              },
-              {
-                "titre": "Grippe et Covid-19 : la campagne de vaccination 2026-2027 (Vidal)",
-                "url": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html"
-              }
             ]
           }
         }
@@ -4222,6 +4307,696 @@
         { "t": "La prime de compétences hospitalières", "ok": false, "why": "Ce n'est pas le bon sigle." },
         { "t": "La pension des cadres hospitaliers", "ok": false, "why": "Ce n'est pas le bon sigle." },
         { "t": "Le plan canicule hospitalier", "ok": false, "why": "Ce n'est pas le bon sigle." }
+      ]
+    },
+    {
+      "id": "ap1",
+      "theme": "actu",
+      "jury": false,
+      "q": "À partir de quel âge l’infirmier peut-il prescrire les vaccins du calendrier vaccinal ?",
+      "opts": [
+        {
+          "t": "Dès 11 ans (et dès 5 ans pour le vaccin contre le Covid-19)",
+          "ok": true,
+          "why": "C'est ce que prévoit l'arrêté du 26 juin 2026. Les vaccins vivants restent exclus chez les personnes immunodéprimées."
+        },
+        { "t": "Dès la naissance", "ok": false, "why": "Les nourrissons restent suivis par le médecin ou la sage-femme." },
+        { "t": "Uniquement après 65 ans", "ok": false, "why": "Le champ est bien plus large." },
+        { "t": "Jamais", "ok": false, "why": "L'infirmier peut désormais prescrire des vaccins." }
+      ]
+    },
+    {
+      "id": "ap2",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que doit faire l’infirmier pour prescrire les vaccins du calendrier (hors grippe et Covid) ?",
+      "opts": [
+        {
+          "t": "Déclarer cette activité à l’Ordre, avec une attestation de formation",
+          "ok": true,
+          "why": "Pour la grippe et le Covid seuls, cette déclaration n’est pas exigée."
+        },
+        { "t": "Rien de particulier", "ok": false, "why": "Une déclaration est demandée." },
+        { "t": "Obtenir l’accord écrit du médecin pour chaque vaccin", "ok": false, "why": "Ce n'est pas la règle." },
+        { "t": "Passer un master", "ok": false, "why": "Une attestation de formation suffit." }
+      ]
+    },
+    {
+      "id": "ap3",
+      "theme": "actu",
+      "jury": false,
+      "q": "Pour une plaie, quelle est la durée de la prescription initiale de pansements par l’infirmier ?",
+      "opts": [
+        {
+          "t": "7 jours",
+          "ok": true,
+          "why": "L'infirmier peut aussi prescrire bas de contention, supports anti-escarres et anesthésiques locaux non injectables."
+        },
+        { "t": "1 an", "ok": false, "why": "Trop long pour une prescription initiale." },
+        { "t": "24 heures", "ok": false, "why": "Trop court." },
+        { "t": "Il ne peut pas prescrire de pansements", "ok": false, "why": "Il le peut." }
+      ]
+    },
+    {
+      "id": "ap4",
+      "theme": "actu",
+      "jury": false,
+      "q": "Pour quelles plaies la prise en charge par l’infirmier seul reste-t-elle limitée ?",
+      "opts": [
+        {
+          "t": "Les plaies complexes : pied diabétique, plaies post-chirurgicales, du visage ou de la main",
+          "ok": true,
+          "why": "Ces situations demandent un avis médical."
+        },
+        { "t": "Les petites coupures", "ok": false, "why": "Ce sont des plaies simples." },
+        { "t": "Les escarres débutantes", "ok": false, "why": "Elles relèvent bien du champ infirmier." },
+        { "t": "Aucune", "ok": false, "why": "Des limites existent." }
+      ]
+    },
+    {
+      "id": "ap5",
+      "theme": "actu",
+      "jury": false,
+      "q": "En santé sexuelle, que peut prescrire l’infirmier ?",
+      "opts": [
+        {
+          "t": "La contraception d’urgence, des préservatifs et des dépistages (VIH, hépatites B et C, syphilis, chlamydia, gonocoque)",
+          "ok": true,
+          "why": "Il peut aussi renouveler une contraception orale, pour 6 mois au maximum."
+        },
+        { "t": "Une IVG médicamenteuse", "ok": false, "why": "Elle relève du médecin ou de la sage-femme." },
+        { "t": "Des antibiotiques pour traiter une infection", "ok": false, "why": "Les antibiotiques ne figurent pas dans la liste." },
+        { "t": "Un traitement hormonal de la ménopause", "ok": false, "why": "Il ne figure pas dans la liste." }
+      ]
+    },
+    {
+      "id": "ap6",
+      "theme": "actu",
+      "jury": false,
+      "q": "Dans le sevrage tabagique, que peut prescrire l’infirmier ?",
+      "opts": [
+        {
+          "t": "Des substituts nicotiniques et un bilan sanguin (cholestérol, triglycérides, glycémie à jeun)",
+          "ok": true,
+          "why": "Le bilan sanguin est autorisé seulement dans ce cadre, ce que critique le syndicat infirmier SNPI."
+        },
+        { "t": "Des cigarettes électroniques remboursées", "ok": false, "why": "Ce n'est pas prévu." },
+        { "t": "Un médicament antidépresseur", "ok": false, "why": "Ce n'est pas dans la liste." },
+        { "t": "Rien, c’est réservé au tabacologue", "ok": false, "why": "L'infirmier peut prescrire des substituts." }
+      ]
+    },
+    {
+      "id": "ap7",
+      "theme": "actu",
+      "jury": false,
+      "q": "Pour un patient sous anticoagulant de type AVK, quel examen l’infirmier peut-il renouveler ?",
+      "opts": [
+        { "t": "L’INR, qui surveille la coagulation", "ok": true, "why": "C'est un exemple de suivi biologique confié à l'infirmier." },
+        { "t": "Un scanner", "ok": false, "why": "Ce n’est pas un examen biologique de suivi." },
+        { "t": "Une IRM", "ok": false, "why": "Non." },
+        { "t": "Aucun", "ok": false, "why": "L'INR peut être renouvelé." }
+      ]
+    },
+    {
+      "id": "ap8",
+      "theme": "actu",
+      "jury": false,
+      "q": "Chez un patient diabétique connu, quels examens l’infirmier peut-il prescrire s’ils n’ont pas été faits dans les 3 derniers mois ?",
+      "opts": [
+        {
+          "t": "L’HbA1c, la créatininémie et le rapport albuminurie/créatininurie",
+          "ok": true,
+          "why": "Ces examens suivent l’équilibre du diabète et la fonction rénale."
+        },
+        { "t": "Une coronarographie", "ok": false, "why": "Examen invasif, hors champ." },
+        { "t": "Un test génétique", "ok": false, "why": "Hors champ." },
+        { "t": "Aucun", "ok": false, "why": "Ces examens sont autorisés." }
+      ]
+    },
+    {
+      "id": "ap9",
+      "theme": "actu",
+      "jury": false,
+      "q": "Où chaque prescription infirmière doit-elle être inscrite ?",
+      "opts": [
+        {
+          "t": "Dans le dossier du patient ou le dossier médical partagé (DMP)",
+          "ok": true,
+          "why": "La traçabilité permet la coordination avec le médecin et le pharmacien."
+        },
+        { "t": "Nulle part", "ok": false, "why": "La traçabilité est obligatoire." },
+        { "t": "Sur un carnet personnel de l’infirmier", "ok": false, "why": "Elle doit être partagée." },
+        { "t": "Sur les réseaux sociaux du cabinet", "ok": false, "why": "Évidemment non : secret professionnel." }
+      ]
+    },
+    {
+      "id": "ap10",
+      "theme": "actu",
+      "jury": false,
+      "q": "Depuis l’arrêté de juin 2026, quels repérages relèvent du rôle propre de l’infirmier ?",
+      "opts": [
+        {
+          "t": "Le repérage de la détresse psychologique, du risque suicidaire, du risque de chute et de la perte d’autonomie",
+          "ok": true,
+          "why": "C'est aussi un lien direct avec la santé mentale, ton sujet n° 3."
+        },
+        { "t": "Le diagnostic des cancers", "ok": false, "why": "Il relève du médecin." },
+        { "t": "La décision d’opérer", "ok": false, "why": "Elle relève du chirurgien." },
+        { "t": "Aucun repérage", "ok": false, "why": "Ces repérages sont explicitement prévus." }
+      ],
+      "tip": "Fais le lien entre tes sujets : la prescription infirmière et la santé mentale se rejoignent ici."
+    },
+    {
+      "id": "ap11",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quelle inquiétude certains médecins ont-ils exprimée face à la prescription infirmière ?",
+      "opts": [
+        {
+          "t": "Le suivi des résultats anormaux et la coordination : qui interprète, qui prévient le médecin traitant ?",
+          "ok": true,
+          "why": "Un syndicat de médecins a résumé : « Le médecin traitant n’est pas une boîte mail ». L’Ordre infirmier y voit au contraire « une voie supplémentaire d’accès aux soins »."
+        },
+        { "t": "La disparition des médecins", "ok": false, "why": "Exagéré." },
+        { "t": "Le prix des pansements", "ok": false, "why": "Ce n'est pas le cœur du débat." },
+        { "t": "Aucune", "ok": false, "why": "Le débat a eu lieu." }
+      ],
+      "tip": "Montrer que tu connais les deux points de vue prouve ta capacité de recul."
+    },
+    {
+      "id": "ap12",
+      "theme": "actu",
+      "jury": false,
+      "q": "La consultation infirmière en libéral est-elle déjà remboursée selon un tarif fixé ?",
+      "opts": [
+        {
+          "t": "Pas encore : sa rémunération dépend des négociations entre les infirmiers et l’Assurance maladie",
+          "ok": true,
+          "why": "La loi existe, mais son financement en libéral reste à négocier."
+        },
+        { "t": "Oui, 100 € par consultation", "ok": false, "why": "Aucun tarif fixé à ce jour." },
+        { "t": "Elle est interdite en libéral", "ok": false, "why": "Elle est possible partout, y compris à domicile." },
+        { "t": "Elle est payée par l’Ordre", "ok": false, "why": "L'Ordre ne rémunère pas les actes." }
+      ]
+    },
+    {
+      "id": "ap13",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quelle différence entre un infirmier et un infirmier en pratique avancée (IPA) ?",
+      "opts": [
+        {
+          "t": "L’IPA a un diplôme de niveau master (2 ans d’études en plus) ; il suit des patients (maladies chroniques, psychiatrie…) avec un champ de prescription plus large",
+          "ok": true,
+          "why": "Les deux métiers coexistent : la loi de 2025 élargit le rôle de tous les infirmiers."
+        },
+        { "t": "Aucune différence", "ok": false, "why": "Le niveau de formation et le champ diffèrent." },
+        { "t": "L’IPA est un médecin", "ok": false, "why": "C'est un infirmier." },
+        { "t": "L’IPA ne fait plus de soins", "ok": false, "why": "Il reste dans le soin et le suivi." }
+      ]
+    },
+    {
+      "id": "ap14",
+      "theme": "actu",
+      "jury": true,
+      "q": "« Que pensez-vous de la prescription infirmière ? »",
+      "opts": [
+        {
+          "t": "C’est une avancée pour l’accès aux soins et une reconnaissance des compétences. Elle demande une formation solide en pharmacologie, de la rigueur et une bonne coordination avec le médecin traitant.",
+          "ok": true,
+          "why": "Avis argumenté, qui montre les bénéfices et les conditions."
+        },
+        { "t": "Les infirmiers vont enfin remplacer les médecins.", "ok": false, "why": "Faux et polémique." },
+        {
+          "t": "C’est dangereux, les infirmiers ne sont pas formés.",
+          "ok": false,
+          "why": "Faux : la formation intègre désormais cette compétence."
+        },
+        { "t": "Je n’ai pas d’avis.", "ok": false, "why": "Le jury attend une réflexion." }
+      ]
+    },
+    {
+      "id": "ap15",
+      "theme": "actu",
+      "jury": true,
+      "q": "« Prescrire ne vous fait-il pas peur ? »",
+      "opts": [
+        {
+          "t": "C’est une vraie responsabilité. Je compte sur la formation (pharmacologie, calculs de doses), sur des règles claires et sur l’équipe : je prescrirai seulement dans mon champ, et je demanderai un avis en cas de doute.",
+          "ok": true,
+          "why": "Tu reconnais la responsabilité et tu montres comment tu la sécuriseras."
+        },
+        { "t": "Non, c’est facile.", "ok": false, "why": "Trop léger." },
+        { "t": "Oui, je préfère ne jamais prescrire.", "ok": false, "why": "Ça fait partie du métier désormais." },
+        { "t": "Je ferai confiance au pharmacien pour corriger.", "ok": false, "why": "Le prescripteur reste responsable." }
+      ]
+    },
+    {
+      "id": "ap16",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que doit faire le pharmacien pour délivrer un produit renouvelé par un infirmier ?",
+      "opts": [
+        {
+          "t": "Pouvoir consulter la prescription initiale et vérifier les mentions de l’infirmier (nom, numéro, « Renouvellement infirmier », durée)",
+          "ok": true,
+          "why": "La chaîne prescripteur – pharmacien reste sécurisée."
+        },
+        { "t": "Rien, il délivre tout", "ok": false, "why": "Des vérifications sont prévues." },
+        { "t": "Appeler systématiquement le médecin", "ok": false, "why": "Ce n'est pas obligatoire." },
+        { "t": "Refuser", "ok": false, "why": "La délivrance est autorisée." }
+      ]
+    },
+    {
+      "id": "ad1",
+      "theme": "actu",
+      "jury": false,
+      "q": "Parmi ces conditions, laquelle fait partie des 5 conditions cumulatives de l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "Être de nationalité française ou résider en France de façon stable et régulière",
+          "ok": true,
+          "why": "Les autres : être majeur, maladie grave et incurable en phase avancée ou terminale, souffrance réfractaire ou insupportable, volonté libre et éclairée."
+        },
+        { "t": "Avoir plus de 75 ans", "ok": false, "why": "Il faut être majeur, sans âge minimal au-delà." },
+        { "t": "Avoir l’accord de sa famille", "ok": false, "why": "La décision appartient à la personne." },
+        { "t": "Être hospitalisé depuis 1 an", "ok": false, "why": "Ce n'est pas une condition." }
+      ]
+    },
+    {
+      "id": "ad2",
+      "theme": "actu",
+      "jury": false,
+      "q": "L’âge, un handicap ou une perte d’autonomie suffisent-ils à demander l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "Non : seuls, ils ne permettent pas d’y accéder",
+          "ok": true,
+          "why": "Il faut une maladie grave et incurable engageant le pronostic vital, en phase avancée ou terminale."
+        },
+        { "t": "Oui, dès 80 ans", "ok": false, "why": "Faux." },
+        { "t": "Oui, pour un handicap lourd", "ok": false, "why": "Faux : le handicap seul ne suffit pas." },
+        { "t": "Oui, sur avis de la famille", "ok": false, "why": "Faux." }
+      ]
+    },
+    {
+      "id": "ad3",
+      "theme": "actu",
+      "jury": false,
+      "q": "Comment la demande d’aide à mourir est-elle examinée ?",
+      "opts": [
+        {
+          "t": "La personne la fait elle-même à un médecin, qui décide après une procédure collégiale, dans les 15 jours",
+          "ok": true,
+          "why": "Plusieurs professionnels de santé participent à l’examen de la demande."
+        },
+        { "t": "Par un juge", "ok": false, "why": "Ce n'est pas une procédure judiciaire." },
+        { "t": "Par la famille, en réunion", "ok": false, "why": "La famille ne décide pas." },
+        { "t": "Par un simple formulaire en ligne", "ok": false, "why": "La procédure est médicale et encadrée." }
+      ]
+    },
+    {
+      "id": "ad4",
+      "theme": "actu",
+      "jury": false,
+      "q": "Une personne qui a demandé l’aide à mourir peut-elle changer d’avis ?",
+      "opts": [
+        { "t": "Oui, à tout moment", "ok": true, "why": "Sa volonté doit rester libre et éclairée jusqu’au bout." },
+        { "t": "Non, la décision est définitive", "ok": false, "why": "Faux." },
+        { "t": "Seulement avec l’accord du médecin", "ok": false, "why": "Faux : c’est sa décision." },
+        { "t": "Seulement dans les 24 heures", "ok": false, "why": "Faux : à tout moment." }
+      ]
+    },
+    {
+      "id": "ad5",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quand l’aide à mourir doit-elle entrer en application ?",
+      "opts": [
+        {
+          "t": "En janvier 2027, selon la ministre de la Santé (3 novembre 2026) ; un décret en Conseil d’État est encore attendu",
+          "ok": true,
+          "why": "La loi elle-même ne fixe pas de date : il faut les textes d’application."
+        },
+        { "t": "Elle s’applique depuis août 2026", "ok": false, "why": "Promulguée en août, mais pas encore applicable." },
+        { "t": "En 2030", "ok": false, "why": "Plus tôt : janvier 2027 est annoncé." },
+        { "t": "Jamais : elle a été annulée", "ok": false, "why": "Elle a été validée par le Conseil constitutionnel." }
+      ],
+      "tip": "Vérifie la veille de ton oral si le décret est paru."
+    },
+    {
+      "id": "ad6",
+      "theme": "actu",
+      "jury": false,
+      "q": "Qu’a publié la Haute Autorité de santé le 19 novembre 2026 ?",
+      "opts": [
+        {
+          "t": "60 recommandations pour encadrer l’aide à mourir : substances utilisables, mise en œuvre médicale, gestion des complications",
+          "ok": true,
+          "why": "Un « mode d’emploi » de bonnes pratiques, qui insiste sur l’information et le respect des choix du patient."
+        },
+        { "t": "Un avis contre la loi", "ok": false, "why": "La HAS encadre la pratique, elle ne vote pas la loi." },
+        { "t": "La liste des patients autorisés", "ok": false, "why": "Ce n’est pas une autorisation individuelle." },
+        { "t": "Rien sur ce sujet", "ok": false, "why": "Elle a publié des recommandations." }
+      ]
+    },
+    {
+      "id": "ad7",
+      "theme": "actu",
+      "jury": false,
+      "q": "Qui contrôle l’application de l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "Une commission de contrôle et d’évaluation, qui rend compte au gouvernement et au Parlement",
+          "ok": true,
+          "why": "Chaque étape est aussi tracée dans un système d’information dédié."
+        },
+        { "t": "Personne", "ok": false, "why": "Un contrôle est prévu." },
+        { "t": "L’Ordre des pharmaciens seul", "ok": false, "why": "Ce n'est pas le cas." },
+        { "t": "La police", "ok": false, "why": "Ce n'est pas le cas." }
+      ]
+    },
+    {
+      "id": "ad8",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que prévoit la loi pour les soignants volontaires ?",
+      "opts": [
+        {
+          "t": "Un registre de professionnels volontaires, réservé aux professionnels de santé (non public)",
+          "ok": true,
+          "why": "Il permet d’orienter une demande vers des soignants qui acceptent d’y participer."
+        },
+        { "t": "Une liste publique sur internet", "ok": false, "why": "Le registre n’est pas public." },
+        { "t": "Une obligation pour tous les soignants", "ok": false, "why": "La clause de conscience protège ceux qui refusent." },
+        { "t": "Une prime spéciale", "ok": false, "why": "Ce n'est pas prévu." }
+      ]
+    },
+    {
+      "id": "ad9",
+      "theme": "actu",
+      "jury": false,
+      "q": "Par combien de voix l’Assemblée nationale a-t-elle adopté définitivement la loi le 15 juillet 2026 ?",
+      "opts": [
+        { "t": "291 voix pour, 241 contre", "ok": true, "why": "Un vote serré, signe d’un sujet qui divise." },
+        { "t": "À l’unanimité", "ok": false, "why": "Le sujet est très débattu." },
+        { "t": "500 pour, 10 contre", "ok": false, "why": "Le vote a été beaucoup plus serré." },
+        { "t": "Elle a été rejetée", "ok": false, "why": "Elle a été adoptée." }
+      ],
+      "tip": "Utile pour montrer que le débat est légitime des deux côtés."
+    },
+    {
+      "id": "ad10",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que sont les soins palliatifs ?",
+      "opts": [
+        {
+          "t": "Des soins qui soulagent la douleur et les symptômes et accompagnent la personne et ses proches, pas seulement dans les derniers jours",
+          "ok": true,
+          "why": "Leur accès reste inégal en France : c’est un enjeu central du débat."
+        },
+        { "t": "Des soins pour guérir la maladie", "ok": false, "why": "Ils visent le confort, pas la guérison." },
+        { "t": "Un synonyme de l’aide à mourir", "ok": false, "why": "Ce sont deux choses différentes." },
+        { "t": "Des soins réservés aux dernières heures", "ok": false, "why": "Ils peuvent commencer bien avant." }
+      ]
+    },
+    {
+      "id": "ad11",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quelle différence entre la sédation profonde et continue et l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "La sédation (loi Claeys-Leonetti, 2016) endort la personne jusqu’au décès sans le provoquer ; l’aide à mourir consiste à administrer une substance qui entraîne la mort",
+          "ok": true,
+          "why": "Deux dispositifs distincts, qui coexistent désormais."
+        },
+        { "t": "Aucune différence", "ok": false, "why": "Faux." },
+        { "t": "La sédation est interdite", "ok": false, "why": "Elle est autorisée depuis 2016." },
+        { "t": "L’aide à mourir existe depuis 2016", "ok": false, "why": "Elle date de la loi de 2026." }
+      ]
+    },
+    {
+      "id": "ad12",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que sont les directives anticipées ?",
+      "opts": [
+        {
+          "t": "Des volontés écrites sur sa fin de vie, révisables, que les médecins doivent respecter si la personne ne peut plus s’exprimer",
+          "ok": true,
+          "why": "Avec la personne de confiance, ce sont deux droits que l'infirmier peut expliquer aux patients."
+        },
+        { "t": "Un testament sur ses biens", "ok": false, "why": "C'est un document médical, pas patrimonial." },
+        { "t": "Des consignes du médecin au patient", "ok": false, "why": "C'est l'inverse : les volontés du patient." },
+        { "t": "Un document réservé aux plus de 80 ans", "ok": false, "why": "Tout adulte peut en rédiger." }
+      ]
+    },
+    {
+      "id": "ad13",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quel peut être le rôle de l’infirmier dans l’aide à mourir ?",
+      "opts": [
+        {
+          "t": "Écouter la demande sans juger, la transmettre, accompagner le patient et ses proches, et administrer le produit seulement si le patient ne peut pas le faire physiquement",
+          "ok": true,
+          "why": "Il peut aussi faire valoir sa clause de conscience, en orientant vers un autre professionnel."
+        },
+        { "t": "Décider seul si le patient y a droit", "ok": false, "why": "La décision est médicale et collégiale." },
+        { "t": "Aucun rôle", "ok": false, "why": "Les infirmiers sont concernés." },
+        { "t": "Convaincre le patient de renoncer", "ok": false, "why": "Ce n'est pas son rôle : il respecte la volonté du patient." }
+      ]
+    },
+    {
+      "id": "ad14",
+      "theme": "actu",
+      "jury": true,
+      "q": "« Accepteriez-vous de participer à une aide à mourir ? »",
+      "opts": [
+        {
+          "t": "C’est une question que je prendrai le temps de mûrir pendant ma formation. Quelle que soit ma position, je respecterai la loi et la volonté du patient, et mon rôle d’écoute et d’accompagnement restera entier. La clause de conscience existe pour les soignants qui ne le souhaitent pas.",
+          "ok": true,
+          "why": "Réponse honnête, nuancée et professionnelle : le jury ne cherche pas un oui ou un non."
+        },
+        {
+          "t": "Jamais, c’est contre mes valeurs, et je le dirai au patient.",
+          "ok": false,
+          "why": "Imposer ses valeurs au patient n’est pas professionnel."
+        },
+        { "t": "Oui, bien sûr, sans problème.", "ok": false, "why": "Trop rapide pour un sujet aussi grave." },
+        { "t": "Je ne veux pas en parler.", "ok": false, "why": "Le jury attend une réflexion." }
+      ]
+    },
+    {
+      "id": "as1",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quand le gouvernement a-t-il annoncé que la santé mentale resterait grande cause nationale en 2026 ?",
+      "opts": [
+        {
+          "t": "Le 27 novembre 2025",
+          "ok": true,
+          "why": "Le dispositif « Parlons santé mentale ! », lancé en janvier 2025, a compté plus de 3 000 événements."
+        },
+        { "t": "En 2015", "ok": false, "why": "Trop tôt." },
+        { "t": "Elle n’a jamais été grande cause", "ok": false, "why": "Elle l’est depuis 2025." },
+        { "t": "En juin 2027", "ok": false, "why": "Elle est déjà en cours." }
+      ]
+    },
+    {
+      "id": "as2",
+      "theme": "actu",
+      "jury": false,
+      "q": "Qu’est-ce qu’un CMP ?",
+      "opts": [
+        {
+          "t": "Un centre médico-psychologique : le lieu de consultation gratuit de la psychiatrie publique de secteur",
+          "ok": true,
+          "why": "Infirmiers, psychiatres et psychologues y assurent consultations et suivis, au plus près du domicile."
+        },
+        { "t": "Un cabinet médical privé payant", "ok": false, "why": "Le CMP est public et gratuit." },
+        { "t": "Un centre de médecine du sport", "ok": false, "why": "Aucun rapport." },
+        { "t": "Un service d’urgence uniquement", "ok": false, "why": "Il suit les patients sur la durée." }
+      ]
+    },
+    {
+      "id": "as3",
+      "theme": "actu",
+      "jury": false,
+      "q": "Comment sont encadrés les soins psychiatriques sans consentement ?",
+      "opts": [
+        {
+          "t": "Ils sont décidés à la demande d’un tiers ou du représentant de l’État, et un juge contrôle la mesure dans les 12 jours",
+          "ok": true,
+          "why": "Ils restent l’exception, avec des garanties pour les droits du patient."
+        },
+        { "t": "La famille décide seule, sans contrôle", "ok": false, "why": "Un contrôle par le juge est obligatoire." },
+        { "t": "Ils sont interdits en France", "ok": false, "why": "Ils existent, très encadrés." },
+        { "t": "L’infirmier décide seul", "ok": false, "why": "La décision suit une procédure médicale et administrative." }
+      ]
+    },
+    {
+      "id": "as4",
+      "theme": "actu",
+      "jury": false,
+      "q": "Comment la contention et l’isolement en psychiatrie sont-ils encadrés ?",
+      "opts": [
+        {
+          "t": "Ce sont des mesures de dernier recours, décidées par un psychiatre, limitées dans le temps et tracées ; l’objectif est désormais « zéro contention » en 2030",
+          "ok": true,
+          "why": "Les équipes sont formées à la désescalade pour les éviter."
+        },
+        { "t": "Ils sont utilisés librement", "ok": false, "why": "Ils sont strictement encadrés." },
+        { "t": "Ils sont décidés par la famille", "ok": false, "why": "Non." },
+        { "t": "Ils sont obligatoires pour tout nouveau patient", "ok": false, "why": "Évidemment non." }
+      ]
+    },
+    {
+      "id": "as5",
+      "theme": "actu",
+      "jury": false,
+      "q": "Dans le référentiel de formation 2026, comment la santé mentale est-elle enseignée ?",
+      "opts": [
+        {
+          "t": "Une formation en santé mentale et au repérage de la détresse est intégrée aux pratiques infirmières, avec 2 ECTS de psychiatrie",
+          "ok": true,
+          "why": "Le stage « accompagnement des personnes vulnérables » peut aussi se faire en psychiatrie."
+        },
+        { "t": "Elle n’est pas enseignée", "ok": false, "why": "Elle l’est, dans plusieurs UE." },
+        { "t": "Seulement en option", "ok": false, "why": "Elle fait partie du tronc commun." },
+        { "t": "Seulement en master", "ok": false, "why": "Dès la formation initiale." }
+      ],
+      "tip": "Super lien entre ton sujet d’actualité et la formation."
+    },
+    {
+      "id": "as6",
+      "theme": "actu",
+      "jury": false,
+      "q": "Pourquoi lutter contre la stigmatisation des troubles psychiques ?",
+      "opts": [
+        {
+          "t": "Parce que la honte et les préjugés retardent la demande d’aide et l’accès aux soins",
+          "ok": true,
+          "why": "Plus de la moitié des personnes dépressives ne consultent pas de professionnel."
+        },
+        { "t": "Parce que les troubles psychiques sont rares", "ok": false, "why": "Ils sont fréquents." },
+        { "t": "Pour réduire le nombre de psychiatres", "ok": false, "why": "Aucun rapport." },
+        { "t": "Ce n’est pas un enjeu", "ok": false, "why": "C'est un enjeu majeur de la grande cause." }
+      ]
+    },
+    {
+      "id": "as7",
+      "theme": "actu",
+      "jury": false,
+      "q": "Quelle critique les acteurs du secteur font-ils à la politique de santé mentale ?",
+      "opts": [
+        {
+          "t": "Des avancées trop lentes et un manque de financement, notamment pour la psychiatrie des jeunes",
+          "ok": true,
+          "why": "La présidente de la commission d’enquête parlementaire a jugé les progrès trop lents."
+        },
+        { "t": "Trop de psychiatres disponibles", "ok": false, "why": "C'est l'inverse : on en manque." },
+        { "t": "Des délais trop courts", "ok": false, "why": "Les délais sont au contraire très longs." },
+        { "t": "Aucune critique", "ok": false, "why": "Le secteur reste inquiet." }
+      ]
+    },
+    {
+      "id": "as8",
+      "theme": "actu",
+      "jury": true,
+      "q": "« Quel rôle l’infirmier peut-il jouer en santé mentale ? »",
+      "opts": [
+        {
+          "t": "Un rôle clé : écouter, repérer la détresse et le risque suicidaire (c’est son rôle propre depuis 2026), orienter vers le CMP ou le 3114, et accompagner les patients en psychiatrie par la relation et l’éducation.",
+          "ok": true,
+          "why": "Réponse concrète, appuyée sur la loi et les dispositifs."
+        },
+        { "t": "Aucun, c’est le travail du psychiatre.", "ok": false, "why": "Faux : l’infirmier est en première ligne." },
+        { "t": "Donner des médicaments pour calmer.", "ok": false, "why": "Réducteur." },
+        { "t": "Conseiller de penser à autre chose.", "ok": false, "why": "Banalise la souffrance." }
+      ]
+    },
+    {
+      "id": "as9",
+      "theme": "actu",
+      "jury": true,
+      "q": "« Que pensez-vous de la santé mentale comme grande cause nationale ? »",
+      "opts": [
+        {
+          "t": "C’est une bonne chose de lever le tabou, surtout chez les jeunes. Mais avec des délais de 6 à 12 mois en psychiatrie, il faut des moyens durables. Les infirmiers, au plus près des patients, ont un vrai rôle de repérage.",
+          "ok": true,
+          "why": "Avis nuancé : un point positif, une limite, le lien avec le métier."
+        },
+        { "t": "Ça ne sert à rien.", "ok": false, "why": "Trop négatif et sans argument." },
+        { "t": "Le problème est réglé maintenant.", "ok": false, "why": "Faux : les besoins restent importants." },
+        { "t": "Ce n’est pas un sujet pour les infirmiers.", "ok": false, "why": "Faux." }
+      ]
+    },
+    {
+      "id": "as10",
+      "theme": "actu",
+      "jury": true,
+      "q": "« Un patient vous confie qu’il n’a plus envie de vivre. Que faites-vous ? »",
+      "opts": [
+        {
+          "t": "Je le prends au sérieux : je l’écoute sans juger, je lui pose la question du suicide directement et calmement, je ne le laisse pas seul et j’alerte l’équipe et le médecin. Je peux aussi lui parler du 3114.",
+          "ok": true,
+          "why": "Parler du suicide n'augmente pas le risque : c'est le premier geste de prévention."
+        },
+        { "t": "Je change de sujet pour lui changer les idées.", "ok": false, "why": "Il se sentirait incompris." },
+        { "t": "Je lui dis que ça va passer.", "ok": false, "why": "Banalise sa souffrance." },
+        { "t": "Je garde ça pour moi par respect du secret.", "ok": false, "why": "Le partage en équipe est nécessaire pour le protéger." }
+      ]
+    },
+    {
+      "id": "as11",
+      "theme": "actu",
+      "jury": false,
+      "q": "Parler directement du suicide avec une personne en souffrance augmente-t-il le risque ?",
+      "opts": [
+        {
+          "t": "Non : poser la question calmement soulage souvent et permet d’évaluer le risque",
+          "ok": true,
+          "why": "C'est une idée reçue : en parler est le premier geste de prévention."
+        },
+        { "t": "Oui, il ne faut jamais en parler", "ok": false, "why": "C'est une idée reçue dangereuse." },
+        { "t": "Oui, sauf avec un psychiatre", "ok": false, "why": "Tout soignant peut et doit en parler." },
+        { "t": "Cela n’a aucun effet", "ok": false, "why": "Au contraire, cela aide la personne à se confier." }
+      ]
+    },
+    {
+      "id": "as12",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que sont les Premiers secours en santé mentale (PSSM) ?",
+      "opts": [
+        {
+          "t": "Une formation grand public pour repérer une personne en détresse psychique, lui parler et l’orienter vers l’aide adaptée",
+          "ok": true,
+          "why": "Environ 300 000 personnes ont déjà été formées en France."
+        },
+        { "t": "Un service d’urgence psychiatrique", "ok": false, "why": "C'est une formation, pas un service." },
+        { "t": "Un médicament", "ok": false, "why": "Aucun rapport." },
+        { "t": "Une formation réservée aux psychiatres", "ok": false, "why": "Elle s’adresse à tous." }
+      ],
+      "tip": "Si tu as suivi cette formation ou le PSC1, dis-le au jury."
+    },
+    {
+      "id": "as13",
+      "theme": "actu",
+      "jury": false,
+      "q": "Que sont les Maisons des adolescents, renforcées en 2026 ?",
+      "opts": [
+        {
+          "t": "Des lieux gratuits d’accueil, d’écoute et de soins pour les adolescents, les jeunes adultes et leurs familles",
+          "ok": true,
+          "why": "Elles font partie de la réponse à la dégradation de la santé mentale des jeunes."
+        },
+        { "t": "Des internats scolaires", "ok": false, "why": "Ce n'est pas leur rôle." },
+        { "t": "Des centres de loisirs", "ok": false, "why": "Ce n'est pas leur rôle." },
+        { "t": "Des services de psychiatrie fermés", "ok": false, "why": "Ce sont des lieux ouverts, sans hospitalisation." }
       ]
     }
   ]

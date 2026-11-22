@@ -14,14 +14,22 @@ const IMAGES = Object.fromEntries(
 // La fiche d'une étape : l'essentiel à savoir, une image et les sources.
 function Fiche({ fiche }) {
   if (!fiche) return null;
-  const svg = fiche.image && IMAGES[fiche.image];
+  const imgs = (fiche.images || (fiche.image ? [fiche.image] : [])).map((k) => IMAGES[k]).filter(Boolean);
   return (
     <div className="fiche">
       <h4>L'essentiel à savoir</h4>
-      {fiche.texte.map((t, k) => (
+      {(fiche.texte || []).map((t, k) => (
         <p key={k}>{t}</p>
       ))}
-      {svg && <figure className="fig" dangerouslySetInnerHTML={{ __html: svg }} />}
+      {(fiche.parties || []).map((p, k) => (
+        <div key={k} className="partie">
+          <h5>{p.titre}</h5>
+          <p>{p.texte}</p>
+        </div>
+      ))}
+      {imgs.map((svg, k) => (
+        <figure key={k} className="fig" dangerouslySetInnerHTML={{ __html: svg }} />
+      ))}
       {fiche.sources && fiche.sources.length > 0 && (
         <details className="sources">
           <summary>Sources ({fiche.sources.length})</summary>
@@ -268,7 +276,7 @@ export default function OralMethode({ partie }) {
         </ol>
         <Fiche fiche={E.fiche} />
         <div className="jury">
-          <span className="who">À dire au jury</span>
+          <span className="who">{E.phrase.length > 200 ? 'Ta réponse modèle (1 minute)' : 'À dire au jury'}</span>
           <p className="qtext">{E.phrase}</p>
         </div>
         <div className="row">
