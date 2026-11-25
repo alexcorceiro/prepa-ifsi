@@ -20,7 +20,7 @@ function tirage() {
       .map((x) => ({ q: x.q, trame: x.trame, sec: x.sec })),
     toItem(jury(['metier', 'qualites'])[0]),
     toItem(jury(['contenu', 'formation'])[0]),
-    toItem(jury(['actu'])[0]),
+    toItem(jury(['actuPrescription', 'actuAide', 'actuMentale', 'actu'])[0]),
   ];
 }
 

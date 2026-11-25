@@ -1,6 +1,6 @@
 {
   "_info": "Données de l'oral : thèmes, questions du QCM et méthodes guidées. Modifie ce fichier pour ajouter ou corriger une question (4 options, une seule avec ok: true).",
-  "maj": "2026-11-23",
+  "maj": "2026-11-25",
   "themes": {
     "deroule": "L'épreuve",
     "parcours": "Ton parcours",
@@ -9,7 +9,10 @@
     "qualites": "Qualités et mises en situation",
     "formation": "Suivre la formation",
     "contenu": "Contenu de la formation",
-    "actu": "Actualité santé et médico-sociale"
+    "actuPrescription": "Actu : prescription infirmière",
+    "actuAide": "Actu : aide à mourir",
+    "actuMentale": "Actu : santé mentale",
+    "actu": "Actu : la méthode"
   },
   "methodes": [
     {
@@ -1870,7 +1873,7 @@
     },
     {
       "id": "a1",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Que permet la loi sur la profession d’infirmier du 27 juin 2025 ?",
       "opts": [
@@ -1895,7 +1898,7 @@
     },
     {
       "id": "a2",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Depuis fin juin 2026, que peut prescrire un infirmier (liste fixée par arrêté) ?",
       "opts": [
@@ -1910,58 +1913,8 @@
       ]
     },
     {
-      "id": "a3",
-      "theme": "actu",
-      "jury": false,
-      "q": "Qu’est-ce que le PLFSS ?",
-      "opts": [
-        {
-          "t": "Le projet de loi de financement de la Sécurité sociale, examiné chaque automne, qui fixe notamment l’ONDAM",
-          "ok": true,
-          "why": "Le PLFSS fixe chaque année les recettes, les dépenses et l'objectif national de dépenses d'assurance maladie (ONDAM)."
-        },
-        { "t": "Un plan de lutte contre les fraudes sociales", "ok": false, "why": "Ce n'est pas le sens du sigle." },
-        { "t": "Le programme de la formation en soins infirmiers", "ok": false, "why": "Aucun rapport : c'est le budget de la Sécu." },
-        { "t": "Une prime versée aux soignants", "ok": false, "why": "C'est une loi de financement." }
-      ]
-    },
-    {
-      "id": "a4",
-      "theme": "actu",
-      "jury": false,
-      "q": "Où en est le budget 2027 de la Sécurité sociale (PLFSS 2027) mi-novembre 2026 ?",
-      "opts": [
-        {
-          "t": "Rejeté par l'Assemblée nationale en première lecture, puis adopté par le Sénat le 18 novembre 2026 ; une commission mixte paritaire doit suivre",
-          "ok": true,
-          "why": "Le texte prévoit un ONDAM en hausse de 2 % et vise un déficit de 12,7 Md€ en 2027 (contre 21,8 Md€ en 2026)."
-        },
-        { "t": "Définitivement adopté début octobre", "ok": false, "why": "Le débat parlementaire était toujours en cours mi-novembre." },
-        { "t": "Abandonné par le gouvernement", "ok": false, "why": "Le texte a été examiné par les deux assemblées." },
-        { "t": "Remplacé par un référendum", "ok": false, "why": "Le budget de la Sécurité sociale est voté par le Parlement." }
-      ],
-      "tip": "Ça bouge vite : regarde les dernières infos la veille de ton oral (CMP, nouvelle lecture…)."
-    },
-    {
-      "id": "a5",
-      "theme": "actu",
-      "jury": false,
-      "q": "Que signifie le sigle ONDAM ?",
-      "opts": [
-        {
-          "t": "Objectif national de dépenses d'assurance maladie",
-          "ok": true,
-          "why": "C'est le plafond de dépenses de santé voté chaque année. Pour 2027, le projet prévoit +2 %."
-        },
-        { "t": "Office national des droits des malades", "ok": false, "why": "Ce n'est pas le bon sigle." },
-        { "t": "Ordre national des aides médicaux", "ok": false, "why": "Ce n'est pas le bon sigle." },
-        { "t": "Organisation nationale des dispensaires et maternités", "ok": false, "why": "Ce n'est pas le bon sigle." }
-      ],
-      "tip": "Un ONDAM qui progresse moins vite que les besoins, cela veut dire des hôpitaux sous tension : un lien utile avec le quotidien des soignants."
-    },
-    {
       "id": "a6",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Quelle affirmation sur la loi relative à l’aide à mourir est exacte ?",
       "opts": [
@@ -1981,7 +1934,7 @@
     },
     {
       "id": "a7",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Dans l'aide à mourir, quel est le principe pour le geste final ?",
       "opts": [
@@ -2005,7 +1958,7 @@
     },
     {
       "id": "a8",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": true,
       "q": "Que pensez-vous de la loi sur l’aide à mourir ?",
       "opts": [
@@ -2034,7 +1987,7 @@
     },
     {
       "id": "a9",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Quelle « grande cause nationale » a été lancée en 2025 et prolongée en 2026 ?",
       "opts": [
@@ -2050,7 +2003,7 @@
     },
     {
       "id": "a10",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Parmi ces mesures annoncées en 2026 pour la santé mentale, laquelle est exacte ?",
       "opts": [
@@ -2070,7 +2023,7 @@
     },
     {
       "id": "a11",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Qu'est-ce que « Mon soutien psy » ?",
       "opts": [
@@ -2084,64 +2037,6 @@
         { "t": "Une hospitalisation sans consentement", "ok": false, "why": "Aucun rapport." }
       ],
       "tip": "À connaître aussi : le 3114, numéro national de prévention du suicide (24 h/24)."
-    },
-    {
-      "id": "a12",
-      "theme": "actu",
-      "jury": false,
-      "q": "Campagne grippe et Covid 2026-2027 : quelle affirmation est juste ?",
-      "opts": [
-        {
-          "t": "Elle a commencé le 13 octobre 2026 ; les deux vaccins peuvent être faits le même jour, et les infirmiers peuvent vacciner",
-          "ok": true,
-          "why": "Elle cible les 65 ans et plus, les malades chroniques, les femmes enceintes, l'entourage et les soignants. Une obligation de vaccination antigrippale des soignants est en préparation."
-        },
-        { "t": "Seuls les médecins peuvent vacciner", "ok": false, "why": "Infirmiers, pharmaciens et sages-femmes vaccinent aussi." },
-        { "t": "La vaccination est réservée aux enfants", "ok": false, "why": "Elle cible surtout les personnes à risque de forme grave." },
-        {
-          "t": "Il faut attendre 3 mois entre les deux vaccins",
-          "ok": false,
-          "why": "Ils peuvent être administrés lors de la même séance."
-        }
-      ]
-    },
-    {
-      "id": "a13",
-      "theme": "actu",
-      "jury": false,
-      "q": "Qu'est-ce qu'un Médicobus ?",
-      "opts": [
-        {
-          "t": "Un cabinet médical itinérant qui va dans les territoires manquant de médecins",
-          "ok": true,
-          "why": "En novembre 2026, une deuxième vague a été annoncée pour atteindre 100 cabinets itinérants. C'est une réponse aux déserts médicaux."
-        },
-        { "t": "Une ambulance de réanimation", "ok": false, "why": "C'est un cabinet de consultation mobile, pas un véhicule d'urgence." },
-        { "t": "Un bus qui transporte les patients à l’hôpital", "ok": false, "why": "C'est le soignant qui vient au patient." },
-        { "t": "Une application de téléconsultation", "ok": false, "why": "C'est un véhicule aménagé, présent physiquement." }
-      ],
-      "tip": "Lien avec ton futur métier : face aux déserts médicaux, l'infirmier (consultation, prescription, libéral) devient un acteur de l'accès aux soins."
-    },
-    {
-      "id": "a14",
-      "theme": "actu",
-      "jury": false,
-      "q": "Qu'est-ce que l'APA ?",
-      "opts": [
-        {
-          "t": "L'allocation personnalisée d'autonomie, versée par le département aux personnes de 60 ans et plus en perte d'autonomie",
-          "ok": true,
-          "why": "Elle finance l'aide à domicile ou une partie du tarif dépendance en EHPAD. Le PLFSS 2027 prévoit de transférer 300 M€ aux départements pour l'APA et la PCH."
-        },
-        { "t": "L'aide personnalisée au logement", "ok": false, "why": "C'est l'APL." },
-        { "t": "Une allocation pour les étudiants", "ok": false, "why": "Elle concerne les personnes âgées en perte d'autonomie." },
-        {
-          "t": "Une aide pour les personnes handicapées de moins de 20 ans",
-          "ok": false,
-          "why": "C'est l'AEEH. Pour les adultes handicapés, c'est la PCH."
-        }
-      ],
-      "tip": "Le vieillissement de la population est un enjeu majeur : maintien à domicile, EHPAD, besoin croissant d’infirmiers."
     },
     {
       "id": "a15",
@@ -4025,7 +3920,7 @@
     },
     {
       "id": "ax1",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Quand les arrêtés d’application de la loi infirmière sont-ils entrés en vigueur ?",
       "opts": [
@@ -4041,7 +3936,7 @@
     },
     {
       "id": "ax2",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Tous les combien de temps la liste des prescriptions infirmières doit-elle être révisée ?",
       "opts": [
@@ -4057,7 +3952,7 @@
     },
     {
       "id": "ax3",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Le renouvellement de contraceptifs oraux par l’infirmier est limité à :",
       "opts": [
@@ -4068,56 +3963,8 @@
       ]
     },
     {
-      "id": "ax4",
-      "theme": "actu",
-      "jury": false,
-      "q": "Qu’est-ce que le réseau « France Santé » ?",
-      "opts": [
-        {
-          "t": "Un réseau de structures de soins labellisées pour offrir des soins à moins de 30 minutes et sous 48 heures, avec 5 000 structures visées fin 2027",
-          "ok": true,
-          "why": "Centres de santé, maisons pluriprofessionnelles, hôpitaux de proximité, pharmacies… Les Médicobus doivent s’y intégrer."
-        },
-        { "t": "Une mutuelle publique", "ok": false, "why": "Ce n'est pas une mutuelle." },
-        { "t": "Une chaîne de télévision santé", "ok": false, "why": "Aucun rapport." },
-        { "t": "Un site de prise de rendez-vous privé", "ok": false, "why": "C'est un réseau public de structures de soins." }
-      ]
-    },
-    {
-      "id": "ax5",
-      "theme": "actu",
-      "jury": false,
-      "q": "Combien de Médicobus étaient labellisés en novembre 2026 ?",
-      "opts": [
-        {
-          "t": "34, avec un objectif de 100 en 2027",
-          "ok": true,
-          "why": "Un 2e appel à projets vise 70 Médicobus supplémentaires (coût moyen : 200 000 € par an)."
-        },
-        { "t": "1 000", "ok": false, "why": "Beaucoup trop." },
-        { "t": "Aucun", "ok": false, "why": "Il y en a déjà 34." },
-        { "t": "100, objectif déjà atteint", "ok": false, "why": "L'objectif de 100 est pour 2027." }
-      ]
-    },
-    {
-      "id": "ax6",
-      "theme": "actu",
-      "jury": false,
-      "q": "Dans un Médicobus, quel peut être le rôle de l’infirmier ?",
-      "opts": [
-        {
-          "t": "Assister des téléconsultations avec un médecin à distance",
-          "ok": true,
-          "why": "C'est un exemple concret d'infirmier au cœur de l'accès aux soins."
-        },
-        { "t": "Aucun, il n’y a que des médecins", "ok": false, "why": "Les infirmiers peuvent y intervenir." },
-        { "t": "Conduire le bus uniquement", "ok": false, "why": "Aucun rapport." },
-        { "t": "Opérer les patients", "ok": false, "why": "Aucun rapport." }
-      ]
-    },
-    {
       "id": "ax7",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Combien de séances avec un psychologue « Mon soutien psy » rembourse-t-il par an ?",
       "opts": [
@@ -4133,7 +3980,7 @@
     },
     {
       "id": "ax8",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Le 3114, c’est :",
       "opts": [
@@ -4149,7 +3996,7 @@
     },
     {
       "id": "ax9",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Quels délais d’accès aux soins en psychiatrie sont dénoncés par les acteurs du secteur ?",
       "opts": [
@@ -4165,7 +4012,7 @@
     },
     {
       "id": "ax10",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Combien de personnes ont été formées aux Premiers secours en santé mentale (PSSM) ?",
       "opts": [
@@ -4182,7 +4029,7 @@
     },
     {
       "id": "ax11",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Quel est le numéro et la date de la loi sur l’aide à mourir ?",
       "opts": [
@@ -4198,7 +4045,7 @@
     },
     {
       "id": "ax12",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Que prévoit la clause de conscience dans la loi sur l’aide à mourir ?",
       "opts": [
@@ -4214,7 +4061,7 @@
     },
     {
       "id": "ax13",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Quelle loi plus ancienne encadre déjà la fin de vie et la sédation profonde et continue ?",
       "opts": [
@@ -4230,88 +4077,8 @@
       "tip": "Les directives anticipées et la personne de confiance sont des notions à connaître."
     },
     {
-      "id": "ax14",
-      "theme": "actu",
-      "jury": false,
-      "q": "Quel nouveau projet concernant les soignants a été annoncé pour la vaccination contre la grippe ?",
-      "opts": [
-        {
-          "t": "Une obligation vaccinale antigrippale pour les professionnels de santé, dont le cadre est attendu début 2027",
-          "ok": true,
-          "why": "Elle vise à protéger les patients fragiles."
-        },
-        { "t": "L’interdiction de vacciner pour les infirmiers", "ok": false, "why": "Les infirmiers vaccinent." },
-        { "t": "La fin de la campagne annuelle", "ok": false, "why": "La campagne a lieu chaque automne." },
-        { "t": "Un vaccin unique pour toute la vie", "ok": false, "why": "Ce n'est pas le cas pour la grippe." }
-      ]
-    },
-    {
-      "id": "ax15",
-      "theme": "actu",
-      "jury": false,
-      "q": "Qu’est-ce qu’une commission mixte paritaire (CMP) ?",
-      "opts": [
-        {
-          "t": "Une réunion de 7 députés et 7 sénateurs chargée de trouver un texte commun quand les deux assemblées ne sont pas d’accord",
-          "ok": true,
-          "why": "C'est la prochaine étape du PLFSS 2027 après le vote du Sénat."
-        },
-        { "t": "Une commission de médecins", "ok": false, "why": "C'est une instance parlementaire." },
-        { "t": "Un syndicat infirmier", "ok": false, "why": "Aucun rapport." },
-        { "t": "Le Conseil constitutionnel", "ok": false, "why": "C'est une autre institution." }
-      ]
-    },
-    {
-      "id": "ax16",
-      "theme": "actu",
-      "jury": false,
-      "q": "Que propose le PLFSS 2027 pour aider les départements à financer l’APA et la PCH ?",
-      "opts": [
-        {
-          "t": "Le transfert de 300 millions d’euros de CSG vers les départements",
-          "ok": true,
-          "why": "Les départements financent l’APA (personnes âgées) et la PCH (handicap)."
-        },
-        { "t": "La suppression de l’APA", "ok": false, "why": "Aucune suppression." },
-        { "t": "Un financement par les mutuelles uniquement", "ok": false, "why": "Ce n'est pas la mesure." },
-        { "t": "Rien", "ok": false, "why": "Un transfert est prévu." }
-      ]
-    },
-    {
-      "id": "ax17",
-      "theme": "actu",
-      "jury": false,
-      "q": "Quelle taxe le PLFSS 2027 prévoit-il d’étendre, pour la prévention ?",
-      "opts": [
-        {
-          "t": "La taxe sur les sodas, à de nouveaux produits transformés sucrés",
-          "ok": true,
-          "why": "Objectif de santé publique : réduire la consommation de sucre (obésité, diabète)."
-        },
-        { "t": "Une taxe sur le pain", "ok": false, "why": "Aucun rapport." },
-        { "t": "Une taxe sur les consultations", "ok": false, "why": "Ce n'est pas une taxe de prévention." },
-        { "t": "Une taxe sur les fruits", "ok": false, "why": "Aucun rapport." }
-      ]
-    },
-    {
-      "id": "ax18",
-      "theme": "actu",
-      "jury": false,
-      "q": "Qu’est-ce que la PCH ?",
-      "opts": [
-        {
-          "t": "La prestation de compensation du handicap, versée par le département après décision de la MDPH",
-          "ok": true,
-          "why": "Elle finance des aides humaines, techniques ou d'aménagement."
-        },
-        { "t": "La prime de compétences hospitalières", "ok": false, "why": "Ce n'est pas le bon sigle." },
-        { "t": "La pension des cadres hospitaliers", "ok": false, "why": "Ce n'est pas le bon sigle." },
-        { "t": "Le plan canicule hospitalier", "ok": false, "why": "Ce n'est pas le bon sigle." }
-      ]
-    },
-    {
       "id": "ap1",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "À partir de quel âge l’infirmier peut-il prescrire les vaccins du calendrier vaccinal ?",
       "opts": [
@@ -4327,7 +4094,7 @@
     },
     {
       "id": "ap2",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Que doit faire l’infirmier pour prescrire les vaccins du calendrier (hors grippe et Covid) ?",
       "opts": [
@@ -4343,7 +4110,7 @@
     },
     {
       "id": "ap3",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Pour une plaie, quelle est la durée de la prescription initiale de pansements par l’infirmier ?",
       "opts": [
@@ -4359,7 +4126,7 @@
     },
     {
       "id": "ap4",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Pour quelles plaies la prise en charge par l’infirmier seul reste-t-elle limitée ?",
       "opts": [
@@ -4375,7 +4142,7 @@
     },
     {
       "id": "ap5",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "En santé sexuelle, que peut prescrire l’infirmier ?",
       "opts": [
@@ -4391,7 +4158,7 @@
     },
     {
       "id": "ap6",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Dans le sevrage tabagique, que peut prescrire l’infirmier ?",
       "opts": [
@@ -4407,7 +4174,7 @@
     },
     {
       "id": "ap7",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Pour un patient sous anticoagulant de type AVK, quel examen l’infirmier peut-il renouveler ?",
       "opts": [
@@ -4419,7 +4186,7 @@
     },
     {
       "id": "ap8",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Chez un patient diabétique connu, quels examens l’infirmier peut-il prescrire s’ils n’ont pas été faits dans les 3 derniers mois ?",
       "opts": [
@@ -4435,7 +4202,7 @@
     },
     {
       "id": "ap9",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Où chaque prescription infirmière doit-elle être inscrite ?",
       "opts": [
@@ -4451,7 +4218,7 @@
     },
     {
       "id": "ap10",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Depuis l’arrêté de juin 2026, quels repérages relèvent du rôle propre de l’infirmier ?",
       "opts": [
@@ -4468,7 +4235,7 @@
     },
     {
       "id": "ap11",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Quelle inquiétude certains médecins ont-ils exprimée face à la prescription infirmière ?",
       "opts": [
@@ -4485,7 +4252,7 @@
     },
     {
       "id": "ap12",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "La consultation infirmière en libéral est-elle déjà remboursée selon un tarif fixé ?",
       "opts": [
@@ -4501,7 +4268,7 @@
     },
     {
       "id": "ap13",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Quelle différence entre un infirmier et un infirmier en pratique avancée (IPA) ?",
       "opts": [
@@ -4517,7 +4284,7 @@
     },
     {
       "id": "ap14",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": true,
       "q": "« Que pensez-vous de la prescription infirmière ? »",
       "opts": [
@@ -4537,7 +4304,7 @@
     },
     {
       "id": "ap15",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": true,
       "q": "« Prescrire ne vous fait-il pas peur ? »",
       "opts": [
@@ -4553,7 +4320,7 @@
     },
     {
       "id": "ap16",
-      "theme": "actu",
+      "theme": "actuPrescription",
       "jury": false,
       "q": "Que doit faire le pharmacien pour délivrer un produit renouvelé par un infirmier ?",
       "opts": [
@@ -4569,7 +4336,7 @@
     },
     {
       "id": "ad1",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Parmi ces conditions, laquelle fait partie des 5 conditions cumulatives de l’aide à mourir ?",
       "opts": [
@@ -4585,7 +4352,7 @@
     },
     {
       "id": "ad2",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "L’âge, un handicap ou une perte d’autonomie suffisent-ils à demander l’aide à mourir ?",
       "opts": [
@@ -4601,7 +4368,7 @@
     },
     {
       "id": "ad3",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Comment la demande d’aide à mourir est-elle examinée ?",
       "opts": [
@@ -4617,7 +4384,7 @@
     },
     {
       "id": "ad4",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Une personne qui a demandé l’aide à mourir peut-elle changer d’avis ?",
       "opts": [
@@ -4629,7 +4396,7 @@
     },
     {
       "id": "ad5",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Quand l’aide à mourir doit-elle entrer en application ?",
       "opts": [
@@ -4646,7 +4413,7 @@
     },
     {
       "id": "ad6",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Qu’a publié la Haute Autorité de santé le 19 novembre 2026 ?",
       "opts": [
@@ -4662,7 +4429,7 @@
     },
     {
       "id": "ad7",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Qui contrôle l’application de l’aide à mourir ?",
       "opts": [
@@ -4678,7 +4445,7 @@
     },
     {
       "id": "ad8",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Que prévoit la loi pour les soignants volontaires ?",
       "opts": [
@@ -4694,7 +4461,7 @@
     },
     {
       "id": "ad9",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Par combien de voix l’Assemblée nationale a-t-elle adopté définitivement la loi le 15 juillet 2026 ?",
       "opts": [
@@ -4707,7 +4474,7 @@
     },
     {
       "id": "ad10",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Que sont les soins palliatifs ?",
       "opts": [
@@ -4723,7 +4490,7 @@
     },
     {
       "id": "ad11",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Quelle différence entre la sédation profonde et continue et l’aide à mourir ?",
       "opts": [
@@ -4739,7 +4506,7 @@
     },
     {
       "id": "ad12",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Que sont les directives anticipées ?",
       "opts": [
@@ -4755,7 +4522,7 @@
     },
     {
       "id": "ad13",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": false,
       "q": "Quel peut être le rôle de l’infirmier dans l’aide à mourir ?",
       "opts": [
@@ -4771,7 +4538,7 @@
     },
     {
       "id": "ad14",
-      "theme": "actu",
+      "theme": "actuAide",
       "jury": true,
       "q": "« Accepteriez-vous de participer à une aide à mourir ? »",
       "opts": [
@@ -4791,7 +4558,7 @@
     },
     {
       "id": "as1",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Quand le gouvernement a-t-il annoncé que la santé mentale resterait grande cause nationale en 2026 ?",
       "opts": [
@@ -4807,7 +4574,7 @@
     },
     {
       "id": "as2",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Qu’est-ce qu’un CMP ?",
       "opts": [
@@ -4823,7 +4590,7 @@
     },
     {
       "id": "as3",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Comment sont encadrés les soins psychiatriques sans consentement ?",
       "opts": [
@@ -4839,7 +4606,7 @@
     },
     {
       "id": "as4",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Comment la contention et l’isolement en psychiatrie sont-ils encadrés ?",
       "opts": [
@@ -4855,7 +4622,7 @@
     },
     {
       "id": "as5",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Dans le référentiel de formation 2026, comment la santé mentale est-elle enseignée ?",
       "opts": [
@@ -4872,7 +4639,7 @@
     },
     {
       "id": "as6",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Pourquoi lutter contre la stigmatisation des troubles psychiques ?",
       "opts": [
@@ -4888,7 +4655,7 @@
     },
     {
       "id": "as7",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Quelle critique les acteurs du secteur font-ils à la politique de santé mentale ?",
       "opts": [
@@ -4904,7 +4671,7 @@
     },
     {
       "id": "as8",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": true,
       "q": "« Quel rôle l’infirmier peut-il jouer en santé mentale ? »",
       "opts": [
@@ -4920,7 +4687,7 @@
     },
     {
       "id": "as9",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": true,
       "q": "« Que pensez-vous de la santé mentale comme grande cause nationale ? »",
       "opts": [
@@ -4936,7 +4703,7 @@
     },
     {
       "id": "as10",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": true,
       "q": "« Un patient vous confie qu’il n’a plus envie de vivre. Que faites-vous ? »",
       "opts": [
@@ -4952,7 +4719,7 @@
     },
     {
       "id": "as11",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Parler directement du suicide avec une personne en souffrance augmente-t-il le risque ?",
       "opts": [
@@ -4968,7 +4735,7 @@
     },
     {
       "id": "as12",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Que sont les Premiers secours en santé mentale (PSSM) ?",
       "opts": [
@@ -4985,7 +4752,7 @@
     },
     {
       "id": "as13",
-      "theme": "actu",
+      "theme": "actuMentale",
       "jury": false,
       "q": "Que sont les Maisons des adolescents, renforcées en 2026 ?",
       "opts": [

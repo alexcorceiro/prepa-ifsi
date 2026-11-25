@@ -8,6 +8,12 @@ import Entretien from './Entretien.jsx';
 import EntretienLocal from './EntretienLocal.jsx';
 import MesReponses from './MesReponses.jsx';
 
+const PRESETS = [
+  ['Prescription + aide à mourir', ['actuPrescription', 'actuAide']],
+  ['Mes 3 sujets d’actualité', ['actuPrescription', 'actuAide', 'actuMentale']],
+  ['Tous les thèmes', Object.keys(THEMES)],
+];
+
 function Setup({ themes, setThemes, count, setCount, onStart }) {
   const pool = QUESTIONS.filter((q) => themes.has(q.theme));
   const toggle = (k) => {
@@ -25,6 +31,19 @@ function Setup({ themes, setThemes, count, setCount, onStart }) {
         Pour chaque question du jury, choisis la réponse la plus convaincante. Chaque réponse est expliquée, même les mauvaises : c'est là
         que tu apprends ce que le jury attend.
       </p>
+      <div className="view" style={{ gap: 10 }}>
+        <b>Raccourcis</b>
+        <div className="chips">
+          {PRESETS.map(([label, keys]) => {
+            const on = keys.length === themes.size && keys.every((k) => themes.has(k));
+            return (
+              <button key={label} type="button" className="chip" aria-pressed={on} onClick={() => setThemes(new Set(keys))}>
+                {label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
       <div className="view" style={{ gap: 10 }}>
         <b>Thèmes</b>
         <div className="chips">
